@@ -42,18 +42,20 @@ function cardTemplate(guide) {
     <button class="hero-card ${published ? "" : "is-building"}" type="button"
       data-slug="${escapeHtml(guide.slug)}" ${published ? "" : "aria-disabled=\"true\""}>
       <span class="portrait-wrap">
-        ${guide.icon ? `<img src="${escapeHtml(guide.icon)}" alt="" loading="lazy" />` : ""}
+        ${guide.icon ? `<img src="${escapeHtml(guide.icon)}" alt="" width="96" height="96" loading="lazy" decoding="async" />` : ""}
         <span class="rank-mark">#${escapeHtml(guide.rank ?? "—")}</span>
       </span>
       <span class="hero-copy">
         <h2 class="hero-title">${escapeHtml(guide.name)}</h2>
         <p class="hero-epithet">${escapeHtml(guide.title)}</p>
-        <span class="build-label">${escapeHtml(guide.buildName)}</span>
       </span>
-      <span class="score-block">
-        <strong>${score}</strong>
-        <span>胜率</span>
-        ${published ? "" : '<em class="building-tag">制作中</em>'}
+      <span class="card-foot">
+        <span class="build-label">${escapeHtml(guide.buildName)}</span>
+        <span class="score-block">
+          <strong>${score}</strong>
+          <span>胜率</span>
+          ${published ? "" : '<em class="building-tag">制作中</em>'}
+        </span>
       </span>
     </button>`;
 }
@@ -68,7 +70,8 @@ function renderHome() {
         <div class="brand-row">
           <div>
             <p class="brand-kicker">HEXTECH ARAM</p>
-            <h1>英雄一图流</h1>
+            <h1>海斗一图流</h1>
+            <p class="brand-subtitle">抖音搜「芝士不是知识」</p>
           </div>
           <div class="version-chip">
             <strong>v${escapeHtml(site.version)}</strong>
@@ -138,32 +141,16 @@ function renderDetail(slug) {
           <strong>${escapeHtml(guide.name)}</strong>
           <span>${escapeHtml(guide.buildName)} · v${escapeHtml(site.version)}</span>
         </div>
-        <button class="share-button" type="button" aria-label="分享攻略">↗</button>
+        <span class="topbar-spacer" aria-hidden="true"></span>
       </header>
       <div class="guide-stage">
-        <img class="guide-image" src="${escapeHtml(guide.images.preview)}"
+        <img class="guide-image" src="${escapeHtml(guide.images.preview)}" decoding="async" fetchpriority="high"
           alt="${escapeHtml(guide.name)}${escapeHtml(guide.buildName)}海克斯大乱斗一图流" />
       </div>
-      <div class="detail-actions">
-        <a class="action-secondary" href="${escapeHtml(guide.images.full)}" target="_blank" rel="noopener">查看原图</a>
-        <a class="action-primary" href="${escapeHtml(guide.images.full)}" download>下载原图</a>
-      </div>
-      <div class="toast" role="status">链接已复制</div>
     </section>`;
   document.querySelector(".back-button").addEventListener("click", () => {
     if (history.length > 1) history.back();
     else location.hash = "#/";
-  });
-  document.querySelector(".share-button").addEventListener("click", async () => {
-    const shareData = { title: document.title, text: `${guide.name} ${guide.buildName}`, url: location.href };
-    if (navigator.share) {
-      await navigator.share(shareData).catch(() => {});
-      return;
-    }
-    await navigator.clipboard.writeText(location.href);
-    const toast = document.querySelector(".toast");
-    toast.classList.add("show");
-    setTimeout(() => toast.classList.remove("show"), 1500);
   });
   window.scrollTo(0, 0);
 }
@@ -176,7 +163,7 @@ function render() {
 
 async function start() {
   try {
-    const response = await fetch("./data/guides.json", { cache: "no-store" });
+    const response = await fetch("./data/guides.json?rev=2");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     render();
