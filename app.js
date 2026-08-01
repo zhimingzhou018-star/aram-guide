@@ -4,7 +4,44 @@ const state = {
   payload: null,
   query: sessionStorage.getItem("hero-guide-query") || "",
 };
+const MAX_AUTO_PREFETCHED_GUIDES = 6;
+const SEARCH_CAPTURE_DELAY_MS = 450;
+const SESSION_GUIDE_VIEWS_KEY = "hero-guide-session-views";
 const prefetchedGuideImages = new Set();
+const automaticallyPrefetchedGuideImages = new Set();
+let cardPrefetchObserver = null;
+let searchCaptureTimer = null;
+let previousRoute = null;
+
+function capture(eventName, properties = {}) {
+  window.ARAM_ANALYTICS?.capture(eventName, properties);
+}
+
+function guideEventProperties(guide) {
+  return {
+    hero_slug: guide.slug,
+    hero_name: guide.name,
+    rank: guide.rank,
+    build_key: guide.buildKey,
+    build_name: guide.buildName,
+  };
+}
+
+function recordGuideView(guide) {
+  let viewedSlugs = [];
+  try {
+    viewedSlugs = JSON.parse(sessionStorage.getItem(SESSION_GUIDE_VIEWS_KEY) || "[]");
+  } catch {
+    viewedSlugs = [];
+  }
+  const uniqueViews = new Set(Array.isArray(viewedSlugs) ? viewedSlugs : []);
+  uniqueViews.add(guide.slug);
+  sessionStorage.setItem(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
+  capture("guide_view", {
+    ...guideEventProperties(guide),
+    session_unique_guides_viewed: uniqueViews.size,
+  });
+}
 
 function normalize(value) {
   return String(value || "")
@@ -105,9 +142,22 @@ function renderHome() {
     document.querySelector(".guide-list").innerHTML = filtered.length
       ? filtered.map(cardTemplate).join("")
       : '<div class="empty-state"><p>没有找到这个英雄</p></div>';
+    clearTimeout(searchCaptureTimer);
+    const query = state.query.trim();
+    if (query) {
+      searchCaptureTimer = setTimeout(() => {
+        capture("hero_search", {
+          query,
+          query_length: query.length,
+          result_count: filtered.length,
+          has_results: filtered.length > 0,
+        });
+      }, SEARCH_CAPTURE_DELAY_MS);
+    }
     bindCards();
   });
   document.querySelector(".search-clear").addEventListener("click", () => {
+    clearTimeout(searchCaptureTimer);
     state.query = "";
     sessionStorage.removeItem("hero-guide-query");
     renderHome();
@@ -115,31 +165,39 @@ function renderHome() {
   });
   bindCards();
   requestAnimationFrame(() => window.scrollTo(0, Number(sessionStorage.getItem("hero-guide-scroll") || 0)));
+  capture("home_view", {
+    query: state.query,
+    result_count: visible.length,
+    guide_count: guides.length,
+  });
 }
 
 function bindCards() {
   const guideBySlug = new Map(state.payload.guides.map((guide) => [guide.slug, guide]));
-  const prefetchGuide = (slug) => {
+  const prefetchGuide = (slug, { automatic = false } = {}) => {
     const preview = guideBySlug.get(slug)?.images?.preview;
+    if (automatic && automaticallyPrefetchedGuideImages.size >= MAX_AUTO_PREFETCHED_GUIDES) return;
     if (!preview || prefetchedGuideImages.has(preview)) return;
     prefetchedGuideImages.add(preview);
+    if (automatic) automaticallyPrefetchedGuideImages.add(preview);
     const link = document.createElement("link");
     link.rel = "prefetch";
     link.as = "image";
     link.href = preview;
     document.head.appendChild(link);
   };
-  const observer = "IntersectionObserver" in window
+  cardPrefetchObserver?.disconnect();
+  cardPrefetchObserver = "IntersectionObserver" in window
     ? new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return;
-          prefetchGuide(entry.target.dataset.slug);
-          observer.unobserve(entry.target);
+          prefetchGuide(entry.target.dataset.slug, { automatic: true });
+          cardPrefetchObserver.unobserve(entry.target);
         });
-      }, { rootMargin: "800px 0px" })
+      }, { rootMargin: "240px 0px" })
     : null;
   document.querySelectorAll(".hero-card:not(.is-building)").forEach((card) => {
-    observer?.observe(card);
+    cardPrefetchObserver?.observe(card);
     card.addEventListener("pointerenter", () => prefetchGuide(card.dataset.slug), { once: true });
     card.addEventListener("focusin", () => prefetchGuide(card.dataset.slug), { once: true });
     card.addEventListener("touchstart", () => prefetchGuide(card.dataset.slug), {
@@ -147,6 +205,11 @@ function bindCards() {
       passive: true,
     });
     card.addEventListener("click", () => {
+      const guide = guideBySlug.get(card.dataset.slug);
+      capture("hero_card_click", {
+        ...guideEventProperties(guide),
+        query: state.query,
+      });
       sessionStorage.setItem("hero-guide-scroll", String(window.scrollY));
       location.hash = `#/champion/${card.dataset.slug}`;
     });
@@ -178,21 +241,35 @@ function renderDetail(slug) {
       </div>
     </section>`;
   document.querySelector(".back-button").addEventListener("click", () => {
-    if (history.length > 1) history.back();
-    else location.hash = "#/";
+    location.hash = "#/";
   });
+  recordGuideView(guide);
   window.scrollTo(0, 0);
 }
 
 function render() {
   const current = route();
+  if (previousRoute?.name === "detail" && current.name === "home") {
+    const previousGuide = state.payload.guides.find((guide) => guide.slug === previousRoute.slug);
+    capture("return_home", previousGuide ? guideEventProperties(previousGuide) : {
+      hero_slug: previousRoute.slug,
+    });
+  }
+  previousRoute = current;
   if (current.name === "detail") renderDetail(current.slug);
   else renderHome();
 }
 
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch(() => {});
+  });
+}
+
 async function start() {
   try {
-    const response = await fetch("./data/guides.json?rev=4");
+    const response = await fetch("./data/guides.json?rev=5");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     render();
@@ -202,4 +279,5 @@ async function start() {
 }
 
 window.addEventListener("hashchange", render);
+registerServiceWorker();
 start();
