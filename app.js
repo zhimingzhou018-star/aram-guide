@@ -144,7 +144,8 @@ function renderDetail(slug) {
         <span class="topbar-spacer" aria-hidden="true"></span>
       </header>
       <div class="guide-stage">
-        <img class="guide-image" src="${escapeHtml(guide.images.preview)}" decoding="async" fetchpriority="high"
+        <img class="guide-image" src="${escapeHtml(guide.images.preview)}" width="648" height="1152"
+          loading="eager" decoding="async" fetchpriority="high"
           alt="${escapeHtml(guide.name)}${escapeHtml(guide.buildName)}海克斯大乱斗一图流" />
       </div>
     </section>`;
@@ -163,7 +164,7 @@ function render() {
 
 async function start() {
   try {
-    const response = await fetch("./data/guides.json?rev=2");
+    const response = await fetch("./data/guides.json?rev=3");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     render();
