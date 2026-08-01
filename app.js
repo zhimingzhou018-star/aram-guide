@@ -269,7 +269,7 @@ function registerServiceWorker() {
 
 async function start() {
   try {
-    const response = await fetch("./data/guides.json?rev=5");
+    const response = await fetch("./data/guides.json?rev=6");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     render();

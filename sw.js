@@ -1,11 +1,11 @@
-const CACHE_NAME = "aram-guide-v5";
+const CACHE_NAME = "aram-guide-v6";
 const CORE_ASSETS = [
   "./index.html",
-  "./styles.css?rev=5",
-  "./analytics-config.js?rev=5",
-  "./analytics.js?rev=5",
-  "./app.js?rev=5",
-  "./data/guides.json?rev=5",
+  "./styles.css?rev=6",
+  "./analytics-config.js?rev=6",
+  "./analytics.js?rev=6",
+  "./app.js?rev=6",
+  "./data/guides.json?rev=6",
 ];
 const CORE_ASSET_URLS = new Set(
   CORE_ASSETS.map((path) => new URL(path, self.registration.scope).href),
