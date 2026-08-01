@@ -4,8 +4,8 @@
     "version": "16.15",
     "dataDate": "2026-08-01",
     "source": "ARAMKit",
-    "publishedCount": 42,
-    "guideCount": 42
+    "publishedCount": 52,
+    "guideCount": 52
   },
   "guides": [
     {
@@ -76,11 +76,11 @@
       "winRate": 56.33,
       "pickRate": 9.33,
       "sampleCount": 752570,
-      "buildKey": "on_hit",
-      "buildName": "攻速特效流",
+      "buildKey": "crit",
+      "buildName": "暴击流",
       "icon": "assets/champions/yunara.webp",
       "images": {
-        "preview": "assets/guides/yunara-on_hit-648x1152.webp"
+        "preview": "assets/guides/yunara-crit-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -1016,6 +1016,267 @@
       "icon": "assets/champions/illaoi.webp",
       "images": {
         "preview": "assets/guides/illaoi-bruiser-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 16,
+      "slug": "soraka",
+      "riotId": "Soraka",
+      "name": "索拉卡",
+      "title": "众星之子",
+      "aliases": [
+        "索拉卡",
+        "众星之子",
+        "Soraka",
+        "星妈"
+      ],
+      "rank": 41,
+      "tier": "A",
+      "winRate": 51.66,
+      "pickRate": 4.09,
+      "sampleCount": 329659,
+      "buildKey": "utility",
+      "buildName": "推荐流",
+      "icon": "assets/champions/soraka.webp",
+      "images": {
+        "preview": "assets/guides/soraka-utility-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 21,
+      "slug": "missfortune",
+      "riotId": "MissFortune",
+      "name": "厄运小姐",
+      "title": "赏金猎人",
+      "aliases": [
+        "厄运小姐",
+        "赏金猎人",
+        "MissFortune",
+        "女枪",
+        "好运姐",
+        "MF"
+      ],
+      "rank": 42,
+      "tier": "A",
+      "winRate": 51.56,
+      "pickRate": 14.01,
+      "sampleCount": 1129925,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/missfortune.webp",
+      "images": {
+        "preview": "assets/guides/missfortune-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 236,
+      "slug": "lucian",
+      "riotId": "Lucian",
+      "name": "卢锡安",
+      "title": "圣枪游侠",
+      "aliases": [
+        "卢锡安",
+        "圣枪游侠",
+        "Lucian",
+        "奥巴马"
+      ],
+      "rank": 43,
+      "tier": "A",
+      "winRate": 51.55,
+      "pickRate": 13.8,
+      "sampleCount": 1112915,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/lucian.webp",
+      "images": {
+        "preview": "assets/guides/lucian-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 36,
+      "slug": "drmundo",
+      "riotId": "DrMundo",
+      "name": "蒙多医生",
+      "title": "祖安狂人",
+      "aliases": [
+        "蒙多医生",
+        "祖安狂人",
+        "DrMundo",
+        "蒙多"
+      ],
+      "rank": 44,
+      "tier": "A",
+      "winRate": 51.54,
+      "pickRate": 11.8,
+      "sampleCount": 951994,
+      "buildKey": "tank",
+      "buildName": "坦克流",
+      "icon": "assets/champions/drmundo.webp",
+      "images": {
+        "preview": "assets/guides/drmundo-tank-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 498,
+      "slug": "xayah",
+      "riotId": "Xayah",
+      "name": "霞",
+      "title": "逆羽",
+      "aliases": [
+        "霞",
+        "逆羽",
+        "Xayah"
+      ],
+      "rank": 45,
+      "tier": "A",
+      "winRate": 51.53,
+      "pickRate": 7.09,
+      "sampleCount": 571676,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/xayah.webp",
+      "images": {
+        "preview": "assets/guides/xayah-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 90,
+      "slug": "malzahar",
+      "riotId": "Malzahar",
+      "name": "玛尔扎哈",
+      "title": "虚空先知",
+      "aliases": [
+        "玛尔扎哈",
+        "虚空先知",
+        "Malzahar",
+        "蚂蚱"
+      ],
+      "rank": 46,
+      "tier": "A",
+      "winRate": 51.47,
+      "pickRate": 7.29,
+      "sampleCount": 588440,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/malzahar.webp",
+      "images": {
+        "preview": "assets/guides/malzahar-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 18,
+      "slug": "tristana",
+      "riotId": "Tristana",
+      "name": "崔丝塔娜",
+      "title": "麦林炮手",
+      "aliases": [
+        "崔丝塔娜",
+        "麦林炮手",
+        "Tristana",
+        "小炮"
+      ],
+      "rank": 47,
+      "tier": "A",
+      "winRate": 51.43,
+      "pickRate": 8.98,
+      "sampleCount": 724393,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/tristana.webp",
+      "images": {
+        "preview": "assets/guides/tristana-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 360,
+      "slug": "samira",
+      "riotId": "Samira",
+      "name": "莎弥拉",
+      "title": "沙漠玫瑰",
+      "aliases": [
+        "莎弥拉",
+        "沙漠玫瑰",
+        "Samira",
+        "沙弥拉"
+      ],
+      "rank": 48,
+      "tier": "A",
+      "winRate": 51.3,
+      "pickRate": 5.63,
+      "sampleCount": 453787,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/samira.webp",
+      "images": {
+        "preview": "assets/guides/samira-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 24,
+      "slug": "jax",
+      "riotId": "Jax",
+      "name": "贾克斯",
+      "title": "武器大师",
+      "aliases": [
+        "贾克斯",
+        "武器大师",
+        "Jax",
+        "武器"
+      ],
+      "rank": 49,
+      "tier": "A",
+      "winRate": 51.26,
+      "pickRate": 5.19,
+      "sampleCount": 418988,
+      "buildKey": "on_hit",
+      "buildName": "攻速特效流",
+      "icon": "assets/champions/jax.webp",
+      "images": {
+        "preview": "assets/guides/jax-on_hit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 901,
+      "slug": "smolder",
+      "riotId": "Smolder",
+      "name": "斯莫德",
+      "title": "炽炎雏龙",
+      "aliases": [
+        "斯莫德",
+        "炽炎雏龙",
+        "Smolder",
+        "小火龙"
+      ],
+      "rank": 50,
+      "tier": "A",
+      "winRate": 51.16,
+      "pickRate": 12.52,
+      "sampleCount": 1009977,
+      "buildKey": "bruiser",
+      "buildName": "战士流",
+      "icon": "assets/champions/smolder.webp",
+      "images": {
+        "preview": "assets/guides/smolder-bruiser-648x1152.webp"
       },
       "status": "published",
       "isTop20": false
