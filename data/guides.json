@@ -1,0 +1,596 @@
+{
+  "site": {
+    "title": "海克斯大乱斗一图流",
+    "version": "16.15",
+    "dataDate": "2026-07-31",
+    "source": "ARAMKit",
+    "publishedCount": 22,
+    "guideCount": 22
+  },
+  "guides": [
+    {
+      "id": 67,
+      "slug": "vayne",
+      "riotId": "Vayne",
+      "name": "薇恩",
+      "title": "暗夜猎手",
+      "aliases": [
+        "薇恩",
+        "暗夜猎手",
+        "Vayne",
+        "VN"
+      ],
+      "rank": 1,
+      "tier": "S",
+      "winRate": 57.79,
+      "pickRate": 13.85,
+      "sampleCount": 526867,
+      "buildKey": "on_hit",
+      "buildName": "攻速特效流",
+      "icon": "assets/champions/vayne.png",
+      "images": {
+        "preview": "assets/guides/vayne-on_hit-1080x1920.webp",
+        "full": "assets/guides/vayne-on_hit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 104,
+      "slug": "graves",
+      "riotId": "Graves",
+      "name": "格雷福斯",
+      "title": "法外狂徒",
+      "aliases": [
+        "格雷福斯",
+        "法外狂徒",
+        "Graves",
+        "男枪"
+      ],
+      "rank": 2,
+      "tier": "S",
+      "winRate": 57.36,
+      "pickRate": 12.99,
+      "sampleCount": 494404,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/graves.png",
+      "images": {
+        "preview": "assets/guides/graves-crit-1080x1920.webp",
+        "full": "assets/guides/graves-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 804,
+      "slug": "yunara",
+      "riotId": "Yunara",
+      "name": "芸阿娜",
+      "title": "不破之誓",
+      "aliases": [
+        "芸阿娜",
+        "不破之誓",
+        "Yunara"
+      ],
+      "rank": 3,
+      "tier": "S",
+      "winRate": 56.37,
+      "pickRate": 9.31,
+      "sampleCount": 354441,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/yunara.png",
+      "images": {
+        "preview": "assets/guides/yunara-crit-1080x1920.webp",
+        "full": "assets/guides/yunara-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 876,
+      "slug": "lillia",
+      "riotId": "Lillia",
+      "name": "莉莉娅",
+      "title": "含羞蓓蕾",
+      "aliases": [
+        "莉莉娅",
+        "含羞蓓蕾",
+        "Lillia",
+        "小鹿"
+      ],
+      "rank": 4,
+      "tier": "S",
+      "winRate": 56.29,
+      "pickRate": 9.18,
+      "sampleCount": 349473,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/lillia.png",
+      "images": {
+        "preview": "assets/guides/lillia-ap-1080x1920.webp",
+        "full": "assets/guides/lillia-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 157,
+      "slug": "yasuo",
+      "riotId": "Yasuo",
+      "name": "亚索",
+      "title": "疾风剑豪",
+      "aliases": [
+        "亚索",
+        "疾风剑豪",
+        "Yasuo",
+        "风男"
+      ],
+      "rank": 5,
+      "tier": "S",
+      "winRate": 56.07,
+      "pickRate": 10.3,
+      "sampleCount": 391948,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/yasuo.png",
+      "images": {
+        "preview": "assets/guides/yasuo-crit-1080x1920.webp",
+        "full": "assets/guides/yasuo-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 10,
+      "slug": "kayle",
+      "riotId": "Kayle",
+      "name": "凯尔",
+      "title": "正义天使",
+      "aliases": [
+        "凯尔",
+        "正义天使",
+        "Kayle",
+        "天使"
+      ],
+      "rank": 6,
+      "tier": "S",
+      "winRate": 55.89,
+      "pickRate": 7.32,
+      "sampleCount": 278484,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/kayle.png",
+      "images": {
+        "preview": "assets/guides/kayle-ap-1080x1920.webp",
+        "full": "assets/guides/kayle-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 875,
+      "slug": "sett",
+      "riotId": "Sett",
+      "name": "瑟提",
+      "title": "腕豪",
+      "aliases": [
+        "瑟提",
+        "腕豪",
+        "Sett"
+      ],
+      "rank": 7,
+      "tier": "S",
+      "winRate": 55.81,
+      "pickRate": 12.36,
+      "sampleCount": 470402,
+      "buildKey": "tank",
+      "buildName": "坦克流",
+      "icon": "assets/champions/sett.png",
+      "images": {
+        "preview": "assets/guides/sett-tank-1080x1920.webp",
+        "full": "assets/guides/sett-tank-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 147,
+      "slug": "seraphine",
+      "riotId": "Seraphine",
+      "name": "萨勒芬妮",
+      "title": "星籁歌姬",
+      "aliases": [
+        "萨勒芬妮",
+        "星籁歌姬",
+        "Seraphine",
+        "歌姬"
+      ],
+      "rank": 8,
+      "tier": "S",
+      "winRate": 55.5,
+      "pickRate": 8.42,
+      "sampleCount": 320390,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/seraphine.png",
+      "images": {
+        "preview": "assets/guides/seraphine-ap-1080x1920.webp",
+        "full": "assets/guides/seraphine-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 141,
+      "slug": "kayn",
+      "riotId": "Kayn",
+      "name": "凯隐",
+      "title": "影流之镰",
+      "aliases": [
+        "凯隐",
+        "影流之镰",
+        "Kayn"
+      ],
+      "rank": 9,
+      "tier": "S",
+      "winRate": 55.33,
+      "pickRate": 7.86,
+      "sampleCount": 299202,
+      "buildKey": "lethality",
+      "buildName": "穿甲流",
+      "icon": "assets/champions/kayn.png",
+      "images": {
+        "preview": "assets/guides/kayn-lethality-1080x1920.webp",
+        "full": "assets/guides/kayn-lethality-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 51,
+      "slug": "caitlyn",
+      "riotId": "Caitlyn",
+      "name": "凯特琳",
+      "title": "皮城女警",
+      "aliases": [
+        "凯特琳",
+        "皮城女警",
+        "Caitlyn",
+        "女警"
+      ],
+      "rank": 10,
+      "tier": "S",
+      "winRate": 55.06,
+      "pickRate": 13.04,
+      "sampleCount": 496143,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/caitlyn.png",
+      "images": {
+        "preview": "assets/guides/caitlyn-crit-1080x1920.webp",
+        "full": "assets/guides/caitlyn-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 893,
+      "slug": "aurora",
+      "riotId": "Aurora",
+      "name": "阿萝拉",
+      "title": "双界灵兔",
+      "aliases": [
+        "阿萝拉",
+        "双界灵兔",
+        "Aurora",
+        "兔子"
+      ],
+      "rank": 11,
+      "tier": "A",
+      "winRate": 54.84,
+      "pickRate": 6.43,
+      "sampleCount": 244542,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/aurora.png",
+      "images": {
+        "preview": "assets/guides/aurora-ap-1080x1920.webp",
+        "full": "assets/guides/aurora-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 887,
+      "slug": "gwen",
+      "riotId": "Gwen",
+      "name": "格温",
+      "title": "灵罗娃娃",
+      "aliases": [
+        "格温",
+        "灵罗娃娃",
+        "Gwen",
+        "剪刀妹"
+      ],
+      "rank": 12,
+      "tier": "A",
+      "winRate": 54.79,
+      "pickRate": 2.92,
+      "sampleCount": 110940,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/gwen.png",
+      "images": {
+        "preview": "assets/guides/gwen-ap-1080x1920.webp",
+        "full": "assets/guides/gwen-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 222,
+      "slug": "jinx",
+      "riotId": "Jinx",
+      "name": "金克丝",
+      "title": "暴走萝莉",
+      "aliases": [
+        "金克丝",
+        "暴走萝莉",
+        "Jinx"
+      ],
+      "rank": 13,
+      "tier": "A",
+      "winRate": 54.42,
+      "pickRate": 11.66,
+      "sampleCount": 443671,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/jinx.png",
+      "images": {
+        "preview": "assets/guides/jinx-crit-1080x1920.webp",
+        "full": "assets/guides/jinx-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 25,
+      "slug": "morgana",
+      "riotId": "Morgana",
+      "name": "莫甘娜",
+      "title": "堕落天使",
+      "aliases": [
+        "莫甘娜",
+        "堕落天使",
+        "Morgana"
+      ],
+      "rank": 14,
+      "tier": "A",
+      "winRate": 54.2,
+      "pickRate": 10.41,
+      "sampleCount": 396105,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/morgana.png",
+      "images": {
+        "preview": "assets/guides/morgana-ap-1080x1920.webp",
+        "full": "assets/guides/morgana-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 223,
+      "slug": "tahmkench",
+      "riotId": "TahmKench",
+      "name": "塔姆",
+      "title": "河流之王",
+      "aliases": [
+        "塔姆",
+        "河流之王",
+        "TahmKench",
+        "蛤蟆"
+      ],
+      "rank": 15,
+      "tier": "A",
+      "winRate": 54.18,
+      "pickRate": 13.25,
+      "sampleCount": 504361,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/tahmkench.png",
+      "images": {
+        "preview": "assets/guides/tahmkench-ap-1080x1920.webp",
+        "full": "assets/guides/tahmkench-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 4,
+      "slug": "twistedfate",
+      "riotId": "TwistedFate",
+      "name": "崔斯特",
+      "title": "卡牌大师",
+      "aliases": [
+        "崔斯特",
+        "卡牌大师",
+        "TwistedFate",
+        "卡牌"
+      ],
+      "rank": 16,
+      "tier": "A",
+      "winRate": 54.17,
+      "pickRate": 9.6,
+      "sampleCount": 365182,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/twistedfate.png",
+      "images": {
+        "preview": "assets/guides/twistedfate-ap-1080x1920.webp",
+        "full": "assets/guides/twistedfate-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 777,
+      "slug": "yone",
+      "riotId": "Yone",
+      "name": "永恩",
+      "title": "封魔剑魂",
+      "aliases": [
+        "永恩",
+        "封魔剑魂",
+        "Yone"
+      ],
+      "rank": 17,
+      "tier": "A",
+      "winRate": 54.16,
+      "pickRate": 7.0,
+      "sampleCount": 266182,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/yone.png",
+      "images": {
+        "preview": "assets/guides/yone-crit-1080x1920.webp",
+        "full": "assets/guides/yone-crit-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 910,
+      "slug": "hwei",
+      "riotId": "Hwei",
+      "name": "彗",
+      "title": "异画师",
+      "aliases": [
+        "彗",
+        "异画师",
+        "Hwei",
+        "画师"
+      ],
+      "rank": 18,
+      "tier": "A",
+      "winRate": 54.17,
+      "pickRate": 5.58,
+      "sampleCount": 212314,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/hwei.png",
+      "images": {
+        "preview": "assets/guides/hwei-ap-1080x1920.webp",
+        "full": "assets/guides/hwei-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 17,
+      "slug": "teemo",
+      "riotId": "Teemo",
+      "name": "提莫",
+      "title": "迅捷斥候",
+      "aliases": [
+        "提莫",
+        "迅捷斥候",
+        "Teemo"
+      ],
+      "rank": 19,
+      "tier": "A",
+      "winRate": 54.02,
+      "pickRate": 12.85,
+      "sampleCount": 489136,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/teemo.png",
+      "images": {
+        "preview": "assets/guides/teemo-ap-1080x1920.webp",
+        "full": "assets/guides/teemo-ap-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 14,
+      "slug": "sion",
+      "riotId": "Sion",
+      "name": "赛恩",
+      "title": "亡灵战神",
+      "aliases": [
+        "赛恩",
+        "亡灵战神",
+        "Sion"
+      ],
+      "rank": 20,
+      "tier": "A",
+      "winRate": 53.96,
+      "pickRate": 9.86,
+      "sampleCount": 375097,
+      "buildKey": "bruiser",
+      "buildName": "战士流",
+      "icon": "assets/champions/sion.png",
+      "images": {
+        "preview": "assets/guides/sion-bruiser-1080x1920.webp",
+        "full": "assets/guides/sion-bruiser-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 120,
+      "slug": "hecarim",
+      "riotId": "Hecarim",
+      "name": "赫卡里姆",
+      "title": "战争之影",
+      "aliases": [
+        "赫卡里姆",
+        "战争之影",
+        "Hecarim"
+      ],
+      "rank": 61,
+      "tier": "B",
+      "winRate": 50.31,
+      "pickRate": 7.91,
+      "sampleCount": 301060,
+      "buildKey": "战士",
+      "buildName": "战士流",
+      "icon": "assets/champions/hecarim.png",
+      "images": {
+        "preview": "assets/guides/hecarim-战士-1080x1920.webp",
+        "full": "assets/guides/hecarim-战士-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 77,
+      "slug": "udyr",
+      "riotId": "Udyr",
+      "name": "乌迪尔",
+      "title": "兽灵行者",
+      "aliases": [
+        "乌迪尔",
+        "兽灵行者",
+        "Udyr"
+      ],
+      "rank": 119,
+      "tier": "C",
+      "winRate": 47.09,
+      "pickRate": 4.77,
+      "sampleCount": 181501,
+      "buildKey": "法术爆杀",
+      "buildName": "法术爆杀流",
+      "icon": "assets/champions/udyr.png",
+      "images": {
+        "preview": "assets/guides/udyr-法术爆杀-1080x1920.webp",
+        "full": "assets/guides/udyr-法术爆杀-2160x3840.png"
+      },
+      "status": "published",
+      "isTop20": false
+    }
+  ]
+}
