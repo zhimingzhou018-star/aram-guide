@@ -2,10 +2,10 @@
   "site": {
     "title": "海斗一图流",
     "version": "16.15",
-    "dataDate": "2026-07-31",
+    "dataDate": "2026-08-01",
     "source": "ARAMKit",
-    "publishedCount": 22,
-    "guideCount": 22
+    "publishedCount": 32,
+    "guideCount": 32
   },
   "guides": [
     {
@@ -22,9 +22,9 @@
       ],
       "rank": 1,
       "tier": "S",
-      "winRate": 57.79,
-      "pickRate": 13.85,
-      "sampleCount": 526867,
+      "winRate": 57.75,
+      "pickRate": 13.84,
+      "sampleCount": 1116398,
       "buildKey": "on_hit",
       "buildName": "攻速特效流",
       "icon": "assets/champions/vayne.webp",
@@ -48,9 +48,9 @@
       ],
       "rank": 2,
       "tier": "S",
-      "winRate": 57.36,
-      "pickRate": 12.99,
-      "sampleCount": 494404,
+      "winRate": 57.37,
+      "pickRate": 12.97,
+      "sampleCount": 1046631,
       "buildKey": "crit",
       "buildName": "暴击流",
       "icon": "assets/champions/graves.webp",
@@ -73,14 +73,14 @@
       ],
       "rank": 3,
       "tier": "S",
-      "winRate": 56.37,
-      "pickRate": 9.31,
-      "sampleCount": 354441,
-      "buildKey": "crit",
-      "buildName": "暴击流",
+      "winRate": 56.33,
+      "pickRate": 9.33,
+      "sampleCount": 752570,
+      "buildKey": "on_hit",
+      "buildName": "攻速特效流",
       "icon": "assets/champions/yunara.webp",
       "images": {
-        "preview": "assets/guides/yunara-crit-648x1152.webp"
+        "preview": "assets/guides/yunara-on_hit-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -99,9 +99,9 @@
       ],
       "rank": 4,
       "tier": "S",
-      "winRate": 56.29,
-      "pickRate": 9.18,
-      "sampleCount": 349473,
+      "winRate": 56.19,
+      "pickRate": 9.14,
+      "sampleCount": 737746,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/lillia.webp",
@@ -125,9 +125,9 @@
       ],
       "rank": 5,
       "tier": "S",
-      "winRate": 56.07,
-      "pickRate": 10.3,
-      "sampleCount": 391948,
+      "winRate": 56.08,
+      "pickRate": 10.36,
+      "sampleCount": 835905,
       "buildKey": "crit",
       "buildName": "暴击流",
       "icon": "assets/champions/yasuo.webp",
@@ -152,8 +152,8 @@
       "rank": 6,
       "tier": "S",
       "winRate": 55.89,
-      "pickRate": 7.32,
-      "sampleCount": 278484,
+      "pickRate": 7.3,
+      "sampleCount": 588808,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/kayle.webp",
@@ -176,9 +176,9 @@
       ],
       "rank": 7,
       "tier": "S",
-      "winRate": 55.81,
-      "pickRate": 12.36,
-      "sampleCount": 470402,
+      "winRate": 55.75,
+      "pickRate": 12.32,
+      "sampleCount": 993978,
       "buildKey": "tank",
       "buildName": "坦克流",
       "icon": "assets/champions/sett.webp",
@@ -202,9 +202,9 @@
       ],
       "rank": 8,
       "tier": "S",
-      "winRate": 55.5,
+      "winRate": 55.45,
       "pickRate": 8.42,
-      "sampleCount": 320390,
+      "sampleCount": 679537,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/seraphine.webp",
@@ -227,9 +227,9 @@
       ],
       "rank": 9,
       "tier": "S",
-      "winRate": 55.33,
-      "pickRate": 7.86,
-      "sampleCount": 299202,
+      "winRate": 55.35,
+      "pickRate": 7.87,
+      "sampleCount": 634914,
       "buildKey": "lethality",
       "buildName": "穿甲流",
       "icon": "assets/champions/kayn.webp",
@@ -253,40 +253,14 @@
       ],
       "rank": 10,
       "tier": "S",
-      "winRate": 55.06,
-      "pickRate": 13.04,
-      "sampleCount": 496143,
+      "winRate": 55.19,
+      "pickRate": 13.01,
+      "sampleCount": 1049582,
       "buildKey": "crit",
       "buildName": "暴击流",
       "icon": "assets/champions/caitlyn.webp",
       "images": {
         "preview": "assets/guides/caitlyn-crit-648x1152.webp"
-      },
-      "status": "published",
-      "isTop20": true
-    },
-    {
-      "id": 893,
-      "slug": "aurora",
-      "riotId": "Aurora",
-      "name": "阿萝拉",
-      "title": "双界灵兔",
-      "aliases": [
-        "阿萝拉",
-        "双界灵兔",
-        "Aurora",
-        "兔子"
-      ],
-      "rank": 11,
-      "tier": "A",
-      "winRate": 54.84,
-      "pickRate": 6.43,
-      "sampleCount": 244542,
-      "buildKey": "ap",
-      "buildName": "法术流",
-      "icon": "assets/champions/aurora.webp",
-      "images": {
-        "preview": "assets/guides/aurora-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -303,16 +277,42 @@
         "Gwen",
         "剪刀妹"
       ],
-      "rank": 12,
+      "rank": 11,
       "tier": "A",
-      "winRate": 54.79,
-      "pickRate": 2.92,
-      "sampleCount": 110940,
+      "winRate": 54.86,
+      "pickRate": 2.94,
+      "sampleCount": 237336,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/gwen.webp",
       "images": {
         "preview": "assets/guides/gwen-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 893,
+      "slug": "aurora",
+      "riotId": "Aurora",
+      "name": "阿萝拉",
+      "title": "双界灵兔",
+      "aliases": [
+        "阿萝拉",
+        "双界灵兔",
+        "Aurora",
+        "兔子"
+      ],
+      "rank": 12,
+      "tier": "A",
+      "winRate": 54.75,
+      "pickRate": 6.94,
+      "sampleCount": 559498,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/aurora.webp",
+      "images": {
+        "preview": "assets/guides/aurora-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -331,64 +331,13 @@
       "rank": 13,
       "tier": "A",
       "winRate": 54.42,
-      "pickRate": 11.66,
-      "sampleCount": 443671,
+      "pickRate": 11.12,
+      "sampleCount": 896718,
       "buildKey": "crit",
       "buildName": "暴击流",
       "icon": "assets/champions/jinx.webp",
       "images": {
         "preview": "assets/guides/jinx-crit-648x1152.webp"
-      },
-      "status": "published",
-      "isTop20": true
-    },
-    {
-      "id": 25,
-      "slug": "morgana",
-      "riotId": "Morgana",
-      "name": "莫甘娜",
-      "title": "堕落天使",
-      "aliases": [
-        "莫甘娜",
-        "堕落天使",
-        "Morgana"
-      ],
-      "rank": 14,
-      "tier": "A",
-      "winRate": 54.2,
-      "pickRate": 10.41,
-      "sampleCount": 396105,
-      "buildKey": "ap",
-      "buildName": "法术流",
-      "icon": "assets/champions/morgana.webp",
-      "images": {
-        "preview": "assets/guides/morgana-ap-648x1152.webp"
-      },
-      "status": "published",
-      "isTop20": true
-    },
-    {
-      "id": 223,
-      "slug": "tahmkench",
-      "riotId": "TahmKench",
-      "name": "塔姆",
-      "title": "河流之王",
-      "aliases": [
-        "塔姆",
-        "河流之王",
-        "TahmKench",
-        "蛤蟆"
-      ],
-      "rank": 15,
-      "tier": "A",
-      "winRate": 54.18,
-      "pickRate": 13.25,
-      "sampleCount": 504361,
-      "buildKey": "ap",
-      "buildName": "法术流",
-      "icon": "assets/champions/tahmkench.webp",
-      "images": {
-        "preview": "assets/guides/tahmkench-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -405,16 +354,41 @@
         "TwistedFate",
         "卡牌"
       ],
-      "rank": 16,
+      "rank": 14,
       "tier": "A",
-      "winRate": 54.17,
-      "pickRate": 9.6,
-      "sampleCount": 365182,
+      "winRate": 54.23,
+      "pickRate": 9.2,
+      "sampleCount": 741848,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/twistedfate.webp",
       "images": {
         "preview": "assets/guides/twistedfate-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 17,
+      "slug": "teemo",
+      "riotId": "Teemo",
+      "name": "提莫",
+      "title": "迅捷斥候",
+      "aliases": [
+        "提莫",
+        "迅捷斥候",
+        "Teemo"
+      ],
+      "rank": 15,
+      "tier": "A",
+      "winRate": 54.17,
+      "pickRate": 12.8,
+      "sampleCount": 1032518,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/teemo.webp",
+      "images": {
+        "preview": "assets/guides/teemo-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -430,16 +404,41 @@
         "封魔剑魂",
         "Yone"
       ],
-      "rank": 17,
+      "rank": 16,
       "tier": "A",
-      "winRate": 54.16,
-      "pickRate": 7.0,
-      "sampleCount": 266182,
+      "winRate": 54.18,
+      "pickRate": 7.08,
+      "sampleCount": 571042,
       "buildKey": "crit",
       "buildName": "暴击流",
       "icon": "assets/champions/yone.webp",
       "images": {
         "preview": "assets/guides/yone-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": true
+    },
+    {
+      "id": 25,
+      "slug": "morgana",
+      "riotId": "Morgana",
+      "name": "莫甘娜",
+      "title": "堕落天使",
+      "aliases": [
+        "莫甘娜",
+        "堕落天使",
+        "Morgana"
+      ],
+      "rank": 17,
+      "tier": "A",
+      "winRate": 54.16,
+      "pickRate": 10.4,
+      "sampleCount": 838649,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/morgana.webp",
+      "images": {
+        "preview": "assets/guides/morgana-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -458,9 +457,9 @@
       ],
       "rank": 18,
       "tier": "A",
-      "winRate": 54.17,
-      "pickRate": 5.58,
-      "sampleCount": 212314,
+      "winRate": 54.19,
+      "pickRate": 5.55,
+      "sampleCount": 447774,
       "buildKey": "ap",
       "buildName": "法术流",
       "icon": "assets/champions/hwei.webp",
@@ -471,26 +470,27 @@
       "isTop20": true
     },
     {
-      "id": 17,
-      "slug": "teemo",
-      "riotId": "Teemo",
-      "name": "提莫",
-      "title": "迅捷斥候",
+      "id": 223,
+      "slug": "tahmkench",
+      "riotId": "TahmKench",
+      "name": "塔姆",
+      "title": "河流之王",
       "aliases": [
-        "提莫",
-        "迅捷斥候",
-        "Teemo"
+        "塔姆",
+        "河流之王",
+        "TahmKench",
+        "蛤蟆"
       ],
       "rank": 19,
       "tier": "A",
       "winRate": 54.02,
-      "pickRate": 12.85,
-      "sampleCount": 489136,
+      "pickRate": 13.67,
+      "sampleCount": 1102886,
       "buildKey": "ap",
       "buildName": "法术流",
-      "icon": "assets/champions/teemo.webp",
+      "icon": "assets/champions/tahmkench.webp",
       "images": {
-        "preview": "assets/guides/teemo-ap-648x1152.webp"
+        "preview": "assets/guides/tahmkench-ap-648x1152.webp"
       },
       "status": "published",
       "isTop20": true
@@ -508,9 +508,9 @@
       ],
       "rank": 20,
       "tier": "A",
-      "winRate": 53.96,
-      "pickRate": 9.86,
-      "sampleCount": 375097,
+      "winRate": 53.98,
+      "pickRate": 9.75,
+      "sampleCount": 786304,
       "buildKey": "bruiser",
       "buildName": "战士流",
       "icon": "assets/champions/sion.webp",
@@ -519,6 +519,256 @@
       },
       "status": "published",
       "isTop20": true
+    },
+    {
+      "id": 523,
+      "slug": "aphelios",
+      "riotId": "Aphelios",
+      "name": "厄斐琉斯",
+      "title": "残月之肃",
+      "aliases": [
+        "厄斐琉斯",
+        "残月之肃",
+        "Aphelios"
+      ],
+      "rank": 21,
+      "tier": "A",
+      "winRate": 53.73,
+      "pickRate": 4.55,
+      "sampleCount": 367310,
+      "buildKey": "crit",
+      "buildName": "暴击流",
+      "icon": "assets/champions/aphelios.webp",
+      "images": {
+        "preview": "assets/guides/aphelios-crit-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 526,
+      "slug": "rell",
+      "riotId": "Rell",
+      "name": "芮尔",
+      "title": "镕铁少女",
+      "aliases": [
+        "芮尔",
+        "镕铁少女",
+        "Rell"
+      ],
+      "rank": 22,
+      "tier": "A",
+      "winRate": 53.56,
+      "pickRate": 6.46,
+      "sampleCount": 521456,
+      "buildKey": "tank",
+      "buildName": "坦克流",
+      "icon": "assets/champions/rell.webp",
+      "images": {
+        "preview": "assets/guides/rell-tank-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 98,
+      "slug": "shen",
+      "riotId": "Shen",
+      "name": "慎",
+      "title": "暮光之眼",
+      "aliases": [
+        "慎",
+        "暮光之眼",
+        "Shen"
+      ],
+      "rank": 23,
+      "tier": "A",
+      "winRate": 53.55,
+      "pickRate": 6.21,
+      "sampleCount": 500660,
+      "buildKey": "tank",
+      "buildName": "坦克流",
+      "icon": "assets/champions/shen.webp",
+      "images": {
+        "preview": "assets/guides/shen-tank-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 63,
+      "slug": "brand",
+      "riotId": "Brand",
+      "name": "布兰德",
+      "title": "复仇焰魂",
+      "aliases": [
+        "布兰德",
+        "复仇焰魂",
+        "Brand"
+      ],
+      "rank": 24,
+      "tier": "A",
+      "winRate": 53.44,
+      "pickRate": 13.9,
+      "sampleCount": 1121418,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/brand.webp",
+      "images": {
+        "preview": "assets/guides/brand-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 40,
+      "slug": "janna",
+      "riotId": "Janna",
+      "name": "迦娜",
+      "title": "风暴之怒",
+      "aliases": [
+        "迦娜",
+        "风暴之怒",
+        "Janna"
+      ],
+      "rank": 25,
+      "tier": "A",
+      "winRate": 53.36,
+      "pickRate": 2.29,
+      "sampleCount": 184623,
+      "buildKey": "utility",
+      "buildName": "推荐流",
+      "icon": "assets/champions/janna.webp",
+      "images": {
+        "preview": "assets/guides/janna-utility-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 112,
+      "slug": "viktor",
+      "riotId": "Viktor",
+      "name": "维克托",
+      "title": "奥术先驱",
+      "aliases": [
+        "维克托",
+        "奥术先驱",
+        "Viktor"
+      ],
+      "rank": 26,
+      "tier": "A",
+      "winRate": 53.25,
+      "pickRate": 4.61,
+      "sampleCount": 372131,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/viktor.webp",
+      "images": {
+        "preview": "assets/guides/viktor-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 134,
+      "slug": "syndra",
+      "riotId": "Syndra",
+      "name": "辛德拉",
+      "title": "暗黑元首",
+      "aliases": [
+        "辛德拉",
+        "暗黑元首",
+        "Syndra"
+      ],
+      "rank": 27,
+      "tier": "A",
+      "winRate": 53.19,
+      "pickRate": 6.21,
+      "sampleCount": 501076,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/syndra.webp",
+      "images": {
+        "preview": "assets/guides/syndra-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 37,
+      "slug": "sona",
+      "riotId": "Sona",
+      "name": "娑娜",
+      "title": "琴瑟仙女",
+      "aliases": [
+        "娑娜",
+        "琴瑟仙女",
+        "Sona"
+      ],
+      "rank": 28,
+      "tier": "A",
+      "winRate": 53.22,
+      "pickRate": 3.28,
+      "sampleCount": 264893,
+      "buildKey": "utility",
+      "buildName": "推荐流",
+      "icon": "assets/champions/sona.webp",
+      "images": {
+        "preview": "assets/guides/sona-utility-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 12,
+      "slug": "alistar",
+      "riotId": "Alistar",
+      "name": "阿利斯塔",
+      "title": "牛头酋长",
+      "aliases": [
+        "阿利斯塔",
+        "牛头酋长",
+        "Alistar"
+      ],
+      "rank": 29,
+      "tier": "A",
+      "winRate": 53.11,
+      "pickRate": 6.47,
+      "sampleCount": 522021,
+      "buildKey": "tank",
+      "buildName": "坦克流",
+      "icon": "assets/champions/alistar.webp",
+      "images": {
+        "preview": "assets/guides/alistar-tank-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
+    },
+    {
+      "id": 103,
+      "slug": "ahri",
+      "riotId": "Ahri",
+      "name": "阿狸",
+      "title": "九尾妖狐",
+      "aliases": [
+        "阿狸",
+        "九尾妖狐",
+        "Ahri"
+      ],
+      "rank": 30,
+      "tier": "A",
+      "winRate": 53.02,
+      "pickRate": 5.28,
+      "sampleCount": 425774,
+      "buildKey": "ap",
+      "buildName": "法术流",
+      "icon": "assets/champions/ahri.webp",
+      "images": {
+        "preview": "assets/guides/ahri-ap-648x1152.webp"
+      },
+      "status": "published",
+      "isTop20": false
     },
     {
       "id": 120,
@@ -531,11 +781,11 @@
         "战争之影",
         "Hecarim"
       ],
-      "rank": 61,
+      "rank": 60,
       "tier": "B",
-      "winRate": 50.31,
-      "pickRate": 7.91,
-      "sampleCount": 301060,
+      "winRate": 50.46,
+      "pickRate": 7.88,
+      "sampleCount": 635483,
       "buildKey": "战士",
       "buildName": "战士流",
       "icon": "assets/champions/hecarim.webp",
@@ -557,10 +807,10 @@
         "Udyr"
       ],
       "rank": 119,
-      "tier": "C",
-      "winRate": 47.09,
-      "pickRate": 4.77,
-      "sampleCount": 181501,
+      "tier": "B",
+      "winRate": 47.1,
+      "pickRate": 4.8,
+      "sampleCount": 387165,
       "buildKey": "法术爆杀",
       "buildName": "法术爆杀流",
       "icon": "assets/champions/udyr.webp",
