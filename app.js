@@ -4,6 +4,7 @@ const state = {
   payload: null,
   query: sessionStorage.getItem("hero-guide-query") || "",
 };
+const prefetchedGuideImages = new Set();
 
 function normalize(value) {
   return String(value || "")
@@ -117,7 +118,34 @@ function renderHome() {
 }
 
 function bindCards() {
+  const guideBySlug = new Map(state.payload.guides.map((guide) => [guide.slug, guide]));
+  const prefetchGuide = (slug) => {
+    const preview = guideBySlug.get(slug)?.images?.preview;
+    if (!preview || prefetchedGuideImages.has(preview)) return;
+    prefetchedGuideImages.add(preview);
+    const link = document.createElement("link");
+    link.rel = "prefetch";
+    link.as = "image";
+    link.href = preview;
+    document.head.appendChild(link);
+  };
+  const observer = "IntersectionObserver" in window
+    ? new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          prefetchGuide(entry.target.dataset.slug);
+          observer.unobserve(entry.target);
+        });
+      }, { rootMargin: "800px 0px" })
+    : null;
   document.querySelectorAll(".hero-card:not(.is-building)").forEach((card) => {
+    observer?.observe(card);
+    card.addEventListener("pointerenter", () => prefetchGuide(card.dataset.slug), { once: true });
+    card.addEventListener("focusin", () => prefetchGuide(card.dataset.slug), { once: true });
+    card.addEventListener("touchstart", () => prefetchGuide(card.dataset.slug), {
+      once: true,
+      passive: true,
+    });
     card.addEventListener("click", () => {
       sessionStorage.setItem("hero-guide-scroll", String(window.scrollY));
       location.hash = `#/champion/${card.dataset.slug}`;
@@ -164,7 +192,7 @@ function render() {
 
 async function start() {
   try {
-    const response = await fetch("./data/guides.json?rev=3");
+    const response = await fetch("./data/guides.json?rev=4");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     render();
