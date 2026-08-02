@@ -36,3 +36,25 @@ test("detail keeps a home control and removes poster actions", () => {
   assert.match(appSource, /返回首页/);
   assert.doesNotMatch(appSource, /查看原图|下载原图|分享攻略/);
 });
+
+test("Figma pilot is limited to the five review champions", () => {
+  assert.match(
+    appSource,
+    /const FIGMA_PILOT_SLUGS = new Set\(\[\s*"vayne",\s*"graves",\s*"yunara",\s*"lillia",\s*"yasuo",?\s*\]\)/,
+  );
+});
+
+test("pilot detail uses the confirmed Figma poster structure", () => {
+  assert.match(appSource, /function FigmaGuidePage\(/);
+  for (const className of [
+    "figma-poster",
+    "figma-hero-header",
+    "figma-build-strip",
+    "figma-gameplay",
+    "figma-items",
+    "figma-augment-tier",
+    "figma-combinations",
+  ]) {
+    assert.match(appSource, new RegExp(className));
+  }
+});

@@ -8,6 +8,13 @@ const state = {
 
 const SEARCH_CAPTURE_DELAY_MS = 450;
 const SESSION_GUIDE_VIEWS_KEY = "hero-guide-session-views";
+const FIGMA_PILOT_SLUGS = new Set([
+  "vayne",
+  "graves",
+  "yunara",
+  "lillia",
+  "yasuo",
+]);
 const prefetchedSlugs = new Set();
 let previousRoute = null;
 let searchCaptureTimer = null;
@@ -52,7 +59,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=7").then((response) => {
+  return fetch("./data/index.json?rev=8").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -60,7 +67,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=7`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=8`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -192,7 +199,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=7`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=8`;
   document.head.appendChild(link);
 }
 
@@ -313,6 +320,120 @@ function GameplayModule(guide) {
   return ModuleShell("玩法摘要", "PLAYBOOK", `<ol class="gameplay-list">${points}</ol>`, "gameplay-module");
 }
 
+function FigmaLoadoutIcon(entry, className = "") {
+  return `
+    <li class="figma-loadout-icon ${className}">
+      <img src="${escapeHtml(entry.icon)}" alt="" width="64" height="64" loading="lazy" decoding="async" />
+      <span>${escapeHtml(entry.name)}</span>
+    </li>`;
+}
+
+function FigmaHeroHeader(guide) {
+  const abilityByKey = new Map((guide.hero.abilities || []).map((ability) => [ability.key, ability]));
+  const skillKeys = guide.skillOrder.split(">");
+  return `
+    <section class="figma-hero-header">
+      <a class="figma-home-hotspot" href="#/" aria-label="返回首页"></a>
+      <img class="figma-hero-portrait" src="${escapeHtml(guide.hero.icon)}" alt="${escapeHtml(guide.hero.name)}" width="128" height="128" decoding="async" />
+      <div class="figma-hero-copy">
+        <p>${escapeHtml(guide.hero.name)}</p>
+        <h1>${escapeHtml(guide.hero.title)}</h1>
+      </div>
+      <div class="figma-header-loadout">
+        <div class="figma-header-group">
+          <strong>召唤师技能</strong>
+          <ul>${guide.summonerSpells.map((spell) => FigmaLoadoutIcon(spell, "figma-spell-icon")).join("")}</ul>
+        </div>
+        <div class="figma-header-group figma-skill-group">
+          <strong>技能加点</strong>
+          <ol>${skillKeys.map((key) => {
+            const ability = abilityByKey.get(key);
+            return ability ? `
+              <li>
+                <img src="${escapeHtml(ability.icon)}" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                <span>${escapeHtml(key)}</span>
+              </li>` : "";
+          }).join("")}</ol>
+        </div>
+      </div>
+    </section>`;
+}
+
+function FigmaItemTile(item) {
+  return `
+    <li>
+      <img src="${escapeHtml(item.icon)}" alt="" width="72" height="72" loading="lazy" decoding="async" />
+      <span>${escapeHtml(item.name)}</span>
+    </li>`;
+}
+
+function FigmaAugmentTier(title, rarity, entries) {
+  return `
+    <section class="figma-augment-tier figma-augment-${escapeHtml(rarity)}">
+      <header><strong>${escapeHtml(title)}</strong><span></span></header>
+      <ul>${entries.slice(0, 6).map((entry) => FigmaLoadoutIcon(entry)).join("")}</ul>
+    </section>`;
+}
+
+function FigmaCombinations(guide) {
+  const augmentMap = new Map();
+  for (const rarity of ["prismatic", "gold", "silver"]) {
+    for (const augment of guide.augments[rarity]) augmentMap.set(Number(augment.id), augment);
+  }
+  const combinations = guide.augments.combinations.slice(0, 4).map((combination) => {
+    const augments = combination.ids.map((id, index) => augmentMap.get(Number(id)) || {
+      id,
+      name: combination.names[index],
+      icon: `assets/resources/augments/${id}.webp`,
+    });
+    return `
+      <li>
+        <span class="figma-combo-rank">#${escapeHtml(combination.rank)}</span>
+        <span class="figma-combo-augment">
+          <img src="${escapeHtml(augments[0].icon)}" alt="" width="48" height="48" loading="lazy" decoding="async" />
+          <strong>${escapeHtml(augments[0].name)}</strong>
+        </span>
+        <span class="figma-combo-plus">+</span>
+        <span class="figma-combo-augment">
+          <img src="${escapeHtml(augments[1].icon)}" alt="" width="48" height="48" loading="lazy" decoding="async" />
+          <strong>${escapeHtml(augments[1].name)}</strong>
+        </span>
+      </li>`;
+  }).join("");
+  return `
+    <section class="figma-combinations">
+      <header><h2>海克斯组合</h2><span></span></header>
+      <ol>${combinations}</ol>
+    </section>`;
+}
+
+function FigmaGuidePage(guide) {
+  const gameplay = guide.gameplay.summary.join(" ");
+  return `
+    <article class="figma-poster">
+      <div class="figma-accent-line"></div>
+      <div class="figma-poster-body">
+        ${FigmaHeroHeader(guide)}
+        <div class="figma-build-strip"><strong>${escapeHtml(guide.build.name)}</strong><span>流派 01</span></div>
+        <p class="figma-gameplay"><strong>玩法：</strong>${escapeHtml(gameplay)}</p>
+        <section class="figma-items">
+          <h2>推荐出装</h2>
+          <p>出门装</p>
+          <ul class="figma-starter-items">${guide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
+          <p>推荐选择</p>
+          <ol class="figma-recommended-items">${guide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
+        </section>
+        <section class="figma-augments">
+          <h2>海克斯推荐</h2>
+          ${FigmaAugmentTier("棱彩", "prismatic", guide.augments.prismatic)}
+          ${FigmaAugmentTier("金色", "gold", guide.augments.gold)}
+          ${FigmaAugmentTier("银色", "silver", guide.augments.silver)}
+        </section>
+        ${FigmaCombinations(guide)}
+      </div>
+    </article>`;
+}
+
 function LegacyPosterFallback(indexGuide, message = "模块数据暂不可用") {
   if (!indexGuide?.legacyPoster) {
     return `<section class="error-state"><span>!</span><p>${escapeHtml(message)}</p><a href="#/">返回首页</a></section>`;
@@ -343,23 +464,27 @@ async function renderDetail(slug) {
   try {
     const guide = await loadGuide(slug);
     document.title = `${guide.hero.name}｜${guide.build.name}`;
-    const augments = [
-      AugmentTierModule("棱彩", "prismatic", guide.augments.prismatic),
-      AugmentTierModule("金色", "gold", guide.augments.gold),
-      AugmentTierModule("银色", "silver", guide.augments.silver),
-    ].join("");
-    app.innerHTML = `
-      <section class="detail-shell">
-        ${renderDetailTopbar(guide)}
-        <main class="detail-content">
-          ${HeroHeader(guide)}
-          ${SpellAndSkillModule(guide)}
-          ${ItemModule(guide)}
-          ${ModuleShell("海克斯推荐", "AUGMENTS", `<div class="augment-stack">${augments}</div>${AugmentCombinationModule(guide)}`)}
-          ${GameplayModule(guide)}
-          <footer class="detail-footer"><span>数据版本 V${escapeHtml(state.index.site.version)}</span><strong>芝士不是知识</strong></footer>
-        </main>
-      </section>`;
+    if (FIGMA_PILOT_SLUGS.has(slug)) {
+      app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide)}</section>`;
+    } else {
+      const augments = [
+        AugmentTierModule("棱彩", "prismatic", guide.augments.prismatic),
+        AugmentTierModule("金色", "gold", guide.augments.gold),
+        AugmentTierModule("银色", "silver", guide.augments.silver),
+      ].join("");
+      app.innerHTML = `
+        <section class="detail-shell">
+          ${renderDetailTopbar(guide)}
+          <main class="detail-content">
+            ${HeroHeader(guide)}
+            ${SpellAndSkillModule(guide)}
+            ${ItemModule(guide)}
+            ${ModuleShell("海克斯推荐", "AUGMENTS", `<div class="augment-stack">${augments}</div>${AugmentCombinationModule(guide)}`)}
+            ${GameplayModule(guide)}
+            <footer class="detail-footer"><span>数据版本 V${escapeHtml(state.index.site.version)}</span><strong>芝士不是知识</strong></footer>
+          </main>
+        </section>`;
+    }
     recordGuideView(guide);
   } catch (error) {
     app.innerHTML = `<section class="detail-shell"><header class="detail-topbar"><a class="back-button" href="#/">← <em>返回首页</em></a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>旧版兜底</span></div><span></span></header>${LegacyPosterFallback(indexGuide)}</section>`;

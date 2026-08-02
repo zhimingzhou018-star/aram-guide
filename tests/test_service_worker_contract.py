@@ -26,7 +26,7 @@ class ServiceWorkerContractTests(unittest.TestCase):
         self.assertRegex(self.worker, r'assets/guides/[\s\S]*cacheFirst')
 
     def test_version_change_deletes_old_caches(self):
-        self.assertRegex(self.worker, r'CACHE_PREFIX\s*=\s*"aram-guide-v7"')
+        self.assertRegex(self.worker, r'CACHE_PREFIX\s*=\s*"aram-guide-v8"')
         self.assertIn("caches.delete", self.worker)
 
     def test_invalid_detail_data_has_legacy_poster_fallback(self):
