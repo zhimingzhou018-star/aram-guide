@@ -1,8 +1,36 @@
 const app = document.querySelector("#app");
 
+const memorySession = new Map();
+
+function readSession(key) {
+  try {
+    return sessionStorage.getItem(key);
+  } catch {
+    return memorySession.get(key) ?? null;
+  }
+}
+
+function writeSession(key, value) {
+  memorySession.set(key, String(value));
+  try {
+    sessionStorage.setItem(key, String(value));
+  } catch {
+    // Some embedded mobile browsers expose storage but deny access to it.
+  }
+}
+
+function removeSession(key) {
+  memorySession.delete(key);
+  try {
+    sessionStorage.removeItem(key);
+  } catch {
+    // Keep the in-memory fallback usable when persistent storage is restricted.
+  }
+}
+
 const state = {
   index: null,
-  query: sessionStorage.getItem("hero-guide-query") || "",
+  query: readSession("hero-guide-query") || "",
   guideCache: new Map(),
   selectedBuilds: new Map(),
 };
@@ -88,13 +116,13 @@ function guideEventProperties(guide) {
 function recordGuideView(guide) {
   let viewedSlugs = [];
   try {
-    viewedSlugs = JSON.parse(sessionStorage.getItem(SESSION_GUIDE_VIEWS_KEY) || "[]");
+    viewedSlugs = JSON.parse(readSession(SESSION_GUIDE_VIEWS_KEY) || "[]");
   } catch {
     viewedSlugs = [];
   }
   const uniqueViews = new Set(Array.isArray(viewedSlugs) ? viewedSlugs : []);
   uniqueViews.add(guide.hero.slug);
-  sessionStorage.setItem(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
+  writeSession(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
   capture("guide_view", {
     ...guideEventProperties(guide),
     session_unique_guides_viewed: uniqueViews.size,
@@ -162,7 +190,7 @@ function renderHome() {
   const input = document.querySelector("#heroSearch");
   input.addEventListener("input", (event) => {
     state.query = event.target.value;
-    sessionStorage.setItem("hero-guide-query", state.query);
+    writeSession("hero-guide-query", state.query);
     const filtered = guides.filter((guide) => matchesGuide(guide, state.query));
     renderHeroGrid(filtered);
     clearTimeout(searchCaptureTimer);
@@ -177,12 +205,12 @@ function renderHome() {
   });
   document.querySelector(".search-clear").addEventListener("click", () => {
     state.query = "";
-    sessionStorage.removeItem("hero-guide-query");
+    removeSession("hero-guide-query");
     input.value = "";
     renderHeroGrid(guides);
     input.focus();
   });
-  requestAnimationFrame(() => window.scrollTo(0, Number(sessionStorage.getItem("hero-guide-scroll") || 0)));
+  requestAnimationFrame(() => window.scrollTo(0, Number(readSession("hero-guide-scroll") || 0)));
   capture("home_view", { query: state.query, result_count: visible.length, guide_count: guides.length });
 }
 
@@ -206,7 +234,7 @@ function bindHeroCards() {
     card.addEventListener("click", () => {
       const guide = bySlug.get(card.dataset.slug);
       capture("hero_card_click", { ...guideEventProperties(guide), query: state.query });
-      sessionStorage.setItem("hero-guide-scroll", String(window.scrollY));
+      writeSession("hero-guide-scroll", String(window.scrollY));
       location.hash = `#/champion/${card.dataset.slug}`;
     });
   });

@@ -8,4 +8,13 @@
 python -m http.server 8890 --bind 127.0.0.1
 ```
 
+## 手机浏览器兼容构建
+
+修改 `styles.css`、`analytics-config.js`、`analytics.js` 或 `app.js` 后，重新生成内联核心资源：
+
+```powershell
+python tools/embed_core_assets.py
+python tools/embed_core_assets.py --check
+```
+
 生产仓库位于相邻目录 `../aram-guide/`，开发期间必须保持干净。

@@ -7,7 +7,1625 @@
     <meta name="description" content="海斗英雄模块化攻略，支持英雄名称、称号和外号搜索。" />
     <title>海斗一图流</title>
     <link rel="preload" href="./data/index.json?rev=14" as="fetch" crossorigin />
-    <link rel="stylesheet" href="./styles.css?rev=14" />
+    <!-- Core CSS is embedded so restrictive mobile browsers do not need a style subrequest. -->
+    <!-- compat-core-style:start -->
+<style data-compat-core="styles">
+:root {
+  --ink: #090d0d;
+  --ink-soft: #0d1313;
+  --panel: #111919;
+  --panel-raised: #172020;
+  --line: #293534;
+  --line-strong: #3b4947;
+  --text: #f3f3eb;
+  --muted: #94a19e;
+  --lime: #c5ff3d;
+  --lime-deep: #8fca00;
+  --prismatic: #d7a7ff;
+  --gold: #efc54a;
+  --silver: #aebcc3;
+  --radius: 18px;
+  --shadow: 0 18px 52px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+  background: var(--ink);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    linear-gradient(rgba(197, 255, 61, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(197, 255, 61, 0.025) 1px, transparent 1px),
+    radial-gradient(circle at 82% -8%, rgba(197, 255, 61, 0.14), transparent 27rem),
+    var(--ink);
+  background-size: 24px 24px, 24px 24px, auto, auto;
+  color: var(--text);
+  font-family: "MiSans", "HarmonyOS Sans SC", "Microsoft YaHei UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+a {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+p,
+ol,
+ul {
+  margin-top: 0;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.home-shell,
+.detail-shell {
+  width: min(100%, 760px);
+  margin: 0 auto;
+}
+
+.loading-state,
+.error-state,
+.empty-state {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.loading-mark,
+.error-state > span {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--lime-deep);
+  border-radius: 15px;
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.site-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+  padding: max(22px, env(safe-area-inset-top)) 12px 12px;
+}
+
+.brand-lockup {
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.brand-index {
+  width: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--lime-deep);
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.brand-lockup h1 {
+  margin: 0;
+  font-size: clamp(28px, 8vw, 43px);
+  font-weight: 950;
+  letter-spacing: -0.07em;
+  line-height: 0.96;
+}
+
+.brand-lockup p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.version-chip {
+  flex: 0 0 auto;
+  display: grid;
+  justify-items: end;
+  gap: 3px;
+}
+
+.version-chip strong {
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.version-chip span {
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.search-dock {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 6px 10px 8px;
+  background: linear-gradient(180deg, rgba(9, 13, 13, 0.98) 72%, rgba(9, 13, 13, 0));
+  backdrop-filter: blur(15px);
+}
+
+.search-field {
+  height: 46px;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) 38px;
+  align-items: center;
+  padding-left: 11px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(17, 25, 25, 0.97);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.search-field:focus-within {
+  border-color: var(--lime-deep);
+  box-shadow: 0 0 0 3px rgba(197, 255, 61, 0.08);
+}
+
+.search-field > span {
+  color: var(--lime);
+  font-size: 24px;
+  transform: translateY(-2px);
+}
+
+.search-field input {
+  min-width: 0;
+  height: 42px;
+  padding: 0 6px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.search-clear {
+  width: 38px;
+  height: 38px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.list-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 12px 8px;
+  color: var(--muted);
+  font-family: "DIN Alternate", "Microsoft YaHei UI", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.guide-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+  padding: 0 8px calc(24px + env(safe-area-inset-bottom));
+}
+
+.hero-card {
+  position: relative;
+  min-width: 0;
+  min-height: 90px;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 5px 8px;
+  align-items: center;
+  padding: 9px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(24, 34, 34, 0.98), rgba(13, 19, 19, 0.98));
+  text-align: left;
+  cursor: pointer;
+  content-visibility: auto;
+  contain-intrinsic-size: 90px;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.hero-card:active {
+  transform: scale(0.982);
+}
+
+.hero-card:focus-visible {
+  outline: 3px solid rgba(197, 255, 61, 0.4);
+  outline-offset: 2px;
+}
+
+.portrait-wrap {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  grid-row: 1 / -1;
+  align-self: start;
+}
+
+.portrait-wrap img {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line-strong);
+  border-radius: 11px;
+  background: var(--ink-soft);
+  object-fit: cover;
+}
+
+.rank-mark {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  min-width: 22px;
+  height: 17px;
+  display: grid;
+  place-items: center;
+  padding: 0 4px;
+  border-radius: 5px;
+  background: var(--lime);
+  color: #0c1009;
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 8px;
+  font-weight: 950;
+}
+
+.hero-copy {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+}
+
+.hero-name {
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hero-title {
+  margin-top: 1px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.build-label {
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 5px;
+  padding: 2px 6px;
+  overflow: hidden;
+  border: 1px solid rgba(197, 255, 61, 0.3);
+  border-radius: 999px;
+  color: var(--lime);
+  font-size: 8px;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.win-rate {
+  grid-column: 2;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.win-rate strong {
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.win-rate small {
+  color: var(--muted);
+  font-size: 7px;
+}
+
+.guide-list .empty-state {
+  min-height: 38vh;
+  grid-column: 1 / -1;
+}
+
+.guide-list .empty-state > span {
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+
+.detail-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  min-height: 60px;
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr) 88px;
+  align-items: center;
+  padding: max(8px, env(safe-area-inset-top)) 10px 8px;
+  border-bottom: 1px solid rgba(41, 53, 52, 0.82);
+  background: rgba(9, 13, 13, 0.94);
+  backdrop-filter: blur(17px);
+}
+
+.back-button {
+  width: fit-content;
+  min-width: 44px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.back-button em {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.detail-heading {
+  min-width: 0;
+  text-align: center;
+}
+
+.detail-heading strong,
+.detail-heading span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detail-heading strong {
+  font-size: 15px;
+}
+
+.detail-heading span {
+  margin-top: 2px;
+  color: var(--lime);
+  font-family: "DIN Alternate", "Microsoft YaHei UI", sans-serif;
+  font-size: 9px;
+}
+
+.detail-content {
+  display: grid;
+  gap: 10px;
+  padding: 10px 8px calc(24px + env(safe-area-inset-bottom));
+}
+
+.hero-overview {
+  position: relative;
+  min-height: 126px;
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, rgba(197, 255, 61, 0.08), transparent 48%),
+    linear-gradient(145deg, #1b2524, #0e1515);
+  box-shadow: var(--shadow);
+}
+
+.hero-overview::after {
+  content: "";
+  position: absolute;
+  right: -34px;
+  bottom: -48px;
+  width: 120px;
+  height: 120px;
+  border: 1px solid rgba(197, 255, 61, 0.15);
+  transform: rotate(35deg);
+}
+
+.overview-portrait {
+  width: 92px;
+  height: 92px;
+  border: 1px solid var(--line-strong);
+  border-radius: 24px 10px 24px 10px;
+  object-fit: cover;
+}
+
+.overview-copy {
+  min-width: 0;
+}
+
+.overview-kicker {
+  color: var(--lime);
+  font-family: "DIN Alternate", "Microsoft YaHei UI", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.overview-copy h1 {
+  margin: 3px 0 0;
+  font-size: clamp(27px, 8vw, 38px);
+  font-weight: 950;
+  letter-spacing: -0.07em;
+  line-height: 1;
+}
+
+.overview-copy p {
+  margin: 4px 0 8px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overview-copy > strong {
+  display: inline-flex;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--lime);
+  color: #11170b;
+  font-size: 10px;
+}
+
+.overview-score {
+  z-index: 1;
+  align-self: end;
+  display: grid;
+  justify-items: end;
+  padding-bottom: 2px;
+}
+
+.overview-score strong {
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+.overview-score span {
+  color: var(--muted);
+  font-size: 8px;
+}
+
+.guide-module {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(145deg, rgba(20, 29, 29, 0.98), rgba(13, 19, 19, 0.98));
+}
+
+.module-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+
+.module-heading span {
+  order: 2;
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.module-heading h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 950;
+  letter-spacing: -0.04em;
+}
+
+.micro-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.micro-label span {
+  margin-left: 4px;
+  color: #64706e;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.spell-skill-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: 14px;
+}
+
+.spell-list,
+.skill-order {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+}
+
+.spell-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill-order {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.icon-tile {
+  min-width: 0;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 6px;
+  text-align: center;
+}
+
+.icon-tile img {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line-strong);
+  border-radius: 11px;
+  background: var(--ink);
+  object-fit: cover;
+}
+
+.icon-tile span {
+  width: 100%;
+  overflow: hidden;
+  color: #dce1dc;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spell-tile img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-step {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+}
+
+.skill-step > span {
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  z-index: 2;
+  min-width: 17px;
+  height: 17px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--lime);
+  color: #0b1008;
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 8px;
+  font-weight: 950;
+  transform: translateX(9px);
+}
+
+.skill-step img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+}
+
+.skill-step strong {
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 11px;
+}
+
+.item-section + .item-section {
+  margin-top: 15px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+}
+
+.starter-list {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 64px);
+  gap: 8px;
+  margin: 0;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+  margin: 0;
+}
+
+.item-tile {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+  min-height: 58px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--ink-soft);
+}
+
+.item-tile.is-core {
+  border-color: rgba(197, 255, 61, 0.35);
+  background: linear-gradient(135deg, rgba(197, 255, 61, 0.09), var(--ink-soft) 60%);
+}
+
+.item-tile img {
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line-strong);
+  border-radius: 9px;
+}
+
+.item-index {
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  z-index: 1;
+  padding: 1px 3px;
+  border-radius: 4px;
+  background: rgba(9, 13, 13, 0.88);
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 7px;
+  font-weight: 900;
+}
+
+.item-tile strong {
+  min-width: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 9px;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.augment-stack {
+  display: grid;
+  gap: 9px;
+}
+
+.augment-tier {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-left-width: 3px;
+  border-radius: 13px;
+  background: var(--ink-soft);
+}
+
+.augment-tier > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.augment-tier > header span {
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.augment-tier > header small {
+  color: var(--muted);
+  font-size: 8px;
+}
+
+.augment-tier ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px 6px;
+  margin: 0;
+}
+
+.augment-tier .icon-tile img {
+  width: 46px;
+  height: 46px;
+}
+
+.augment-tier .icon-tile span {
+  min-height: 25px;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 1.25;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.augment-prismatic {
+  border-left-color: var(--prismatic);
+}
+
+.augment-prismatic > header span {
+  color: var(--prismatic);
+}
+
+.augment-gold {
+  border-left-color: var(--gold);
+}
+
+.augment-gold > header span {
+  color: var(--gold);
+}
+
+.augment-silver {
+  border-left-color: var(--silver);
+}
+
+.augment-silver > header span {
+  color: var(--silver);
+}
+
+.combo-block {
+  margin-top: 13px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+}
+
+.combo-block ol {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+}
+
+.combo-row {
+  min-width: 0;
+  min-height: 49px;
+  display: grid;
+  grid-template-columns: 25px 62px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 8px;
+  border-radius: 10px;
+  background: var(--ink-soft);
+}
+
+.combo-rank {
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.combo-pair {
+  display: flex;
+}
+
+.combo-pair img {
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--ink-soft);
+  border-radius: 9px;
+}
+
+.combo-pair img + img {
+  margin-left: -7px;
+}
+
+.combo-names {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 9px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.combo-row > strong {
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 11px;
+}
+
+.gameplay-module {
+  border-color: rgba(197, 255, 61, 0.28);
+}
+
+.gameplay-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.gameplay-list li {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+
+.gameplay-list li > span {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(197, 255, 61, 0.3);
+  border-radius: 8px;
+  color: var(--lime);
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.gameplay-list p {
+  margin: 2px 0 0;
+  color: #d7dcd7;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.detail-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 4px;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.detail-footer strong {
+  color: var(--lime);
+}
+
+/* Confirmed Figma one-page template: 648 × 1152 proportional pilot. */
+.figma-detail-shell {
+  width: min(100%, 648px);
+  background: #090d0e;
+}
+
+.figma-poster {
+  --fp-u: 0.1543209877cqw;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  container-type: inline-size;
+  background: #090d0e;
+  color: #f1f0e8;
+  font-family: "Noto Sans SC", "MiSans", "Microsoft YaHei UI", sans-serif;
+}
+
+.figma-poster h1,
+.figma-poster h2,
+.figma-poster p,
+.figma-poster ol,
+.figma-poster ul {
+  margin: 0;
+}
+
+.figma-poster img {
+  object-fit: cover;
+}
+
+.figma-accent-line {
+  position: absolute;
+  inset: 0 0 auto;
+  height: calc(6 * var(--fp-u));
+  background: #c6ff3d;
+}
+
+.figma-poster-body {
+  position: absolute;
+  inset: calc(6 * var(--fp-u)) 0 0;
+}
+
+.figma-hero-header {
+  position: absolute;
+  top: calc(9 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  height: calc(99 * var(--fp-u));
+  display: grid;
+  grid-template-columns: calc(82 * var(--fp-u)) minmax(0, 1fr) calc(217 * var(--fp-u));
+  align-items: center;
+  gap: calc(12 * var(--fp-u));
+  padding: calc(9 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #2e393c;
+  border-radius: calc(8 * var(--fp-u));
+  background: #12181a;
+}
+
+.figma-home-hotspot {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  border-radius: inherit;
+}
+
+.figma-home-hotspot:focus-visible {
+  outline: calc(3 * var(--fp-u)) solid #c6ff3d;
+  outline-offset: calc(2 * var(--fp-u));
+}
+
+.figma-hero-portrait {
+  width: calc(78 * var(--fp-u));
+  height: calc(78 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #c6ff3d;
+  border-radius: calc(8 * var(--fp-u));
+}
+
+.figma-hero-copy {
+  min-width: 0;
+  align-self: center;
+}
+
+.figma-hero-copy p {
+  overflow: hidden;
+  color: #a6b2b5;
+  font-size: calc(16 * var(--fp-u));
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.figma-hero-copy h1 {
+  margin-top: calc(3 * var(--fp-u));
+  overflow: hidden;
+  font-size: calc(43 * var(--fp-u));
+  font-weight: 950;
+  letter-spacing: -0.055em;
+  line-height: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.figma-header-loadout {
+  z-index: 6;
+  display: grid;
+  grid-template-columns: calc(92 * var(--fp-u)) calc(113 * var(--fp-u));
+  gap: calc(10 * var(--fp-u));
+  align-self: stretch;
+  padding-top: calc(4 * var(--fp-u));
+  pointer-events: none;
+}
+
+.figma-header-group {
+  min-width: 0;
+}
+
+.figma-header-group > strong {
+  display: block;
+  margin-bottom: calc(6 * var(--fp-u));
+  font-size: calc(13 * var(--fp-u));
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.figma-header-group ul,
+.figma-header-group ol {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: calc(5 * var(--fp-u));
+}
+
+.figma-loadout-icon {
+  min-width: 0;
+  display: grid;
+  justify-items: center;
+  gap: calc(3 * var(--fp-u));
+}
+
+.figma-loadout-icon img {
+  width: calc(38 * var(--fp-u));
+  height: calc(38 * var(--fp-u));
+  border-radius: calc(3 * var(--fp-u));
+}
+
+.figma-loadout-icon span {
+  width: 100%;
+  overflow: hidden;
+  color: #d9ddda;
+  font-size: calc(10 * var(--fp-u));
+  line-height: 1.15;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.figma-skill-group ol {
+  grid-template-columns: repeat(3, calc(32 * var(--fp-u)));
+}
+
+.figma-skill-group li {
+  position: relative;
+}
+
+.figma-skill-group img {
+  width: calc(32 * var(--fp-u));
+  height: calc(32 * var(--fp-u));
+  border-radius: calc(2 * var(--fp-u));
+}
+
+.figma-skill-group li span {
+  position: absolute;
+  left: calc(2 * var(--fp-u));
+  bottom: calc(2 * var(--fp-u));
+  min-width: calc(12 * var(--fp-u));
+  height: calc(12 * var(--fp-u));
+  display: grid;
+  place-items: center;
+  background: rgba(9, 13, 14, 0.88);
+  color: #f1f0e8;
+  font-size: calc(8 * var(--fp-u));
+  font-weight: 900;
+  line-height: 1;
+}
+
+.figma-build-strip {
+  position: absolute;
+  top: calc(116 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  height: calc(50 * var(--fp-u));
+  display: flex;
+  align-items: flex-start;
+  gap: calc(7 * var(--fp-u));
+  padding-bottom: calc(8 * var(--fp-u));
+  border-bottom: calc(1 * var(--fp-u)) solid #2e393c;
+}
+
+.figma-build-tab {
+  position: relative;
+  min-width: 0;
+  height: calc(41 * var(--fp-u));
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: calc(3 * var(--fp-u));
+  padding: 0 calc(10 * var(--fp-u));
+  overflow: hidden;
+  border: calc(1 * var(--fp-u)) solid #354044;
+  border-radius: calc(4 * var(--fp-u));
+  background: #101517;
+  color: #7f898b;
+  font: inherit;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.figma-build-strip[data-build-count="1"] .figma-build-tab {
+  max-width: calc(164 * var(--fp-u));
+  flex: 0 0 auto;
+}
+
+.figma-build-tab.is-active {
+  border-color: #c6ff3d;
+  background: linear-gradient(90deg, #1d280f 0%, #151c12 100%);
+  box-shadow: inset 0 0 0 calc(0.5 * var(--fp-u)) rgba(198, 255, 61, 0.34);
+}
+
+.figma-build-tab.is-active::before {
+  position: absolute;
+  inset: calc(7 * var(--fp-u)) auto calc(7 * var(--fp-u)) calc(4 * var(--fp-u));
+  width: calc(2 * var(--fp-u));
+  border-radius: calc(1 * var(--fp-u));
+  background: #c6ff3d;
+  content: "";
+}
+
+.figma-build-tab:focus-visible {
+  outline: calc(2 * var(--fp-u)) solid #f1f0e8;
+  outline-offset: calc(2 * var(--fp-u));
+}
+
+.figma-build-name,
+.figma-build-winrate {
+  max-width: 100%;
+  overflow: hidden;
+  line-height: 1;
+  text-overflow: ellipsis;
+}
+
+.figma-build-name {
+  color: #8e989a;
+  font-size: calc(14 * var(--fp-u));
+  font-weight: 900;
+}
+
+.figma-build-stat {
+  max-width: 100%;
+  display: flex;
+  align-items: baseline;
+  gap: calc(4 * var(--fp-u));
+  overflow: hidden;
+  color: #697375;
+  font-size: calc(10 * var(--fp-u));
+  font-weight: 700;
+  line-height: 1;
+}
+
+.figma-build-winrate {
+  color: #7f898b;
+  font-size: calc(11 * var(--fp-u));
+  font-weight: 900;
+}
+
+.figma-build-strip[data-build-count="4"] .figma-build-tab {
+  padding-inline: calc(8 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="4"] .figma-build-name {
+  font-size: calc(13 * var(--fp-u));
+}
+
+.figma-build-tab.is-active .figma-build-name {
+  color: #f1f0e8;
+}
+
+.figma-build-tab.is-active .figma-build-stat {
+  color: #91a366;
+}
+
+.figma-build-tab.is-active .figma-build-winrate {
+  color: #c6ff3d;
+}
+
+.figma-gameplay {
+  position: absolute;
+  top: calc(184 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  max-height: calc(57 * var(--fp-u));
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: calc(13 * var(--fp-u));
+  font-weight: 700;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.figma-gameplay strong {
+  color: #f1f0e8;
+  font-weight: 950;
+}
+
+.figma-items {
+  position: absolute;
+  top: calc(255 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  height: calc(238 * var(--fp-u));
+}
+
+.figma-items h2,
+.figma-augments > h2,
+.figma-combinations h2 {
+  font-size: calc(23 * var(--fp-u));
+  font-weight: 950;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.figma-items > p {
+  color: #a6b2b5;
+  font-size: calc(12 * var(--fp-u));
+  font-weight: 700;
+  line-height: 1;
+}
+
+.figma-items > p:first-of-type {
+  margin-top: calc(4 * var(--fp-u));
+}
+
+.figma-items > p:nth-of-type(2) {
+  margin-top: calc(8 * var(--fp-u));
+}
+
+.figma-starter-items {
+  display: grid;
+  grid-template-columns: repeat(2, calc(87 * var(--fp-u)));
+  gap: calc(14 * var(--fp-u));
+  margin-top: calc(4 * var(--fp-u)) !important;
+}
+
+.figma-starter-items li,
+.figma-recommended-items li {
+  min-width: 0;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: calc(4 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #2e393c;
+  border-radius: calc(5 * var(--fp-u));
+  background: #12181a;
+}
+
+.figma-starter-items li {
+  height: calc(77 * var(--fp-u));
+}
+
+.figma-starter-items img {
+  width: calc(52 * var(--fp-u));
+  height: calc(52 * var(--fp-u));
+  border-radius: calc(4 * var(--fp-u));
+}
+
+.figma-starter-items span,
+.figma-recommended-items span {
+  width: calc(100% - calc(6 * var(--fp-u)));
+  overflow: hidden;
+  font-size: calc(10 * var(--fp-u));
+  font-weight: 650;
+  line-height: 1.1;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.figma-recommended-items {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: calc(10 * var(--fp-u));
+  margin-top: calc(4 * var(--fp-u)) !important;
+}
+
+.figma-recommended-items li {
+  height: calc(79 * var(--fp-u));
+}
+
+.figma-recommended-items img {
+  width: calc(53 * var(--fp-u));
+  height: calc(53 * var(--fp-u));
+  border-radius: calc(4 * var(--fp-u));
+}
+
+.figma-augments {
+  position: absolute;
+  top: calc(506 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  height: calc(438 * var(--fp-u));
+  padding-top: calc(12 * var(--fp-u));
+  border-top: calc(1 * var(--fp-u)) solid #2e393c;
+}
+
+.figma-augment-tier {
+  margin-top: calc(10 * var(--fp-u));
+}
+
+.figma-augment-tier > header {
+  display: flex;
+  align-items: center;
+  gap: calc(10 * var(--fp-u));
+  height: calc(18 * var(--fp-u));
+}
+
+.figma-augment-tier > header strong {
+  flex: none;
+  font-size: calc(13 * var(--fp-u));
+  font-weight: 900;
+  line-height: 1;
+}
+
+.figma-augment-tier > header span {
+  height: calc(1 * var(--fp-u));
+  flex: 1;
+  background: currentColor;
+  opacity: 0.65;
+}
+
+.figma-augment-tier ul {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: calc(9 * var(--fp-u));
+  margin-top: calc(4 * var(--fp-u)) !important;
+}
+
+.figma-augment-tier .figma-loadout-icon {
+  height: calc(79 * var(--fp-u));
+  align-content: center;
+  padding: calc(4 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #2e393c;
+  border-radius: calc(5 * var(--fp-u));
+  background: #12181a;
+}
+
+.figma-augment-tier .figma-loadout-icon img {
+  width: calc(48 * var(--fp-u));
+  height: calc(48 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid currentColor;
+  border-radius: calc(5 * var(--fp-u));
+}
+
+.figma-augment-tier .figma-loadout-icon span {
+  min-height: calc(18 * var(--fp-u));
+  display: -webkit-box;
+  overflow: hidden;
+  color: #f1f0e8;
+  font-size: calc(10 * var(--fp-u));
+  line-height: 1.05;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.figma-augment-prismatic {
+  color: #b56cff;
+}
+
+.figma-augment-gold {
+  color: #d4a72c;
+}
+
+.figma-augment-silver {
+  color: #9aa6aa;
+}
+
+.figma-combinations {
+  position: absolute;
+  top: calc(912 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  width: calc(612 * var(--fp-u));
+  height: calc(156 * var(--fp-u));
+}
+
+.figma-combinations > header {
+  display: flex;
+  align-items: center;
+  gap: calc(13 * var(--fp-u));
+}
+
+.figma-combinations > header span {
+  height: calc(1 * var(--fp-u));
+  flex: 1;
+  background: #6d7779;
+}
+
+.figma-combinations ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: calc(7 * var(--fp-u));
+  margin-top: calc(12 * var(--fp-u)) !important;
+}
+
+.figma-combinations li {
+  min-width: 0;
+  height: calc(57 * var(--fp-u));
+  display: grid;
+  grid-template-columns: calc(24 * var(--fp-u)) minmax(0, 1fr) calc(15 * var(--fp-u)) minmax(0, 1fr);
+  align-items: center;
+  gap: calc(4 * var(--fp-u));
+  padding: calc(6 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #2e393c;
+  border-radius: calc(5 * var(--fp-u));
+  background: #12181a;
+}
+
+.figma-combo-rank {
+  color: #a6b2b5;
+  font-size: calc(11 * var(--fp-u));
+  font-weight: 800;
+}
+
+.figma-combo-augment {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: calc(39 * var(--fp-u)) minmax(0, 1fr);
+  align-items: center;
+  gap: calc(5 * var(--fp-u));
+}
+
+.figma-combo-augment img {
+  width: calc(39 * var(--fp-u));
+  height: calc(39 * var(--fp-u));
+  border: calc(1 * var(--fp-u)) solid #b56cff;
+  border-radius: calc(5 * var(--fp-u));
+}
+
+.figma-combo-augment strong {
+  min-width: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: calc(10 * var(--fp-u));
+  line-height: 1.15;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.figma-combo-plus {
+  width: calc(15 * var(--fp-u));
+  height: calc(15 * var(--fp-u));
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #253033;
+  color: #a6b2b5;
+  font-size: calc(10 * var(--fp-u));
+  line-height: 1;
+}
+
+.module-skeleton {
+  min-height: 78vh;
+  margin: 10px 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(100deg, var(--panel) 20%, var(--panel-raised) 36%, var(--panel) 52%);
+  background-size: 200% 100%;
+  animation: skeleton 1.2s ease-in-out infinite;
+}
+
+.fallback-shell {
+  padding: 10px 8px calc(24px + env(safe-area-inset-bottom));
+}
+
+.fallback-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  border: 1px solid #725844;
+  border-radius: 12px;
+  background: #241c17;
+  color: #f0c79b;
+  font-size: 10px;
+}
+
+.fallback-shell > img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+@keyframes skeleton {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .hero-overview {
+    grid-template-columns: 78px minmax(0, 1fr);
+  }
+
+  .overview-portrait {
+    width: 78px;
+    height: 78px;
+  }
+
+  .overview-score {
+    display: none;
+  }
+
+  .spell-skill-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .spell-list {
+    width: 130px;
+  }
+
+  .item-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 680px) {
+  .site-header,
+  .search-dock,
+  .list-meta {
+    padding-inline: 20px;
+  }
+
+  .guide-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+    padding-inline: 18px;
+  }
+
+  .detail-content {
+    padding-inline: 18px;
+  }
+
+  .guide-module,
+  .hero-overview {
+    padding: 18px;
+  }
+
+  .augment-tier ul {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+<!-- compat-core-style:end -->
   </head>
   <body>
     <main id="app" aria-live="polite">
@@ -16,8 +1634,629 @@
         <p>正在加载攻略</p>
       </section>
     </main>
-    <script src="./analytics-config.js?rev=14" defer></script>
-    <script src="./analytics.js?rev=14" defer></script>
-    <script src="./app.js?rev=14" defer></script>
+    <!-- Local analytics bootstrap is embedded; the PostHog client still loads asynchronously. -->
+    <!-- compat-core-analytics:start -->
+<script data-compat-core="analytics">
+window.ARAM_ANALYTICS_CONFIG = Object.freeze({
+  enabled: true,
+  posthogKey: "phc_qqkKdsSGPi3Qyy7yQugoMieBXLSKZCe2yntwfHuN9pKk",
+  posthogHost: "https://us.i.posthog.com",
+  posthogAssetsHost: "https://us-assets.i.posthog.com",
+});
+(() => {
+  const config = window.ARAM_ANALYTICS_CONFIG || {};
+  const pendingEvents = [];
+  let client = null;
+
+  function isEnabled() {
+    return Boolean(config.enabled && config.posthogKey);
+  }
+
+  function capture(eventName, properties = {}) {
+    if (!isEnabled()) return;
+    if (client?.capture) {
+      client.capture(eventName, properties);
+      return;
+    }
+    pendingEvents.push([eventName, properties]);
+  }
+
+  window.ARAM_ANALYTICS = Object.freeze({ capture, isEnabled });
+
+  if (!config.enabled || !config.posthogKey) return;
+
+  const script = document.createElement("script");
+  script.async = true;
+  script.crossOrigin = "anonymous";
+  script.src = `${config.posthogAssetsHost || "https://us-assets.i.posthog.com"}/static/array.js`;
+  script.onload = () => {
+    if (!window.posthog?.init) return;
+    client = window.posthog.init(config.posthogKey, {
+      api_host: config.posthogHost || "https://us.i.posthog.com",
+      autocapture: false,
+      capture_pageview: false,
+      capture_pageleave: false,
+      person_profiles: "identified_only",
+      disable_session_recording: true,
+    });
+    const activeClient = client || window.posthog;
+    pendingEvents.splice(0).forEach(([eventName, properties]) => {
+      activeClient.capture(eventName, properties);
+    });
+  };
+  document.head.appendChild(script);
+})();
+</script>
+<!-- compat-core-analytics:end -->
+    <!-- Core app code is embedded for the same mobile-browser compatibility fallback. -->
+    <!-- compat-core-app:start -->
+<script data-compat-core="app">
+const app = document.querySelector("#app");
+
+const memorySession = new Map();
+
+function readSession(key) {
+  try {
+    return sessionStorage.getItem(key);
+  } catch {
+    return memorySession.get(key) ?? null;
+  }
+}
+
+function writeSession(key, value) {
+  memorySession.set(key, String(value));
+  try {
+    sessionStorage.setItem(key, String(value));
+  } catch {
+    // Some embedded mobile browsers expose storage but deny access to it.
+  }
+}
+
+function removeSession(key) {
+  memorySession.delete(key);
+  try {
+    sessionStorage.removeItem(key);
+  } catch {
+    // Keep the in-memory fallback usable when persistent storage is restricted.
+  }
+}
+
+const state = {
+  index: null,
+  query: readSession("hero-guide-query") || "",
+  guideCache: new Map(),
+  selectedBuilds: new Map(),
+};
+
+const SEARCH_CAPTURE_DELAY_MS = 450;
+const SESSION_GUIDE_VIEWS_KEY = "hero-guide-session-views";
+const prefetchedSlugs = new Set();
+let previousRoute = null;
+let searchCaptureTimer = null;
+
+function capture(eventName, properties = {}) {
+  window.ARAM_ANALYTICS?.capture(eventName, properties);
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function normalize(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("zh-CN")
+    .replace(/[^a-z0-9\u3400-\u9fff]/g, "");
+}
+
+function matchesGuide(guide, query) {
+  const needle = normalize(query);
+  if (!needle) return true;
+  return [guide.name, guide.title, guide.riotId, guide.buildName, ...(guide.aliases || [])]
+    .map(normalize)
+    .some((value) => value.includes(needle));
+}
+
+function currentRoute() {
+  const match = location.hash.match(/^#\/champion\/([a-z0-9-]+)$/i);
+  return match ? { name: "detail", slug: match[1] } : { name: "home" };
+}
+
+async function fetchJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+
+function loadIndex() {
+  return fetch("./data/index.json?rev=14").then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  });
+}
+
+async function loadGuide(slug) {
+  if (state.guideCache.has(slug)) return state.guideCache.get(slug);
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=14`).then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  });
+  if (guide.schemaVersion !== 3 || guide.hero?.slug !== slug) {
+    throw new Error("Invalid hero guide payload");
+  }
+  state.guideCache.set(slug, guide);
+  return guide;
+}
+
+function guideEventProperties(guide) {
+  const hero = guide.hero || guide;
+  const ranking = guide.ranking || guide;
+  const build = guide.build || guide;
+  return {
+    hero_slug: hero.slug,
+    hero_name: hero.name,
+    rank: ranking.rank,
+    build_key: build.key || build.buildKey,
+    build_name: build.name || build.buildName,
+  };
+}
+
+function recordGuideView(guide) {
+  let viewedSlugs = [];
+  try {
+    viewedSlugs = JSON.parse(readSession(SESSION_GUIDE_VIEWS_KEY) || "[]");
+  } catch {
+    viewedSlugs = [];
+  }
+  const uniqueViews = new Set(Array.isArray(viewedSlugs) ? viewedSlugs : []);
+  uniqueViews.add(guide.hero.slug);
+  writeSession(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
+  capture("guide_view", {
+    ...guideEventProperties(guide),
+    session_unique_guides_viewed: uniqueViews.size,
+  });
+}
+
+function heroCard(guide) {
+  const winRate = guide.winRate == null ? "—" : `${Number(guide.winRate).toFixed(1)}%`;
+  return `
+    <button class="hero-card" type="button" data-slug="${escapeHtml(guide.slug)}">
+      <span class="portrait-wrap">
+        <img src="${escapeHtml(guide.icon)}" alt="" width="96" height="96" loading="lazy" decoding="async" />
+        <span class="rank-mark">#${escapeHtml(guide.rank ?? "—")}</span>
+      </span>
+      <span class="hero-copy">
+        <strong class="hero-name">${escapeHtml(guide.name)}</strong>
+        <span class="hero-title">${escapeHtml(guide.title)}</span>
+        <span class="build-label">${escapeHtml(guide.buildName)}</span>
+      </span>
+      <span class="win-rate"><strong>${winRate}</strong><small>胜率</small></span>
+    </button>`;
+}
+
+function renderHeroGrid(guides) {
+  const grid = document.querySelector(".guide-list");
+  const count = document.querySelector("[data-result-count]");
+  if (count) count.textContent = `${guides.length} 位英雄`;
+  if (grid) {
+    grid.innerHTML = guides.length
+      ? guides.map(heroCard).join("")
+      : '<div class="empty-state"><span>未命中</span><p>换个英雄名、外号或称号试试</p></div>';
+  }
+  bindHeroCards();
+}
+
+function renderHome() {
+  const { site, guides } = state.index;
+  const visible = guides.filter((guide) => matchesGuide(guide, state.query));
+  document.title = site.title;
+  app.innerHTML = `
+    <section class="home-shell">
+      <header class="site-header">
+        <div class="brand-lockup">
+          <span class="brand-index">H / ARAM</span>
+          <div>
+            <h1>海斗一图流</h1>
+            <p>抖音搜「芝士不是知识」</p>
+          </div>
+        </div>
+        <div class="version-chip"><strong>V${escapeHtml(site.version)}</strong><span>${escapeHtml(site.dataDate)}</span></div>
+      </header>
+      <div class="search-dock">
+        <label class="search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="heroSearch" type="search" autocomplete="off" placeholder="搜索英雄 / 外号 / 称号"
+            aria-label="搜索英雄、外号或称号" value="${escapeHtml(state.query)}" />
+          <button class="search-clear" type="button" aria-label="清空搜索">×</button>
+        </label>
+      </div>
+      <div class="list-meta"><span data-result-count>${visible.length} 位英雄</span><span>按胜率排序</span></div>
+      <section class="guide-list" aria-label="英雄攻略列表"></section>
+    </section>`;
+
+  renderHeroGrid(visible);
+  const input = document.querySelector("#heroSearch");
+  input.addEventListener("input", (event) => {
+    state.query = event.target.value;
+    writeSession("hero-guide-query", state.query);
+    const filtered = guides.filter((guide) => matchesGuide(guide, state.query));
+    renderHeroGrid(filtered);
+    clearTimeout(searchCaptureTimer);
+    if (state.query.trim()) {
+      searchCaptureTimer = setTimeout(() => capture("hero_search", {
+        query: state.query.trim(),
+        query_length: state.query.trim().length,
+        result_count: filtered.length,
+        has_results: filtered.length > 0,
+      }), SEARCH_CAPTURE_DELAY_MS);
+    }
+  });
+  document.querySelector(".search-clear").addEventListener("click", () => {
+    state.query = "";
+    removeSession("hero-guide-query");
+    input.value = "";
+    renderHeroGrid(guides);
+    input.focus();
+  });
+  requestAnimationFrame(() => window.scrollTo(0, Number(readSession("hero-guide-scroll") || 0)));
+  capture("home_view", { query: state.query, result_count: visible.length, guide_count: guides.length });
+}
+
+function prefetchGuide(slug) {
+  if (prefetchedSlugs.has(slug) || state.guideCache.has(slug)) return;
+  prefetchedSlugs.add(slug);
+  const link = document.createElement("link");
+  link.rel = "prefetch";
+  link.as = "fetch";
+  link.crossOrigin = "anonymous";
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=14`;
+  document.head.appendChild(link);
+}
+
+function bindHeroCards() {
+  const bySlug = new Map(state.index.guides.map((guide) => [guide.slug, guide]));
+  document.querySelectorAll(".hero-card").forEach((card) => {
+    card.addEventListener("pointerenter", () => prefetchGuide(card.dataset.slug), { once: true });
+    card.addEventListener("focusin", () => prefetchGuide(card.dataset.slug), { once: true });
+    card.addEventListener("touchstart", () => prefetchGuide(card.dataset.slug), { once: true, passive: true });
+    card.addEventListener("click", () => {
+      const guide = bySlug.get(card.dataset.slug);
+      capture("hero_card_click", { ...guideEventProperties(guide), query: state.query });
+      writeSession("hero-guide-scroll", String(window.scrollY));
+      location.hash = `#/champion/${card.dataset.slug}`;
+    });
+  });
+}
+
+function ModuleShell(title, eyebrow, content, className = "") {
+  return `
+    <section class="guide-module ${className}">
+      <header class="module-heading"><span>${escapeHtml(eyebrow)}</span><h2>${escapeHtml(title)}</h2></header>
+      ${content}
+    </section>`;
+}
+
+function HeroHeader(guide) {
+  const { hero, ranking, build } = guide;
+  return `
+    <section class="hero-overview">
+      <img class="overview-portrait" src="${escapeHtml(hero.icon)}" alt="${escapeHtml(hero.name)}" width="128" height="128" decoding="async" />
+      <div class="overview-copy">
+        <span class="overview-kicker">#${escapeHtml(ranking.rank)} · ${escapeHtml(ranking.tier)}级</span>
+        <h1>${escapeHtml(hero.name)}</h1>
+        <p>${escapeHtml(hero.title)}</p>
+        <strong>${escapeHtml(build.name)}</strong>
+      </div>
+      <div class="overview-score"><strong>${Number(ranking.winRatePercent).toFixed(1)}%</strong><span>当前胜率</span></div>
+    </section>`;
+}
+
+function iconTile(entry, className = "") {
+  return `
+    <li class="icon-tile ${className}">
+      <img src="${escapeHtml(entry.icon)}" alt="" width="64" height="64" loading="lazy" decoding="async" />
+      <span>${escapeHtml(entry.name)}</span>
+    </li>`;
+}
+
+function SpellAndSkillModule(guide) {
+  const abilityByKey = new Map((guide.hero.abilities || []).map((ability) => [ability.key, ability]));
+  const skillKeys = guide.skillOrder.split(">");
+  const spells = guide.summonerSpells.map((spell) => iconTile(spell, "spell-tile")).join("");
+  const skills = skillKeys.map((key, index) => {
+    const ability = abilityByKey.get(key);
+    return `
+      <li class="skill-step">
+        <span>${index + 1}</span>
+        ${ability ? `<img src="${escapeHtml(ability.icon)}" alt="" width="56" height="56" loading="lazy" decoding="async" />` : ""}
+        <strong>${escapeHtml(key)}</strong>
+      </li>`;
+  }).join("");
+  return ModuleShell("召唤师技能与加点", "LOADOUT 01", `
+    <div class="spell-skill-layout">
+      <div><p class="micro-label">召唤师技能</p><ul class="spell-list">${spells}</ul></div>
+      <div><p class="micro-label">技能优先级</p><ol class="skill-order">${skills}</ol></div>
+    </div>`);
+}
+
+function ItemModule(guide) {
+  const starters = guide.items.starter.map((item) => iconTile(item)).join("");
+  const recommended = guide.items.recommended.map((item, index) => `
+    <li class="item-tile ${index < 3 ? "is-core" : ""}">
+      <span class="item-index">${String(index + 1).padStart(2, "0")}</span>
+      <img src="${escapeHtml(item.icon)}" alt="" width="72" height="72" loading="lazy" decoding="async" />
+      <strong>${escapeHtml(item.name)}</strong>
+    </li>`).join("");
+  return ModuleShell("推荐出装", "LOADOUT 02", `
+    <div class="item-section"><p class="micro-label">出门装</p><ul class="starter-list">${starters}</ul></div>
+    <div class="item-section"><p class="micro-label">六件成装 <span>前三件为核心顺序</span></p><ol class="item-grid">${recommended}</ol></div>`);
+}
+
+function AugmentTierModule(title, rarity, entries) {
+  return `
+    <section class="augment-tier augment-${escapeHtml(rarity)}">
+      <header><span>${escapeHtml(title)}</span><small>${entries.length} 个推荐</small></header>
+      <ul>${entries.map((entry) => iconTile(entry)).join("")}</ul>
+    </section>`;
+}
+
+function AugmentCombinationModule(guide) {
+  const augmentMap = new Map();
+  for (const rarity of ["prismatic", "gold", "silver"]) {
+    for (const augment of guide.augments[rarity]) augmentMap.set(Number(augment.id), augment);
+  }
+  const rows = guide.augments.combinations.map((combination) => {
+    const augments = combination.ids.map((id, index) => augmentMap.get(Number(id)) || {
+      id,
+      name: combination.names[index],
+      icon: "",
+    });
+    return `
+      <li class="combo-row">
+        <span class="combo-rank">#${escapeHtml(combination.rank)}</span>
+        <span class="combo-pair">${augments.map((augment) => augment.icon
+          ? `<img src="${escapeHtml(augment.icon)}" alt="${escapeHtml(augment.name)}" width="48" height="48" loading="lazy" decoding="async" />`
+          : "").join("")}</span>
+        <span class="combo-names">${augments.map((augment) => escapeHtml(augment.name)).join(" + ")}</span>
+        <strong>${(Number(combination.winRate) * 100).toFixed(1)}%</strong>
+      </li>`;
+  }).join("");
+  return rows ? `<div class="combo-block"><p class="micro-label">高胜率组合</p><ol>${rows}</ol></div>` : "";
+}
+
+function GameplayModule(guide) {
+  const points = guide.gameplay.summary.map((point, index) => `
+    <li><span>${String(index + 1).padStart(2, "0")}</span><p>${escapeHtml(point)}</p></li>`).join("");
+  return ModuleShell("玩法摘要", "PLAYBOOK", `<ol class="gameplay-list">${points}</ol>`, "gameplay-module");
+}
+
+function FigmaLoadoutIcon(entry, className = "") {
+  return `
+    <li class="figma-loadout-icon ${className}">
+      <img src="${escapeHtml(entry.icon)}" alt="" width="64" height="64" loading="lazy" decoding="async" />
+      <span>${escapeHtml(entry.name)}</span>
+    </li>`;
+}
+
+function FigmaHeroHeader(guide) {
+  const abilityByKey = new Map((guide.hero.abilities || []).map((ability) => [ability.key, ability]));
+  const skillKeys = guide.skillOrder.split(">");
+  return `
+    <section class="figma-hero-header">
+      <a class="figma-home-hotspot" href="#/" aria-label="返回首页"></a>
+      <img class="figma-hero-portrait" src="${escapeHtml(guide.hero.icon)}" alt="${escapeHtml(guide.hero.name)}" width="128" height="128" decoding="async" />
+      <div class="figma-hero-copy">
+        <p>${escapeHtml(guide.hero.name)}</p>
+        <h1>${escapeHtml(guide.hero.title)}</h1>
+      </div>
+      <div class="figma-header-loadout">
+        <div class="figma-header-group">
+          <strong>召唤师技能</strong>
+          <ul>${guide.summonerSpells.map((spell) => FigmaLoadoutIcon(spell, "figma-spell-icon")).join("")}</ul>
+        </div>
+        <div class="figma-header-group figma-skill-group">
+          <strong>技能加点</strong>
+          <ol>${skillKeys.map((key) => {
+            const ability = abilityByKey.get(key);
+            return ability ? `
+              <li>
+                <img src="${escapeHtml(ability.icon)}" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                <span>${escapeHtml(key)}</span>
+              </li>` : "";
+          }).join("")}</ol>
+        </div>
+      </div>
+    </section>`;
+}
+
+function FigmaItemTile(item) {
+  return `
+    <li>
+      <img src="${escapeHtml(item.icon)}" alt="" width="72" height="72" loading="lazy" decoding="async" />
+      <span>${escapeHtml(item.name)}</span>
+    </li>`;
+}
+
+function FigmaAugmentTier(title, rarity, entries) {
+  return `
+    <section class="figma-augment-tier figma-augment-${escapeHtml(rarity)}">
+      <header><strong>${escapeHtml(title)}</strong><span></span></header>
+      <ul>${entries.slice(0, 6).map((entry) => FigmaLoadoutIcon(entry)).join("")}</ul>
+    </section>`;
+}
+
+function FigmaCombinations(guide) {
+  const augmentMap = new Map();
+  for (const rarity of ["prismatic", "gold", "silver"]) {
+    for (const augment of guide.augments[rarity]) augmentMap.set(Number(augment.id), augment);
+  }
+  const combinations = guide.augments.combinations.slice(0, 4).map((combination) => {
+    const augments = combination.ids.map((id, index) => augmentMap.get(Number(id)) || {
+      id,
+      name: combination.names[index],
+      icon: `assets/resources/augments/${id}.webp`,
+    });
+    return `
+      <li>
+        <span class="figma-combo-rank">#${escapeHtml(combination.rank)}</span>
+        <span class="figma-combo-augment">
+          <img src="${escapeHtml(augments[0].icon)}" alt="" width="48" height="48" loading="lazy" decoding="async" />
+          <strong>${escapeHtml(augments[0].name)}</strong>
+        </span>
+        <span class="figma-combo-plus">+</span>
+        <span class="figma-combo-augment">
+          <img src="${escapeHtml(augments[1].icon)}" alt="" width="48" height="48" loading="lazy" decoding="async" />
+          <strong>${escapeHtml(augments[1].name)}</strong>
+        </span>
+      </li>`;
+  }).join("");
+  return `
+    <section class="figma-combinations">
+      <header><h2>海克斯组合</h2><span></span></header>
+      <ol>${combinations}</ol>
+    </section>`;
+}
+
+function selectedBuildGuide(guide, buildKey) {
+  const build = guide.builds.find((row) => row.key === buildKey) || guide.builds[0];
+  return { ...guide, build, items: build.items };
+}
+
+function FigmaBuildTabs(guide, activeBuild) {
+  return `
+    <nav class="figma-build-strip" aria-label="流派选择" data-build-count="${guide.builds.length}">
+      ${guide.builds.map((build) => {
+        const active = build.key === activeBuild.key;
+        const winRate = Number(build.coreProfile?.winRate || 0) * 100;
+        return `
+          <button class="figma-build-tab${active ? " is-active" : ""}" type="button"
+            data-build-key="${escapeHtml(build.key)}" aria-pressed="${active}"
+            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%">
+            <span class="figma-build-name">${escapeHtml(build.name)}</span>
+            <span class="figma-build-stat"><span>胜率</span><strong class="figma-build-winrate">${winRate.toFixed(1)}%</strong></span>
+          </button>`;
+      }).join("")}
+    </nav>`;
+}
+
+function FigmaGuidePage(guide, buildKey = guide.defaultBuildKey) {
+  const selectedGuide = selectedBuildGuide(guide, buildKey);
+  const gameplay = selectedGuide.gameplay.summary.join(" ");
+  return `
+    <article class="figma-poster">
+      <div class="figma-accent-line"></div>
+      <div class="figma-poster-body">
+        ${FigmaHeroHeader(selectedGuide)}
+        ${FigmaBuildTabs(guide, selectedGuide.build)}
+        <p class="figma-gameplay"><strong>玩法：</strong>${escapeHtml(gameplay)}</p>
+        <section class="figma-items">
+          <h2>推荐出装</h2>
+          <p>出门装</p>
+          <ul class="figma-starter-items">${selectedGuide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
+          <p>推荐选择</p>
+          <ol class="figma-recommended-items">${selectedGuide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
+        </section>
+        <section class="figma-augments">
+          <h2>海克斯推荐</h2>
+          ${FigmaAugmentTier("棱彩", "prismatic", selectedGuide.augments.prismatic)}
+          ${FigmaAugmentTier("金色", "gold", selectedGuide.augments.gold)}
+          ${FigmaAugmentTier("银色", "silver", selectedGuide.augments.silver)}
+        </section>
+        ${FigmaCombinations(selectedGuide)}
+      </div>
+    </article>`;
+}
+
+function LegacyPosterFallback(indexGuide, message = "模块数据暂不可用") {
+  if (!indexGuide?.legacyPoster) {
+    return `<section class="error-state"><span>!</span><p>${escapeHtml(message)}</p><a href="#/">返回首页</a></section>`;
+  }
+  return `
+    <section class="fallback-shell">
+      <div class="fallback-notice"><strong>${escapeHtml(message)}</strong><span>暂时显示上一版攻略</span></div>
+      <img src="${escapeHtml(indexGuide.legacyPoster)}" alt="${escapeHtml(indexGuide.name)}旧版攻略" width="648" height="1152" />
+    </section>`;
+}
+
+function renderDetailTopbar(guide) {
+  return `
+    <header class="detail-topbar">
+      <a class="back-button" href="#/" aria-label="返回首页"><span aria-hidden="true">←</span><em>返回首页</em></a>
+      <div class="detail-heading"><strong>${escapeHtml(guide.hero.name)}</strong><span>${escapeHtml(guide.build.name)} · V${escapeHtml(state.index.site.version)}</span></div>
+      <span class="topbar-spacer" aria-hidden="true"></span>
+    </header>`;
+}
+
+async function renderDetail(slug) {
+  const indexGuide = state.index.guides.find((guide) => guide.slug === slug);
+  if (!indexGuide) {
+    location.hash = "#/";
+    return;
+  }
+  app.innerHTML = `<section class="detail-shell"><header class="detail-topbar detail-loading"><a class="back-button" href="#/">←</a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>加载模块数据</span></div><span></span></header><div class="module-skeleton"></div></section>`;
+  try {
+    const guide = await loadGuide(slug);
+    const renderSelectedBuild = (buildKey) => {
+      const selectedGuide = selectedBuildGuide(guide, buildKey);
+      state.selectedBuilds.set(slug, selectedGuide.build.key);
+      document.title = `${guide.hero.name}｜${selectedGuide.build.name}`;
+      app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide, selectedGuide.build.key)}</section>`;
+      document.querySelectorAll(".figma-build-tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          if (tab.dataset.buildKey === selectedGuide.build.key) return;
+          capture("build_switch", {
+            ...guideEventProperties(guide),
+            from_build_key: selectedGuide.build.key,
+            to_build_key: tab.dataset.buildKey,
+          });
+          renderSelectedBuild(tab.dataset.buildKey);
+        });
+      });
+    };
+    renderSelectedBuild(state.selectedBuilds.get(slug) || guide.defaultBuildKey);
+    recordGuideView(guide);
+  } catch (error) {
+    app.innerHTML = `<section class="detail-shell"><header class="detail-topbar"><a class="back-button" href="#/">← <em>返回首页</em></a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>旧版兜底</span></div><span></span></header>${LegacyPosterFallback(indexGuide)}</section>`;
+  }
+  window.scrollTo(0, 0);
+}
+
+async function renderRoute() {
+  const route = currentRoute();
+  if (previousRoute?.name === "detail" && route.name === "home") {
+    const guide = state.index.guides.find((entry) => entry.slug === previousRoute.slug);
+    capture("return_home", guide ? guideEventProperties(guide) : { hero_slug: previousRoute.slug });
+  }
+  previousRoute = route;
+  if (route.name === "detail") await renderDetail(route.slug);
+  else renderHome();
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch(() => {});
+  });
+}
+
+async function start() {
+  try {
+    state.index = await loadIndex();
+    await renderRoute();
+  } catch (error) {
+    app.innerHTML = '<section class="error-state"><span>!</span><p>攻略加载失败，请稍后刷新</p></section>';
+  }
+}
+
+window.addEventListener("hashchange", renderRoute);
+registerServiceWorker();
+start();
+</script>
+<!-- compat-core-app:end -->
   </body>
 </html>
