@@ -83,6 +83,7 @@ class AllGuidesTests(unittest.TestCase):
         self.assertIn("熊", self.guides["volibear"]["hero"]["aliases"])
         self.assertIn("狗熊", self.guides["volibear"]["hero"]["aliases"])
         self.assertIn("飞机", self.guides["corki"]["hero"]["aliases"])
+        self.assertIn("人马", self.guides["hecarim"]["hero"]["aliases"])
 
     def test_home_index_stays_lightweight(self):
         self.assertLess((ROOT / "data" / "index.json").stat().st_size, 120_000)
