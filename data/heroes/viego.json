@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 234,
+    "slug": "viego",
+    "riotId": "Viego",
+    "name": "佛耶戈",
+    "title": "破败之王",
+    "aliases": [
+      "佛耶戈",
+      "破败之王",
+      "Viego"
+    ],
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "icon": "assets/champions/viego.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Viego-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Viego-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Viego-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 234,
+    "rank": 105,
+    "tier": "B",
+    "sampleCount": 338051,
+    "winRate": 0.480711,
+    "pickRate": 0.041904,
+    "blueWinRate": 0.504592,
+    "redWinRate": 0.457328,
+    "winRatePercent": 48.07,
+    "pickRatePercent": 4.19
+  },
+  "build": {
+    "key": "crit",
+    "name": "暴击流",
+    "sampleCount": 68870,
+    "pickRate": 0.605989,
+    "winRate": 0.505344,
+    "coreProfile": {
+      "sampleCount": 4629,
+      "pickRate": 0.067214,
+      "winRate": 0.519675
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
+      },
+      {
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3036.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 4629,
+        "pickRate": 0.067214,
+        "winRate": 0.519675,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3036.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 18521,
+        "pickRate": 0.147752,
+        "winRate": 0.511171,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 1968,
+        "pickRate": 0.027131,
+        "winRate": 0.525308,
+        "source": "slot5",
+        "icon": "assets/resources/items/2517.webp"
+      },
+      {
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 6985,
+        "pickRate": 0.173299,
+        "winRate": 0.546691,
+        "source": "slot6",
+        "icon": "assets/resources/items/6333.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 6667,
+        "pickRate": 0.020918,
+        "winRate": 0.617519,
+        "blueWinRate": 0.633828,
+        "redWinRate": 0.601544,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1048,
+        "rank": 4,
+        "sampleCount": 8757,
+        "pickRate": 0.027475,
+        "winRate": 0.529062,
+        "blueWinRate": 0.542683,
+        "redWinRate": 0.516136,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "珠光护手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1048.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 8,
+        "sampleCount": 2201,
+        "pickRate": 0.006906,
+        "winRate": 0.528396,
+        "blueWinRate": 0.531797,
+        "redWinRate": 0.52509,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1154,
+        "rank": 11,
+        "sampleCount": 1845,
+        "pickRate": 0.005789,
+        "winRate": 0.520325,
+        "blueWinRate": 0.542644,
+        "redWinRate": 0.497244,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "海牛阿福的勇士",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1154.webp"
+      },
+      {
+        "id": 1402,
+        "rank": 13,
+        "sampleCount": 1875,
+        "pickRate": 0.005883,
+        "winRate": 0.518933,
+        "blueWinRate": 0.53178,
+        "redWinRate": 0.505908,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "属性叠属性叠属性！",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1402.webp"
+      },
+      {
+        "id": 1344,
+        "rank": 12,
+        "sampleCount": 64635,
+        "pickRate": 0.202793,
+        "winRate": 0.507743,
+        "blueWinRate": 0.527095,
+        "redWinRate": 0.488749,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "最终形态",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1344.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1029,
+        "rank": 2,
+        "sampleCount": 7094,
+        "pickRate": 0.022258,
+        "winRate": 0.583733,
+        "blueWinRate": 0.604885,
+        "redWinRate": 0.563365,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "虚幻武器",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1029.webp"
+      },
+      {
+        "id": 2010,
+        "rank": 3,
+        "sampleCount": 11267,
+        "pickRate": 0.03535,
+        "winRate": 0.539451,
+        "blueWinRate": 0.566099,
+        "redWinRate": 0.513838,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "双发快射",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2010.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 5,
+        "sampleCount": 5006,
+        "pickRate": 0.015706,
+        "winRate": 0.530763,
+        "blueWinRate": 0.559811,
+        "redWinRate": 0.501011,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1336,
+        "rank": 6,
+        "sampleCount": 62498,
+        "pickRate": 0.196088,
+        "winRate": 0.522625,
+        "blueWinRate": 0.548793,
+        "redWinRate": 0.497025,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：无尽之刃",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1336.webp"
+      },
+      {
+        "id": 2083,
+        "rank": 7,
+        "sampleCount": 68676,
+        "pickRate": 0.215472,
+        "winRate": 0.51973,
+        "blueWinRate": 0.545964,
+        "redWinRate": 0.493656,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "牙仙子",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2083.webp"
+      },
+      {
+        "id": 1403,
+        "rank": 10,
+        "sampleCount": 7285,
+        "pickRate": 0.022857,
+        "winRate": 0.514482,
+        "blueWinRate": 0.538649,
+        "redWinRate": 0.489717,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "属性叠属性！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1403.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1315,
+        "rank": 9,
+        "sampleCount": 1429,
+        "pickRate": 0.004484,
+        "winRate": 0.528341,
+        "blueWinRate": 0.558621,
+        "redWinRate": 0.497159,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "快中求稳",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1315.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 14,
+        "sampleCount": 6062,
+        "pickRate": 0.01902,
+        "winRate": 0.511877,
+        "blueWinRate": 0.534931,
+        "redWinRate": 0.489835,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1080,
+        "rank": 16,
+        "sampleCount": 5390,
+        "pickRate": 0.016911,
+        "winRate": 0.50538,
+        "blueWinRate": 0.517228,
+        "redWinRate": 0.493998,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "会心防御",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1080.webp"
+      },
+      {
+        "id": 1073,
+        "rank": 20,
+        "sampleCount": 25323,
+        "pickRate": 0.079451,
+        "winRate": 0.499822,
+        "blueWinRate": 0.519039,
+        "redWinRate": 0.481243,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "暗影疾奔",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1073.webp"
+      },
+      {
+        "id": 1007,
+        "rank": 18,
+        "sampleCount": 47870,
+        "pickRate": 0.150193,
+        "winRate": 0.498976,
+        "blueWinRate": 0.521616,
+        "redWinRate": 0.476803,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大力",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1007.webp"
+      },
+      {
+        "id": 1206,
+        "rank": 27,
+        "sampleCount": 18464,
+        "pickRate": 0.057931,
+        "winRate": 0.49193,
+        "blueWinRate": 0.510737,
+        "redWinRate": 0.473729,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "魔法转物理",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1206.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1029,
+          2095
+        ],
+        "sampleCount": 121,
+        "pickRate": 0.00038,
+        "winRate": 0.793388,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1029,
+          2095
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          2010,
+          2095
+        ],
+        "sampleCount": 178,
+        "pickRate": 0.000558,
+        "winRate": 0.713483,
+        "selectionMinSamples": 100,
+        "names": [
+          "双发快射",
+          "掷骰狂人"
+        ],
+        "ids": [
+          2010,
+          2095
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1029,
+          2010
+        ],
+        "sampleCount": 296,
+        "pickRate": 0.000929,
+        "winRate": 0.712838,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "双发快射"
+        ],
+        "ids": [
+          1029,
+          2010
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1238,
+          2095
+        ],
+        "sampleCount": 253,
+        "pickRate": 0.000794,
+        "winRate": 0.711462,
+        "selectionMinSamples": 100,
+        "names": [
+          "质变：棱彩阶",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1238,
+          2095
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/234",
+    "summary": [
+      "先用Q和普攻消耗前排，等待残血目标出现后再用W或雪球进场收割。",
+      "击杀后优先附身规避集火并刷新技能，根据新英雄状态决定继续追击或撤退。",
+      "R既能斩杀也能退出附身；没有明确刷新目标时不要第一个进入敌阵。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/234",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/viego-crit-648x1152.webp"
+  }
+}

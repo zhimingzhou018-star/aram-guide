@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 202,
+    "slug": "jhin",
+    "riotId": "Jhin",
+    "name": "烬",
+    "title": "戏命师",
+    "aliases": [
+      "烬",
+      "戏命师",
+      "Jhin"
+    ],
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "icon": "assets/champions/jhin.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Jhin-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Jhin-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Jhin-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 202,
+    "rank": 75,
+    "tier": "B",
+    "sampleCount": 913016,
+    "winRate": 0.494676,
+    "pickRate": 0.113176,
+    "blueWinRate": 0.51853,
+    "redWinRate": 0.470819,
+    "winRatePercent": 49.47,
+    "pickRatePercent": 11.32
+  },
+  "build": {
+    "key": "lethality",
+    "name": "穿甲流",
+    "sampleCount": 1647,
+    "pickRate": 0.014745,
+    "winRate": 0.517645,
+    "coreProfile": {
+      "sampleCount": 1305,
+      "pickRate": 0.79235,
+      "winRate": 0.519982
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
+      },
+      {
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6696.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1305,
+        "pickRate": 0.79235,
+        "winRate": 0.519982,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6696.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 14603,
+        "pickRate": 0.117469,
+        "winRate": 0.509332,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3814,
+        "name": "夜之锋刃",
+        "sampleCount": 1811,
+        "pickRate": 0.022235,
+        "winRate": 0.510499,
+        "source": "slot5",
+        "icon": "assets/resources/items/3814.webp"
+      },
+      {
+        "id": 3142,
+        "name": "幽梦之灵",
+        "sampleCount": 2343,
+        "pickRate": 0.046775,
+        "winRate": 0.503031,
+        "source": "slot6",
+        "icon": "assets/resources/items/3142.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 22563,
+        "pickRate": 0.025794,
+        "winRate": 0.552497,
+        "blueWinRate": 0.56998,
+        "redWinRate": 0.53452,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1154,
+        "rank": 2,
+        "sampleCount": 6175,
+        "pickRate": 0.007059,
+        "winRate": 0.525506,
+        "blueWinRate": 0.560117,
+        "redWinRate": 0.491307,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "海牛阿福的勇士",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1154.webp"
+      },
+      {
+        "id": 1134,
+        "rank": 3,
+        "sampleCount": 71943,
+        "pickRate": 0.082246,
+        "winRate": 0.518119,
+        "blueWinRate": 0.537887,
+        "redWinRate": 0.498748,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "亮出你的剑",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1134.webp"
+      },
+      {
+        "id": 1389,
+        "rank": 11,
+        "sampleCount": 2186,
+        "pickRate": 0.002499,
+        "winRate": 0.517841,
+        "blueWinRate": 0.537168,
+        "redWinRate": 0.497159,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "男爵之手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1389.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 5,
+        "sampleCount": 42365,
+        "pickRate": 0.048432,
+        "winRate": 0.515378,
+        "blueWinRate": 0.536965,
+        "redWinRate": 0.494012,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 1062,
+        "rank": 7,
+        "sampleCount": 6650,
+        "pickRate": 0.007602,
+        "winRate": 0.515038,
+        "blueWinRate": 0.536292,
+        "redWinRate": 0.492763,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全能龙魂",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1062.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1061,
+        "rank": 17,
+        "sampleCount": 2293,
+        "pickRate": 0.002621,
+        "winRate": 0.514174,
+        "blueWinRate": 0.539964,
+        "redWinRate": 0.489289,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回力OK镖",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1061.webp"
+      },
+      {
+        "id": 1401,
+        "rank": 12,
+        "sampleCount": 4180,
+        "pickRate": 0.004779,
+        "winRate": 0.513636,
+        "blueWinRate": 0.541646,
+        "redWinRate": 0.486601,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "生机迸发",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1401.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 9,
+        "sampleCount": 8054,
+        "pickRate": 0.009207,
+        "winRate": 0.513285,
+        "blueWinRate": 0.543095,
+        "redWinRate": 0.48262,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1336,
+        "rank": 6,
+        "sampleCount": 295607,
+        "pickRate": 0.337941,
+        "winRate": 0.509626,
+        "blueWinRate": 0.533791,
+        "redWinRate": 0.485624,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：无尽之刃",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1336.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 21,
+        "sampleCount": 3778,
+        "pickRate": 0.004319,
+        "winRate": 0.507676,
+        "blueWinRate": 0.527234,
+        "redWinRate": 0.488076,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      },
+      {
+        "id": 1020,
+        "rank": 40,
+        "sampleCount": 1608,
+        "pickRate": 0.001838,
+        "winRate": 0.504353,
+        "blueWinRate": 0.53222,
+        "redWinRate": 0.474026,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "黎明使者的坚决",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1020.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1333,
+        "rank": 4,
+        "sampleCount": 9459,
+        "pickRate": 0.010814,
+        "winRate": 0.521302,
+        "blueWinRate": 0.547619,
+        "redWinRate": 0.49662,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 8,
+        "sampleCount": 11799,
+        "pickRate": 0.013489,
+        "winRate": 0.512332,
+        "blueWinRate": 0.530012,
+        "redWinRate": 0.494156,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1138,
+        "rank": 18,
+        "sampleCount": 8737,
+        "pickRate": 0.009988,
+        "winRate": 0.507153,
+        "blueWinRate": 0.525726,
+        "redWinRate": 0.488543,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "渴血",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1138.webp"
+      },
+      {
+        "id": 1034,
+        "rank": 27,
+        "sampleCount": 4748,
+        "pickRate": 0.005428,
+        "winRate": 0.503159,
+        "blueWinRate": 0.53009,
+        "redWinRate": 0.476923,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "防护面纱",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1034.webp"
+      },
+      {
+        "id": 1026,
+        "rank": 26,
+        "sampleCount": 7382,
+        "pickRate": 0.008439,
+        "winRate": 0.502167,
+        "blueWinRate": 0.527414,
+        "redWinRate": 0.478226,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "唯快不破",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1026.webp"
+      },
+      {
+        "id": 2026,
+        "rank": 35,
+        "sampleCount": 3303,
+        "pickRate": 0.003776,
+        "winRate": 0.501362,
+        "blueWinRate": 0.51815,
+        "redWinRate": 0.483386,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "杀意翻涌",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2026.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 2,
+        "augmentIds": [
+          1134,
+          1389
+        ],
+        "sampleCount": 134,
+        "pickRate": 0.000153,
+        "winRate": 0.649254,
+        "selectionMinSamples": 100,
+        "names": [
+          "亮出你的剑",
+          "男爵之手"
+        ],
+        "ids": [
+          1134,
+          1389
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1004,
+          1353
+        ],
+        "sampleCount": 108,
+        "pickRate": 0.000123,
+        "winRate": 0.648148,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "坦克引擎"
+        ],
+        "ids": [
+          1004,
+          1353
+        ]
+      },
+      {
+        "rank": 6,
+        "augmentIds": [
+          1061,
+          1220
+        ],
+        "sampleCount": 187,
+        "pickRate": 0.000214,
+        "winRate": 0.631016,
+        "selectionMinSamples": 100,
+        "names": [
+          "回力OK镖",
+          "连拨击锤"
+        ],
+        "ids": [
+          1061,
+          1220
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1004,
+          2095
+        ],
+        "sampleCount": 780,
+        "pickRate": 0.000892,
+        "winRate": 0.601282,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1004,
+          2095
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/202",
+    "summary": [
+      "利用Q弹射和远程技能消耗，第四发子弹留给低血量目标或换血窗口。",
+      "队友造成伤害后用W远程定身，E布在草丛和窄口限制敌方突进路线。",
+      "R用于安全位置收割和逼迫走位；装填空窗及时后撤，不要停在前排。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/202",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/jhin-lethality-648x1152.webp"
+  }
+}

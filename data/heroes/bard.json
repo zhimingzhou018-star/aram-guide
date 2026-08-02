@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 432,
+    "slug": "bard",
+    "riotId": "Bard",
+    "name": "巴德",
+    "title": "星界游神",
+    "aliases": [
+      "巴德",
+      "星界游神",
+      "Bard"
+    ],
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "icon": "assets/champions/bard.webp",
+    "abilities": [
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Bard-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Bard-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Bard-E.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 432,
+    "rank": 171,
+    "tier": "D",
+    "sampleCount": 62650,
+    "winRate": 0.397558,
+    "pickRate": 0.007766,
+    "blueWinRate": 0.414168,
+    "redWinRate": 0.380783,
+    "winRatePercent": 39.76,
+    "pickRatePercent": 0.78
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 4269,
+    "pickRate": 0.206023,
+    "winRate": 0.411201,
+    "coreProfile": {
+      "sampleCount": 1798,
+      "pickRate": 0.421176,
+      "winRate": 0.397027
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 7,
+      "name": "治疗术",
+      "icon": "assets/resources/summoner-spells/7.webp"
+    }
+  ],
+  "skillOrder": "W>Q>E",
+  "items": {
+    "starter": [
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6655.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3115,
+        "name": "纳什之牙",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3115.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6655.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3115,
+        "name": "纳什之牙",
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3115.webp"
+      },
+      {
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 2428,
+        "pickRate": 0.10104,
+        "winRate": 0.427551,
+        "source": "boots",
+        "icon": "assets/resources/items/3158.webp"
+      },
+      {
+        "id": 3504,
+        "name": "炽热香炉",
+        "sampleCount": 1781,
+        "pickRate": 0.074116,
+        "winRate": 0.493579,
+        "source": "fallback",
+        "icon": "assets/resources/items/3504.webp"
+      },
+      {
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 1053,
+        "pickRate": 0.04382,
+        "winRate": 0.490057,
+        "source": "fallback",
+        "icon": "assets/resources/items/6616.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1324,
+        "rank": 3,
+        "sampleCount": 1392,
+        "pickRate": 0.02349,
+        "winRate": 0.453305,
+        "blueWinRate": 0.472754,
+        "redWinRate": 0.434783,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "蛋白粉奶昔",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1324.webp"
+      },
+      {
+        "id": 2072,
+        "rank": 2,
+        "sampleCount": 2459,
+        "pickRate": 0.041495,
+        "winRate": 0.450183,
+        "blueWinRate": 0.463964,
+        "redWinRate": 0.433895,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咒语裂变",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2072.webp"
+      },
+      {
+        "id": 2104,
+        "rank": 6,
+        "sampleCount": 2859,
+        "pickRate": 0.048245,
+        "winRate": 0.43022,
+        "blueWinRate": 0.446466,
+        "redWinRate": 0.413986,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "灵魄炸弹",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2104.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 7,
+        "sampleCount": 2997,
+        "pickRate": 0.050574,
+        "winRate": 0.426426,
+        "blueWinRate": 0.457495,
+        "redWinRate": 0.393544,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 1095,
+        "rank": 15,
+        "sampleCount": 1119,
+        "pickRate": 0.018883,
+        "winRate": 0.42538,
+        "blueWinRate": 0.435169,
+        "redWinRate": 0.415468,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "风语者的祝福",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1095.webp"
+      },
+      {
+        "id": 1331,
+        "rank": 17,
+        "sampleCount": 1474,
+        "pickRate": 0.024873,
+        "winRate": 0.421303,
+        "blueWinRate": 0.421053,
+        "redWinRate": 0.421569,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "至高天诺言",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1331.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1005,
+        "rank": 1,
+        "sampleCount": 3579,
+        "pickRate": 0.060395,
+        "winRate": 0.460184,
+        "blueWinRate": 0.476862,
+        "redWinRate": 0.44383,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "喂呜喂呜",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1005.webp"
+      },
+      {
+        "id": 1420,
+        "rank": 4,
+        "sampleCount": 6979,
+        "pickRate": 0.117769,
+        "winRate": 0.4333,
+        "blueWinRate": 0.449234,
+        "redWinRate": 0.417029,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1141,
+        "rank": 10,
+        "sampleCount": 3611,
+        "pickRate": 0.060935,
+        "winRate": 0.422875,
+        "blueWinRate": 0.439684,
+        "redWinRate": 0.406641,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全心为你",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1141.webp"
+      },
+      {
+        "id": 2133,
+        "rank": 8,
+        "sampleCount": 10894,
+        "pickRate": 0.183834,
+        "winRate": 0.420874,
+        "blueWinRate": 0.434004,
+        "redWinRate": 0.407888,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "仁慈打击",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2133.webp"
+      },
+      {
+        "id": 1129,
+        "rank": 21,
+        "sampleCount": 1860,
+        "pickRate": 0.031387,
+        "winRate": 0.414516,
+        "blueWinRate": 0.426869,
+        "redWinRate": 0.402348,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "神射法师",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1129.webp"
+      },
+      {
+        "id": 1238,
+        "rank": 24,
+        "sampleCount": 3407,
+        "pickRate": 0.057492,
+        "winRate": 0.408864,
+        "blueWinRate": 0.418361,
+        "redWinRate": 0.39917,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "质变：棱彩阶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1238.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1037,
+        "rank": 5,
+        "sampleCount": 5567,
+        "pickRate": 0.093942,
+        "winRate": 0.431292,
+        "blueWinRate": 0.443601,
+        "redWinRate": 0.419136,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "急救用具",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1037.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 11,
+        "sampleCount": 1130,
+        "pickRate": 0.019069,
+        "winRate": 0.430973,
+        "blueWinRate": 0.445378,
+        "redWinRate": 0.414953,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1076,
+        "rank": 12,
+        "sampleCount": 3024,
+        "pickRate": 0.051029,
+        "winRate": 0.421296,
+        "blueWinRate": 0.422178,
+        "redWinRate": 0.420432,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "天音爆",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1076.webp"
+      },
+      {
+        "id": 1305,
+        "rank": 18,
+        "sampleCount": 1073,
+        "pickRate": 0.018107,
+        "winRate": 0.420317,
+        "blueWinRate": 0.40856,
+        "redWinRate": 0.431127,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "练腿日",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1305.webp"
+      },
+      {
+        "id": 1136,
+        "rank": 13,
+        "sampleCount": 4178,
+        "pickRate": 0.070503,
+        "winRate": 0.418143,
+        "blueWinRate": 0.423752,
+        "redWinRate": 0.412115,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "扇巴掌",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1136.webp"
+      },
+      {
+        "id": 1022,
+        "rank": 36,
+        "sampleCount": 1815,
+        "pickRate": 0.030628,
+        "winRate": 0.398898,
+        "blueWinRate": 0.408117,
+        "redWinRate": 0.390086,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "灵巧",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1022.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1076,
+          1331
+        ],
+        "sampleCount": 122,
+        "pickRate": 0.002059,
+        "winRate": 0.557377,
+        "selectionMinSamples": 100,
+        "names": [
+          "天音爆",
+          "至高天诺言"
+        ],
+        "ids": [
+          1076,
+          1331
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1036,
+          1420
+        ],
+        "sampleCount": 117,
+        "pickRate": 0.001974,
+        "winRate": 0.555556,
+        "selectionMinSamples": 100,
+        "names": [
+          "火上浇油",
+          "咏叹奏鸣"
+        ],
+        "ids": [
+          1036,
+          1420
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1323,
+          2072
+        ],
+        "sampleCount": 111,
+        "pickRate": 0.001873,
+        "winRate": 0.54955,
+        "selectionMinSamples": 100,
+        "names": [
+          "残忍",
+          "咒语裂变"
+        ],
+        "ids": [
+          1323,
+          2072
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1136,
+          2072
+        ],
+        "sampleCount": 320,
+        "pickRate": 0.0054,
+        "winRate": 0.525,
+        "selectionMinSamples": 100,
+        "names": [
+          "扇巴掌",
+          "咒语裂变"
+        ],
+        "ids": [
+          1136,
+          2072
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/432",
+    "summary": [
+      "Q尽量让目标撞到墙体或第二个单位触发眩晕，随后穿插木灵强化普攻。",
+      "W提前放在后排形成治疗点，法术流用普攻与技能持续触发装备伤害。",
+      "R可保护队友、冻结前排或留人，但要避免把队友正在集火的目标一同金身。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/432",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/bard-ap-648x1152.webp"
+  }
+}

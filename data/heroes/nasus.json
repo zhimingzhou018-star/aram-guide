@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 75,
+    "slug": "nasus",
+    "riotId": "Nasus",
+    "name": "内瑟斯",
+    "title": "沙漠死神",
+    "aliases": [
+      "内瑟斯",
+      "沙漠死神",
+      "Nasus"
+    ],
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "icon": "assets/champions/nasus.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Nasus-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Nasus-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Nasus-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 75,
+    "rank": 87,
+    "tier": "B",
+    "sampleCount": 569911,
+    "winRate": 0.489977,
+    "pickRate": 0.070646,
+    "blueWinRate": 0.506424,
+    "redWinRate": 0.473324,
+    "winRatePercent": 49.0,
+    "pickRatePercent": 7.06
+  },
+  "build": {
+    "key": "bruiser",
+    "name": "战士流",
+    "sampleCount": 20244,
+    "pickRate": 0.108711,
+    "winRate": 0.518122,
+    "coreProfile": {
+      "sampleCount": 2631,
+      "pickRate": 0.129964,
+      "winRate": 0.536725
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
+      },
+      {
+        "id": 3057,
+        "name": "耀光",
+        "icon": "assets/resources/items/3057.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3078,
+        "name": "三相之力",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3078.webp"
+      },
+      {
+        "id": 6610,
+        "name": "焚天",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6610.webp"
+      },
+      {
+        "id": 3110,
+        "name": "冰霜之心",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3110.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3078,
+        "name": "三相之力",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3078.webp"
+      },
+      {
+        "id": 6610,
+        "name": "焚天",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6610.webp"
+      },
+      {
+        "id": 3110,
+        "name": "冰霜之心",
+        "sampleCount": 2631,
+        "pickRate": 0.129964,
+        "winRate": 0.536725,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3110.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 14463,
+        "pickRate": 0.070202,
+        "winRate": 0.5488,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 2103,
+        "pickRate": 0.015773,
+        "winRate": 0.534439,
+        "source": "slot5",
+        "icon": "assets/resources/items/3036.webp"
+      },
+      {
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 1860,
+        "pickRate": 0.02318,
+        "winRate": 0.504579,
+        "source": "slot6",
+        "icon": "assets/resources/items/2517.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1388,
+        "rank": 2,
+        "sampleCount": 44356,
+        "pickRate": 0.081873,
+        "winRate": 0.540626,
+        "blueWinRate": 0.557291,
+        "redWinRate": 0.523911,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 3,
+        "sampleCount": 5603,
+        "pickRate": 0.010342,
+        "winRate": 0.540603,
+        "blueWinRate": 0.551613,
+        "redWinRate": 0.529684,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 2123,
+        "rank": 6,
+        "sampleCount": 8297,
+        "pickRate": 0.015315,
+        "winRate": 0.534048,
+        "blueWinRate": 0.559462,
+        "redWinRate": 0.507514,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超负荷",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2123.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 5,
+        "sampleCount": 10898,
+        "pickRate": 0.020116,
+        "winRate": 0.534043,
+        "blueWinRate": 0.554304,
+        "redWinRate": 0.514041,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 2098,
+        "rank": 11,
+        "sampleCount": 1880,
+        "pickRate": 0.00347,
+        "winRate": 0.522872,
+        "blueWinRate": 0.542977,
+        "redWinRate": 0.50216,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "吃过路兵",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2098.webp"
+      },
+      {
+        "id": 1195,
+        "rank": 18,
+        "sampleCount": 3440,
+        "pickRate": 0.00635,
+        "winRate": 0.512791,
+        "blueWinRate": 0.529278,
+        "redWinRate": 0.495538,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "巨人杀手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1195.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 2111,
+        "rank": 1,
+        "sampleCount": 70965,
+        "pickRate": 0.130988,
+        "winRate": 0.590939,
+        "blueWinRate": 0.610215,
+        "redWinRate": 0.571754,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "邦！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2111.webp"
+      },
+      {
+        "id": 2100,
+        "rank": 4,
+        "sampleCount": 23346,
+        "pickRate": 0.043092,
+        "winRate": 0.53371,
+        "blueWinRate": 0.555479,
+        "redWinRate": 0.512216,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "急速之追求",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2100.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 12,
+        "sampleCount": 11364,
+        "pickRate": 0.020976,
+        "winRate": 0.513992,
+        "blueWinRate": 0.534612,
+        "redWinRate": 0.492983,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1322,
+        "rank": 16,
+        "sampleCount": 5316,
+        "pickRate": 0.009812,
+        "winRate": 0.512227,
+        "blueWinRate": 0.526749,
+        "redWinRate": 0.497541,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "罪恶快感",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1322.webp"
+      },
+      {
+        "id": 1098,
+        "rank": 14,
+        "sampleCount": 29004,
+        "pickRate": 0.053536,
+        "winRate": 0.509068,
+        "blueWinRate": 0.52078,
+        "redWinRate": 0.497266,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "急急小子",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1098.webp"
+      },
+      {
+        "id": 1068,
+        "rank": 21,
+        "sampleCount": 17165,
+        "pickRate": 0.031683,
+        "winRate": 0.503874,
+        "blueWinRate": 0.519862,
+        "redWinRate": 0.4875,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "循环往复",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1068.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1333,
+        "rank": 7,
+        "sampleCount": 9290,
+        "pickRate": 0.017148,
+        "winRate": 0.530248,
+        "blueWinRate": 0.534416,
+        "redWinRate": 0.526019,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1204,
+        "rank": 8,
+        "sampleCount": 11096,
+        "pickRate": 0.020481,
+        "winRate": 0.523612,
+        "blueWinRate": 0.548393,
+        "redWinRate": 0.498079,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "叠角龙",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1204.webp"
+      },
+      {
+        "id": 1028,
+        "rank": 9,
+        "sampleCount": 4819,
+        "pickRate": 0.008895,
+        "winRate": 0.51961,
+        "blueWinRate": 0.52338,
+        "redWinRate": 0.51575,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 13,
+        "sampleCount": 13103,
+        "pickRate": 0.024186,
+        "winRate": 0.513318,
+        "blueWinRate": 0.525145,
+        "redWinRate": 0.501452,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 19,
+        "sampleCount": 3587,
+        "pickRate": 0.006621,
+        "winRate": 0.510733,
+        "blueWinRate": 0.526142,
+        "redWinRate": 0.494915,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1305,
+        "rank": 15,
+        "sampleCount": 12173,
+        "pickRate": 0.022469,
+        "winRate": 0.509488,
+        "blueWinRate": 0.52472,
+        "redWinRate": 0.494349,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "练腿日",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1305.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1204,
+          2111
+        ],
+        "sampleCount": 1367,
+        "pickRate": 0.002523,
+        "winRate": 0.69861,
+        "selectionMinSamples": 100,
+        "names": [
+          "叠角龙",
+          "邦！"
+        ],
+        "ids": [
+          1204,
+          2111
+        ]
+      },
+      {
+        "rank": 10,
+        "augmentIds": [
+          1204,
+          1333
+        ],
+        "sampleCount": 145,
+        "pickRate": 0.000268,
+        "winRate": 0.668966,
+        "selectionMinSamples": 100,
+        "names": [
+          "叠角龙",
+          "逃跑计划"
+        ],
+        "ids": [
+          1204,
+          1333
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1388,
+          2111
+        ],
+        "sampleCount": 2886,
+        "pickRate": 0.005327,
+        "winRate": 0.653846,
+        "selectionMinSamples": 100,
+        "names": [
+          "无限循环往复",
+          "邦！"
+        ],
+        "ids": [
+          1388,
+          2111
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1333,
+          2111
+        ],
+        "sampleCount": 1302,
+        "pickRate": 0.002403,
+        "winRate": 0.642857,
+        "selectionMinSamples": 100,
+        "names": [
+          "逃跑计划",
+          "邦！"
+        ],
+        "ids": [
+          1333,
+          2111
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/75",
+    "summary": [
+      "前期用Q稳定补兵积累层数，团战开启R后围绕能碰到的前排持续作战。",
+      "W优先限制依赖攻速的核心，E铺在人群中削减护甲并帮助队友集火。",
+      "没有雪球或队友控制时不要直线追后排，先靠前排刷新Q和维持续航。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/75",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/nasus-bruiser-648x1152.webp"
+  }
+}

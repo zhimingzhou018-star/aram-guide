@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 517,
+    "slug": "sylas",
+    "riotId": "Sylas",
+    "name": "塞拉斯",
+    "title": "解脱者",
+    "aliases": [
+      "塞拉斯",
+      "解脱者",
+      "Sylas"
+    ],
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "icon": "assets/champions/sylas.webp",
+    "abilities": [
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Sylas-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Sylas-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Sylas-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 517,
+    "rank": 118,
+    "tier": "B",
+    "sampleCount": 652402,
+    "winRate": 0.471369,
+    "pickRate": 0.080871,
+    "blueWinRate": 0.490547,
+    "redWinRate": 0.452225,
+    "winRatePercent": 47.14,
+    "pickRatePercent": 8.09
+  },
+  "build": {
+    "key": "crit",
+    "name": "暴击流",
+    "sampleCount": 1645,
+    "pickRate": 0.008861,
+    "winRate": 0.482493,
+    "coreProfile": {
+      "sampleCount": 1645,
+      "pickRate": 1,
+      "winRate": 0.482493
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "W>E>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1001,
+        "name": "鞋子",
+        "icon": "assets/resources/items/1001.webp"
+      },
+      {
+        "id": 3145,
+        "name": "海克斯科技发电机",
+        "icon": "assets/resources/items/3145.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3146.webp"
+      },
+      {
+        "id": 123430,
+        "name": "毁坏仪式",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/123430.webp"
+      },
+      {
+        "id": 3031,
+        "name": "无尽之刃",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3031.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3146.webp"
+      },
+      {
+        "id": 123430,
+        "name": "毁坏仪式",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/123430.webp"
+      },
+      {
+        "id": 3031,
+        "name": "无尽之刃",
+        "sampleCount": 1645,
+        "pickRate": 1,
+        "winRate": 0.482493,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3031.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 28749,
+        "pickRate": 0.139372,
+        "winRate": 0.504059,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 2250,
+        "pickRate": 0.019058,
+        "winRate": 0.488513,
+        "source": "slot5",
+        "icon": "assets/resources/items/4646.webp"
+      },
+      {
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 1142,
+        "pickRate": 0.018292,
+        "winRate": 0.505992,
+        "source": "slot6",
+        "icon": "assets/resources/items/3083.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2031,
+        "rank": 1,
+        "sampleCount": 2257,
+        "pickRate": 0.003665,
+        "winRate": 0.558263,
+        "blueWinRate": 0.55959,
+        "redWinRate": 0.557058,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 2,
+        "sampleCount": 25081,
+        "pickRate": 0.040728,
+        "winRate": 0.544237,
+        "blueWinRate": 0.560777,
+        "redWinRate": 0.528047,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 3,
+        "sampleCount": 7488,
+        "pickRate": 0.01216,
+        "winRate": 0.536993,
+        "blueWinRate": 0.554315,
+        "redWinRate": 0.520315,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1156,
+        "rank": 4,
+        "sampleCount": 26406,
+        "pickRate": 0.04288,
+        "winRate": 0.530031,
+        "blueWinRate": 0.550034,
+        "redWinRate": 0.510334,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "沃格勒特的巫师帽",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1156.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 13,
+        "sampleCount": 3132,
+        "pickRate": 0.005086,
+        "winRate": 0.5,
+        "blueWinRate": 0.504744,
+        "redWinRate": 0.495164,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1019,
+        "rank": 16,
+        "sampleCount": 86729,
+        "pickRate": 0.140836,
+        "winRate": 0.485512,
+        "blueWinRate": 0.503173,
+        "redWinRate": 0.468134,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全凭身法",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1019.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1129,
+        "rank": 5,
+        "sampleCount": 178305,
+        "pickRate": 0.289544,
+        "winRate": 0.516587,
+        "blueWinRate": 0.536148,
+        "redWinRate": 0.497191,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "神射法师",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1129.webp"
+      },
+      {
+        "id": 1063,
+        "rank": 10,
+        "sampleCount": 54105,
+        "pickRate": 0.087859,
+        "winRate": 0.493633,
+        "blueWinRate": 0.509818,
+        "redWinRate": 0.477398,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "狂徒豪气",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1063.webp"
+      },
+      {
+        "id": 1390,
+        "rank": 11,
+        "sampleCount": 66320,
+        "pickRate": 0.107695,
+        "winRate": 0.492114,
+        "blueWinRate": 0.5126,
+        "redWinRate": 0.471512,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "超凡邪恶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 18,
+        "sampleCount": 4697,
+        "pickRate": 0.007627,
+        "winRate": 0.489461,
+        "blueWinRate": 0.521023,
+        "redWinRate": 0.458996,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1403,
+        "rank": 19,
+        "sampleCount": 7629,
+        "pickRate": 0.012388,
+        "winRate": 0.48722,
+        "blueWinRate": 0.496757,
+        "redWinRate": 0.477477,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "属性叠属性！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1403.webp"
+      },
+      {
+        "id": 1384,
+        "rank": 20,
+        "sampleCount": 10027,
+        "pickRate": 0.016283,
+        "winRate": 0.484891,
+        "blueWinRate": 0.498079,
+        "redWinRate": 0.472058,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "捐赠",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1384.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1333,
+        "rank": 6,
+        "sampleCount": 9146,
+        "pickRate": 0.014852,
+        "winRate": 0.509184,
+        "blueWinRate": 0.513598,
+        "redWinRate": 0.504936,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1315,
+        "rank": 7,
+        "sampleCount": 9383,
+        "pickRate": 0.015237,
+        "winRate": 0.507833,
+        "blueWinRate": 0.527843,
+        "redWinRate": 0.487862,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "快中求稳",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1315.webp"
+      },
+      {
+        "id": 1056,
+        "rank": 14,
+        "sampleCount": 37954,
+        "pickRate": 0.061632,
+        "winRate": 0.491358,
+        "blueWinRate": 0.50817,
+        "redWinRate": 0.474555,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "由心及物",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1056.webp"
+      },
+      {
+        "id": 1073,
+        "rank": 15,
+        "sampleCount": 10191,
+        "pickRate": 0.016549,
+        "winRate": 0.489746,
+        "blueWinRate": 0.499608,
+        "redWinRate": 0.479882,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "暗影疾奔",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1073.webp"
+      },
+      {
+        "id": 1318,
+        "rank": 21,
+        "sampleCount": 36808,
+        "pickRate": 0.059771,
+        "winRate": 0.48139,
+        "blueWinRate": 0.497852,
+        "redWinRate": 0.465358,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：中娅",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1318.webp"
+      },
+      {
+        "id": 1308,
+        "rank": 30,
+        "sampleCount": 3298,
+        "pickRate": 0.005356,
+        "winRate": 0.480291,
+        "blueWinRate": 0.492063,
+        "redWinRate": 0.468675,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "火狐",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1308.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1237,
+          2095
+        ],
+        "sampleCount": 155,
+        "pickRate": 0.000252,
+        "winRate": 0.683871,
+        "selectionMinSamples": 100,
+        "names": [
+          "质变：黄金阶",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1237,
+          2095
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1129,
+          2031
+        ],
+        "sampleCount": 574,
+        "pickRate": 0.000932,
+        "winRate": 0.620209,
+        "selectionMinSamples": 100,
+        "names": [
+          "神射法师",
+          "空投熊"
+        ],
+        "ids": [
+          1129,
+          2031
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1004,
+          1156
+        ],
+        "sampleCount": 658,
+        "pickRate": 0.001069,
+        "winRate": 0.613982,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "沃格勒特的巫师帽"
+        ],
+        "ids": [
+          1004,
+          1156
+        ]
+      },
+      {
+        "rank": 10,
+        "augmentIds": [
+          2031,
+          2083
+        ],
+        "sampleCount": 318,
+        "pickRate": 0.000516,
+        "winRate": 0.610063,
+        "selectionMinSamples": 100,
+        "names": [
+          "空投熊",
+          "牙仙子"
+        ],
+        "ids": [
+          2031,
+          2083
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/517",
+    "summary": [
+      "先用E一段获得护盾并调整角度，二段命中后接普攻、Q和W完成近身爆发。",
+      "W尽量在自身血量较低时命中英雄提高回复，技能之间穿插普攻发挥装备收益。",
+      "根据敌方阵容选择高价值大招；没有可偷的开团技能时等待队友先手再进场。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/517",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/sylas-crit-648x1152.webp"
+  }
+}

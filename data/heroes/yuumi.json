@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 350,
+    "slug": "yuumi",
+    "riotId": "Yuumi",
+    "name": "悠米",
+    "title": "魔法猫咪",
+    "aliases": [
+      "悠米",
+      "魔法猫咪",
+      "Yuumi"
+    ],
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "icon": "assets/champions/yuumi.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Yuumi-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Yuumi-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Yuumi-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 350,
+    "rank": 35,
+    "tier": "A",
+    "sampleCount": 248816,
+    "winRate": 0.52538,
+    "pickRate": 0.030843,
+    "blueWinRate": 0.544852,
+    "redWinRate": 0.506144,
+    "winRatePercent": 52.54,
+    "pickRatePercent": 3.08
+  },
+  "build": {
+    "key": "utility",
+    "name": "辅助流",
+    "sampleCount": 95371,
+    "pickRate": 0.628238,
+    "winRate": 0.535192,
+    "coreProfile": {
+      "sampleCount": 2345,
+      "pickRate": 0.024588,
+      "winRate": 0.56357
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 7,
+      "name": "治疗术",
+      "icon": "assets/resources/summoner-spells/7.webp"
+    },
+    {
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
+      },
+      {
+        "id": 4642,
+        "name": "班德尔玻璃镜",
+        "icon": "assets/resources/items/4642.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 6617,
+        "name": "月石再生器",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6617.webp"
+      },
+      {
+        "id": 3504,
+        "name": "炽热香炉",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3504.webp"
+      },
+      {
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6616.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 6617,
+        "name": "月石再生器",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6617.webp"
+      },
+      {
+        "id": 3504,
+        "name": "炽热香炉",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3504.webp"
+      },
+      {
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 2345,
+        "pickRate": 0.024588,
+        "winRate": 0.56357,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6616.webp"
+      },
+      {
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 8098,
+        "pickRate": 0.050459,
+        "winRate": 0.500966,
+        "source": "boots",
+        "icon": "assets/resources/items/3158.webp"
+      },
+      {
+        "id": 6621,
+        "name": "黎明核心",
+        "sampleCount": 17593,
+        "pickRate": 0.193843,
+        "winRate": 0.535595,
+        "source": "slot5",
+        "icon": "assets/resources/items/6621.webp"
+      },
+      {
+        "id": 6620,
+        "name": "海力亚的回响",
+        "sampleCount": 1115,
+        "pickRate": 0.021693,
+        "winRate": 0.533168,
+        "source": "slot6",
+        "icon": "assets/resources/items/6620.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1095,
+        "rank": 1,
+        "sampleCount": 23361,
+        "pickRate": 0.099136,
+        "winRate": 0.615042,
+        "blueWinRate": 0.631511,
+        "redWinRate": 0.59865,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "风语者的祝福",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1095.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 2,
+        "sampleCount": 13540,
+        "pickRate": 0.057459,
+        "winRate": 0.587075,
+        "blueWinRate": 0.608781,
+        "redWinRate": 0.566262,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 2104,
+        "rank": 3,
+        "sampleCount": 43959,
+        "pickRate": 0.186548,
+        "winRate": 0.565049,
+        "blueWinRate": 0.580182,
+        "redWinRate": 0.550354,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "灵魄炸弹",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2104.webp"
+      },
+      {
+        "id": 1194,
+        "rank": 16,
+        "sampleCount": 17612,
+        "pickRate": 0.07474,
+        "winRate": 0.522485,
+        "blueWinRate": 0.53744,
+        "redWinRate": 0.507502,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "精怪魔法",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1194.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 24,
+        "sampleCount": 1721,
+        "pickRate": 0.007303,
+        "winRate": 0.514817,
+        "blueWinRate": 0.514019,
+        "redWinRate": 0.515607,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 2004,
+        "rank": 20,
+        "sampleCount": 40357,
+        "pickRate": 0.171262,
+        "winRate": 0.514483,
+        "blueWinRate": 0.531486,
+        "redWinRate": 0.49779,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "信念者的强化",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2004.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1373,
+        "rank": 4,
+        "sampleCount": 9087,
+        "pickRate": 0.038562,
+        "winRate": 0.564983,
+        "blueWinRate": 0.582301,
+        "redWinRate": 0.548429,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1420,
+        "rank": 5,
+        "sampleCount": 73481,
+        "pickRate": 0.311829,
+        "winRate": 0.552197,
+        "blueWinRate": 0.573476,
+        "redWinRate": 0.531441,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1068,
+        "rank": 6,
+        "sampleCount": 6398,
+        "pickRate": 0.027151,
+        "winRate": 0.55111,
+        "blueWinRate": 0.5632,
+        "redWinRate": 0.53892,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "循环往复",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1068.webp"
+      },
+      {
+        "id": 1151,
+        "rank": 7,
+        "sampleCount": 6045,
+        "pickRate": 0.025653,
+        "winRate": 0.545244,
+        "blueWinRate": 0.551439,
+        "redWinRate": 0.539047,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "面包和奶酪",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1151.webp"
+      },
+      {
+        "id": 1005,
+        "rank": 9,
+        "sampleCount": 38472,
+        "pickRate": 0.163263,
+        "winRate": 0.536494,
+        "blueWinRate": 0.556047,
+        "redWinRate": 0.517464,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "喂呜喂呜",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1005.webp"
+      },
+      {
+        "id": 2089,
+        "rank": 12,
+        "sampleCount": 4109,
+        "pickRate": 0.017437,
+        "winRate": 0.532003,
+        "blueWinRate": 0.547301,
+        "redWinRate": 0.517225,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "哎哟，我的硬币！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2089.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1076,
+        "rank": 8,
+        "sampleCount": 52036,
+        "pickRate": 0.220824,
+        "winRate": 0.537916,
+        "blueWinRate": 0.555887,
+        "redWinRate": 0.52018,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "天音爆",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1076.webp"
+      },
+      {
+        "id": 1404,
+        "rank": 17,
+        "sampleCount": 1648,
+        "pickRate": 0.006994,
+        "winRate": 0.53216,
+        "blueWinRate": 0.549398,
+        "redWinRate": 0.51467,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "属性！",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1404.webp"
+      },
+      {
+        "id": 2018,
+        "rank": 14,
+        "sampleCount": 16478,
+        "pickRate": 0.069927,
+        "winRate": 0.525428,
+        "blueWinRate": 0.547015,
+        "redWinRate": 0.504266,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "纯粹主义者 - 术师",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2018.webp"
+      },
+      {
+        "id": 1037,
+        "rank": 13,
+        "sampleCount": 72061,
+        "pickRate": 0.305803,
+        "winRate": 0.524098,
+        "blueWinRate": 0.542722,
+        "redWinRate": 0.505852,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "急救用具",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1037.webp"
+      },
+      {
+        "id": 1308,
+        "rank": 21,
+        "sampleCount": 2308,
+        "pickRate": 0.009794,
+        "winRate": 0.519931,
+        "blueWinRate": 0.527802,
+        "redWinRate": 0.51234,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "火狐",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1308.webp"
+      },
+      {
+        "id": 2144,
+        "rank": 22,
+        "sampleCount": 9285,
+        "pickRate": 0.039402,
+        "winRate": 0.508454,
+        "blueWinRate": 0.520251,
+        "redWinRate": 0.496787,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "加固护盾",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2144.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1095,
+          1388
+        ],
+        "sampleCount": 651,
+        "pickRate": 0.002763,
+        "winRate": 0.71275,
+        "selectionMinSamples": 100,
+        "names": [
+          "风语者的祝福",
+          "无限循环往复"
+        ],
+        "ids": [
+          1095,
+          1388
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1095,
+          1373
+        ],
+        "sampleCount": 701,
+        "pickRate": 0.002975,
+        "winRate": 0.653352,
+        "selectionMinSamples": 100,
+        "names": [
+          "风语者的祝福",
+          "缩小引擎"
+        ],
+        "ids": [
+          1095,
+          1373
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1095,
+          1420
+        ],
+        "sampleCount": 6791,
+        "pickRate": 0.028819,
+        "winRate": 0.643646,
+        "selectionMinSamples": 100,
+        "names": [
+          "风语者的祝福",
+          "咏叹奏鸣"
+        ],
+        "ids": [
+          1095,
+          1420
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1095,
+          2104
+        ],
+        "sampleCount": 2575,
+        "pickRate": 0.010927,
+        "winRate": 0.642718,
+        "selectionMinSamples": 100,
+        "names": [
+          "风语者的祝福",
+          "灵魄炸弹"
+        ],
+        "ids": [
+          1095,
+          2104
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/350",
+    "summary": [
+      "优先附身当前最能持续作战的队友，用Q远程消耗并帮助留人。",
+      "E在队友准备换血或承受爆发前使用，让护盾与增益覆盖输出窗口。",
+      "R尽量横穿多人完成治疗与控制，宿主进场过深时及时换到安全队友。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/350",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/yuumi-utility-648x1152.webp"
+  }
+}

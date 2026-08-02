@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 81,
+    "slug": "ezreal",
+    "riotId": "Ezreal",
+    "name": "伊泽瑞尔",
+    "title": "探险家",
+    "aliases": [
+      "伊泽瑞尔",
+      "探险家",
+      "Ezreal"
+    ],
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "icon": "assets/champions/ezreal.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Ezreal-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Ezreal-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Ezreal-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 81,
+    "rank": 108,
+    "tier": "B",
+    "sampleCount": 891106,
+    "winRate": 0.477051,
+    "pickRate": 0.11046,
+    "blueWinRate": 0.498189,
+    "redWinRate": 0.456056,
+    "winRatePercent": 47.71,
+    "pickRatePercent": 11.05
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 4080,
+    "pickRate": 0.04538,
+    "winRate": 0.477363,
+    "coreProfile": {
+      "sampleCount": 1631,
+      "pickRate": 0.399755,
+      "winRate": 0.48869
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 3057,
+        "name": "耀光",
+        "icon": "assets/resources/items/3057.webp"
+      },
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3004.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3003.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3004.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 1631,
+        "pickRate": 0.399755,
+        "winRate": 0.48869,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3003.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 16101,
+        "pickRate": 0.155832,
+        "winRate": 0.503067,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3135,
+        "name": "虚空之杖",
+        "sampleCount": 1575,
+        "pickRate": 0.026215,
+        "winRate": 0.480558,
+        "source": "slot5",
+        "icon": "assets/resources/items/3135.webp"
+      },
+      {
+        "id": 6694,
+        "name": "赛瑞尔达的怨恨",
+        "sampleCount": 2305,
+        "pickRate": 0.067231,
+        "winRate": 0.458629,
+        "source": "slot6",
+        "icon": "assets/resources/items/6694.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1134,
+        "rank": 1,
+        "sampleCount": 128831,
+        "pickRate": 0.152782,
+        "winRate": 0.569141,
+        "blueWinRate": 0.587234,
+        "redWinRate": 0.55166,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "亮出你的剑",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1134.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 4,
+        "sampleCount": 3129,
+        "pickRate": 0.003711,
+        "winRate": 0.513583,
+        "blueWinRate": 0.523872,
+        "redWinRate": 0.50375,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 5,
+        "sampleCount": 11677,
+        "pickRate": 0.013848,
+        "winRate": 0.505181,
+        "blueWinRate": 0.527585,
+        "redWinRate": 0.483342,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 2072,
+        "rank": 7,
+        "sampleCount": 20310,
+        "pickRate": 0.024086,
+        "winRate": 0.496504,
+        "blueWinRate": 0.512459,
+        "redWinRate": 0.477965,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咒语裂变",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2072.webp"
+      },
+      {
+        "id": 1335,
+        "rank": 21,
+        "sampleCount": 2946,
+        "pickRate": 0.003494,
+        "winRate": 0.492872,
+        "blueWinRate": 0.516726,
+        "redWinRate": 0.471123,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "夺金",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1335.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 10,
+        "sampleCount": 48798,
+        "pickRate": 0.05787,
+        "winRate": 0.492766,
+        "blueWinRate": 0.512835,
+        "redWinRate": 0.47291,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1420,
+        "rank": 6,
+        "sampleCount": 1776,
+        "pickRate": 0.002106,
+        "winRate": 0.507883,
+        "blueWinRate": 0.538551,
+        "redWinRate": 0.479348,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1996,
+        "rank": 3,
+        "sampleCount": 107903,
+        "pickRate": 0.127963,
+        "winRate": 0.504722,
+        "blueWinRate": 0.529727,
+        "redWinRate": 0.480067,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：耀光",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1996.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 8,
+        "sampleCount": 40540,
+        "pickRate": 0.048077,
+        "winRate": 0.494746,
+        "blueWinRate": 0.51589,
+        "redWinRate": 0.47445,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 2083,
+        "rank": 18,
+        "sampleCount": 7588,
+        "pickRate": 0.008999,
+        "winRate": 0.490248,
+        "blueWinRate": 0.523256,
+        "redWinRate": 0.458869,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "牙仙子",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2083.webp"
+      },
+      {
+        "id": 2116,
+        "rank": 15,
+        "sampleCount": 42738,
+        "pickRate": 0.050683,
+        "winRate": 0.488418,
+        "blueWinRate": 0.51351,
+        "redWinRate": 0.463532,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "威能之追求",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2116.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 34,
+        "sampleCount": 3916,
+        "pickRate": 0.004644,
+        "winRate": 0.484423,
+        "blueWinRate": 0.498454,
+        "redWinRate": 0.470648,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1056,
+        "rank": 2,
+        "sampleCount": 6239,
+        "pickRate": 0.007399,
+        "winRate": 0.517871,
+        "blueWinRate": 0.549505,
+        "redWinRate": 0.488002,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "由心及物",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1056.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 12,
+        "sampleCount": 6791,
+        "pickRate": 0.008054,
+        "winRate": 0.497129,
+        "blueWinRate": 0.512083,
+        "redWinRate": 0.483248,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 13,
+        "sampleCount": 6136,
+        "pickRate": 0.007277,
+        "winRate": 0.494785,
+        "blueWinRate": 0.518699,
+        "redWinRate": 0.470761,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1138,
+        "rank": 17,
+        "sampleCount": 9821,
+        "pickRate": 0.011647,
+        "winRate": 0.490276,
+        "blueWinRate": 0.512307,
+        "redWinRate": 0.467454,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "渴血",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1138.webp"
+      },
+      {
+        "id": 1007,
+        "rank": 14,
+        "sampleCount": 54290,
+        "pickRate": 0.064383,
+        "winRate": 0.488469,
+        "blueWinRate": 0.505586,
+        "redWinRate": 0.471716,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大力",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1007.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 19,
+        "sampleCount": 15690,
+        "pickRate": 0.018607,
+        "winRate": 0.486934,
+        "blueWinRate": 0.514076,
+        "redWinRate": 0.459508,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 6,
+        "augmentIds": [
+          1134,
+          1335
+        ],
+        "sampleCount": 255,
+        "pickRate": 0.000302,
+        "winRate": 0.639216,
+        "selectionMinSamples": 100,
+        "names": [
+          "亮出你的剑",
+          "夺金"
+        ],
+        "ids": [
+          1134,
+          1335
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1053,
+          1134
+        ],
+        "sampleCount": 393,
+        "pickRate": 0.000466,
+        "winRate": 0.633588,
+        "selectionMinSamples": 100,
+        "names": [
+          "科学狂人",
+          "亮出你的剑"
+        ],
+        "ids": [
+          1053,
+          1134
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1134,
+          2055
+        ],
+        "sampleCount": 1445,
+        "pickRate": 0.001714,
+        "winRate": 0.620761,
+        "selectionMinSamples": 100,
+        "names": [
+          "亮出你的剑",
+          "多重射击"
+        ],
+        "ids": [
+          1134,
+          2055
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1134,
+          2095
+        ],
+        "sampleCount": 1208,
+        "pickRate": 0.001433,
+        "winRate": 0.615894,
+        "selectionMinSamples": 100,
+        "names": [
+          "亮出你的剑",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1134,
+          2095
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/81",
+    "summary": [
+      "保持远距离用Q持续消耗和刷新技能，W命中后用Q或普攻引爆。",
+      "E优先留作躲避关键控制和调整输出角度，没有斩杀机会不要主动跳脸。",
+      "R用于开战前压低多人血线或收割残血，释放前避开会阻挡伤害的兵线。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/81",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/ezreal-ap-648x1152.webp"
+  }
+}

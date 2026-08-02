@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 161,
+    "slug": "velkoz",
+    "riotId": "Velkoz",
+    "name": "维克兹",
+    "title": "虚空之眼",
+    "aliases": [
+      "维克兹",
+      "虚空之眼",
+      "Velkoz"
+    ],
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "icon": "assets/champions/velkoz.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Velkoz-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Velkoz-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Velkoz-E.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 161,
+    "rank": 53,
+    "tier": "B",
+    "sampleCount": 529105,
+    "winRate": 0.508464,
+    "pickRate": 0.065587,
+    "blueWinRate": 0.529663,
+    "redWinRate": 0.486886,
+    "winRatePercent": 50.85,
+    "pickRatePercent": 6.56
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 194880,
+    "pickRate": 0.8878,
+    "winRate": 0.49384,
+    "coreProfile": {
+      "sampleCount": 9674,
+      "pickRate": 0.049641,
+      "winRate": 0.548696
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "Q>W>E",
+  "items": {
+    "starter": [
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 9674,
+        "pickRate": 0.049641,
+        "winRate": 0.548696,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 17213,
+        "pickRate": 0.069711,
+        "winRate": 0.529587,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 14381,
+        "pickRate": 0.094177,
+        "winRate": 0.489357,
+        "source": "slot5",
+        "icon": "assets/resources/items/4645.webp"
+      },
+      {
+        "id": 3102,
+        "name": "女妖面纱",
+        "sampleCount": 2831,
+        "pickRate": 0.032187,
+        "winRate": 0.49924,
+        "source": "slot6",
+        "icon": "assets/resources/items/3102.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2055,
+        "rank": 1,
+        "sampleCount": 26518,
+        "pickRate": 0.05296,
+        "winRate": 0.567916,
+        "blueWinRate": 0.587983,
+        "redWinRate": 0.546372,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "多重射击",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2055.webp"
+      },
+      {
+        "id": 1389,
+        "rank": 4,
+        "sampleCount": 1153,
+        "pickRate": 0.002303,
+        "winRate": 0.555941,
+        "blueWinRate": 0.589701,
+        "redWinRate": 0.519056,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "男爵之手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1389.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 5,
+        "sampleCount": 2468,
+        "pickRate": 0.004929,
+        "winRate": 0.547002,
+        "blueWinRate": 0.564103,
+        "redWinRate": 0.53058,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 2031,
+        "rank": 6,
+        "sampleCount": 1688,
+        "pickRate": 0.003371,
+        "winRate": 0.546801,
+        "blueWinRate": 0.552897,
+        "redWinRate": 0.541387,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 3,
+        "sampleCount": 50757,
+        "pickRate": 0.101368,
+        "winRate": 0.540379,
+        "blueWinRate": 0.561555,
+        "redWinRate": 0.519517,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 8,
+        "sampleCount": 3669,
+        "pickRate": 0.007327,
+        "winRate": 0.536386,
+        "blueWinRate": 0.550701,
+        "redWinRate": 0.521763,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1420,
+        "rank": 7,
+        "sampleCount": 2626,
+        "pickRate": 0.005244,
+        "winRate": 0.543031,
+        "blueWinRate": 0.56184,
+        "redWinRate": 0.523846,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 10,
+        "sampleCount": 3611,
+        "pickRate": 0.007212,
+        "winRate": 0.533093,
+        "blueWinRate": 0.555433,
+        "redWinRate": 0.510567,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      },
+      {
+        "id": 1061,
+        "rank": 13,
+        "sampleCount": 14535,
+        "pickRate": 0.029028,
+        "winRate": 0.525009,
+        "blueWinRate": 0.541791,
+        "redWinRate": 0.507746,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回力OK镖",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1061.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 12,
+        "sampleCount": 21656,
+        "pickRate": 0.04325,
+        "winRate": 0.524058,
+        "blueWinRate": 0.54684,
+        "redWinRate": 0.500423,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1180,
+        "rank": 16,
+        "sampleCount": 29327,
+        "pickRate": 0.05857,
+        "winRate": 0.520817,
+        "blueWinRate": 0.538013,
+        "redWinRate": 0.503398,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超强大脑",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1180.webp"
+      },
+      {
+        "id": 2132,
+        "rank": 17,
+        "sampleCount": 79929,
+        "pickRate": 0.159628,
+        "winRate": 0.518873,
+        "blueWinRate": 0.539935,
+        "redWinRate": 0.497797,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "术士果汁盒",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2132.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1105,
+        "rank": 2,
+        "sampleCount": 11592,
+        "pickRate": 0.023151,
+        "winRate": 0.544686,
+        "blueWinRate": 0.570079,
+        "redWinRate": 0.519064,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 9,
+        "sampleCount": 8672,
+        "pickRate": 0.017319,
+        "winRate": 0.530443,
+        "blueWinRate": 0.54786,
+        "redWinRate": 0.512945,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1034,
+        "rank": 15,
+        "sampleCount": 8110,
+        "pickRate": 0.016197,
+        "winRate": 0.524661,
+        "blueWinRate": 0.540996,
+        "redWinRate": 0.50847,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "防护面纱",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1034.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 21,
+        "sampleCount": 14349,
+        "pickRate": 0.028657,
+        "winRate": 0.517667,
+        "blueWinRate": 0.529478,
+        "redWinRate": 0.50591,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 24,
+        "sampleCount": 11472,
+        "pickRate": 0.022911,
+        "winRate": 0.515952,
+        "blueWinRate": 0.536942,
+        "redWinRate": 0.494338,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 1305,
+        "rank": 31,
+        "sampleCount": 6626,
+        "pickRate": 0.013233,
+        "winRate": 0.512526,
+        "blueWinRate": 0.532941,
+        "redWinRate": 0.491011,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "练腿日",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1305.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 9,
+        "augmentIds": [
+          1353,
+          2055
+        ],
+        "sampleCount": 164,
+        "pickRate": 0.000328,
+        "winRate": 0.628049,
+        "selectionMinSamples": 100,
+        "names": [
+          "坦克引擎",
+          "多重射击"
+        ],
+        "ids": [
+          1353,
+          2055
+        ]
+      },
+      {
+        "rank": 1,
+        "augmentIds": [
+          1113,
+          2055
+        ],
+        "sampleCount": 6655,
+        "pickRate": 0.013291,
+        "winRate": 0.606612,
+        "selectionMinSamples": 100,
+        "names": [
+          "老练狙神",
+          "多重射击"
+        ],
+        "ids": [
+          1113,
+          2055
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1105,
+          2055
+        ],
+        "sampleCount": 819,
+        "pickRate": 0.001636,
+        "winRate": 0.605617,
+        "selectionMinSamples": 100,
+        "names": [
+          "家园卫士",
+          "多重射击"
+        ],
+        "ids": [
+          1105,
+          2055
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1103,
+          2055
+        ],
+        "sampleCount": 1098,
+        "pickRate": 0.002193,
+        "winRate": 0.59745,
+        "selectionMinSamples": 100,
+        "names": [
+          "面包和黄油",
+          "多重射击"
+        ],
+        "ids": [
+          1103,
+          2055
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/161",
+    "summary": [
+      "利用Q的分裂角度绕过兵线消耗，E留给突进敌人或衔接队友控制。",
+      "先用QWE叠出被动层数，再引导R触发真实伤害完成收割。",
+      "保持在前排身后横向移动，敌方位移与控制未交时不要贸然开R。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/161",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/velkoz-ap-648x1152.webp"
+  }
+}

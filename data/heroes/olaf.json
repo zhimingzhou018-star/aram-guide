@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 2,
+    "slug": "olaf",
+    "riotId": "Olaf",
+    "name": "奥拉夫",
+    "title": "狂战士",
+    "aliases": [
+      "奥拉夫",
+      "狂战士",
+      "Olaf"
+    ],
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "icon": "assets/champions/olaf.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Olaf-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Olaf-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Olaf-E.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 2,
+    "rank": 153,
+    "tier": "C",
+    "sampleCount": 109804,
+    "winRate": 0.445576,
+    "pickRate": 0.013611,
+    "blueWinRate": 0.462546,
+    "redWinRate": 0.428168,
+    "winRatePercent": 44.56,
+    "pickRatePercent": 1.36
+  },
+  "build": {
+    "key": "bruiser",
+    "name": "战士流",
+    "sampleCount": 36286,
+    "pickRate": 0.600424,
+    "winRate": 0.465515,
+    "coreProfile": {
+      "sampleCount": 14573,
+      "pickRate": 0.401615,
+      "winRate": 0.478151
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "Q>W>E",
+  "items": {
+    "starter": [
+      {
+        "id": 3077,
+        "name": "提亚马特",
+        "icon": "assets/resources/items/3077.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 6631,
+        "name": "挺进破坏者",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6631.webp"
+      },
+      {
+        "id": 3073,
+        "name": "海克斯注力刚壁",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3073.webp"
+      },
+      {
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6333.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 6631,
+        "name": "挺进破坏者",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6631.webp"
+      },
+      {
+        "id": 3073,
+        "name": "海克斯注力刚壁",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3073.webp"
+      },
+      {
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 14573,
+        "pickRate": 0.401615,
+        "winRate": 0.478151,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 10111,
+        "pickRate": 0.148641,
+        "winRate": 0.485899,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 5395,
+        "pickRate": 0.133758,
+        "winRate": 0.467586,
+        "source": "slot5",
+        "icon": "assets/resources/items/3065.webp"
+      },
+      {
+        "id": 3053,
+        "name": "斯特拉克的挑战护手",
+        "sampleCount": 1829,
+        "pickRate": 0.083284,
+        "winRate": 0.488732,
+        "source": "slot6",
+        "icon": "assets/resources/items/3053.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 1427,
+        "pickRate": 0.013797,
+        "winRate": 0.522074,
+        "blueWinRate": 0.542135,
+        "redWinRate": 0.502098,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1413,
+        "rank": 4,
+        "sampleCount": 2422,
+        "pickRate": 0.023416,
+        "winRate": 0.496697,
+        "blueWinRate": 0.494281,
+        "redWinRate": 0.499165,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "和我一起困在这里",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1413.webp"
+      },
+      {
+        "id": 1344,
+        "rank": 6,
+        "sampleCount": 20440,
+        "pickRate": 0.197618,
+        "winRate": 0.482485,
+        "blueWinRate": 0.495789,
+        "redWinRate": 0.468889,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "最终形态",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1344.webp"
+      },
+      {
+        "id": 1225,
+        "rank": 9,
+        "sampleCount": 3298,
+        "pickRate": 0.031886,
+        "winRate": 0.479078,
+        "blueWinRate": 0.491093,
+        "redWinRate": 0.466543,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "双刀流",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1225.webp"
+      },
+      {
+        "id": 2005,
+        "rank": 13,
+        "sampleCount": 4270,
+        "pickRate": 0.041283,
+        "winRate": 0.466979,
+        "blueWinRate": 0.476056,
+        "redWinRate": 0.457944,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "扳机炼狱",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2005.webp"
+      },
+      {
+        "id": 1079,
+        "rank": 20,
+        "sampleCount": 8367,
+        "pickRate": 0.080894,
+        "winRate": 0.459543,
+        "blueWinRate": 0.477224,
+        "redWinRate": 0.441782,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "战争交响乐",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1079.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 2010,
+        "rank": 14,
+        "sampleCount": 1312,
+        "pickRate": 0.012685,
+        "winRate": 0.473323,
+        "blueWinRate": 0.489521,
+        "redWinRate": 0.456522,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "双发快射",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2010.webp"
+      },
+      {
+        "id": 1336,
+        "rank": 15,
+        "sampleCount": 5220,
+        "pickRate": 0.050468,
+        "winRate": 0.463793,
+        "blueWinRate": 0.487557,
+        "redWinRate": 0.439252,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：无尽之刃",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1336.webp"
+      },
+      {
+        "id": 1238,
+        "rank": 16,
+        "sampleCount": 7884,
+        "pickRate": 0.076224,
+        "winRate": 0.462075,
+        "blueWinRate": 0.479778,
+        "redWinRate": 0.444246,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "质变：棱彩阶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1238.webp"
+      },
+      {
+        "id": 2065,
+        "rank": 21,
+        "sampleCount": 4005,
+        "pickRate": 0.038721,
+        "winRate": 0.461923,
+        "blueWinRate": 0.474414,
+        "redWinRate": 0.448276,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "惊惧",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2065.webp"
+      },
+      {
+        "id": 1047,
+        "rank": 28,
+        "sampleCount": 1820,
+        "pickRate": 0.017596,
+        "winRate": 0.458242,
+        "blueWinRate": 0.486486,
+        "redWinRate": 0.42905,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "关键暴击",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1047.webp"
+      },
+      {
+        "id": 1020,
+        "rank": 24,
+        "sampleCount": 12090,
+        "pickRate": 0.116888,
+        "winRate": 0.45426,
+        "blueWinRate": 0.469034,
+        "redWinRate": 0.438872,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "黎明使者的坚决",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1020.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1333,
+        "rank": 3,
+        "sampleCount": 3217,
+        "pickRate": 0.031103,
+        "winRate": 0.495182,
+        "blueWinRate": 0.509091,
+        "redWinRate": 0.481504,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1206,
+        "rank": 8,
+        "sampleCount": 2627,
+        "pickRate": 0.025398,
+        "winRate": 0.484583,
+        "blueWinRate": 0.501136,
+        "redWinRate": 0.467841,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "魔法转物理",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1206.webp"
+      },
+      {
+        "id": 1080,
+        "rank": 11,
+        "sampleCount": 1012,
+        "pickRate": 0.009784,
+        "winRate": 0.483202,
+        "blueWinRate": 0.493014,
+        "redWinRate": 0.473581,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "会心防御",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1080.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 22,
+        "sampleCount": 1280,
+        "pickRate": 0.012375,
+        "winRate": 0.467969,
+        "blueWinRate": 0.494152,
+        "redWinRate": 0.437919,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 2026,
+        "rank": 27,
+        "sampleCount": 1908,
+        "pickRate": 0.018447,
+        "winRate": 0.459644,
+        "blueWinRate": 0.464948,
+        "redWinRate": 0.454158,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "杀意翻涌",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2026.webp"
+      },
+      {
+        "id": 1007,
+        "rank": 18,
+        "sampleCount": 14215,
+        "pickRate": 0.137433,
+        "winRate": 0.459515,
+        "blueWinRate": 0.474511,
+        "redWinRate": 0.443607,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大力",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1007.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 8,
+        "augmentIds": [
+          1071,
+          1336
+        ],
+        "sampleCount": 193,
+        "pickRate": 0.001866,
+        "winRate": 0.580311,
+        "selectionMinSamples": 100,
+        "names": [
+          "更万用的瞄准镜",
+          "升级：无尽之刃"
+        ],
+        "ids": [
+          1071,
+          1336
+        ]
+      },
+      {
+        "rank": 6,
+        "augmentIds": [
+          1007,
+          2095
+        ],
+        "sampleCount": 223,
+        "pickRate": 0.002156,
+        "winRate": 0.578475,
+        "selectionMinSamples": 100,
+        "names": [
+          "大力",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1007,
+          2095
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1344,
+          1413
+        ],
+        "sampleCount": 356,
+        "pickRate": 0.003442,
+        "winRate": 0.575843,
+        "selectionMinSamples": 100,
+        "names": [
+          "最终形态",
+          "和我一起困在这里"
+        ],
+        "ids": [
+          1344,
+          1413
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1333,
+          1344
+        ],
+        "sampleCount": 668,
+        "pickRate": 0.006458,
+        "winRate": 0.565868,
+        "selectionMinSamples": 100,
+        "names": [
+          "逃跑计划",
+          "最终形态"
+        ],
+        "ids": [
+          1333,
+          1344
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/2",
+    "summary": [
+      "持续捡回Q斧刷新投掷并降低目标护甲，贴身后穿插普攻、E和W保持输出。",
+      "R留到敌方关键控制即将命中时开启，利用免控和移速持续追击高价值目标。",
+      "战士流越低血续航越强，但进场前仍要确认能黏住目标，避免被远程风筝。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/2",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/olaf-bruiser-648x1152.webp"
+  }
+}

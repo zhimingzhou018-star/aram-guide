@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 28,
+    "slug": "evelynn",
+    "riotId": "Evelynn",
+    "name": "伊芙琳",
+    "title": "痛苦之拥",
+    "aliases": [
+      "伊芙琳",
+      "痛苦之拥",
+      "Evelynn"
+    ],
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "icon": "assets/champions/evelynn.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Evelynn-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Evelynn-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Evelynn-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 28,
+    "rank": 143,
+    "tier": "C",
+    "sampleCount": 48936,
+    "winRate": 0.454471,
+    "pickRate": 0.006066,
+    "blueWinRate": 0.474665,
+    "redWinRate": 0.434271,
+    "winRatePercent": 45.45,
+    "pickRatePercent": 0.61
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 15496,
+    "pickRate": 0.782152,
+    "winRate": 0.473531,
+    "coreProfile": {
+      "sampleCount": 1360,
+      "pickRate": 0.087765,
+      "winRate": 0.51707
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 1001,
+        "name": "鞋子",
+        "icon": "assets/resources/items/1001.webp"
+      },
+      {
+        "id": 3145,
+        "name": "海克斯科技发电机",
+        "icon": "assets/resources/items/3145.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4646.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4645.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4646.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4645.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 1360,
+        "pickRate": 0.087765,
+        "winRate": 0.51707,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 1442,
+        "pickRate": 0.065382,
+        "winRate": 0.497426,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3135,
+        "name": "虚空之杖",
+        "sampleCount": 3788,
+        "pickRate": 0.273739,
+        "winRate": 0.492973,
+        "source": "slot5",
+        "icon": "assets/resources/items/3135.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 12969,
+        "pickRate": 0.58803,
+        "winRate": 0.483274,
+        "source": "fallback",
+        "icon": "assets/resources/items/3100.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1156,
+        "rank": 4,
+        "sampleCount": 4304,
+        "pickRate": 0.093144,
+        "winRate": 0.509526,
+        "blueWinRate": 0.528979,
+        "redWinRate": 0.489671,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "沃格勒特的巫师帽",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1156.webp"
+      },
+      {
+        "id": 1030,
+        "rank": 23,
+        "sampleCount": 7445,
+        "pickRate": 0.161119,
+        "winRate": 0.465547,
+        "blueWinRate": 0.490546,
+        "redWinRate": 0.440108,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尤里卡",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1030.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 27,
+        "sampleCount": 3376,
+        "pickRate": 0.073061,
+        "winRate": 0.463863,
+        "blueWinRate": 0.49635,
+        "redWinRate": 0.433025,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 2098,
+        "rank": 35,
+        "sampleCount": 1274,
+        "pickRate": 0.027571,
+        "winRate": 0.459969,
+        "blueWinRate": 0.484603,
+        "redWinRate": 0.436834,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "吃过路兵",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2098.webp"
+      },
+      {
+        "id": 1088,
+        "rank": 49,
+        "sampleCount": 2494,
+        "pickRate": 0.053973,
+        "winRate": 0.444266,
+        "blueWinRate": 0.473504,
+        "redWinRate": 0.418429,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "终极刷新",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1088.webp"
+      },
+      {
+        "id": 1019,
+        "rank": 53,
+        "sampleCount": 5130,
+        "pickRate": 0.11102,
+        "winRate": 0.437232,
+        "blueWinRate": 0.451095,
+        "redWinRate": 0.423465,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全凭身法",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1019.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1390,
+        "rank": 3,
+        "sampleCount": 7940,
+        "pickRate": 0.171832,
+        "winRate": 0.508942,
+        "blueWinRate": 0.524424,
+        "redWinRate": 0.493607,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "超凡邪恶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 1384,
+        "rank": 6,
+        "sampleCount": 1304,
+        "pickRate": 0.02822,
+        "winRate": 0.504601,
+        "blueWinRate": 0.510109,
+        "redWinRate": 0.499244,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "捐赠",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1384.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 13,
+        "sampleCount": 1542,
+        "pickRate": 0.033371,
+        "winRate": 0.485733,
+        "blueWinRate": 0.499374,
+        "redWinRate": 0.471063,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1180,
+        "rank": 12,
+        "sampleCount": 3319,
+        "pickRate": 0.071827,
+        "winRate": 0.485086,
+        "blueWinRate": 0.493999,
+        "redWinRate": 0.476959,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超强大脑",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1180.webp"
+      },
+      {
+        "id": 2132,
+        "rank": 14,
+        "sampleCount": 10848,
+        "pickRate": 0.234765,
+        "winRate": 0.475479,
+        "blueWinRate": 0.497604,
+        "redWinRate": 0.453338,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "术士果汁盒",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2132.webp"
+      },
+      {
+        "id": 1238,
+        "rank": 18,
+        "sampleCount": 3178,
+        "pickRate": 0.068776,
+        "winRate": 0.473883,
+        "blueWinRate": 0.492629,
+        "redWinRate": 0.454194,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "质变：棱彩阶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1238.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1073,
+        "rank": 10,
+        "sampleCount": 7390,
+        "pickRate": 0.159929,
+        "winRate": 0.481867,
+        "blueWinRate": 0.491839,
+        "redWinRate": 0.471998,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "暗影疾奔",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1073.webp"
+      },
+      {
+        "id": 1205,
+        "rank": 22,
+        "sampleCount": 1382,
+        "pickRate": 0.029908,
+        "winRate": 0.477569,
+        "blueWinRate": 0.497093,
+        "redWinRate": 0.458213,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "物理转魔法",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1205.webp"
+      },
+      {
+        "id": 1097,
+        "rank": 15,
+        "sampleCount": 6103,
+        "pickRate": 0.132077,
+        "winRate": 0.473538,
+        "blueWinRate": 0.490747,
+        "redWinRate": 0.455372,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "巫师式思考",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1097.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 28,
+        "sampleCount": 1028,
+        "pickRate": 0.022247,
+        "winRate": 0.47179,
+        "blueWinRate": 0.497175,
+        "redWinRate": 0.444668,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1237,
+        "rank": 36,
+        "sampleCount": 1797,
+        "pickRate": 0.038889,
+        "winRate": 0.455203,
+        "blueWinRate": 0.467186,
+        "redWinRate": 0.443207,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "质变：黄金阶",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1237.webp"
+      },
+      {
+        "id": 1318,
+        "rank": 47,
+        "sampleCount": 3500,
+        "pickRate": 0.075744,
+        "winRate": 0.443143,
+        "blueWinRate": 0.467676,
+        "redWinRate": 0.419518,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：中娅",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1318.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 2,
+        "augmentIds": [
+          1333,
+          1390
+        ],
+        "sampleCount": 129,
+        "pickRate": 0.002792,
+        "winRate": 0.627907,
+        "selectionMinSamples": 100,
+        "names": [
+          "逃跑计划",
+          "超凡邪恶"
+        ],
+        "ids": [
+          1333,
+          1390
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1026,
+          1073
+        ],
+        "sampleCount": 115,
+        "pickRate": 0.002489,
+        "winRate": 0.608696,
+        "selectionMinSamples": 100,
+        "names": [
+          "唯快不破",
+          "暗影疾奔"
+        ],
+        "ids": [
+          1026,
+          1073
+        ]
+      },
+      {
+        "rank": 6,
+        "augmentIds": [
+          1097,
+          2127
+        ],
+        "sampleCount": 109,
+        "pickRate": 0.002359,
+        "winRate": 0.605505,
+        "selectionMinSamples": 100,
+        "names": [
+          "巫师式思考",
+          "大师铸就"
+        ],
+        "ids": [
+          1097,
+          2127
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1238,
+          1390
+        ],
+        "sampleCount": 412,
+        "pickRate": 0.008916,
+        "winRate": 0.563107,
+        "selectionMinSamples": 100,
+        "names": [
+          "质变：棱彩阶",
+          "超凡邪恶"
+        ],
+        "ids": [
+          1238,
+          1390
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/28",
+    "summary": [
+      "利用被动伪装从侧面接近，先用Q标记目标，再接强化E和Q完成法术爆发。",
+      "W可提前施加魅惑逼迫走位，蓄满后由Q或E触发，优先控制无保命技能的脆皮。",
+      "R用于斩杀并后撤，敌方未进入低血线时不要过早交大，以免失去安全退场手段。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/28",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/evelynn-ap-648x1152.webp"
+  }
+}

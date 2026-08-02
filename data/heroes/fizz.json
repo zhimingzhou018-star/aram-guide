@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 105,
+    "slug": "fizz",
+    "riotId": "Fizz",
+    "name": "菲兹",
+    "title": "潮汐海灵",
+    "aliases": [
+      "菲兹",
+      "潮汐海灵",
+      "Fizz"
+    ],
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "icon": "assets/champions/fizz.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Fizz-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Fizz-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Fizz-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 105,
+    "rank": 70,
+    "tier": "B",
+    "sampleCount": 637661,
+    "winRate": 0.498737,
+    "pickRate": 0.079044,
+    "blueWinRate": 0.518322,
+    "redWinRate": 0.479343,
+    "winRatePercent": 49.87,
+    "pickRatePercent": 7.9
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 125027,
+    "pickRate": 0.712884,
+    "winRate": 0.508235,
+    "coreProfile": {
+      "sampleCount": 4768,
+      "pickRate": 0.038136,
+      "winRate": 0.546323
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 2031,
+        "name": "复用型药水",
+        "icon": "assets/resources/items/2031.webp"
+      },
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6655.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6655.webp"
+      },
+      {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 4768,
+        "pickRate": 0.038136,
+        "winRate": 0.546323,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 14391,
+        "pickRate": 0.076051,
+        "winRate": 0.547789,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 7000,
+        "pickRate": 0.058847,
+        "winRate": 0.510777,
+        "source": "slot5",
+        "icon": "assets/resources/items/4646.webp"
+      },
+      {
+        "id": 3102,
+        "name": "女妖面纱",
+        "sampleCount": 1307,
+        "pickRate": 0.018828,
+        "winRate": 0.543597,
+        "source": "slot6",
+        "icon": "assets/resources/items/3102.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2031,
+        "rank": 1,
+        "sampleCount": 2427,
+        "pickRate": 0.004038,
+        "winRate": 0.596209,
+        "blueWinRate": 0.601633,
+        "redWinRate": 0.590682,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1156,
+        "rank": 3,
+        "sampleCount": 26998,
+        "pickRate": 0.044919,
+        "winRate": 0.546781,
+        "blueWinRate": 0.563457,
+        "redWinRate": 0.530551,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "沃格勒特的巫师帽",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1156.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 5,
+        "sampleCount": 8247,
+        "pickRate": 0.013721,
+        "winRate": 0.541652,
+        "blueWinRate": 0.557735,
+        "redWinRate": 0.525912,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1361,
+        "rank": 14,
+        "sampleCount": 1101,
+        "pickRate": 0.001832,
+        "winRate": 0.533152,
+        "blueWinRate": 0.542342,
+        "redWinRate": 0.52381,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "艾卡西亚的陷落",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1361.webp"
+      },
+      {
+        "id": 1045,
+        "rank": 6,
+        "sampleCount": 36709,
+        "pickRate": 0.061075,
+        "winRate": 0.532894,
+        "blueWinRate": 0.550433,
+        "redWinRate": 0.515361,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "炼狱导管",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1045.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 8,
+        "sampleCount": 28028,
+        "pickRate": 0.046632,
+        "winRate": 0.530684,
+        "blueWinRate": 0.544484,
+        "redWinRate": 0.517357,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1038,
+        "rank": 4,
+        "sampleCount": 5960,
+        "pickRate": 0.009916,
+        "winRate": 0.55,
+        "blueWinRate": 0.567714,
+        "redWinRate": 0.532511,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1180,
+        "rank": 7,
+        "sampleCount": 21887,
+        "pickRate": 0.036415,
+        "winRate": 0.531411,
+        "blueWinRate": 0.549638,
+        "redWinRate": 0.512792,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超强大脑",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1180.webp"
+      },
+      {
+        "id": 1390,
+        "rank": 9,
+        "sampleCount": 71659,
+        "pickRate": 0.119224,
+        "winRate": 0.525642,
+        "blueWinRate": 0.545722,
+        "redWinRate": 0.505726,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "超凡邪恶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 2132,
+        "rank": 10,
+        "sampleCount": 114459,
+        "pickRate": 0.190434,
+        "winRate": 0.524013,
+        "blueWinRate": 0.540359,
+        "redWinRate": 0.507783,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "术士果汁盒",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2132.webp"
+      },
+      {
+        "id": 1061,
+        "rank": 25,
+        "sampleCount": 1371,
+        "pickRate": 0.002281,
+        "winRate": 0.522247,
+        "blueWinRate": 0.514727,
+        "redWinRate": 0.530395,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回力OK镖",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1061.webp"
+      },
+      {
+        "id": 2102,
+        "rank": 21,
+        "sampleCount": 2620,
+        "pickRate": 0.004359,
+        "winRate": 0.520611,
+        "blueWinRate": 0.537926,
+        "redWinRate": 0.503765,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "高压锅",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2102.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1315,
+        "rank": 11,
+        "sampleCount": 10808,
+        "pickRate": 0.017982,
+        "winRate": 0.526647,
+        "blueWinRate": 0.54242,
+        "redWinRate": 0.511111,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "快中求稳",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1315.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 17,
+        "sampleCount": 9548,
+        "pickRate": 0.015886,
+        "winRate": 0.517072,
+        "blueWinRate": 0.536502,
+        "redWinRate": 0.498462,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1181,
+        "rank": 23,
+        "sampleCount": 3992,
+        "pickRate": 0.006642,
+        "winRate": 0.517034,
+        "blueWinRate": 0.537474,
+        "redWinRate": 0.497554,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "重量级打击手",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1181.webp"
+      },
+      {
+        "id": 1073,
+        "rank": 15,
+        "sampleCount": 128380,
+        "pickRate": 0.213595,
+        "winRate": 0.514691,
+        "blueWinRate": 0.533854,
+        "redWinRate": 0.495939,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "暗影疾奔",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1073.webp"
+      },
+      {
+        "id": 1308,
+        "rank": 29,
+        "sampleCount": 4147,
+        "pickRate": 0.0069,
+        "winRate": 0.510248,
+        "blueWinRate": 0.528775,
+        "redWinRate": 0.492431,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "火狐",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1308.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 27,
+        "sampleCount": 6435,
+        "pickRate": 0.010706,
+        "winRate": 0.510023,
+        "blueWinRate": 0.515217,
+        "redWinRate": 0.504714,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 2,
+        "augmentIds": [
+          1152,
+          1181
+        ],
+        "sampleCount": 200,
+        "pickRate": 0.000333,
+        "winRate": 0.665,
+        "selectionMinSamples": 100,
+        "names": [
+          "钢化你心",
+          "重量级打击手"
+        ],
+        "ids": [
+          1152,
+          1181
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1045,
+          2095
+        ],
+        "sampleCount": 256,
+        "pickRate": 0.000426,
+        "winRate": 0.65625,
+        "selectionMinSamples": 100,
+        "names": [
+          "炼狱导管",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1045,
+          2095
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1156,
+          1315
+        ],
+        "sampleCount": 386,
+        "pickRate": 0.000642,
+        "winRate": 0.639896,
+        "selectionMinSamples": 100,
+        "names": [
+          "沃格勒特的巫师帽",
+          "快中求稳"
+        ],
+        "ids": [
+          1156,
+          1315
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          2031,
+          2083
+        ],
+        "sampleCount": 456,
+        "pickRate": 0.000759,
+        "winRate": 0.638158,
+        "selectionMinSamples": 100,
+        "names": [
+          "空投熊",
+          "牙仙子"
+        ],
+        "ids": [
+          2031,
+          2083
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/105",
+    "summary": [
+      "先用R或雪球制造接近机会，目标被减速或击飞后再衔接Q和W爆发。",
+      "E优先用来躲关键控制并调整落点，敌方技能未交时不要只为伤害提前释放。",
+      "完成一轮爆发后利用剩余位移或中娅等待冷却，再寻找第二次进场。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/105",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/fizz-ap-648x1152.webp"
+  }
+}

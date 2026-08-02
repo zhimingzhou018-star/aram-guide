@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 145,
+    "slug": "kaisa",
+    "riotId": "Kaisa",
+    "name": "卡莎",
+    "title": "虚空之女",
+    "aliases": [
+      "卡莎",
+      "虚空之女",
+      "Kaisa"
+    ],
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "icon": "assets/champions/kaisa.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Kaisa-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Kaisa-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Kaisa-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 145,
+    "rank": 110,
+    "tier": "B",
+    "sampleCount": 1059790,
+    "winRate": 0.47607,
+    "pickRate": 0.13137,
+    "blueWinRate": 0.49906,
+    "redWinRate": 0.453032,
+    "winRatePercent": 47.61,
+    "pickRatePercent": 13.14
+  },
+  "build": {
+    "key": "on_hit",
+    "name": "攻速特效流",
+    "sampleCount": 50817,
+    "pickRate": 0.325677,
+    "winRate": 0.47208,
+    "coreProfile": {
+      "sampleCount": 1471,
+      "pickRate": 0.028947,
+      "winRate": 0.506223
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
+    }
+  ],
+  "skillOrder": "E>Q>W",
+  "items": {
+    "starter": [
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3087,
+        "name": "斯塔缇克电刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3087.webp"
+      },
+      {
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3153.webp"
+      },
+      {
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3124.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3087,
+        "name": "斯塔缇克电刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3087.webp"
+      },
+      {
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3153.webp"
+      },
+      {
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 1471,
+        "pickRate": 0.028947,
+        "winRate": 0.506223,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3124.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 16989,
+        "pickRate": 0.092587,
+        "winRate": 0.50319,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 2065,
+        "pickRate": 0.019978,
+        "winRate": 0.499355,
+        "source": "slot5",
+        "icon": "assets/resources/items/4646.webp"
+      },
+      {
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 2336,
+        "pickRate": 0.039682,
+        "winRate": 0.493015,
+        "source": "slot6",
+        "icon": "assets/resources/items/2510.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 12455,
+        "pickRate": 0.012357,
+        "winRate": 0.531754,
+        "blueWinRate": 0.557263,
+        "redWinRate": 0.506616,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 3,
+        "sampleCount": 45468,
+        "pickRate": 0.045112,
+        "winRate": 0.526766,
+        "blueWinRate": 0.549453,
+        "redWinRate": 0.503806,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 1154,
+        "rank": 5,
+        "sampleCount": 3014,
+        "pickRate": 0.00299,
+        "winRate": 0.516589,
+        "blueWinRate": 0.522158,
+        "redWinRate": 0.510638,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "海牛阿福的勇士",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1154.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 6,
+        "sampleCount": 3539,
+        "pickRate": 0.003511,
+        "winRate": 0.51427,
+        "blueWinRate": 0.538551,
+        "redWinRate": 0.49118,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 2031,
+        "rank": 27,
+        "sampleCount": 1170,
+        "pickRate": 0.001161,
+        "winRate": 0.498291,
+        "blueWinRate": 0.525735,
+        "redWinRate": 0.474441,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1062,
+        "rank": 23,
+        "sampleCount": 3163,
+        "pickRate": 0.003138,
+        "winRate": 0.49257,
+        "blueWinRate": 0.507519,
+        "redWinRate": 0.477345,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全能龙魂",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1062.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1029,
+        "rank": 4,
+        "sampleCount": 259817,
+        "pickRate": 0.257782,
+        "winRate": 0.522968,
+        "blueWinRate": 0.546875,
+        "redWinRate": 0.49919,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "虚幻武器",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1029.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 8,
+        "sampleCount": 5518,
+        "pickRate": 0.005475,
+        "winRate": 0.50145,
+        "blueWinRate": 0.521818,
+        "redWinRate": 0.480874,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 13,
+        "sampleCount": 2369,
+        "pickRate": 0.00235,
+        "winRate": 0.500211,
+        "blueWinRate": 0.511974,
+        "redWinRate": 0.48791,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      },
+      {
+        "id": 1180,
+        "rank": 14,
+        "sampleCount": 2582,
+        "pickRate": 0.002562,
+        "winRate": 0.498838,
+        "blueWinRate": 0.535963,
+        "redWinRate": 0.461598,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超强大脑",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1180.webp"
+      },
+      {
+        "id": 2132,
+        "rank": 9,
+        "sampleCount": 10045,
+        "pickRate": 0.009966,
+        "winRate": 0.49786,
+        "blueWinRate": 0.517316,
+        "redWinRate": 0.477937,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "术士果汁盒",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2132.webp"
+      },
+      {
+        "id": 1996,
+        "rank": 7,
+        "sampleCount": 47659,
+        "pickRate": 0.047286,
+        "winRate": 0.496213,
+        "blueWinRate": 0.520112,
+        "redWinRate": 0.47229,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：耀光",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1996.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1056,
+        "rank": 12,
+        "sampleCount": 1111,
+        "pickRate": 0.001102,
+        "winRate": 0.508551,
+        "blueWinRate": 0.558182,
+        "redWinRate": 0.459893,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "由心及物",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1056.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 10,
+        "sampleCount": 5269,
+        "pickRate": 0.005228,
+        "winRate": 0.498766,
+        "blueWinRate": 0.514874,
+        "redWinRate": 0.482811,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1416,
+        "rank": 24,
+        "sampleCount": 6062,
+        "pickRate": 0.006015,
+        "winRate": 0.488618,
+        "blueWinRate": 0.515884,
+        "redWinRate": 0.461513,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海克斯科技龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1416.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 36,
+        "sampleCount": 4645,
+        "pickRate": 0.004609,
+        "winRate": 0.484607,
+        "blueWinRate": 0.508211,
+        "redWinRate": 0.461175,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 1034,
+        "rank": 38,
+        "sampleCount": 4378,
+        "pickRate": 0.004344,
+        "winRate": 0.482184,
+        "blueWinRate": 0.501582,
+        "redWinRate": 0.462356,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "防护面纱",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1034.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 37,
+        "sampleCount": 6707,
+        "pickRate": 0.006654,
+        "winRate": 0.482183,
+        "blueWinRate": 0.507449,
+        "redWinRate": 0.45787,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 9,
+        "augmentIds": [
+          1060,
+          1373
+        ],
+        "sampleCount": 101,
+        "pickRate": 0.0001,
+        "winRate": 0.643564,
+        "selectionMinSamples": 100,
+        "names": [
+          "海洋龙魂",
+          "缩小引擎"
+        ],
+        "ids": [
+          1060,
+          1373
+        ]
+      },
+      {
+        "rank": 1,
+        "augmentIds": [
+          1004,
+          1029
+        ],
+        "sampleCount": 13538,
+        "pickRate": 0.013432,
+        "winRate": 0.597208,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "虚幻武器"
+        ],
+        "ids": [
+          1004,
+          1029
+        ]
+      },
+      {
+        "rank": 6,
+        "augmentIds": [
+          1029,
+          1034
+        ],
+        "sampleCount": 972,
+        "pickRate": 0.000964,
+        "winRate": 0.589506,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "防护面纱"
+        ],
+        "ids": [
+          1029,
+          1034
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1029,
+          1053
+        ],
+        "sampleCount": 945,
+        "pickRate": 0.000938,
+        "winRate": 0.587302,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "科学狂人"
+        ],
+        "ids": [
+          1029,
+          1053
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/145",
+    "summary": [
+      "先用远程技能和普攻叠加电浆，攻速特效流优先持续处理能碰到的前排。",
+      "E用于加速拉扯和寻找安全输出角度，敌方控制未交时不要直接冲入人群。",
+      "R只跳向有电浆且队友能跟进的目标，利用护盾躲爆发后继续贴身输出。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/145",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/kaisa-on_hit-648x1152.webp"
+  }
+}

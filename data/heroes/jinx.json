@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 222,
+    "slug": "jinx",
+    "riotId": "Jinx",
+    "name": "金克丝",
+    "title": "暴走萝莉",
+    "aliases": [
+      "金克丝",
+      "暴走萝莉",
+      "Jinx"
+    ],
+    "roles": [
+      "Marksman"
+    ],
+    "icon": "assets/champions/jinx.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Jinx-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Jinx-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Jinx-E.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 222,
+    "rank": 13,
+    "tier": "A",
+    "sampleCount": 896718,
+    "winRate": 0.544217,
+    "pickRate": 0.111156,
+    "blueWinRate": 0.564913,
+    "redWinRate": 0.52337,
+    "winRatePercent": 54.42,
+    "pickRatePercent": 11.12
+  },
+  "build": {
+    "key": "crit",
+    "name": "暴击流",
+    "sampleCount": 87195,
+    "pickRate": 0.800593,
+    "winRate": 0.542337,
+    "coreProfile": {
+      "sampleCount": 1840,
+      "pickRate": 0.021102,
+      "winRate": 0.595632
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
+    }
+  ],
+  "skillOrder": "Q>W>E",
+  "items": {
+    "starter": [
+      {
+        "id": 6670,
+        "name": "正午箭袋",
+        "icon": "assets/resources/items/6670.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 2523,
+        "name": "海克斯镜片 C44",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2523.webp"
+      },
+      {
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3085.webp"
+      },
+      {
+        "id": 3031,
+        "name": "无尽之刃",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3031.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 2523,
+        "name": "海克斯镜片 C44",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2523.webp"
+      },
+      {
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3085.webp"
+      },
+      {
+        "id": 3031,
+        "name": "无尽之刃",
+        "sampleCount": 1840,
+        "pickRate": 0.021102,
+        "winRate": 0.595632,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3031.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 16321,
+        "pickRate": 0.133798,
+        "winRate": 0.582546,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 1601,
+        "pickRate": 0.021133,
+        "winRate": 0.551551,
+        "source": "slot5",
+        "icon": "assets/resources/items/3046.webp"
+      },
+      {
+        "id": 3072,
+        "name": "饮血剑",
+        "sampleCount": 6707,
+        "pickRate": 0.155237,
+        "winRate": 0.542773,
+        "source": "slot6",
+        "icon": "assets/resources/items/3072.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 11826,
+        "pickRate": 0.013825,
+        "winRate": 0.61813,
+        "blueWinRate": 0.628388,
+        "redWinRate": 0.607903,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1081,
+        "rank": 6,
+        "sampleCount": 130341,
+        "pickRate": 0.152375,
+        "winRate": 0.554308,
+        "blueWinRate": 0.570513,
+        "redWinRate": 0.537938,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "踢踏舞",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1081.webp"
+      },
+      {
+        "id": 1154,
+        "rank": 17,
+        "sampleCount": 2576,
+        "pickRate": 0.003011,
+        "winRate": 0.55396,
+        "blueWinRate": 0.568779,
+        "redWinRate": 0.539002,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "海牛阿福的勇士",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1154.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 21,
+        "sampleCount": 2201,
+        "pickRate": 0.002573,
+        "winRate": 0.552022,
+        "blueWinRate": 0.566667,
+        "redWinRate": 0.537122,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1225,
+        "rank": 8,
+        "sampleCount": 231660,
+        "pickRate": 0.270822,
+        "winRate": 0.549728,
+        "blueWinRate": 0.569576,
+        "redWinRate": 0.529689,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "双刀流",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1225.webp"
+      },
+      {
+        "id": 1041,
+        "rank": 29,
+        "sampleCount": 1426,
+        "pickRate": 0.001667,
+        "winRate": 0.546283,
+        "blueWinRate": 0.573239,
+        "redWinRate": 0.519553,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "歌利亚巨人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1041.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1356,
+        "rank": 3,
+        "sampleCount": 382421,
+        "pickRate": 0.447069,
+        "winRate": 0.570191,
+        "blueWinRate": 0.592409,
+        "redWinRate": 0.547906,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "暴击飞弹",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1356.webp"
+      },
+      {
+        "id": 1336,
+        "rank": 4,
+        "sampleCount": 237132,
+        "pickRate": 0.277219,
+        "winRate": 0.561578,
+        "blueWinRate": 0.583513,
+        "redWinRate": 0.539474,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：无尽之刃",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1336.webp"
+      },
+      {
+        "id": 1077,
+        "rank": 5,
+        "sampleCount": 127869,
+        "pickRate": 0.149485,
+        "winRate": 0.555459,
+        "blueWinRate": 0.573821,
+        "redWinRate": 0.537052,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "灵魂虹吸",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1077.webp"
+      },
+      {
+        "id": 1384,
+        "rank": 13,
+        "sampleCount": 10494,
+        "pickRate": 0.012268,
+        "winRate": 0.549647,
+        "blueWinRate": 0.575925,
+        "redWinRate": 0.52342,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "捐赠",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1384.webp"
+      },
+      {
+        "id": 1401,
+        "rank": 20,
+        "sampleCount": 3943,
+        "pickRate": 0.00461,
+        "winRate": 0.549582,
+        "blueWinRate": 0.565332,
+        "redWinRate": 0.534963,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "生机迸发",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1401.webp"
+      },
+      {
+        "id": 1116,
+        "rank": 18,
+        "sampleCount": 5093,
+        "pickRate": 0.005954,
+        "winRate": 0.549185,
+        "blueWinRate": 0.555199,
+        "redWinRate": 0.543428,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "闪现向前",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1116.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1333,
+        "rank": 2,
+        "sampleCount": 9611,
+        "pickRate": 0.011236,
+        "winRate": 0.576943,
+        "blueWinRate": 0.595938,
+        "redWinRate": 0.558559,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1026,
+        "rank": 7,
+        "sampleCount": 6369,
+        "pickRate": 0.007446,
+        "winRate": 0.557073,
+        "blueWinRate": 0.569786,
+        "redWinRate": 0.544781,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "唯快不破",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1026.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 15,
+        "sampleCount": 6563,
+        "pickRate": 0.007672,
+        "winRate": 0.551272,
+        "blueWinRate": 0.57026,
+        "redWinRate": 0.532045,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1007,
+        "rank": 10,
+        "sampleCount": 37954,
+        "pickRate": 0.04437,
+        "winRate": 0.548822,
+        "blueWinRate": 0.567549,
+        "redWinRate": 0.529753,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大力",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1007.webp"
+      },
+      {
+        "id": 1206,
+        "rank": 16,
+        "sampleCount": 14877,
+        "pickRate": 0.017392,
+        "winRate": 0.547489,
+        "blueWinRate": 0.556996,
+        "redWinRate": 0.53807,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "魔法转物理",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1206.webp"
+      },
+      {
+        "id": 1080,
+        "rank": 11,
+        "sampleCount": 51146,
+        "pickRate": 0.059792,
+        "winRate": 0.547276,
+        "blueWinRate": 0.566847,
+        "redWinRate": 0.528046,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "会心防御",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1080.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 2,
+        "augmentIds": [
+          1403,
+          2095
+        ],
+        "sampleCount": 232,
+        "pickRate": 0.000271,
+        "winRate": 0.719828,
+        "selectionMinSamples": 100,
+        "names": [
+          "属性叠属性！",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1403,
+          2095
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1206,
+          2095
+        ],
+        "sampleCount": 574,
+        "pickRate": 0.000671,
+        "winRate": 0.696864,
+        "selectionMinSamples": 100,
+        "names": [
+          "魔法转物理",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1206,
+          2095
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1333,
+          2095
+        ],
+        "sampleCount": 146,
+        "pickRate": 0.000171,
+        "winRate": 0.691781,
+        "selectionMinSamples": 100,
+        "names": [
+          "逃跑计划",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1333,
+          2095
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1007,
+          2095
+        ],
+        "sampleCount": 692,
+        "pickRate": 0.000809,
+        "winRate": 0.671965,
+        "selectionMinSamples": 100,
+        "names": [
+          "大力",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1007,
+          2095
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/222",
+    "summary": [
+      "团战前用火箭形态远程消耗，近距离安全时切机枪叠攻速。",
+      "E放在控制落点或自己脚下防突进，W用于留人和补伤害。",
+      "参与击杀触发被动后再向前追击，未启动时保持后排站位。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/222",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/jinx-crit-648x1152.webp"
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 17,
+    "slug": "teemo",
+    "riotId": "Teemo",
+    "name": "提莫",
+    "title": "迅捷斥候",
+    "aliases": [
+      "提莫",
+      "迅捷斥候",
+      "Teemo"
+    ],
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "icon": "assets/champions/teemo.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Teemo-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Teemo-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Teemo-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 17,
+    "rank": 15,
+    "tier": "A",
+    "sampleCount": 1032518,
+    "winRate": 0.541654,
+    "pickRate": 0.12799,
+    "blueWinRate": 0.560316,
+    "redWinRate": 0.52286,
+    "winRatePercent": 54.17,
+    "pickRatePercent": 12.8
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 240461,
+    "pickRate": 0.865288,
+    "winRate": 0.539842,
+    "coreProfile": {
+      "sampleCount": 17469,
+      "pickRate": 0.072648,
+      "winRate": 0.581863
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "icon": "assets/resources/items/1026.webp"
+      },
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3118.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3118.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 17469,
+        "pickRate": 0.072648,
+        "winRate": 0.581863,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 8572,
+        "pickRate": 0.027887,
+        "winRate": 0.553064,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 1785,
+        "pickRate": 0.009424,
+        "winRate": 0.553544,
+        "source": "slot5",
+        "icon": "assets/resources/items/6655.webp"
+      },
+      {
+        "id": 3102,
+        "name": "女妖面纱",
+        "sampleCount": 1187,
+        "pickRate": 0.010412,
+        "winRate": 0.564149,
+        "source": "slot6",
+        "icon": "assets/resources/items/3102.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1388,
+        "rank": 2,
+        "sampleCount": 109173,
+        "pickRate": 0.111617,
+        "winRate": 0.593343,
+        "blueWinRate": 0.613656,
+        "redWinRate": 0.573118,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 4,
+        "sampleCount": 13737,
+        "pickRate": 0.014045,
+        "winRate": 0.576836,
+        "blueWinRate": 0.590942,
+        "redWinRate": 0.562646,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 2031,
+        "rank": 6,
+        "sampleCount": 2499,
+        "pickRate": 0.002555,
+        "winRate": 0.576631,
+        "blueWinRate": 0.602694,
+        "redWinRate": 0.553013,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1389,
+        "rank": 10,
+        "sampleCount": 1319,
+        "pickRate": 0.001349,
+        "winRate": 0.574678,
+        "blueWinRate": 0.581259,
+        "redWinRate": 0.56761,
+        "stageAgnostic": false,
+        "availableStages": [
+          3,
+          4
+        ],
+        "name": "男爵之手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1389.webp"
+      },
+      {
+        "id": 1030,
+        "rank": 5,
+        "sampleCount": 212941,
+        "pickRate": 0.217708,
+        "winRate": 0.571205,
+        "blueWinRate": 0.587963,
+        "redWinRate": 0.554485,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尤里卡",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1030.webp"
+      },
+      {
+        "id": 2118,
+        "rank": 7,
+        "sampleCount": 20297,
+        "pickRate": 0.020751,
+        "winRate": 0.565256,
+        "blueWinRate": 0.589517,
+        "redWinRate": 0.541258,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大招工具人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2118.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1029,
+        "rank": 1,
+        "sampleCount": 321897,
+        "pickRate": 0.329103,
+        "winRate": 0.600813,
+        "blueWinRate": 0.619917,
+        "redWinRate": 0.581729,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "虚幻武器",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1029.webp"
+      },
+      {
+        "id": 1420,
+        "rank": 8,
+        "sampleCount": 3834,
+        "pickRate": 0.00392,
+        "winRate": 0.570162,
+        "blueWinRate": 0.584388,
+        "redWinRate": 0.556244,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 16,
+        "sampleCount": 7706,
+        "pickRate": 0.007879,
+        "winRate": 0.554633,
+        "blueWinRate": 0.570633,
+        "redWinRate": 0.537806,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      },
+      {
+        "id": 1068,
+        "rank": 12,
+        "sampleCount": 60564,
+        "pickRate": 0.06192,
+        "winRate": 0.551962,
+        "blueWinRate": 0.56647,
+        "redWinRate": 0.537566,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "循环往复",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1068.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 13,
+        "sampleCount": 62193,
+        "pickRate": 0.063585,
+        "winRate": 0.551654,
+        "blueWinRate": 0.56524,
+        "redWinRate": 0.537828,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 2128,
+        "rank": 19,
+        "sampleCount": 53707,
+        "pickRate": 0.054909,
+        "winRate": 0.548737,
+        "blueWinRate": 0.570295,
+        "redWinRate": 0.526975,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "炽燃利息",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2128.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1028,
+        "rank": 3,
+        "sampleCount": 12150,
+        "pickRate": 0.012422,
+        "winRate": 0.579424,
+        "blueWinRate": 0.595986,
+        "redWinRate": 0.56284,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 2018,
+        "rank": 9,
+        "sampleCount": 190311,
+        "pickRate": 0.194572,
+        "winRate": 0.561082,
+        "blueWinRate": 0.578109,
+        "redWinRate": 0.544159,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "纯粹主义者 - 术师",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2018.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 15,
+        "sampleCount": 9690,
+        "pickRate": 0.009907,
+        "winRate": 0.554489,
+        "blueWinRate": 0.562513,
+        "redWinRate": 0.546485,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 11,
+        "sampleCount": 21474,
+        "pickRate": 0.021955,
+        "winRate": 0.553972,
+        "blueWinRate": 0.569791,
+        "redWinRate": 0.537913,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1026,
+        "rank": 21,
+        "sampleCount": 6103,
+        "pickRate": 0.00624,
+        "winRate": 0.550057,
+        "blueWinRate": 0.572517,
+        "redWinRate": 0.528057,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "唯快不破",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1026.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 23,
+        "sampleCount": 10855,
+        "pickRate": 0.011098,
+        "winRate": 0.546845,
+        "blueWinRate": 0.558986,
+        "redWinRate": 0.534639,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1029,
+          1388
+        ],
+        "sampleCount": 30332,
+        "pickRate": 0.031011,
+        "winRate": 0.658545,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "无限循环往复"
+        ],
+        "ids": [
+          1029,
+          1388
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1029,
+          2095
+        ],
+        "sampleCount": 3977,
+        "pickRate": 0.004066,
+        "winRate": 0.648982,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1029,
+          2095
+        ]
+      },
+      {
+        "rank": 5,
+        "augmentIds": [
+          1028,
+          1029
+        ],
+        "sampleCount": 3179,
+        "pickRate": 0.00325,
+        "winRate": 0.648632,
+        "selectionMinSamples": 100,
+        "names": [
+          "侵蚀",
+          "虚幻武器"
+        ],
+        "ids": [
+          1028,
+          1029
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1029,
+          2018
+        ],
+        "sampleCount": 58483,
+        "pickRate": 0.059792,
+        "winRate": 0.645059,
+        "selectionMinSamples": 100,
+        "names": [
+          "虚幻武器",
+          "纯粹主义者 - 术师"
+        ],
+        "ids": [
+          1029,
+          2018
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/17",
+    "summary": [
+      "蘑菇优先铺在兵线两侧、血包与必经窄口，避免集中在同一处。",
+      "Q留给依赖普攻的核心，利用致盲窗口安全补E的持续伤害。",
+      "保持游走和隐身威胁，团战以限制区域和消耗为主，不强行贴脸。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/17",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/teemo-ap-648x1152.webp"
+  }
+}

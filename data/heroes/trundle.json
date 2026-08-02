@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 48,
+    "slug": "trundle",
+    "riotId": "Trundle",
+    "name": "特朗德尔",
+    "title": "巨魔之王",
+    "aliases": [
+      "特朗德尔",
+      "巨魔之王",
+      "Trundle"
+    ],
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "icon": "assets/champions/trundle.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Trundle-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Trundle-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Trundle-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 48,
+    "rank": 107,
+    "tier": "B",
+    "sampleCount": 878763,
+    "winRate": 0.477749,
+    "pickRate": 0.10893,
+    "blueWinRate": 0.498877,
+    "redWinRate": 0.456784,
+    "winRatePercent": 47.77,
+    "pickRatePercent": 10.89
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 142540,
+    "pickRate": 0.358309,
+    "winRate": 0.496494,
+    "coreProfile": {
+      "sampleCount": 1634,
+      "pickRate": 0.011463,
+      "winRate": 0.543672
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1052,
+        "name": "增幅典籍",
+        "icon": "assets/resources/items/1052.webp"
+      },
+      {
+        "id": 4642,
+        "name": "班德尔玻璃镜",
+        "icon": "assets/resources/items/4642.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 4005,
+        "name": "帝国指令",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4005.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 8010,
+        "name": "放血者的诅咒",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/8010.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 4005,
+        "name": "帝国指令",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4005.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 8010,
+        "name": "放血者的诅咒",
+        "sampleCount": 1634,
+        "pickRate": 0.011463,
+        "winRate": 0.543672,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/8010.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 18261,
+        "pickRate": 0.040925,
+        "winRate": 0.52809,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 1464,
+        "pickRate": 0.005627,
+        "winRate": 0.528866,
+        "source": "slot5",
+        "icon": "assets/resources/items/2517.webp"
+      },
+      {
+        "id": 4628,
+        "name": "视界专注",
+        "sampleCount": 4258,
+        "pickRate": 0.028234,
+        "winRate": 0.53816,
+        "source": "slot6",
+        "icon": "assets/resources/items/4628.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 2,
+        "sampleCount": 19624,
+        "pickRate": 0.023526,
+        "winRate": 0.544079,
+        "blueWinRate": 0.560348,
+        "redWinRate": 0.527595,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 5,
+        "sampleCount": 10705,
+        "pickRate": 0.012833,
+        "winRate": 0.517702,
+        "blueWinRate": 0.535028,
+        "redWinRate": 0.500649,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 1389,
+        "rank": 13,
+        "sampleCount": 1749,
+        "pickRate": 0.002097,
+        "winRate": 0.512293,
+        "blueWinRate": 0.518857,
+        "redWinRate": 0.505721,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "男爵之手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1389.webp"
+      },
+      {
+        "id": 1115,
+        "rank": 9,
+        "sampleCount": 6103,
+        "pickRate": 0.007316,
+        "winRate": 0.511716,
+        "blueWinRate": 0.516066,
+        "redWinRate": 0.50737,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "最万用的瞄准镜",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1115.webp"
+      },
+      {
+        "id": 1361,
+        "rank": 8,
+        "sampleCount": 32622,
+        "pickRate": 0.039108,
+        "winRate": 0.509258,
+        "blueWinRate": 0.52608,
+        "redWinRate": 0.492466,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "艾卡西亚的陷落",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1361.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 11,
+        "sampleCount": 10539,
+        "pickRate": 0.012634,
+        "winRate": 0.505551,
+        "blueWinRate": 0.516246,
+        "redWinRate": 0.495007,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 2129,
+        "rank": 1,
+        "sampleCount": 129386,
+        "pickRate": 0.15511,
+        "winRate": 0.611697,
+        "blueWinRate": 0.637652,
+        "redWinRate": 0.585963,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "地形专家",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2129.webp"
+      },
+      {
+        "id": 2111,
+        "rank": 3,
+        "sampleCount": 40973,
+        "pickRate": 0.049119,
+        "winRate": 0.521783,
+        "blueWinRate": 0.539794,
+        "redWinRate": 0.50376,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "邦！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2111.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 4,
+        "sampleCount": 40528,
+        "pickRate": 0.048586,
+        "winRate": 0.517469,
+        "blueWinRate": 0.541853,
+        "redWinRate": 0.493435,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1068,
+        "rank": 14,
+        "sampleCount": 34109,
+        "pickRate": 0.04089,
+        "winRate": 0.498637,
+        "blueWinRate": 0.513848,
+        "redWinRate": 0.483828,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "循环往复",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1068.webp"
+      },
+      {
+        "id": 1151,
+        "rank": 17,
+        "sampleCount": 25625,
+        "pickRate": 0.03072,
+        "winRate": 0.493971,
+        "blueWinRate": 0.510246,
+        "redWinRate": 0.477763,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "面包和奶酪",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1151.webp"
+      },
+      {
+        "id": 1996,
+        "rank": 22,
+        "sampleCount": 51227,
+        "pickRate": 0.061412,
+        "winRate": 0.492045,
+        "blueWinRate": 0.51464,
+        "redWinRate": 0.469569,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：耀光",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1996.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1181,
+        "rank": 6,
+        "sampleCount": 90808,
+        "pickRate": 0.108862,
+        "winRate": 0.51251,
+        "blueWinRate": 0.527658,
+        "redWinRate": 0.497235,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "重量级打击手",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1181.webp"
+      },
+      {
+        "id": 2018,
+        "rank": 7,
+        "sampleCount": 16795,
+        "pickRate": 0.020134,
+        "winRate": 0.512474,
+        "blueWinRate": 0.535486,
+        "redWinRate": 0.489995,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "纯粹主义者 - 术师",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2018.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 10,
+        "sampleCount": 28627,
+        "pickRate": 0.034318,
+        "winRate": 0.505781,
+        "blueWinRate": 0.530346,
+        "redWinRate": 0.481925,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1028,
+        "rank": 12,
+        "sampleCount": 10351,
+        "pickRate": 0.012409,
+        "winRate": 0.504589,
+        "blueWinRate": 0.521514,
+        "redWinRate": 0.487464,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 15,
+        "sampleCount": 14614,
+        "pickRate": 0.017519,
+        "winRate": 0.500342,
+        "blueWinRate": 0.522087,
+        "redWinRate": 0.478969,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1026,
+        "rank": 21,
+        "sampleCount": 7529,
+        "pickRate": 0.009026,
+        "winRate": 0.496879,
+        "blueWinRate": 0.51844,
+        "redWinRate": 0.475266,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "唯快不破",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1026.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1388,
+          2129
+        ],
+        "sampleCount": 1103,
+        "pickRate": 0.001322,
+        "winRate": 0.715322,
+        "selectionMinSamples": 100,
+        "names": [
+          "无限循环往复",
+          "地形专家"
+        ],
+        "ids": [
+          1388,
+          2129
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1030,
+          2129
+        ],
+        "sampleCount": 3380,
+        "pickRate": 0.004052,
+        "winRate": 0.681953,
+        "selectionMinSamples": 100,
+        "names": [
+          "尤里卡",
+          "地形专家"
+        ],
+        "ids": [
+          1030,
+          2129
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          2018,
+          2129
+        ],
+        "sampleCount": 4681,
+        "pickRate": 0.005612,
+        "winRate": 0.680197,
+        "selectionMinSamples": 100,
+        "names": [
+          "纯粹主义者 - 术师",
+          "地形专家"
+        ],
+        "ids": [
+          2018,
+          2129
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1373,
+          2129
+        ],
+        "sampleCount": 6694,
+        "pickRate": 0.008025,
+        "winRate": 0.679713,
+        "selectionMinSamples": 100,
+        "names": [
+          "缩小引擎",
+          "地形专家"
+        ],
+        "ids": [
+          1373,
+          2129
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/48",
+    "summary": [
+      "AP柱子流用E封路、打断位移并触发装备效果，优先卡住狭窄通道。",
+      "R交给高抗性前排削弱双抗，再让队伍集中处理被孤立的目标。",
+      "W用于加速拉扯和调整柱子角度，不要脱离队伍直线追击后排。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/48",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/trundle-ap-648x1152.webp"
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 90,
+    "slug": "malzahar",
+    "riotId": "Malzahar",
+    "name": "玛尔扎哈",
+    "title": "虚空先知",
+    "aliases": [
+      "玛尔扎哈",
+      "虚空先知",
+      "Malzahar",
+      "蚂蚱"
+    ],
+    "roles": [
+      "Mage"
+    ],
+    "icon": "assets/champions/malzahar.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Malzahar-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Malzahar-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Malzahar-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 90,
+    "rank": 46,
+    "tier": "A",
+    "sampleCount": 588440,
+    "winRate": 0.514736,
+    "pickRate": 0.072942,
+    "blueWinRate": 0.536755,
+    "redWinRate": 0.493086,
+    "winRatePercent": 51.47,
+    "pickRatePercent": 7.29
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 219657,
+    "pickRate": 0.941667,
+    "winRate": 0.510175,
+    "coreProfile": {
+      "sampleCount": 8686,
+      "pickRate": 0.039543,
+      "winRate": 0.531771
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 2031,
+        "name": "复用型药水",
+        "icon": "assets/resources/items/2031.webp"
+      },
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 8686,
+        "pickRate": 0.039543,
+        "winRate": 0.531771,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 32759,
+        "pickRate": 0.129426,
+        "winRate": 0.536327,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 1395,
+        "pickRate": 0.008596,
+        "winRate": 0.507818,
+        "source": "slot5",
+        "icon": "assets/resources/items/4633.webp"
+      },
+      {
+        "id": 8010,
+        "name": "放血者的诅咒",
+        "sampleCount": 5625,
+        "pickRate": 0.059004,
+        "winRate": 0.473725,
+        "source": "slot6",
+        "icon": "assets/resources/items/8010.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1195,
+        "rank": 1,
+        "sampleCount": 7279,
+        "pickRate": 0.013061,
+        "winRate": 0.558868,
+        "blueWinRate": 0.584339,
+        "redWinRate": 0.534446,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "巨人杀手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1195.webp"
+      },
+      {
+        "id": 2031,
+        "rank": 12,
+        "sampleCount": 2598,
+        "pickRate": 0.004662,
+        "winRate": 0.541186,
+        "blueWinRate": 0.557785,
+        "redWinRate": 0.525888,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "空投熊",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2031.webp"
+      },
+      {
+        "id": 1337,
+        "rank": 15,
+        "sampleCount": 1699,
+        "pickRate": 0.003049,
+        "winRate": 0.540906,
+        "blueWinRate": 0.559322,
+        "redWinRate": 0.523482,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尊我为王",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1337.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 7,
+        "sampleCount": 10823,
+        "pickRate": 0.01942,
+        "winRate": 0.539776,
+        "blueWinRate": 0.554281,
+        "redWinRate": 0.525295,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1389,
+        "rank": 18,
+        "sampleCount": 1724,
+        "pickRate": 0.003093,
+        "winRate": 0.538283,
+        "blueWinRate": 0.564665,
+        "redWinRate": 0.511655,
+        "stageAgnostic": false,
+        "availableStages": [
+          3,
+          4
+        ],
+        "name": "男爵之手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1389.webp"
+      },
+      {
+        "id": 1045,
+        "rank": 9,
+        "sampleCount": 175383,
+        "pickRate": 0.314696,
+        "winRate": 0.533467,
+        "blueWinRate": 0.553059,
+        "redWinRate": 0.51424,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "炼狱导管",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1045.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1420,
+        "rank": 4,
+        "sampleCount": 3598,
+        "pickRate": 0.006456,
+        "winRate": 0.551695,
+        "blueWinRate": 0.575942,
+        "redWinRate": 0.527313,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 6,
+        "sampleCount": 6093,
+        "pickRate": 0.010933,
+        "winRate": 0.543246,
+        "blueWinRate": 0.579872,
+        "redWinRate": 0.508621,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1390,
+        "rank": 5,
+        "sampleCount": 117125,
+        "pickRate": 0.210162,
+        "winRate": 0.540371,
+        "blueWinRate": 0.562937,
+        "redWinRate": 0.51804,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "超凡邪恶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 2128,
+        "rank": 8,
+        "sampleCount": 35233,
+        "pickRate": 0.06322,
+        "winRate": 0.53694,
+        "blueWinRate": 0.560085,
+        "redWinRate": 0.514377,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "炽燃利息",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2128.webp"
+      },
+      {
+        "id": 1061,
+        "rank": 11,
+        "sampleCount": 18018,
+        "pickRate": 0.03233,
+        "winRate": 0.533911,
+        "blueWinRate": 0.555832,
+        "redWinRate": 0.512843,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回力OK镖",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1061.webp"
+      },
+      {
+        "id": 1072,
+        "rank": 16,
+        "sampleCount": 5332,
+        "pickRate": 0.009567,
+        "winRate": 0.533196,
+        "blueWinRate": 0.55711,
+        "redWinRate": 0.509673,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "炽烈黎明",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1072.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1028,
+        "rank": 2,
+        "sampleCount": 12839,
+        "pickRate": 0.023037,
+        "winRate": 0.556897,
+        "blueWinRate": 0.569365,
+        "redWinRate": 0.544885,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 1105,
+        "rank": 3,
+        "sampleCount": 9228,
+        "pickRate": 0.016558,
+        "winRate": 0.555917,
+        "blueWinRate": 0.571706,
+        "redWinRate": 0.53997,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 2127,
+        "rank": 10,
+        "sampleCount": 21016,
+        "pickRate": 0.03771,
+        "winRate": 0.53602,
+        "blueWinRate": 0.558891,
+        "redWinRate": 0.513503,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 14,
+        "sampleCount": 8640,
+        "pickRate": 0.015503,
+        "winRate": 0.532407,
+        "blueWinRate": 0.55406,
+        "redWinRate": 0.510855,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1305,
+        "rank": 19,
+        "sampleCount": 6631,
+        "pickRate": 0.011898,
+        "winRate": 0.530388,
+        "blueWinRate": 0.557651,
+        "redWinRate": 0.503589,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "练腿日",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1305.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 17,
+        "sampleCount": 12888,
+        "pickRate": 0.023125,
+        "winRate": 0.529019,
+        "blueWinRate": 0.551071,
+        "redWinRate": 0.507313,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1195,
+          2095
+        ],
+        "sampleCount": 111,
+        "pickRate": 0.000199,
+        "winRate": 0.693694,
+        "selectionMinSamples": 100,
+        "names": [
+          "巨人杀手",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1195,
+          2095
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          2031,
+          2127
+        ],
+        "sampleCount": 105,
+        "pickRate": 0.000188,
+        "winRate": 0.685714,
+        "selectionMinSamples": 100,
+        "names": [
+          "空投熊",
+          "大师铸就"
+        ],
+        "ids": [
+          2031,
+          2127
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1028,
+          2089
+        ],
+        "sampleCount": 120,
+        "pickRate": 0.000215,
+        "winRate": 0.658333,
+        "selectionMinSamples": 100,
+        "names": [
+          "侵蚀",
+          "哎哟，我的硬币！"
+        ],
+        "ids": [
+          1028,
+          2089
+        ]
+      },
+      {
+        "rank": 9,
+        "augmentIds": [
+          1150,
+          2127
+        ],
+        "sampleCount": 114,
+        "pickRate": 0.000205,
+        "winRate": 0.657895,
+        "selectionMinSamples": 100,
+        "names": [
+          "面包和果酱",
+          "大师铸就"
+        ],
+        "ids": [
+          1150,
+          2127
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/90",
+    "summary": [
+      "把E挂在残血兵线或前排上扩散消耗，Q命中可刷新持续时间并补沉默。",
+      "R优先压制突进核心或队友能立刻集火的目标，避免单独闪现开远处后排。",
+      "保持在前排身后输出，护盾被小技能打掉后先等恢复再靠前施法。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/90",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/malzahar-ap-648x1152.webp"
+  }
+}

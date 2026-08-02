@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 420,
+    "slug": "illaoi",
+    "riotId": "Illaoi",
+    "name": "俄洛伊",
+    "title": "海兽祭司",
+    "aliases": [
+      "俄洛伊",
+      "海兽祭司",
+      "Illaoi"
+    ],
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "icon": "assets/champions/illaoi.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Illaoi-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Illaoi-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Illaoi-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 420,
+    "rank": 40,
+    "tier": "A",
+    "sampleCount": 494440,
+    "winRate": 0.516473,
+    "pickRate": 0.06129,
+    "blueWinRate": 0.532693,
+    "redWinRate": 0.500146,
+    "winRatePercent": 51.65,
+    "pickRatePercent": 6.13
+  },
+  "build": {
+    "key": "bruiser",
+    "name": "战士流",
+    "sampleCount": 16919,
+    "pickRate": 0.104493,
+    "winRate": 0.513572,
+    "coreProfile": {
+      "sampleCount": 1013,
+      "pickRate": 0.059874,
+      "winRate": 0.5405
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1011,
+        "name": "巨人腰带",
+        "icon": "assets/resources/items/1011.webp"
+      },
+      {
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3084,
+        "name": "心之钢",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3084.webp"
+      },
+      {
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 2501,
+        "name": "霸王血铠",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2501.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3084,
+        "name": "心之钢",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3084.webp"
+      },
+      {
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 2501,
+        "name": "霸王血铠",
+        "sampleCount": 1013,
+        "pickRate": 0.059874,
+        "winRate": 0.5405,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2501.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 7383,
+        "pickRate": 0.041052,
+        "winRate": 0.544401,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 2502,
+        "name": "无终恨意",
+        "sampleCount": 6261,
+        "pickRate": 0.056904,
+        "winRate": 0.520154,
+        "source": "slot5",
+        "icon": "assets/resources/items/2502.webp"
+      },
+      {
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 1836,
+        "pickRate": 0.027968,
+        "winRate": 0.507838,
+        "source": "slot6",
+        "icon": "assets/resources/items/2517.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 2095,
+        "rank": 1,
+        "sampleCount": 7045,
+        "pickRate": 0.014937,
+        "winRate": 0.576011,
+        "blueWinRate": 0.5815,
+        "redWinRate": 0.570449,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 4,
+        "sampleCount": 4035,
+        "pickRate": 0.008555,
+        "winRate": 0.554151,
+        "blueWinRate": 0.572561,
+        "redWinRate": 0.535714,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1041,
+        "rank": 3,
+        "sampleCount": 96246,
+        "pickRate": 0.204064,
+        "winRate": 0.546859,
+        "blueWinRate": 0.559234,
+        "redWinRate": 0.534519,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "歌利亚巨人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1041.webp"
+      },
+      {
+        "id": 1361,
+        "rank": 5,
+        "sampleCount": 23862,
+        "pickRate": 0.050593,
+        "winRate": 0.541991,
+        "blueWinRate": 0.559872,
+        "redWinRate": 0.524227,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "艾卡西亚的陷落",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1361.webp"
+      },
+      {
+        "id": 1337,
+        "rank": 9,
+        "sampleCount": 1588,
+        "pickRate": 0.003367,
+        "winRate": 0.537154,
+        "blueWinRate": 0.556501,
+        "redWinRate": 0.51634,
+        "stageAgnostic": false,
+        "availableStages": [
+          2,
+          3,
+          4
+        ],
+        "name": "尊我为王",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1337.webp"
+      },
+      {
+        "id": 2006,
+        "rank": 8,
+        "sampleCount": 142924,
+        "pickRate": 0.303032,
+        "winRate": 0.525342,
+        "blueWinRate": 0.539356,
+        "redWinRate": 0.511183,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "飞身踢",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2006.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1152,
+        "rank": 2,
+        "sampleCount": 156348,
+        "pickRate": 0.331494,
+        "winRate": 0.556873,
+        "blueWinRate": 0.572391,
+        "redWinRate": 0.541213,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "钢化你心",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1152.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 7,
+        "sampleCount": 201803,
+        "pickRate": 0.42787,
+        "winRate": 0.525567,
+        "blueWinRate": 0.540913,
+        "redWinRate": 0.510103,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      },
+      {
+        "id": 2102,
+        "rank": 14,
+        "sampleCount": 42926,
+        "pickRate": 0.091013,
+        "winRate": 0.517192,
+        "blueWinRate": 0.538072,
+        "redWinRate": 0.495002,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "高压锅",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2102.webp"
+      },
+      {
+        "id": 2111,
+        "rank": 19,
+        "sampleCount": 27899,
+        "pickRate": 0.059152,
+        "winRate": 0.513459,
+        "blueWinRate": 0.533501,
+        "redWinRate": 0.493531,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "邦！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2111.webp"
+      },
+      {
+        "id": 1384,
+        "rank": 21,
+        "sampleCount": 11775,
+        "pickRate": 0.024966,
+        "winRate": 0.510064,
+        "blueWinRate": 0.521334,
+        "redWinRate": 0.498722,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "捐赠",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1384.webp"
+      },
+      {
+        "id": 1401,
+        "rank": 23,
+        "sampleCount": 9570,
+        "pickRate": 0.020291,
+        "winRate": 0.509718,
+        "blueWinRate": 0.531132,
+        "redWinRate": 0.488294,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "生机迸发",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1401.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1319,
+        "rank": 6,
+        "sampleCount": 49601,
+        "pickRate": 0.105166,
+        "winRate": 0.532913,
+        "blueWinRate": 0.548121,
+        "redWinRate": 0.517804,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：献祭",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1319.webp"
+      },
+      {
+        "id": 1028,
+        "rank": 12,
+        "sampleCount": 2915,
+        "pickRate": 0.00618,
+        "winRate": 0.53036,
+        "blueWinRate": 0.545073,
+        "redWinRate": 0.516173,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 11,
+        "sampleCount": 7521,
+        "pickRate": 0.015946,
+        "winRate": 0.527456,
+        "blueWinRate": 0.541634,
+        "redWinRate": 0.512924,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 13,
+        "sampleCount": 8209,
+        "pickRate": 0.017405,
+        "winRate": 0.523694,
+        "blueWinRate": 0.537558,
+        "redWinRate": 0.509947,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 1181,
+        "rank": 10,
+        "sampleCount": 129710,
+        "pickRate": 0.275016,
+        "winRate": 0.522196,
+        "blueWinRate": 0.536345,
+        "redWinRate": 0.507964,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "重量级打击手",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1181.webp"
+      },
+      {
+        "id": 1206,
+        "rank": 15,
+        "sampleCount": 11760,
+        "pickRate": 0.024934,
+        "winRate": 0.519558,
+        "blueWinRate": 0.525846,
+        "redWinRate": 0.513391,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "魔法转物理",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1206.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1060,
+          2095
+        ],
+        "sampleCount": 113,
+        "pickRate": 0.00024,
+        "winRate": 0.699115,
+        "selectionMinSamples": 100,
+        "names": [
+          "海洋龙魂",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1060,
+          2095
+        ]
+      },
+      {
+        "rank": 2,
+        "augmentIds": [
+          1237,
+          2095
+        ],
+        "sampleCount": 173,
+        "pickRate": 0.000367,
+        "winRate": 0.67052,
+        "selectionMinSamples": 100,
+        "names": [
+          "质变：黄金阶",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1237,
+          2095
+        ]
+      },
+      {
+        "rank": 6,
+        "augmentIds": [
+          1007,
+          2095
+        ],
+        "sampleCount": 760,
+        "pickRate": 0.001611,
+        "winRate": 0.615789,
+        "selectionMinSamples": 100,
+        "names": [
+          "大力",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1007,
+          2095
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1041,
+          1152
+        ],
+        "sampleCount": 29127,
+        "pickRate": 0.061756,
+        "winRate": 0.602602,
+        "selectionMinSamples": 100,
+        "names": [
+          "歌利亚巨人",
+          "钢化你心"
+        ],
+        "ids": [
+          1041,
+          1152
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/420",
+    "summary": [
+      "E优先命中容易集火的前排，围绕灵魂和触手持续压制区域。",
+      "等敌方多人贴近后再开R，随后用W频繁触发触手拍击。",
+      "没有E命中或触手环境时不要强行追击，守住阵地比追残血更稳定。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/420",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/illaoi-bruiser-648x1152.webp"
+  }
+}

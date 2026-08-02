@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 526,
+    "slug": "rell",
+    "riotId": "Rell",
+    "name": "芮尔",
+    "title": "镕铁少女",
+    "aliases": [
+      "芮尔",
+      "镕铁少女",
+      "Rell"
+    ],
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "icon": "assets/champions/rell.webp",
+    "abilities": [
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Rell-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Rell-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Rell-Q.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 526,
+    "rank": 22,
+    "tier": "A",
+    "sampleCount": 521456,
+    "winRate": 0.535562,
+    "pickRate": 0.064639,
+    "blueWinRate": 0.554269,
+    "redWinRate": 0.516815,
+    "winRatePercent": 53.56,
+    "pickRatePercent": 6.46
+  },
+  "build": {
+    "key": "tank",
+    "name": "坦克流",
+    "sampleCount": 133823,
+    "pickRate": 0.913686,
+    "winRate": 0.524903,
+    "coreProfile": {
+      "sampleCount": 1042,
+      "pickRate": 0.007786,
+      "winRate": 0.600456
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
+    }
+  ],
+  "skillOrder": "E>W>Q",
+  "items": {
+    "starter": [
+      {
+        "id": 1011,
+        "name": "巨人腰带",
+        "icon": "assets/resources/items/1011.webp"
+      },
+      {
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 3084,
+        "name": "心之钢",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3084.webp"
+      },
+      {
+        "id": 3050,
+        "name": "基克的聚合",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3050.webp"
+      },
+      {
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3083.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 3084,
+        "name": "心之钢",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3084.webp"
+      },
+      {
+        "id": 3050,
+        "name": "基克的聚合",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3050.webp"
+      },
+      {
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 1042,
+        "pickRate": 0.007786,
+        "winRate": 0.600456,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3083.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 1223,
+        "pickRate": 0.007374,
+        "winRate": 0.566324,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 2182,
+        "pickRate": 0.022865,
+        "winRate": 0.542843,
+        "source": "slot5",
+        "icon": "assets/resources/items/4633.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 3661,
+        "pickRate": 0.065525,
+        "winRate": 0.518893,
+        "source": "slot6",
+        "icon": "assets/resources/items/3065.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1361,
+        "rank": 1,
+        "sampleCount": 35727,
+        "pickRate": 0.071819,
+        "winRate": 0.57889,
+        "blueWinRate": 0.596551,
+        "redWinRate": 0.561234,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "艾卡西亚的陷落",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1361.webp"
+      },
+      {
+        "id": 1388,
+        "rank": 5,
+        "sampleCount": 1590,
+        "pickRate": 0.003196,
+        "winRate": 0.576101,
+        "blueWinRate": 0.57439,
+        "redWinRate": 0.577922,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "无限循环往复",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1388.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 4,
+        "sampleCount": 6679,
+        "pickRate": 0.013426,
+        "winRate": 0.569247,
+        "blueWinRate": 0.584711,
+        "redWinRate": 0.553327,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1323,
+        "rank": 10,
+        "sampleCount": 40402,
+        "pickRate": 0.081217,
+        "winRate": 0.547052,
+        "blueWinRate": 0.561202,
+        "redWinRate": 0.533137,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "残忍",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1323.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 14,
+        "sampleCount": 3733,
+        "pickRate": 0.007504,
+        "winRate": 0.546209,
+        "blueWinRate": 0.547945,
+        "redWinRate": 0.544549,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1041,
+        "rank": 11,
+        "sampleCount": 100780,
+        "pickRate": 0.202589,
+        "winRate": 0.543461,
+        "blueWinRate": 0.558219,
+        "redWinRate": 0.528624,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "歌利亚巨人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1041.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 2102,
+        "rank": 2,
+        "sampleCount": 55464,
+        "pickRate": 0.111494,
+        "winRate": 0.56817,
+        "blueWinRate": 0.591779,
+        "redWinRate": 0.543367,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "高压锅",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2102.webp"
+      },
+      {
+        "id": 1152,
+        "rank": 3,
+        "sampleCount": 173500,
+        "pickRate": 0.348772,
+        "winRate": 0.563937,
+        "blueWinRate": 0.581607,
+        "redWinRate": 0.546298,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "钢化你心",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1152.webp"
+      },
+      {
+        "id": 1373,
+        "rank": 8,
+        "sampleCount": 3609,
+        "pickRate": 0.007255,
+        "winRate": 0.560543,
+        "blueWinRate": 0.58151,
+        "redWinRate": 0.539023,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "缩小引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1373.webp"
+      },
+      {
+        "id": 1002,
+        "rank": 13,
+        "sampleCount": 16936,
+        "pickRate": 0.034045,
+        "winRate": 0.543044,
+        "blueWinRate": 0.55533,
+        "redWinRate": 0.531071,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尖端发明家",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1002.webp"
+      },
+      {
+        "id": 1401,
+        "rank": 15,
+        "sampleCount": 10113,
+        "pickRate": 0.020329,
+        "winRate": 0.542075,
+        "blueWinRate": 0.555274,
+        "redWinRate": 0.528442,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "生机迸发",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1401.webp"
+      },
+      {
+        "id": 1353,
+        "rank": 12,
+        "sampleCount": 221334,
+        "pickRate": 0.444928,
+        "winRate": 0.541485,
+        "blueWinRate": 0.558702,
+        "redWinRate": 0.524145,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "坦克引擎",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1353.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 2127,
+        "rank": 6,
+        "sampleCount": 16038,
+        "pickRate": 0.03224,
+        "winRate": 0.561354,
+        "blueWinRate": 0.57621,
+        "redWinRate": 0.546432,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大师铸就",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/2127.webp"
+      },
+      {
+        "id": 1181,
+        "rank": 7,
+        "sampleCount": 138354,
+        "pickRate": 0.278121,
+        "winRate": 0.551722,
+        "blueWinRate": 0.568748,
+        "redWinRate": 0.534691,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "重量级打击手",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1181.webp"
+      },
+      {
+        "id": 1319,
+        "rank": 9,
+        "sampleCount": 89170,
+        "pickRate": 0.179251,
+        "winRate": 0.546585,
+        "blueWinRate": 0.561876,
+        "redWinRate": 0.531358,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：献祭",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1319.webp"
+      },
+      {
+        "id": 1022,
+        "rank": 28,
+        "sampleCount": 1024,
+        "pickRate": 0.002058,
+        "winRate": 0.537109,
+        "blueWinRate": 0.565385,
+        "redWinRate": 0.507937,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "灵巧",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1022.webp"
+      },
+      {
+        "id": 1028,
+        "rank": 18,
+        "sampleCount": 2965,
+        "pickRate": 0.00596,
+        "winRate": 0.536931,
+        "blueWinRate": 0.561917,
+        "redWinRate": 0.511278,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "侵蚀",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1028.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 16,
+        "sampleCount": 9768,
+        "pickRate": 0.019636,
+        "winRate": 0.534808,
+        "blueWinRate": 0.548122,
+        "redWinRate": 0.521553,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 1,
+        "augmentIds": [
+          1105,
+          1361
+        ],
+        "sampleCount": 110,
+        "pickRate": 0.000221,
+        "winRate": 0.736364,
+        "selectionMinSamples": 100,
+        "names": [
+          "家园卫士",
+          "艾卡西亚的陷落"
+        ],
+        "ids": [
+          1105,
+          1361
+        ]
+      },
+      {
+        "rank": 8,
+        "augmentIds": [
+          1373,
+          2102
+        ],
+        "sampleCount": 365,
+        "pickRate": 0.000734,
+        "winRate": 0.635616,
+        "selectionMinSamples": 100,
+        "names": [
+          "缩小引擎",
+          "高压锅"
+        ],
+        "ids": [
+          1373,
+          2102
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1152,
+          2102
+        ],
+        "sampleCount": 10383,
+        "pickRate": 0.020872,
+        "winRate": 0.61437,
+        "selectionMinSamples": 100,
+        "names": [
+          "钢化你心",
+          "高压锅"
+        ],
+        "ids": [
+          1152,
+          2102
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1152,
+          1361
+        ],
+        "sampleCount": 7123,
+        "pickRate": 0.014319,
+        "winRate": 0.61168,
+        "selectionMinSamples": 100,
+        "names": [
+          "钢化你心",
+          "艾卡西亚的陷落"
+        ],
+        "ids": [
+          1152,
+          1361
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/526",
+    "summary": [
+      "先用E加速接近，雪球命中后用W击飞并接R把多人聚在一起。",
+      "Q留给关键护盾或补控制，进场前确认队友能跟上伤害。",
+      "下马后移动慢，开团失败时优先用控制保护队友而不是深追。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/526",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/rell-tank-648x1152.webp"
+  }
+}

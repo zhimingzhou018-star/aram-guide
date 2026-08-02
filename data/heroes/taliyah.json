@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 2,
+  "hero": {
+    "id": 163,
+    "slug": "taliyah",
+    "riotId": "Taliyah",
+    "name": "塔莉垭",
+    "title": "岩雀",
+    "aliases": [
+      "塔莉垭",
+      "岩雀",
+      "Taliyah"
+    ],
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "icon": "assets/champions/taliyah.webp",
+    "abilities": [
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Taliyah-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Taliyah-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Taliyah-W.webp"
+      }
+    ]
+  },
+  "ranking": {
+    "id": 163,
+    "rank": 89,
+    "tier": "B",
+    "sampleCount": 161359,
+    "winRate": 0.490217,
+    "pickRate": 0.020002,
+    "blueWinRate": 0.515023,
+    "redWinRate": 0.465981,
+    "winRatePercent": 49.02,
+    "pickRatePercent": 2.0
+  },
+  "build": {
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 55815,
+    "pickRate": 0.861502,
+    "winRate": 0.48263,
+    "coreProfile": {
+      "sampleCount": 2718,
+      "pickRate": 0.048697,
+      "winRate": 0.542455
+    }
+  },
+  "summonerSpells": [
+    {
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
+    }
+  ],
+  "skillOrder": "Q>E>W",
+  "items": {
+    "starter": [
+      {
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
+      }
+    ],
+    "core": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2503.webp"
+      },
+      {
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6653.webp"
+      },
+      {
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2718,
+        "pickRate": 0.048697,
+        "winRate": 0.542455,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3089.webp"
+      },
+      {
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 10721,
+        "pickRate": 0.146708,
+        "winRate": 0.530381,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 3645,
+        "pickRate": 0.080469,
+        "winRate": 0.474155,
+        "source": "slot5",
+        "icon": "assets/resources/items/4645.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 1009,
+        "pickRate": 0.039911,
+        "winRate": 0.469781,
+        "source": "slot6",
+        "icon": "assets/resources/items/4646.webp"
+      }
+    ]
+  },
+  "augments": {
+    "prismatic": [
+      {
+        "id": 1004,
+        "rank": 1,
+        "sampleCount": 24113,
+        "pickRate": 0.157669,
+        "winRate": 0.546593,
+        "blueWinRate": 0.572653,
+        "redWinRate": 0.521205,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 1195,
+        "rank": 3,
+        "sampleCount": 2536,
+        "pickRate": 0.016582,
+        "winRate": 0.533123,
+        "blueWinRate": 0.556658,
+        "redWinRate": 0.51168,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "巨人杀手",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1195.webp"
+      },
+      {
+        "id": 2095,
+        "rank": 4,
+        "sampleCount": 2842,
+        "pickRate": 0.018583,
+        "winRate": 0.523575,
+        "blueWinRate": 0.538078,
+        "redWinRate": 0.509395,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
+      },
+      {
+        "id": 1062,
+        "rank": 13,
+        "sampleCount": 1113,
+        "pickRate": 0.007278,
+        "winRate": 0.519317,
+        "blueWinRate": 0.538043,
+        "redWinRate": 0.500891,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "全能龙魂",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1062.webp"
+      },
+      {
+        "id": 1053,
+        "rank": 22,
+        "sampleCount": 1097,
+        "pickRate": 0.007173,
+        "winRate": 0.509572,
+        "blueWinRate": 0.526126,
+        "redWinRate": 0.49262,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "科学狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1053.webp"
+      },
+      {
+        "id": 1156,
+        "rank": 14,
+        "sampleCount": 10981,
+        "pickRate": 0.071802,
+        "winRate": 0.505965,
+        "blueWinRate": 0.533794,
+        "redWinRate": 0.479467,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "沃格勒特的巫师帽",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1156.webp"
+      }
+    ],
+    "gold": [
+      {
+        "id": 1420,
+        "rank": 7,
+        "sampleCount": 1214,
+        "pickRate": 0.007938,
+        "winRate": 0.524712,
+        "blueWinRate": 0.550442,
+        "redWinRate": 0.502311,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "咏叹奏鸣",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1420.webp"
+      },
+      {
+        "id": 1038,
+        "rank": 8,
+        "sampleCount": 2347,
+        "pickRate": 0.015346,
+        "winRate": 0.518108,
+        "blueWinRate": 0.542401,
+        "redWinRate": 0.49308,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "有始有终",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1038.webp"
+      },
+      {
+        "id": 1180,
+        "rank": 5,
+        "sampleCount": 10153,
+        "pickRate": 0.066388,
+        "winRate": 0.514922,
+        "blueWinRate": 0.539235,
+        "redWinRate": 0.491607,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "超强大脑",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1180.webp"
+      },
+      {
+        "id": 2132,
+        "rank": 6,
+        "sampleCount": 37331,
+        "pickRate": 0.244099,
+        "winRate": 0.511693,
+        "blueWinRate": 0.536378,
+        "redWinRate": 0.487725,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "术士果汁盒",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2132.webp"
+      },
+      {
+        "id": 1390,
+        "rank": 12,
+        "sampleCount": 30031,
+        "pickRate": 0.196366,
+        "winRate": 0.503879,
+        "blueWinRate": 0.533208,
+        "redWinRate": 0.474801,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "超凡邪恶",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 1098,
+        "rank": 15,
+        "sampleCount": 10480,
+        "pickRate": 0.068526,
+        "winRate": 0.503817,
+        "blueWinRate": 0.532164,
+        "redWinRate": 0.476636,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "急急小子",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1098.webp"
+      }
+    ],
+    "silver": [
+      {
+        "id": 1105,
+        "rank": 9,
+        "sampleCount": 2846,
+        "pickRate": 0.018609,
+        "winRate": 0.516514,
+        "blueWinRate": 0.534483,
+        "redWinRate": 0.499312,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "家园卫士",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1105.webp"
+      },
+      {
+        "id": 1333,
+        "rank": 11,
+        "sampleCount": 2970,
+        "pickRate": 0.01942,
+        "winRate": 0.512458,
+        "blueWinRate": 0.549678,
+        "redWinRate": 0.479313,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
+      {
+        "id": 1136,
+        "rank": 10,
+        "sampleCount": 6663,
+        "pickRate": 0.043568,
+        "winRate": 0.50893,
+        "blueWinRate": 0.537815,
+        "redWinRate": 0.480036,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "扇巴掌",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1136.webp"
+      },
+      {
+        "id": 1138,
+        "rank": 19,
+        "sampleCount": 2483,
+        "pickRate": 0.016236,
+        "winRate": 0.50584,
+        "blueWinRate": 0.535831,
+        "redWinRate": 0.476494,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "渴血",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1138.webp"
+      },
+      {
+        "id": 1060,
+        "rank": 21,
+        "sampleCount": 3546,
+        "pickRate": 0.023186,
+        "winRate": 0.503102,
+        "blueWinRate": 0.510791,
+        "redWinRate": 0.495112,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "海洋龙魂",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 1056,
+        "rank": 20,
+        "sampleCount": 6870,
+        "pickRate": 0.044921,
+        "winRate": 0.500437,
+        "blueWinRate": 0.524993,
+        "redWinRate": 0.475506,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "由心及物",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1056.webp"
+      }
+    ],
+    "combinations": [
+      {
+        "rank": 5,
+        "augmentIds": [
+          1004,
+          1333
+        ],
+        "sampleCount": 498,
+        "pickRate": 0.003256,
+        "winRate": 0.594378,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "逃跑计划"
+        ],
+        "ids": [
+          1004,
+          1333
+        ]
+      },
+      {
+        "rank": 7,
+        "augmentIds": [
+          1004,
+          1060
+        ],
+        "sampleCount": 561,
+        "pickRate": 0.003668,
+        "winRate": 0.58467,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "海洋龙魂"
+        ],
+        "ids": [
+          1004,
+          1060
+        ]
+      },
+      {
+        "rank": 9,
+        "augmentIds": [
+          1004,
+          1105
+        ],
+        "sampleCount": 468,
+        "pickRate": 0.00306,
+        "winRate": 0.583333,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "家园卫士"
+        ],
+        "ids": [
+          1004,
+          1105
+        ]
+      },
+      {
+        "rank": 3,
+        "augmentIds": [
+          1004,
+          1156
+        ],
+        "sampleCount": 1220,
+        "pickRate": 0.007977,
+        "winRate": 0.582787,
+        "selectionMinSamples": 100,
+        "names": [
+          "回归基本功",
+          "沃格勒特的巫师帽"
+        ],
+        "ids": [
+          1004,
+          1156
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "status": "reviewed",
+    "locked": true,
+    "source": "https://aramgg.com/zh-CN/champion-stats/163",
+    "summary": [
+      "E优先铺在突进路径和狭窄通道，利用岩突或敌方位移触发额外伤害。",
+      "W把目标推入E或推回队伍，控制命中后再用Q持续追击。",
+      "R用于封路和分割阵型，落墙前确认队友位置，避免反而隔断己方输出。"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "ARAMKit",
+      "version": "16.15",
+      "dataDate": "2026-08-01",
+      "region": "unknown",
+      "dataLevel": "aggregate",
+      "segment": "all"
+    },
+    {
+      "provider": "ARAMGG",
+      "version": "16.15",
+      "url": "https://aramgg.com/zh-CN/champion-stats/163",
+      "usage": "editorial-reference"
+    }
+  ],
+  "legacy": {
+    "poster": "assets/guides/taliyah-ap-648x1152.webp"
+  }
+}
