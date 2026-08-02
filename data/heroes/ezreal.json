@@ -44,49 +44,173 @@
     "pickRatePercent": 11.15
   },
   "build": {
-    "key": "bruiser",
-    "name": "战士流",
-    "sampleCount": 8458,
-    "pickRate": 0.39694,
-    "winRate": 0.461234,
+    "key": "ad",
+    "name": "推荐流",
+    "sampleCount": 1058,
+    "lowSampleWarning": false,
+    "pickRate": 0.049653,
+    "winRate": 0.487019,
     "coreProfile": {
-      "sampleCount": 1503,
-      "pickRate": 0.177702,
-      "winRate": 0.475196,
+      "sampleCount": 525,
+      "pickRate": 0.496219,
+      "winRate": 0.514523,
       "itemIds": [
-        3078,
+        3508,
         3004,
-        6694
+        3003
       ]
     },
     "starter": {
-      "sampleCount": 578,
-      "pickRate": 0.485306,
-      "winRate": 0.471
+      "sampleCount": 171,
+      "pickRate": 0.585616,
+      "winRate": 0.540154
     }
   },
-  "defaultBuildKey": "bruiser",
+  "defaultBuildKey": "ad",
   "builds": [
+    {
+      "key": "ad",
+      "name": "推荐流",
+      "sampleCount": 1058,
+      "lowSampleWarning": false,
+      "pickRate": 0.049653,
+      "winRate": 0.487019,
+      "coreProfile": {
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
+        "itemIds": [
+          3508,
+          3004,
+          3003
+        ]
+      },
+      "starter": {
+        "sampleCount": 171,
+        "pickRate": 0.585616,
+        "winRate": 0.540154
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 525,
+            "pickRate": 0.496219,
+            "winRate": 0.514523,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4616,
+            "pickRate": 0.187064,
+            "winRate": 0.499542,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 132,
+            "pickRate": 0.009413,
+            "winRate": 0.517294,
+            "source": "slot5",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 116,
+            "pickRate": 0.014713,
+            "winRate": 0.493521,
+            "source": "slot6",
+            "icon": "assets/resources/items/3157.webp"
+          }
+        ]
+      }
+    },
     {
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 8458,
+      "lowSampleWarning": false,
       "pickRate": 0.39694,
       "winRate": 0.461234,
       "coreProfile": {
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "sampleCount": 526,
+        "pickRate": 0.06219,
+        "winRate": 0.492636,
         "itemIds": [
           3078,
           3004,
-          6694
+          2517
         ]
       },
       "starter": {
-        "sampleCount": 578,
-        "pickRate": 0.485306,
-        "winRate": 0.471
+        "sampleCount": 239,
+        "pickRate": 0.544419,
+        "winRate": 0.508418
       },
       "items": {
         "starter": [
@@ -105,58 +229,58 @@
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
             "id": 3004,
             "name": "魔宗",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
             "icon": "assets/resources/items/3004.webp"
           },
           {
-            "id": 6694,
-            "name": "赛瑞尔达的怨恨",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6694.webp"
+            "icon": "assets/resources/items/2517.webp"
           }
         ],
         "recommended": [
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
             "id": 3004,
             "name": "魔宗",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
             "icon": "assets/resources/items/3004.webp"
           },
           {
-            "id": 6694,
-            "name": "赛瑞尔达的怨恨",
-            "sampleCount": 1503,
-            "pickRate": 0.177702,
-            "winRate": 0.475196,
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 526,
+            "pickRate": 0.06219,
+            "winRate": 0.492636,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6694.webp"
+            "icon": "assets/resources/items/2517.webp"
           },
           {
             "id": 3008,
@@ -168,22 +292,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3161,
-            "name": "朔极之矛",
-            "sampleCount": 1354,
-            "pickRate": 0.096556,
-            "winRate": 0.463737,
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 132,
+            "pickRate": 0.009413,
+            "winRate": 0.517294,
             "source": "slot5",
-            "icon": "assets/resources/items/3161.webp"
+            "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 3100,
-            "name": "巫妖之祸",
-            "sampleCount": 2557,
-            "pickRate": 0.103623,
-            "winRate": 0.496862,
-            "source": "fallback",
-            "icon": "assets/resources/items/3100.webp"
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 116,
+            "pickRate": 0.014713,
+            "winRate": 0.493521,
+            "source": "slot6",
+            "icon": "assets/resources/items/3157.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 379,
+      "lowSampleWarning": false,
+      "pickRate": 0.017787,
+      "winRate": 0.437498,
+      "coreProfile": {
+        "sampleCount": 379,
+        "pickRate": 1,
+        "winRate": 0.437498,
+        "itemIds": [
+          3508,
+          3004,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 157,
+        "pickRate": 0.564748,
+        "winRate": 0.422524
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 379,
+            "pickRate": 1,
+            "winRate": 0.437498,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4616,
+            "pickRate": 0.187064,
+            "winRate": 0.499542,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 132,
+            "pickRate": 0.009413,
+            "winRate": 0.517294,
+            "source": "slot5",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 116,
+            "pickRate": 0.014713,
+            "winRate": 0.493521,
+            "source": "slot6",
+            "icon": "assets/resources/items/3157.webp"
           }
         ]
       }
@@ -217,60 +463,60 @@
     ],
     "core": [
       {
-        "id": 3078,
-        "name": "三相之力",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "id": 3508,
+        "name": "夺萃之镰",
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3078.webp"
+        "icon": "assets/resources/items/3508.webp"
       },
       {
         "id": 3004,
         "name": "魔宗",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
         "icon": "assets/resources/items/3004.webp"
       },
       {
-        "id": 6694,
-        "name": "赛瑞尔达的怨恨",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6694.webp"
+        "icon": "assets/resources/items/3003.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3078,
-        "name": "三相之力",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "id": 3508,
+        "name": "夺萃之镰",
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3078.webp"
+        "icon": "assets/resources/items/3508.webp"
       },
       {
         "id": 3004,
         "name": "魔宗",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
         "icon": "assets/resources/items/3004.webp"
       },
       {
-        "id": 6694,
-        "name": "赛瑞尔达的怨恨",
-        "sampleCount": 1503,
-        "pickRate": 0.177702,
-        "winRate": 0.475196,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 525,
+        "pickRate": 0.496219,
+        "winRate": 0.514523,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6694.webp"
+        "icon": "assets/resources/items/3003.webp"
       },
       {
         "id": 3008,
@@ -282,22 +528,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3161,
-        "name": "朔极之矛",
-        "sampleCount": 1354,
-        "pickRate": 0.096556,
-        "winRate": 0.463737,
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 132,
+        "pickRate": 0.009413,
+        "winRate": 0.517294,
         "source": "slot5",
-        "icon": "assets/resources/items/3161.webp"
+        "icon": "assets/resources/items/3118.webp"
       },
       {
-        "id": 3100,
-        "name": "巫妖之祸",
-        "sampleCount": 2557,
-        "pickRate": 0.103623,
-        "winRate": 0.496862,
-        "source": "fallback",
-        "icon": "assets/resources/items/3100.webp"
+        "id": 3157,
+        "name": "中娅沙漏",
+        "sampleCount": 116,
+        "pickRate": 0.014713,
+        "winRate": 0.493521,
+        "source": "slot6",
+        "icon": "assets/resources/items/3157.webp"
       }
     ]
   },

@@ -47,6 +47,7 @@
     "key": "utility",
     "name": "辅助流",
     "sampleCount": 7357,
+    "lowSampleWarning": false,
     "pickRate": 0.220812,
     "winRate": 0.552657,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "utility",
       "name": "辅助流",
       "sampleCount": 7357,
+      "lowSampleWarning": false,
       "pickRate": 0.220812,
       "winRate": 0.552657,
       "coreProfile": {
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/3504.webp"
           },
           {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 11886,
-            "pickRate": 0.315245,
-            "winRate": 0.50443,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 463,
+            "pickRate": 0.01228,
+            "winRate": 0.50815,
             "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 1667,
-            "pickRate": 0.075304,
-            "winRate": 0.533283,
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 988,
+            "pickRate": 0.044631,
+            "winRate": 0.546471,
             "source": "slot5",
-            "icon": "assets/resources/items/6621.webp"
+            "icon": "assets/resources/items/6616.webp"
           },
           {
-            "id": 3165,
-            "name": "莫雷洛秘典",
-            "sampleCount": 1337,
-            "pickRate": 0.107788,
-            "winRate": 0.405648,
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 143,
+            "pickRate": 0.011529,
+            "winRate": 0.556225,
             "source": "slot6",
-            "icon": "assets/resources/items/3165.webp"
+            "icon": "assets/resources/items/3109.webp"
           }
         ]
       }
@@ -192,22 +194,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 13501,
+      "lowSampleWarning": false,
       "pickRate": 0.405216,
       "winRate": 0.456497,
       "coreProfile": {
-        "sampleCount": 1321,
-        "pickRate": 0.097845,
-        "winRate": 0.480329,
+        "sampleCount": 406,
+        "pickRate": 0.030072,
+        "winRate": 0.531663,
         "itemIds": [
-          6655,
-          4645,
+          3118,
+          6653,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 336,
-        "pickRate": 0.337688,
-        "winRate": 0.477886
+        "sampleCount": 126,
+        "pickRate": 0.382979,
+        "winRate": 0.592966
       },
       "items": {
         "starter": [
@@ -219,87 +222,87 @@
         ],
         "core": [
           {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
+            "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
+            "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1321,
-            "pickRate": 0.097845,
-            "winRate": 0.480329,
+            "sampleCount": 406,
+            "pickRate": 0.030072,
+            "winRate": 0.531663,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 11886,
-            "pickRate": 0.315245,
-            "winRate": 0.50443,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 463,
+            "pickRate": 0.01228,
+            "winRate": 0.50815,
             "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 1667,
-            "pickRate": 0.075304,
-            "winRate": 0.533283,
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 988,
+            "pickRate": 0.044631,
+            "winRate": 0.546471,
             "source": "slot5",
-            "icon": "assets/resources/items/6621.webp"
+            "icon": "assets/resources/items/6616.webp"
           },
           {
-            "id": 3165,
-            "name": "莫雷洛秘典",
-            "sampleCount": 1337,
-            "pickRate": 0.107788,
-            "winRate": 0.405648,
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 143,
+            "pickRate": 0.011529,
+            "winRate": 0.556225,
             "source": "slot6",
-            "icon": "assets/resources/items/3165.webp"
+            "icon": "assets/resources/items/3109.webp"
           }
         ]
       }
@@ -312,9 +315,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 7,
-      "name": "治疗术",
-      "icon": "assets/resources/summoner-spells/7.webp"
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -389,31 +392,31 @@
         "icon": "assets/resources/items/3504.webp"
       },
       {
-        "id": 3158,
-        "name": "明朗之靴",
-        "sampleCount": 11886,
-        "pickRate": 0.315245,
-        "winRate": 0.50443,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 463,
+        "pickRate": 0.01228,
+        "winRate": 0.50815,
         "source": "boots",
-        "icon": "assets/resources/items/3158.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 6621,
-        "name": "黎明核心",
-        "sampleCount": 1667,
-        "pickRate": 0.075304,
-        "winRate": 0.533283,
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 988,
+        "pickRate": 0.044631,
+        "winRate": 0.546471,
         "source": "slot5",
-        "icon": "assets/resources/items/6621.webp"
+        "icon": "assets/resources/items/6616.webp"
       },
       {
-        "id": 3165,
-        "name": "莫雷洛秘典",
-        "sampleCount": 1337,
-        "pickRate": 0.107788,
-        "winRate": 0.405648,
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 143,
+        "pickRate": 0.011529,
+        "winRate": 0.556225,
         "source": "slot6",
-        "icon": "assets/resources/items/3165.webp"
+        "icon": "assets/resources/items/3109.webp"
       }
     ]
   },

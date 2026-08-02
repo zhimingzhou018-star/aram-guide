@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 5627,
+    "lowSampleWarning": false,
     "pickRate": 0.587983,
     "winRate": 0.481581,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 5627,
+      "lowSampleWarning": false,
       "pickRate": 0.587983,
       "winRate": 0.481581,
       "coreProfile": {
@@ -159,30 +161,30 @@
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3111,
-            "name": "水银之靴",
-            "sampleCount": 4111,
-            "pickRate": 0.373524,
-            "winRate": 0.495627,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 480,
+            "pickRate": 0.043613,
+            "winRate": 0.537584,
             "source": "boots",
-            "icon": "assets/resources/items/3111.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 6006,
-            "pickRate": 0.545702,
-            "winRate": 0.490833,
-            "source": "fallback",
+            "sampleCount": 668,
+            "pickRate": 0.11113,
+            "winRate": 0.515116,
+            "source": "slot5",
             "icon": "assets/resources/items/3083.webp"
           },
           {
             "id": 2504,
             "name": "败魔",
-            "sampleCount": 1038,
-            "pickRate": 0.094312,
-            "winRate": 0.480033,
-            "source": "fallback",
+            "sampleCount": 149,
+            "pickRate": 0.045056,
+            "winRate": 0.446043,
+            "source": "slot6",
             "icon": "assets/resources/items/2504.webp"
           }
         ]
@@ -196,9 +198,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 6,
-      "name": "幽灵疾步",
-      "icon": "assets/resources/summoner-spells/6.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "E>Q>W",
@@ -273,30 +275,30 @@
         "icon": "assets/resources/items/2502.webp"
       },
       {
-        "id": 3111,
-        "name": "水银之靴",
-        "sampleCount": 4111,
-        "pickRate": 0.373524,
-        "winRate": 0.495627,
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 480,
+        "pickRate": 0.043613,
+        "winRate": 0.537584,
         "source": "boots",
-        "icon": "assets/resources/items/3111.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
         "id": 3083,
         "name": "狂徒铠甲",
-        "sampleCount": 6006,
-        "pickRate": 0.545702,
-        "winRate": 0.490833,
-        "source": "fallback",
+        "sampleCount": 668,
+        "pickRate": 0.11113,
+        "winRate": 0.515116,
+        "source": "slot5",
         "icon": "assets/resources/items/3083.webp"
       },
       {
         "id": 2504,
         "name": "败魔",
-        "sampleCount": 1038,
-        "pickRate": 0.094312,
-        "winRate": 0.480033,
-        "source": "fallback",
+        "sampleCount": 149,
+        "pickRate": 0.045056,
+        "winRate": 0.446043,
+        "source": "slot6",
         "icon": "assets/resources/items/2504.webp"
       }
     ]

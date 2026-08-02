@@ -47,22 +47,23 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 12934,
+    "lowSampleWarning": false,
     "pickRate": 0.294591,
     "winRate": 0.492792,
     "coreProfile": {
-      "sampleCount": 2368,
-      "pickRate": 0.183083,
-      "winRate": 0.534665,
+      "sampleCount": 497,
+      "pickRate": 0.038426,
+      "winRate": 0.569726,
       "itemIds": [
         3078,
         3065,
-        3110
+        4401
       ]
     },
     "starter": {
-      "sampleCount": 610,
-      "pickRate": 0.378177,
-      "winRate": 0.537566
+      "sampleCount": 168,
+      "pickRate": 0.398104,
+      "winRate": 0.575427
     }
   },
   "defaultBuildKey": "tank",
@@ -71,22 +72,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 12934,
+      "lowSampleWarning": false,
       "pickRate": 0.294591,
       "winRate": 0.492792,
       "coreProfile": {
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "itemIds": [
           3078,
           3065,
-          3110
+          4401
         ]
       },
       "starter": {
-        "sampleCount": 610,
-        "pickRate": 0.378177,
-        "winRate": 0.537566
+        "sampleCount": 168,
+        "pickRate": 0.398104,
+        "winRate": 0.575427
       },
       "items": {
         "starter": [
@@ -105,58 +107,58 @@
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
             "id": 3065,
             "name": "振奋盔甲",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
             "icon": "assets/resources/items/3065.webp"
           },
           {
-            "id": 3110,
-            "name": "冰霜之心",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3110.webp"
+            "icon": "assets/resources/items/4401.webp"
           }
         ],
         "recommended": [
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
             "id": 3065,
             "name": "振奋盔甲",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
             "icon": "assets/resources/items/3065.webp"
           },
           {
-            "id": 3110,
-            "name": "冰霜之心",
-            "sampleCount": 2368,
-            "pickRate": 0.183083,
-            "winRate": 0.534665,
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 497,
+            "pickRate": 0.038426,
+            "winRate": 0.569726,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3110.webp"
+            "icon": "assets/resources/items/4401.webp"
           },
           {
             "id": 3008,
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1056,
-            "pickRate": 0.033834,
-            "winRate": 0.502916,
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 878,
+            "pickRate": 0.028131,
+            "winRate": 0.532581,
             "source": "slot5",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/6333.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1447,
-            "pickRate": 0.07765,
-            "winRate": 0.436996,
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 202,
+            "pickRate": 0.01084,
+            "winRate": 0.549496,
             "source": "slot6",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3053.webp"
           }
         ]
       }
@@ -192,22 +194,23 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 3458,
+      "lowSampleWarning": false,
       "pickRate": 0.078761,
       "winRate": 0.512578,
       "coreProfile": {
-        "sampleCount": 1052,
-        "pickRate": 0.304222,
-        "winRate": 0.521064,
+        "sampleCount": 685,
+        "pickRate": 0.198091,
+        "winRate": 0.524715,
         "itemIds": [
           3078,
-          6610,
-          3065
+          3110,
+          6610
         ]
       },
       "starter": {
-        "sampleCount": 302,
-        "pickRate": 0.377972,
-        "winRate": 0.4835
+        "sampleCount": 112,
+        "pickRate": 0.321839,
+        "winRate": 0.542689
       },
       "items": {
         "starter": [
@@ -226,58 +229,58 @@
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "id": 3110,
+            "name": "冰霜之心",
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/3110.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/6610.webp"
           }
         ],
         "recommended": [
           {
             "id": 3078,
             "name": "三相之力",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
             "icon": "assets/resources/items/3078.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "id": 3110,
+            "name": "冰霜之心",
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/3110.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1052,
-            "pickRate": 0.304222,
-            "winRate": 0.521064,
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 685,
+            "pickRate": 0.198091,
+            "winRate": 0.524715,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/6610.webp"
           },
           {
             "id": 3008,
@@ -289,22 +292,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 1241,
-            "pickRate": 0.039762,
-            "winRate": 0.492679,
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 878,
+            "pickRate": 0.028131,
+            "winRate": 0.532581,
             "source": "slot5",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/6333.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1447,
-            "pickRate": 0.07765,
-            "winRate": 0.436996,
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 202,
+            "pickRate": 0.01084,
+            "winRate": 0.549496,
             "source": "slot6",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3053.webp"
           }
         ]
       }
@@ -313,92 +316,88 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 8821,
+      "lowSampleWarning": false,
       "pickRate": 0.200911,
       "winRate": 0.498384,
       "coreProfile": {
-        "sampleCount": 5970,
-        "pickRate": 0.676794,
-        "winRate": 0.498112,
+        "sampleCount": 825,
+        "pickRate": 0.093527,
+        "winRate": 0.515947,
         "itemIds": [
           2503,
-          3116,
-          6653
+          6653,
+          3089
         ]
       },
       "starter": {
-        "sampleCount": 207,
-        "pickRate": 0.047477,
-        "winRate": 0.521252
+        "sampleCount": 462,
+        "pickRate": 0.664748,
+        "winRate": 0.495341
       },
       "items": {
         "starter": [
           {
-            "id": 2508,
-            "name": "命定灰烬",
-            "icon": "assets/resources/items/2508.webp"
-          },
-          {
-            "id": 3070,
-            "name": "女神之泪",
-            "icon": "assets/resources/items/3070.webp"
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
           }
         ],
         "core": [
           {
             "id": 2503,
             "name": "黯炎火炬",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
             "source": "coreProfile",
             "icon": "assets/resources/items/2503.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3116.webp"
-          },
-          {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
             "id": 2503,
             "name": "黯炎火炬",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
             "source": "coreProfile",
             "icon": "assets/resources/items/2503.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3116.webp"
-          },
-          {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 5970,
-            "pickRate": 0.676794,
-            "winRate": 0.498112,
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 825,
+            "pickRate": 0.093527,
+            "winRate": 0.515947,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
           },
           {
             "id": 3008,
@@ -410,22 +409,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1056,
-            "pickRate": 0.033834,
-            "winRate": 0.502916,
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 878,
+            "pickRate": 0.028131,
+            "winRate": 0.532581,
             "source": "slot5",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/6333.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1447,
-            "pickRate": 0.07765,
-            "winRate": 0.436996,
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 202,
+            "pickRate": 0.01084,
+            "winRate": 0.549496,
             "source": "slot6",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3053.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 345,
+      "lowSampleWarning": false,
+      "pickRate": 0.007858,
+      "winRate": 0.490334,
+      "coreProfile": {
+        "sampleCount": 345,
+        "pickRate": 1,
+        "winRate": 0.490334,
+        "itemIds": [
+          3508,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 124,
+        "pickRate": 0.525424,
+        "winRate": 0.480189
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 345,
+            "pickRate": 1,
+            "winRate": 0.490334,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3977,
+            "pickRate": 0.081172,
+            "winRate": 0.548708,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 878,
+            "pickRate": 0.028131,
+            "winRate": 0.532581,
+            "source": "slot5",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 202,
+            "pickRate": 0.01084,
+            "winRate": 0.549496,
+            "source": "slot6",
+            "icon": "assets/resources/items/3053.webp"
           }
         ]
       }
@@ -461,58 +582,58 @@
       {
         "id": 3078,
         "name": "三相之力",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
         "icon": "assets/resources/items/3078.webp"
       },
       {
         "id": 3065,
         "name": "振奋盔甲",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
         "icon": "assets/resources/items/3065.webp"
       },
       {
-        "id": 3110,
-        "name": "冰霜之心",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "id": 4401,
+        "name": "自然之力",
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3110.webp"
+        "icon": "assets/resources/items/4401.webp"
       }
     ],
     "recommended": [
       {
         "id": 3078,
         "name": "三相之力",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
         "icon": "assets/resources/items/3078.webp"
       },
       {
         "id": 3065,
         "name": "振奋盔甲",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
         "icon": "assets/resources/items/3065.webp"
       },
       {
-        "id": 3110,
-        "name": "冰霜之心",
-        "sampleCount": 2368,
-        "pickRate": 0.183083,
-        "winRate": 0.534665,
+        "id": 4401,
+        "name": "自然之力",
+        "sampleCount": 497,
+        "pickRate": 0.038426,
+        "winRate": 0.569726,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3110.webp"
+        "icon": "assets/resources/items/4401.webp"
       },
       {
         "id": 3008,
@@ -524,22 +645,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 1056,
-        "pickRate": 0.033834,
-        "winRate": 0.502916,
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 878,
+        "pickRate": 0.028131,
+        "winRate": 0.532581,
         "source": "slot5",
-        "icon": "assets/resources/items/6610.webp"
+        "icon": "assets/resources/items/6333.webp"
       },
       {
-        "id": 3075,
-        "name": "荆棘之甲",
-        "sampleCount": 1447,
-        "pickRate": 0.07765,
-        "winRate": 0.436996,
+        "id": 3053,
+        "name": "斯特拉克的挑战护手",
+        "sampleCount": 202,
+        "pickRate": 0.01084,
+        "winRate": 0.549496,
         "source": "slot6",
-        "icon": "assets/resources/items/3075.webp"
+        "icon": "assets/resources/items/3053.webp"
       }
     ]
   },

@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 62842,
+    "lowSampleWarning": false,
     "pickRate": 0.718654,
     "winRate": 0.568906,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 338,
-      "pickRate": 0.011327,
-      "winRate": 0.612306
+      "sampleCount": 21711,
+      "pickRate": 0.727605,
+      "winRate": 0.575023
     }
   },
   "defaultBuildKey": "tank",
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 62842,
+      "lowSampleWarning": false,
       "pickRate": 0.718654,
       "winRate": 0.568906,
       "coreProfile": {
@@ -84,130 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 338,
-        "pickRate": 0.011327,
-        "winRate": 0.612306
-      },
-      "items": {
-        "starter": [
-          {
-            "id": 1028,
-            "name": "红水晶",
-            "icon": "assets/resources/items/1028.webp"
-          },
-          {
-            "id": 3801,
-            "name": "晶体护腕",
-            "icon": "assets/resources/items/3801.webp"
-          }
-        ],
-        "core": [
-          {
-            "id": 3084,
-            "name": "心之钢",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3084.webp"
-          },
-          {
-            "id": 2501,
-            "name": "霸王血铠",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2501.webp"
-          },
-          {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3083.webp"
-          }
-        ],
-        "recommended": [
-          {
-            "id": 3084,
-            "name": "心之钢",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3084.webp"
-          },
-          {
-            "id": 2501,
-            "name": "霸王血铠",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2501.webp"
-          },
-          {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 56800,
-            "pickRate": 0.903854,
-            "winRate": 0.57381,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3083.webp"
-          },
-          {
-            "id": 3009,
-            "name": "轻灵之靴",
-            "sampleCount": 2084,
-            "pickRate": 0.021562,
-            "winRate": 0.569776,
-            "source": "boots",
-            "icon": "assets/resources/items/3009.webp"
-          },
-          {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 2760,
-            "pickRate": 0.049961,
-            "winRate": 0.563888,
-            "source": "slot5",
-            "icon": "assets/resources/items/2502.webp"
-          },
-          {
-            "id": 3053,
-            "name": "斯特拉克的挑战护手",
-            "sampleCount": 3615,
-            "pickRate": 0.112684,
-            "winRate": 0.548091,
-            "source": "slot6",
-            "icon": "assets/resources/items/3053.webp"
-          }
-        ]
-      }
-    },
-    {
-      "key": "bruiser",
-      "name": "战士流",
-      "sampleCount": 8057,
-      "pickRate": 0.092139,
-      "winRate": 0.544667,
-      "coreProfile": {
-        "sampleCount": 1286,
-        "pickRate": 0.159613,
-        "winRate": 0.569257,
-        "itemIds": [
-          3084,
-          2501,
-          3748
-        ]
-      },
-      "starter": {
-        "sampleCount": 787,
-        "pickRate": 0.748811,
-        "winRate": 0.573341
+        "sampleCount": 21711,
+        "pickRate": 0.727605,
+        "winRate": 0.575023
       },
       "items": {
         "starter": [
@@ -226,58 +107,58 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
             "id": 2501,
             "name": "霸王血铠",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
             "icon": "assets/resources/items/2501.webp"
           },
           {
-            "id": 3748,
-            "name": "巨型九头蛇",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3748.webp"
+            "icon": "assets/resources/items/3083.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
             "id": 2501,
             "name": "霸王血铠",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
             "icon": "assets/resources/items/2501.webp"
           },
           {
-            "id": 3748,
-            "name": "巨型九头蛇",
-            "sampleCount": 1286,
-            "pickRate": 0.159613,
-            "winRate": 0.569257,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 56800,
+            "pickRate": 0.903854,
+            "winRate": 0.57381,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3748.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
             "id": 3009,
@@ -289,22 +170,144 @@
             "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 2760,
-            "pickRate": 0.049961,
-            "winRate": 0.563888,
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 120,
+            "pickRate": 0.002172,
+            "winRate": 0.603381,
             "source": "slot5",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/2525.webp"
           },
           {
-            "id": 3053,
-            "name": "斯特拉克的挑战护手",
-            "sampleCount": 3615,
-            "pickRate": 0.112684,
-            "winRate": 0.548091,
+            "id": 3742,
+            "name": "亡者的板甲",
+            "sampleCount": 117,
+            "pickRate": 0.003647,
+            "winRate": 0.584364,
             "source": "slot6",
-            "icon": "assets/resources/items/3053.webp"
+            "icon": "assets/resources/items/3742.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 8057,
+      "lowSampleWarning": false,
+      "pickRate": 0.092139,
+      "winRate": 0.544667,
+      "coreProfile": {
+        "sampleCount": 541,
+        "pickRate": 0.067147,
+        "winRate": 0.571788,
+        "itemIds": [
+          3084,
+          2501,
+          2517
+        ]
+      },
+      "starter": {
+        "sampleCount": 448,
+        "pickRate": 0.848485,
+        "winRate": 0.571982
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 541,
+            "pickRate": 0.067147,
+            "winRate": 0.571788,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 2084,
+            "pickRate": 0.021562,
+            "winRate": 0.569776,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 120,
+            "pickRate": 0.002172,
+            "winRate": 0.603381,
+            "source": "slot5",
+            "icon": "assets/resources/items/2525.webp"
+          },
+          {
+            "id": 3742,
+            "name": "亡者的板甲",
+            "sampleCount": 117,
+            "pickRate": 0.003647,
+            "winRate": 0.584364,
+            "source": "slot6",
+            "icon": "assets/resources/items/3742.webp"
           }
         ]
       }
@@ -313,22 +316,23 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 4275,
+      "lowSampleWarning": false,
       "pickRate": 0.048888,
       "winRate": 0.483293,
       "coreProfile": {
-        "sampleCount": 2613,
-        "pickRate": 0.611228,
-        "winRate": 0.467512,
+        "sampleCount": 804,
+        "pickRate": 0.18807,
+        "winRate": 0.514202,
         "itemIds": [
           126697,
           6696,
-          6676
+          3036
         ]
       },
       "starter": {
-        "sampleCount": 673,
-        "pickRate": 0.461908,
-        "winRate": 0.478282
+        "sampleCount": 281,
+        "pickRate": 0.383356,
+        "winRate": 0.52417
       },
       "items": {
         "starter": [
@@ -347,58 +351,58 @@
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6696,
             "name": "公理圆弧",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 6676,
-            "name": "收集者",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6676.webp"
+            "icon": "assets/resources/items/3036.webp"
           }
         ],
         "recommended": [
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6696,
             "name": "公理圆弧",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 6676,
-            "name": "收集者",
-            "sampleCount": 2613,
-            "pickRate": 0.611228,
-            "winRate": 0.467512,
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 804,
+            "pickRate": 0.18807,
+            "winRate": 0.514202,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6676.webp"
+            "icon": "assets/resources/items/3036.webp"
           },
           {
             "id": 3009,
@@ -410,22 +414,144 @@
             "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 2760,
-            "pickRate": 0.049961,
-            "winRate": 0.563888,
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 120,
+            "pickRate": 0.002172,
+            "winRate": 0.603381,
             "source": "slot5",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/2525.webp"
           },
           {
-            "id": 3053,
-            "name": "斯特拉克的挑战护手",
-            "sampleCount": 3615,
-            "pickRate": 0.112684,
-            "winRate": 0.548091,
+            "id": 3742,
+            "name": "亡者的板甲",
+            "sampleCount": 117,
+            "pickRate": 0.003647,
+            "winRate": 0.584364,
             "source": "slot6",
-            "icon": "assets/resources/items/3053.webp"
+            "icon": "assets/resources/items/3742.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 484,
+      "lowSampleWarning": false,
+      "pickRate": 0.005535,
+      "winRate": 0.451797,
+      "coreProfile": {
+        "sampleCount": 484,
+        "pickRate": 1,
+        "winRate": 0.451797,
+        "itemIds": [
+          126697,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 116,
+        "pickRate": 0.294416,
+        "winRate": 0.485852
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3133,
+            "name": "考尔菲德的战锤",
+            "icon": "assets/resources/items/3133.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 484,
+            "pickRate": 1,
+            "winRate": 0.451797,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 2084,
+            "pickRate": 0.021562,
+            "winRate": 0.569776,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 120,
+            "pickRate": 0.002172,
+            "winRate": 0.603381,
+            "source": "slot5",
+            "icon": "assets/resources/items/2525.webp"
+          },
+          {
+            "id": 3742,
+            "name": "亡者的板甲",
+            "sampleCount": 117,
+            "pickRate": 0.003647,
+            "winRate": 0.584364,
+            "source": "slot6",
+            "icon": "assets/resources/items/3742.webp"
           }
         ]
       }
@@ -433,9 +559,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -447,14 +573,14 @@
   "items": {
     "starter": [
       {
+        "id": 1011,
+        "name": "巨人腰带",
+        "icon": "assets/resources/items/1011.webp"
+      },
+      {
         "id": 1028,
         "name": "红水晶",
         "icon": "assets/resources/items/1028.webp"
-      },
-      {
-        "id": 3801,
-        "name": "晶体护腕",
-        "icon": "assets/resources/items/3801.webp"
       }
     ],
     "core": [
@@ -524,22 +650,22 @@
         "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 2760,
-        "pickRate": 0.049961,
-        "winRate": 0.563888,
+        "id": 2525,
+        "name": "原生质护带",
+        "sampleCount": 120,
+        "pickRate": 0.002172,
+        "winRate": 0.603381,
         "source": "slot5",
-        "icon": "assets/resources/items/2502.webp"
+        "icon": "assets/resources/items/2525.webp"
       },
       {
-        "id": 3053,
-        "name": "斯特拉克的挑战护手",
-        "sampleCount": 3615,
-        "pickRate": 0.112684,
-        "winRate": 0.548091,
+        "id": 3742,
+        "name": "亡者的板甲",
+        "sampleCount": 117,
+        "pickRate": 0.003647,
+        "winRate": 0.584364,
         "source": "slot6",
-        "icon": "assets/resources/items/3053.webp"
+        "icon": "assets/resources/items/3742.webp"
       }
     ]
   },

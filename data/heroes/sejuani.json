@@ -46,6 +46,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 26013,
+    "lowSampleWarning": false,
     "pickRate": 0.876478,
     "winRate": 0.501027,
     "coreProfile": {
@@ -59,9 +60,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 274,
-      "pickRate": 0.032213,
-      "winRate": 0.552656
+      "sampleCount": 6150,
+      "pickRate": 0.723019,
+      "winRate": 0.520206
     }
   },
   "defaultBuildKey": "tank",
@@ -70,6 +71,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 26013,
+      "lowSampleWarning": false,
       "pickRate": 0.876478,
       "winRate": 0.501027,
       "coreProfile": {
@@ -83,9 +85,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 274,
-        "pickRate": 0.032213,
-        "winRate": 0.552656
+        "sampleCount": 6150,
+        "pickRate": 0.723019,
+        "winRate": 0.520206
       },
       "items": {
         "starter": [
@@ -95,9 +97,9 @@
             "icon": "assets/resources/items/1011.webp"
           },
           {
-            "id": 3070,
-            "name": "女神之泪",
-            "icon": "assets/resources/items/3070.webp"
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
           }
         ],
         "core": [
@@ -158,31 +160,31 @@
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3111,
-            "name": "水银之靴",
-            "sampleCount": 12883,
-            "pickRate": 0.391521,
-            "winRate": 0.500444,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 184,
+            "pickRate": 0.005592,
+            "winRate": 0.566937,
             "source": "boots",
-            "icon": "assets/resources/items/3111.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1796,
-            "pickRate": 0.087811,
-            "winRate": 0.493948,
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 477,
+            "pickRate": 0.023322,
+            "winRate": 0.501446,
             "source": "slot5",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/4401.webp"
           },
           {
-            "id": 6664,
-            "name": "璀璨回响",
-            "sampleCount": 1073,
-            "pickRate": 0.084715,
-            "winRate": 0.468007,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 334,
+            "pickRate": 0.02637,
+            "winRate": 0.529447,
             "source": "slot6",
-            "icon": "assets/resources/items/6664.webp"
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -195,9 +197,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "W>Q>E",
@@ -209,9 +211,9 @@
         "icon": "assets/resources/items/1011.webp"
       },
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
       }
     ],
     "core": [
@@ -272,31 +274,31 @@
         "icon": "assets/resources/items/2502.webp"
       },
       {
-        "id": 3111,
-        "name": "水银之靴",
-        "sampleCount": 12883,
-        "pickRate": 0.391521,
-        "winRate": 0.500444,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 184,
+        "pickRate": 0.005592,
+        "winRate": 0.566937,
         "source": "boots",
-        "icon": "assets/resources/items/3111.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1796,
-        "pickRate": 0.087811,
-        "winRate": 0.493948,
+        "id": 4401,
+        "name": "自然之力",
+        "sampleCount": 477,
+        "pickRate": 0.023322,
+        "winRate": 0.501446,
         "source": "slot5",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/4401.webp"
       },
       {
-        "id": 6664,
-        "name": "璀璨回响",
-        "sampleCount": 1073,
-        "pickRate": 0.084715,
-        "winRate": 0.468007,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 334,
+        "pickRate": 0.02637,
+        "winRate": 0.529447,
         "source": "slot6",
-        "icon": "assets/resources/items/6664.webp"
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

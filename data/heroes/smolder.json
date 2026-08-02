@@ -48,22 +48,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 12507,
+    "lowSampleWarning": false,
     "pickRate": 0.525306,
     "winRate": 0.502616,
     "coreProfile": {
-      "sampleCount": 3518,
-      "pickRate": 0.281282,
-      "winRate": 0.517989,
+      "sampleCount": 833,
+      "pickRate": 0.066603,
+      "winRate": 0.534703,
       "itemIds": [
         3508,
-        3031,
+        3161,
         3036
       ]
     },
     "starter": {
-      "sampleCount": 233,
-      "pickRate": 0.08601,
-      "winRate": 0.579708
+      "sampleCount": 157,
+      "pickRate": 0.215659,
+      "winRate": 0.512077
     }
   },
   "defaultBuildKey": "crit",
@@ -72,61 +73,62 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 12507,
+      "lowSampleWarning": false,
       "pickRate": 0.525306,
       "winRate": 0.502616,
       "coreProfile": {
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "itemIds": [
           3508,
-          3031,
+          3161,
           3036
         ]
       },
       "starter": {
-        "sampleCount": 233,
-        "pickRate": 0.08601,
-        "winRate": 0.579708
+        "sampleCount": 157,
+        "pickRate": 0.215659,
+        "winRate": 0.512077
       },
       "items": {
         "starter": [
           {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
             "id": 3057,
             "name": "耀光",
             "icon": "assets/resources/items/3057.webp"
-          },
-          {
-            "id": 3070,
-            "name": "女神之泪",
-            "icon": "assets/resources/items/3070.webp"
           }
         ],
         "core": [
           {
             "id": 3508,
             "name": "夺萃之镰",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
             "icon": "assets/resources/items/3508.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3161.webp"
           },
           {
             "id": 3036,
             "name": "多米尼克领主的致意",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
             "icon": "assets/resources/items/3036.webp"
           }
@@ -135,27 +137,27 @@
           {
             "id": 3508,
             "name": "夺萃之镰",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
             "icon": "assets/resources/items/3508.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3161.webp"
           },
           {
             "id": 3036,
             "name": "多米尼克领主的致意",
-            "sampleCount": 3518,
-            "pickRate": 0.281282,
-            "winRate": 0.517989,
+            "sampleCount": 833,
+            "pickRate": 0.066603,
+            "winRate": 0.534703,
             "source": "coreProfile",
             "icon": "assets/resources/items/3036.webp"
           },
@@ -169,22 +171,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3161,
-            "name": "朔极之矛",
-            "sampleCount": 1574,
-            "pickRate": 0.092861,
-            "winRate": 0.52414,
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 241,
+            "pickRate": 0.014218,
+            "winRate": 0.535864,
             "source": "slot5",
-            "icon": "assets/resources/items/3161.webp"
+            "icon": "assets/resources/items/2523.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1647,
-            "pickRate": 0.161328,
-            "winRate": 0.512839,
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 341,
+            "pickRate": 0.033402,
+            "winRate": 0.566077,
             "source": "slot6",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/2517.webp"
           }
         ]
       }
@@ -193,6 +195,7 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 1944,
+      "lowSampleWarning": false,
       "pickRate": 0.08165,
       "winRate": 0.488831,
       "coreProfile": {
@@ -290,22 +293,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 2281,
-            "pickRate": 0.134572,
-            "winRate": 0.508673,
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 241,
+            "pickRate": 0.014218,
+            "winRate": 0.535864,
             "source": "slot5",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/2523.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1647,
-            "pickRate": 0.161328,
-            "winRate": 0.512839,
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 341,
+            "pickRate": 0.033402,
+            "winRate": 0.566077,
             "source": "slot6",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/2517.webp"
           }
         ]
       }
@@ -327,41 +330,41 @@
   "items": {
     "starter": [
       {
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
+      },
+      {
         "id": 3057,
         "name": "耀光",
         "icon": "assets/resources/items/3057.webp"
-      },
-      {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
       }
     ],
     "core": [
       {
         "id": 3508,
         "name": "夺萃之镰",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
         "icon": "assets/resources/items/3508.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "id": 3161,
+        "name": "朔极之矛",
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/3161.webp"
       },
       {
         "id": 3036,
         "name": "多米尼克领主的致意",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
         "icon": "assets/resources/items/3036.webp"
       }
@@ -370,27 +373,27 @@
       {
         "id": 3508,
         "name": "夺萃之镰",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
         "icon": "assets/resources/items/3508.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "id": 3161,
+        "name": "朔极之矛",
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/3161.webp"
       },
       {
         "id": 3036,
         "name": "多米尼克领主的致意",
-        "sampleCount": 3518,
-        "pickRate": 0.281282,
-        "winRate": 0.517989,
+        "sampleCount": 833,
+        "pickRate": 0.066603,
+        "winRate": 0.534703,
         "source": "coreProfile",
         "icon": "assets/resources/items/3036.webp"
       },
@@ -404,22 +407,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3161,
-        "name": "朔极之矛",
-        "sampleCount": 1574,
-        "pickRate": 0.092861,
-        "winRate": 0.52414,
+        "id": 2523,
+        "name": "海克斯镜片 C44",
+        "sampleCount": 241,
+        "pickRate": 0.014218,
+        "winRate": 0.535864,
         "source": "slot5",
-        "icon": "assets/resources/items/3161.webp"
+        "icon": "assets/resources/items/2523.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1647,
-        "pickRate": 0.161328,
-        "winRate": 0.512839,
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 341,
+        "pickRate": 0.033402,
+        "winRate": 0.566077,
         "source": "slot6",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/2517.webp"
       }
     ]
   },

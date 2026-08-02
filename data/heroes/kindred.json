@@ -46,6 +46,7 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 18015,
+    "lowSampleWarning": false,
     "pickRate": 0.703436,
     "winRate": 0.494413,
     "coreProfile": {
@@ -59,9 +60,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 208,
-      "pickRate": 0.149748,
-      "winRate": 0.532622
+      "sampleCount": 454,
+      "pickRate": 0.326854,
+      "winRate": 0.529212
     }
   },
   "defaultBuildKey": "crit",
@@ -70,6 +71,7 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 18015,
+      "lowSampleWarning": false,
       "pickRate": 0.703436,
       "winRate": 0.494413,
       "coreProfile": {
@@ -83,21 +85,21 @@
         ]
       },
       "starter": {
-        "sampleCount": 208,
-        "pickRate": 0.149748,
-        "winRate": 0.532622
+        "sampleCount": 454,
+        "pickRate": 0.326854,
+        "winRate": 0.529212
       },
       "items": {
         "starter": [
           {
-            "id": 1001,
-            "name": "鞋子",
-            "icon": "assets/resources/items/1001.webp"
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
           },
           {
-            "id": 3134,
-            "name": "锯齿短匕",
-            "icon": "assets/resources/items/3134.webp"
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
           }
         ],
         "core": [
@@ -167,22 +169,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1393,
-            "pickRate": 0.079067,
-            "winRate": 0.523583,
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 462,
+            "pickRate": 0.026223,
+            "winRate": 0.554996,
             "source": "slot5",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/2523.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 1045,
-            "pickRate": 0.103856,
-            "winRate": 0.495711,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 105,
+            "pickRate": 0.010435,
+            "winRate": 0.599152,
             "source": "slot6",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3046.webp"
           }
         ]
       }
@@ -204,14 +206,14 @@
   "items": {
     "starter": [
       {
-        "id": 1001,
-        "name": "鞋子",
-        "icon": "assets/resources/items/1001.webp"
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 1037,
+        "name": "十字镐",
+        "icon": "assets/resources/items/1037.webp"
       }
     ],
     "core": [
@@ -281,22 +283,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1393,
-        "pickRate": 0.079067,
-        "winRate": 0.523583,
+        "id": 2523,
+        "name": "海克斯镜片 C44",
+        "sampleCount": 462,
+        "pickRate": 0.026223,
+        "winRate": 0.554996,
         "source": "slot5",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/2523.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 1045,
-        "pickRate": 0.103856,
-        "winRate": 0.495711,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 105,
+        "pickRate": 0.010435,
+        "winRate": 0.599152,
         "source": "slot6",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/3046.webp"
       }
     ]
   },

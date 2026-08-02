@@ -47,6 +47,7 @@
     "key": "bruiser",
     "name": "战士流",
     "sampleCount": 13506,
+    "lowSampleWarning": false,
     "pickRate": 0.519641,
     "winRate": 0.514662,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 13506,
+      "lowSampleWarning": false,
       "pickRate": 0.519641,
       "winRate": 0.514662,
       "coreProfile": {
@@ -159,31 +161,153 @@
             "icon": "assets/resources/items/2517.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 4241,
-            "pickRate": 0.140836,
-            "winRate": 0.543545,
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "sampleCount": 112,
+            "pickRate": 0.003719,
+            "winRate": 0.54657,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3006.webp"
           },
           {
-            "id": 3161,
-            "name": "朔极之矛",
-            "sampleCount": 1888,
-            "pickRate": 0.119896,
-            "winRate": 0.493453,
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 149,
+            "pickRate": 0.009462,
+            "winRate": 0.579109,
             "source": "slot5",
-            "icon": "assets/resources/items/3161.webp"
+            "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 17718,
-            "pickRate": 0.588384,
-            "winRate": 0.512482,
-            "source": "fallback",
-            "icon": "assets/resources/items/6610.webp"
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 171,
+            "pickRate": 0.02145,
+            "winRate": 0.569179,
+            "source": "slot6",
+            "icon": "assets/resources/items/3156.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 451,
+      "lowSampleWarning": false,
+      "pickRate": 0.017352,
+      "winRate": 0.49195,
+      "coreProfile": {
+        "sampleCount": 451,
+        "pickRate": 1,
+        "winRate": 0.49195,
+        "itemIds": [
+          3084,
+          3083,
+          2501
+        ]
+      },
+      "starter": {
+        "sampleCount": 285,
+        "pickRate": 0.850746,
+        "winRate": 0.486138
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 451,
+            "pickRate": 1,
+            "winRate": 0.49195,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "sampleCount": 112,
+            "pickRate": 0.003719,
+            "winRate": 0.54657,
+            "source": "boots",
+            "icon": "assets/resources/items/3006.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 149,
+            "pickRate": 0.009462,
+            "winRate": 0.579109,
+            "source": "slot5",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 171,
+            "pickRate": 0.02145,
+            "winRate": 0.569179,
+            "source": "slot6",
+            "icon": "assets/resources/items/3156.webp"
           }
         ]
       }
@@ -273,31 +397,31 @@
         "icon": "assets/resources/items/2517.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 4241,
-        "pickRate": 0.140836,
-        "winRate": 0.543545,
+        "id": 3006,
+        "name": "狂战士胫甲",
+        "sampleCount": 112,
+        "pickRate": 0.003719,
+        "winRate": 0.54657,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3006.webp"
       },
       {
-        "id": 3161,
-        "name": "朔极之矛",
-        "sampleCount": 1888,
-        "pickRate": 0.119896,
-        "winRate": 0.493453,
+        "id": 2502,
+        "name": "无终恨意",
+        "sampleCount": 149,
+        "pickRate": 0.009462,
+        "winRate": 0.579109,
         "source": "slot5",
-        "icon": "assets/resources/items/3161.webp"
+        "icon": "assets/resources/items/2502.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 17718,
-        "pickRate": 0.588384,
-        "winRate": 0.512482,
-        "source": "fallback",
-        "icon": "assets/resources/items/6610.webp"
+        "id": 3156,
+        "name": "玛莫提乌斯之噬",
+        "sampleCount": 171,
+        "pickRate": 0.02145,
+        "winRate": 0.569179,
+        "source": "slot6",
+        "icon": "assets/resources/items/3156.webp"
       }
     ]
   },

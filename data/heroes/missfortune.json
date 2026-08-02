@@ -50,6 +50,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 48751,
+    "lowSampleWarning": false,
     "pickRate": 0.786104,
     "winRate": 0.496855,
     "coreProfile": {
@@ -63,9 +64,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 1304,
-      "pickRate": 0.2004,
-      "winRate": 0.537957
+      "sampleCount": 4184,
+      "pickRate": 0.643,
+      "winRate": 0.526818
     }
   },
   "defaultBuildKey": "ap",
@@ -74,6 +75,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 48751,
+      "lowSampleWarning": false,
       "pickRate": 0.786104,
       "winRate": 0.496855,
       "coreProfile": {
@@ -87,9 +89,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 1304,
-        "pickRate": 0.2004,
-        "winRate": 0.537957
+        "sampleCount": 4184,
+        "pickRate": 0.643,
+        "winRate": 0.526818
       },
       "items": {
         "starter": [
@@ -166,22 +168,266 @@
             "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 3157,
-            "name": "中娅沙漏",
-            "sampleCount": 1084,
-            "pickRate": 0.025472,
-            "winRate": 0.477864,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 183,
+            "pickRate": 0.0043,
+            "winRate": 0.506855,
             "source": "slot5",
-            "icon": "assets/resources/items/3157.webp"
+            "icon": "assets/resources/items/4633.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 2335,
-            "pickRate": 0.09554,
-            "winRate": 0.468227,
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 126,
+            "pickRate": 0.005155,
+            "winRate": 0.521427,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/123430.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 750,
+      "lowSampleWarning": false,
+      "pickRate": 0.012094,
+      "winRate": 0.451205,
+      "coreProfile": {
+        "sampleCount": 202,
+        "pickRate": 0.269333,
+        "winRate": 0.520327,
+        "itemIds": [
+          6676,
+          6696,
+          3004
+        ]
+      },
+      "starter": {
+        "sampleCount": 103,
+        "pickRate": 0.811024,
+        "winRate": 0.519269
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 202,
+            "pickRate": 0.269333,
+            "winRate": 0.520327,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1652,
+            "pickRate": 0.02343,
+            "winRate": 0.52822,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 183,
+            "pickRate": 0.0043,
+            "winRate": 0.506855,
+            "source": "slot5",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 126,
+            "pickRate": 0.005155,
+            "winRate": 0.521427,
+            "source": "slot6",
+            "icon": "assets/resources/items/123430.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 2693,
+      "lowSampleWarning": false,
+      "pickRate": 0.043424,
+      "winRate": 0.426696,
+      "coreProfile": {
+        "sampleCount": 967,
+        "pickRate": 0.359079,
+        "winRate": 0.448808,
+        "itemIds": [
+          6676,
+          6696,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 151,
+        "pickRate": 0.244337,
+        "winRate": 0.51554
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 967,
+            "pickRate": 0.359079,
+            "winRate": 0.448808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1652,
+            "pickRate": 0.02343,
+            "winRate": 0.52822,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 183,
+            "pickRate": 0.0043,
+            "winRate": 0.506855,
+            "source": "slot5",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 126,
+            "pickRate": 0.005155,
+            "winRate": 0.521427,
+            "source": "slot6",
+            "icon": "assets/resources/items/123430.webp"
           }
         ]
       }
@@ -275,22 +521,22 @@
         "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 3157,
-        "name": "中娅沙漏",
-        "sampleCount": 1084,
-        "pickRate": 0.025472,
-        "winRate": 0.477864,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 183,
+        "pickRate": 0.0043,
+        "winRate": 0.506855,
         "source": "slot5",
-        "icon": "assets/resources/items/3157.webp"
+        "icon": "assets/resources/items/4633.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 2335,
-        "pickRate": 0.09554,
-        "winRate": 0.468227,
+        "id": 123430,
+        "name": "毁坏仪式",
+        "sampleCount": 126,
+        "pickRate": 0.005155,
+        "winRate": 0.521427,
         "source": "slot6",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/123430.webp"
       }
     ]
   },

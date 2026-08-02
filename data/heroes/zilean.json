@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 18976,
+    "lowSampleWarning": false,
     "pickRate": 0.525302,
     "winRate": 0.506354,
     "coreProfile": {
-      "sampleCount": 1430,
-      "pickRate": 0.075358,
-      "winRate": 0.544027,
+      "sampleCount": 582,
+      "pickRate": 0.03067,
+      "winRate": 0.598169,
       "itemIds": [
-        6655,
+        6657,
         3003,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 252,
-      "pickRate": 0.322663,
-      "winRate": 0.566505
+      "sampleCount": 199,
+      "pickRate": 0.459584,
+      "winRate": 0.608141
     }
   },
   "defaultBuildKey": "ap",
@@ -71,85 +72,91 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 18976,
+      "lowSampleWarning": false,
       "pickRate": 0.525302,
       "winRate": 0.506354,
       "coreProfile": {
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "itemIds": [
-          6655,
+          6657,
           3003,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 252,
-        "pickRate": 0.322663,
-        "winRate": 0.566505
+        "sampleCount": 199,
+        "pickRate": 0.459584,
+        "winRate": 0.608141
       },
       "items": {
         "starter": [
           {
-            "id": 3802,
-            "name": "遗失的章节",
-            "icon": "assets/resources/items/3802.webp"
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
           }
         ],
         "core": [
           {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
+            "icon": "assets/resources/items/6657.webp"
           },
           {
             "id": 3003,
             "name": "大天使之杖",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
             "icon": "assets/resources/items/3003.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
+            "icon": "assets/resources/items/6657.webp"
           },
           {
             "id": 3003,
             "name": "大天使之杖",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
             "icon": "assets/resources/items/3003.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1430,
-            "pickRate": 0.075358,
-            "winRate": 0.544027,
+            "sampleCount": 582,
+            "pickRate": 0.03067,
+            "winRate": 0.598169,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
@@ -163,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 4628,
-            "name": "视界专注",
-            "sampleCount": 1264,
-            "pickRate": 0.051767,
-            "winRate": 0.509317,
+            "id": 3110,
+            "name": "冰霜之心",
+            "sampleCount": 171,
+            "pickRate": 0.007003,
+            "winRate": 0.609111,
             "source": "slot5",
-            "icon": "assets/resources/items/4628.webp"
+            "icon": "assets/resources/items/3110.webp"
           },
           {
-            "id": 3165,
-            "name": "莫雷洛秘典",
-            "sampleCount": 1028,
-            "pickRate": 0.076403,
-            "winRate": 0.446438,
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 171,
+            "pickRate": 0.012709,
+            "winRate": 0.626655,
             "source": "slot6",
-            "icon": "assets/resources/items/3165.webp"
+            "icon": "assets/resources/items/2526.webp"
           }
         ]
       }
@@ -191,74 +198,79 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 6,
-      "name": "幽灵疾步",
-      "icon": "assets/resources/summoner-spells/6.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {
-        "id": 3802,
-        "name": "遗失的章节",
-        "icon": "assets/resources/items/3802.webp"
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "icon": "assets/resources/items/1026.webp"
+      },
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
       }
     ],
     "core": [
       {
-        "id": 6655,
-        "name": "卢登的回声",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "id": 6657,
+        "name": "时光之杖",
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6655.webp"
+        "icon": "assets/resources/items/6657.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
-        "id": 6655,
-        "name": "卢登的回声",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "id": 6657,
+        "name": "时光之杖",
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6655.webp"
+        "icon": "assets/resources/items/6657.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1430,
-        "pickRate": 0.075358,
-        "winRate": 0.544027,
+        "sampleCount": 582,
+        "pickRate": 0.03067,
+        "winRate": 0.598169,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
@@ -272,22 +284,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 4628,
-        "name": "视界专注",
-        "sampleCount": 1264,
-        "pickRate": 0.051767,
-        "winRate": 0.509317,
+        "id": 3110,
+        "name": "冰霜之心",
+        "sampleCount": 171,
+        "pickRate": 0.007003,
+        "winRate": 0.609111,
         "source": "slot5",
-        "icon": "assets/resources/items/4628.webp"
+        "icon": "assets/resources/items/3110.webp"
       },
       {
-        "id": 3165,
-        "name": "莫雷洛秘典",
-        "sampleCount": 1028,
-        "pickRate": 0.076403,
-        "winRate": 0.446438,
+        "id": 2526,
+        "name": "耳语头环",
+        "sampleCount": 171,
+        "pickRate": 0.012709,
+        "winRate": 0.626655,
         "source": "slot6",
-        "icon": "assets/resources/items/3165.webp"
+        "icon": "assets/resources/items/2526.webp"
       }
     ]
   },

@@ -47,6 +47,7 @@
     "key": "lethality",
     "name": "穿甲流",
     "sampleCount": 22779,
+    "lowSampleWarning": false,
     "pickRate": 0.575416,
     "winRate": 0.44068,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 207,
-      "pickRate": 0.185152,
-      "winRate": 0.510424
+      "sampleCount": 762,
+      "pickRate": 0.681574,
+      "winRate": 0.503121
     }
   },
   "defaultBuildKey": "lethality",
@@ -71,6 +72,7 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 22779,
+      "lowSampleWarning": false,
       "pickRate": 0.575416,
       "winRate": 0.44068,
       "coreProfile": {
@@ -84,9 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 207,
-        "pickRate": 0.185152,
-        "winRate": 0.510424
+        "sampleCount": 762,
+        "pickRate": 0.681574,
+        "winRate": 0.503121
       },
       "items": {
         "starter": [
@@ -96,9 +98,9 @@
             "icon": "assets/resources/items/3070.webp"
           },
           {
-            "id": 3177,
-            "name": "守护者之刃",
-            "icon": "assets/resources/items/3177.webp"
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
           }
         ],
         "core": [
@@ -159,13 +161,13 @@
             "icon": "assets/resources/items/6699.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 7485,
-            "pickRate": 0.172956,
-            "winRate": 0.495966,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 302,
+            "pickRate": 0.006978,
+            "winRate": 0.50193,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
             "id": 2517,
@@ -177,13 +179,135 @@
             "icon": "assets/resources/items/2517.webp"
           },
           {
-            "id": 3814,
-            "name": "夜之锋刃",
-            "sampleCount": 1682,
-            "pickRate": 0.104589,
-            "winRate": 0.445879,
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 361,
+            "pickRate": 0.022447,
+            "winRate": 0.49284,
             "source": "slot6",
-            "icon": "assets/resources/items/3814.webp"
+            "icon": "assets/resources/items/3072.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ad",
+      "name": "推荐流",
+      "sampleCount": 1508,
+      "lowSampleWarning": false,
+      "pickRate": 0.038093,
+      "winRate": 0.471443,
+      "coreProfile": {
+        "sampleCount": 518,
+        "pickRate": 0.343501,
+        "winRate": 0.475171,
+        "itemIds": [
+          126697,
+          3004,
+          3033
+        ]
+      },
+      "starter": {
+        "sampleCount": 154,
+        "pickRate": 0.329764,
+        "winRate": 0.527646
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3033.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 518,
+            "pickRate": 0.343501,
+            "winRate": 0.475171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3033.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 302,
+            "pickRate": 0.006978,
+            "winRate": 0.50193,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1038,
+            "pickRate": 0.038948,
+            "winRate": 0.498319,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 361,
+            "pickRate": 0.022447,
+            "winRate": 0.49284,
+            "source": "slot6",
+            "icon": "assets/resources/items/3072.webp"
           }
         ]
       }
@@ -192,6 +316,7 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 5135,
+      "lowSampleWarning": false,
       "pickRate": 0.129714,
       "winRate": 0.460739,
       "coreProfile": {
@@ -280,13 +405,13 @@
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 7485,
-            "pickRate": 0.172956,
-            "winRate": 0.495966,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 302,
+            "pickRate": 0.006978,
+            "winRate": 0.50193,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
             "id": 2517,
@@ -298,13 +423,135 @@
             "icon": "assets/resources/items/2517.webp"
           },
           {
-            "id": 3814,
-            "name": "夜之锋刃",
-            "sampleCount": 1682,
-            "pickRate": 0.104589,
-            "winRate": 0.445879,
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 361,
+            "pickRate": 0.022447,
+            "winRate": 0.49284,
             "source": "slot6",
-            "icon": "assets/resources/items/3814.webp"
+            "icon": "assets/resources/items/3072.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 1053,
+      "lowSampleWarning": false,
+      "pickRate": 0.0266,
+      "winRate": 0.436928,
+      "coreProfile": {
+        "sampleCount": 510,
+        "pickRate": 0.48433,
+        "winRate": 0.457312,
+        "itemIds": [
+          126697,
+          3004,
+          3161
+        ]
+      },
+      "starter": {
+        "sampleCount": 279,
+        "pickRate": 0.672289,
+        "winRate": 0.447466
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 510,
+            "pickRate": 0.48433,
+            "winRate": 0.457312,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 302,
+            "pickRate": 0.006978,
+            "winRate": 0.50193,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1038,
+            "pickRate": 0.038948,
+            "winRate": 0.498319,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 361,
+            "pickRate": 0.022447,
+            "winRate": 0.49284,
+            "source": "slot6",
+            "icon": "assets/resources/items/3072.webp"
           }
         ]
       }
@@ -331,9 +578,9 @@
         "icon": "assets/resources/items/3070.webp"
       },
       {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
@@ -394,13 +641,13 @@
         "icon": "assets/resources/items/6699.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 7485,
-        "pickRate": 0.172956,
-        "winRate": 0.495966,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 302,
+        "pickRate": 0.006978,
+        "winRate": 0.50193,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
         "id": 2517,
@@ -412,13 +659,13 @@
         "icon": "assets/resources/items/2517.webp"
       },
       {
-        "id": 3814,
-        "name": "夜之锋刃",
-        "sampleCount": 1682,
-        "pickRate": 0.104589,
-        "winRate": 0.445879,
+        "id": 3072,
+        "name": "饮血剑",
+        "sampleCount": 361,
+        "pickRate": 0.022447,
+        "winRate": 0.49284,
         "source": "slot6",
-        "icon": "assets/resources/items/3814.webp"
+        "icon": "assets/resources/items/3072.webp"
       }
     ]
   },

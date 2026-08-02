@@ -47,22 +47,23 @@
     "key": "bruiser",
     "name": "战士流",
     "sampleCount": 13874,
+    "lowSampleWarning": false,
     "pickRate": 0.442552,
     "winRate": 0.531377,
     "coreProfile": {
-      "sampleCount": 1041,
-      "pickRate": 0.075032,
-      "winRate": 0.554155,
+      "sampleCount": 375,
+      "pickRate": 0.027029,
+      "winRate": 0.608095,
       "itemIds": [
         2510,
-        6610,
+        3161,
         6333
       ]
     },
     "starter": {
-      "sampleCount": 393,
-      "pickRate": 0.512386,
-      "winRate": 0.534569
+      "sampleCount": 123,
+      "pickRate": 0.502041,
+      "winRate": 0.579998
     }
   },
   "defaultBuildKey": "bruiser",
@@ -71,22 +72,23 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 13874,
+      "lowSampleWarning": false,
       "pickRate": 0.442552,
       "winRate": 0.531377,
       "coreProfile": {
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "itemIds": [
           2510,
-          6610,
+          3161,
           6333
         ]
       },
       "starter": {
-        "sampleCount": 393,
-        "pickRate": 0.512386,
-        "winRate": 0.534569
+        "sampleCount": 123,
+        "pickRate": 0.502041,
+        "winRate": 0.579998
       },
       "items": {
         "starter": [
@@ -105,27 +107,27 @@
           {
             "id": 2510,
             "name": "黄昏与黎明",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
             "icon": "assets/resources/items/2510.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/3161.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           }
@@ -134,27 +136,27 @@
           {
             "id": 2510,
             "name": "黄昏与黎明",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
             "icon": "assets/resources/items/2510.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
+            "icon": "assets/resources/items/3161.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 1041,
-            "pickRate": 0.075032,
-            "winRate": 0.554155,
+            "sampleCount": 375,
+            "pickRate": 0.027029,
+            "winRate": 0.608095,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           },
@@ -168,22 +170,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3161,
-            "name": "朔极之矛",
-            "sampleCount": 1271,
-            "pickRate": 0.063937,
-            "winRate": 0.503942,
+            "id": 3073,
+            "name": "海克斯注力刚壁",
+            "sampleCount": 131,
+            "pickRate": 0.00659,
+            "winRate": 0.567647,
             "source": "slot5",
-            "icon": "assets/resources/items/3161.webp"
+            "icon": "assets/resources/items/3073.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 2641,
-            "pickRate": 0.074877,
-            "winRate": 0.541194,
-            "source": "fallback",
-            "icon": "assets/resources/items/4633.webp"
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 127,
+            "pickRate": 0.01234,
+            "winRate": 0.553943,
+            "source": "slot6",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 609,
+      "lowSampleWarning": false,
+      "pickRate": 0.019426,
+      "winRate": 0.521645,
+      "coreProfile": {
+        "sampleCount": 609,
+        "pickRate": 1,
+        "winRate": 0.521645,
+        "itemIds": [
+          2510,
+          3146,
+          3157
+        ]
+      },
+      "starter": {
+        "sampleCount": 259,
+        "pickRate": 0.483209,
+        "winRate": 0.508553
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          },
+          {
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3157.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 609,
+            "pickRate": 1,
+            "winRate": 0.521645,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3157.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3104,
+            "pickRate": 0.088004,
+            "winRate": 0.572994,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3073,
+            "name": "海克斯注力刚壁",
+            "sampleCount": 131,
+            "pickRate": 0.00659,
+            "winRate": 0.567647,
+            "source": "slot5",
+            "icon": "assets/resources/items/3073.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 127,
+            "pickRate": 0.01234,
+            "winRate": 0.553943,
+            "source": "slot6",
+            "icon": "assets/resources/items/3083.webp"
           }
         ]
       }
@@ -219,27 +343,27 @@
       {
         "id": 2510,
         "name": "黄昏与黎明",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
         "icon": "assets/resources/items/2510.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "id": 3161,
+        "name": "朔极之矛",
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
+        "icon": "assets/resources/items/3161.webp"
       },
       {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       }
@@ -248,27 +372,27 @@
       {
         "id": 2510,
         "name": "黄昏与黎明",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
         "icon": "assets/resources/items/2510.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "id": 3161,
+        "name": "朔极之矛",
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
+        "icon": "assets/resources/items/3161.webp"
       },
       {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 1041,
-        "pickRate": 0.075032,
-        "winRate": 0.554155,
+        "sampleCount": 375,
+        "pickRate": 0.027029,
+        "winRate": 0.608095,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       },
@@ -282,22 +406,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3161,
-        "name": "朔极之矛",
-        "sampleCount": 1271,
-        "pickRate": 0.063937,
-        "winRate": 0.503942,
+        "id": 3073,
+        "name": "海克斯注力刚壁",
+        "sampleCount": 131,
+        "pickRate": 0.00659,
+        "winRate": 0.567647,
         "source": "slot5",
-        "icon": "assets/resources/items/3161.webp"
+        "icon": "assets/resources/items/3073.webp"
       },
       {
-        "id": 4633,
-        "name": "裂隙制造者",
-        "sampleCount": 2641,
-        "pickRate": 0.074877,
-        "winRate": 0.541194,
-        "source": "fallback",
-        "icon": "assets/resources/items/4633.webp"
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 127,
+        "pickRate": 0.01234,
+        "winRate": 0.553943,
+        "source": "slot6",
+        "icon": "assets/resources/items/3083.webp"
       }
     ]
   },

@@ -40,8 +40,8 @@ def require_named_entries(value: Any, expected: int, path: str) -> list[dict[str
 
 def validate_items(items: dict[str, Any], path: str) -> None:
     starter = items.get("starter")
-    if not isinstance(starter, list) or not 1 <= len(starter) <= 2:
-        raise ValidationError(f"{path}.starter 必须包含 1–2 项")
+    if not isinstance(starter, list) or not starter:
+        raise ValidationError(f"{path}.starter 至少包含 1 项")
     for index, row in enumerate(starter):
         if not isinstance(row, dict) or row.get("id") is None:
             raise ValidationError(f"{path}.starter[{index}] 缺少 id")

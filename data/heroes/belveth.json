@@ -46,22 +46,23 @@
     "key": "on_hit",
     "name": "攻速特效流",
     "sampleCount": 7083,
+    "lowSampleWarning": false,
     "pickRate": 0.418345,
     "winRate": 0.570538,
     "coreProfile": {
-      "sampleCount": 2866,
-      "pickRate": 0.404631,
-      "winRate": 0.570987,
+      "sampleCount": 903,
+      "pickRate": 0.127488,
+      "winRate": 0.600772,
       "itemIds": [
         6672,
         3153,
-        6333
+        3124
       ]
     },
     "starter": {
-      "sampleCount": 387,
-      "pickRate": 0.193694,
-      "winRate": 0.577147
+      "sampleCount": 247,
+      "pickRate": 0.483366,
+      "winRate": 0.617424
     }
   },
   "defaultBuildKey": "on_hit",
@@ -70,92 +71,88 @@
       "key": "on_hit",
       "name": "攻速特效流",
       "sampleCount": 7083,
+      "lowSampleWarning": false,
       "pickRate": 0.418345,
       "winRate": 0.570538,
       "coreProfile": {
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "itemIds": [
           6672,
           3153,
-          6333
+          3124
         ]
       },
       "starter": {
-        "sampleCount": 387,
-        "pickRate": 0.193694,
-        "winRate": 0.577147
+        "sampleCount": 247,
+        "pickRate": 0.483366,
+        "winRate": 0.617424
       },
       "items": {
         "starter": [
           {
-            "id": 1036,
-            "name": "长剑",
-            "icon": "assets/resources/items/1036.webp"
-          },
-          {
-            "id": 3177,
-            "name": "守护者之刃",
-            "icon": "assets/resources/items/3177.webp"
+            "id": 3051,
+            "name": "缚炉之斧",
+            "icon": "assets/resources/items/3051.webp"
           }
         ],
         "core": [
           {
             "id": 6672,
             "name": "海妖杀手",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
             "icon": "assets/resources/items/6672.webp"
           },
           {
             "id": 3153,
             "name": "破败王者之刃",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
             "icon": "assets/resources/items/3153.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/3124.webp"
           }
         ],
         "recommended": [
           {
             "id": 6672,
             "name": "海妖杀手",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
             "icon": "assets/resources/items/6672.webp"
           },
           {
             "id": 3153,
             "name": "破败王者之刃",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
             "icon": "assets/resources/items/3153.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 2866,
-            "pickRate": 0.404631,
-            "winRate": 0.570987,
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 903,
+            "pickRate": 0.127488,
+            "winRate": 0.600772,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/3124.webp"
           },
           {
             "id": 3008,
@@ -167,22 +164,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3091,
-            "name": "智慧末刃",
-            "sampleCount": 1190,
-            "pickRate": 0.124751,
-            "winRate": 0.566592,
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 136,
+            "pickRate": 0.014257,
+            "winRate": 0.631088,
             "source": "slot5",
-            "icon": "assets/resources/items/3091.webp"
+            "icon": "assets/resources/items/2501.webp"
           },
           {
-            "id": 3124,
-            "name": "鬼索的狂暴之刃",
-            "sampleCount": 3542,
-            "pickRate": 0.179469,
-            "winRate": 0.589092,
-            "source": "fallback",
-            "icon": "assets/resources/items/3124.webp"
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 456,
+            "pickRate": 0.097311,
+            "winRate": 0.600386,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
           }
         ]
       }
@@ -204,72 +201,67 @@
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
-      },
-      {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3051,
+        "name": "缚炉之斧",
+        "icon": "assets/resources/items/3051.webp"
       }
     ],
     "core": [
       {
         "id": 6672,
         "name": "海妖杀手",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
         "icon": "assets/resources/items/6672.webp"
       },
       {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/3124.webp"
       }
     ],
     "recommended": [
       {
         "id": 6672,
         "name": "海妖杀手",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
         "icon": "assets/resources/items/6672.webp"
       },
       {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 2866,
-        "pickRate": 0.404631,
-        "winRate": 0.570987,
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 903,
+        "pickRate": 0.127488,
+        "winRate": 0.600772,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/3124.webp"
       },
       {
         "id": 3008,
@@ -281,22 +273,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3091,
-        "name": "智慧末刃",
-        "sampleCount": 1190,
-        "pickRate": 0.124751,
-        "winRate": 0.566592,
+        "id": 2501,
+        "name": "霸王血铠",
+        "sampleCount": 136,
+        "pickRate": 0.014257,
+        "winRate": 0.631088,
         "source": "slot5",
-        "icon": "assets/resources/items/3091.webp"
+        "icon": "assets/resources/items/2501.webp"
       },
       {
-        "id": 3124,
-        "name": "鬼索的狂暴之刃",
-        "sampleCount": 3542,
-        "pickRate": 0.179469,
-        "winRate": 0.589092,
-        "source": "fallback",
-        "icon": "assets/resources/items/3124.webp"
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 456,
+        "pickRate": 0.097311,
+        "winRate": 0.600386,
+        "source": "slot6",
+        "icon": "assets/resources/items/6333.webp"
       }
     ]
   },

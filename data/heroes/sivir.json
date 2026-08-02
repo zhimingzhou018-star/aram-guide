@@ -46,22 +46,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 6184,
+    "lowSampleWarning": false,
     "pickRate": 0.47416,
     "winRate": 0.514193,
     "coreProfile": {
-      "sampleCount": 1680,
-      "pickRate": 0.271669,
-      "winRate": 0.532727,
+      "sampleCount": 510,
+      "pickRate": 0.082471,
+      "winRate": 0.554156,
       "itemIds": [
         3032,
-        6675,
-        3031
+        3031,
+        3036
       ]
     },
     "starter": {
-      "sampleCount": 828,
-      "pickRate": 0.637413,
-      "winRate": 0.546185
+      "sampleCount": 233,
+      "pickRate": 0.598972,
+      "winRate": 0.574471
     }
   },
   "defaultBuildKey": "crit",
@@ -70,22 +71,23 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 6184,
+      "lowSampleWarning": false,
       "pickRate": 0.47416,
       "winRate": 0.514193,
       "coreProfile": {
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
         "itemIds": [
           3032,
-          6675,
-          3031
+          3031,
+          3036
         ]
       },
       "starter": {
-        "sampleCount": 828,
-        "pickRate": 0.637413,
-        "winRate": 0.546185
+        "sampleCount": 233,
+        "pickRate": 0.598972,
+        "winRate": 0.574471
       },
       "items": {
         "starter": [
@@ -99,58 +101,58 @@
           {
             "id": 3032,
             "name": "育恩塔尔荒野箭",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
             "source": "coreProfile",
             "icon": "assets/resources/items/3032.webp"
           },
           {
-            "id": 6675,
-            "name": "纳沃利烁刃",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6675.webp"
-          },
-          {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
           }
         ],
         "recommended": [
           {
             "id": 3032,
             "name": "育恩塔尔荒野箭",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
             "source": "coreProfile",
             "icon": "assets/resources/items/3032.webp"
           },
           {
-            "id": 6675,
-            "name": "纳沃利烁刃",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6675.webp"
-          },
-          {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1680,
-            "pickRate": 0.271669,
-            "winRate": 0.532727,
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 510,
+            "pickRate": 0.082471,
+            "winRate": 0.554156,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
           },
           {
             "id": 3008,
@@ -162,22 +164,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1411,
-            "pickRate": 0.158539,
-            "winRate": 0.501333,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 166,
+            "pickRate": 0.018652,
+            "winRate": 0.550943,
             "source": "slot5",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3046.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 2470,
-            "pickRate": 0.165206,
-            "winRate": 0.511511,
-            "source": "fallback",
-            "icon": "assets/resources/items/3072.webp"
+            "id": 6672,
+            "name": "海妖杀手",
+            "sampleCount": 252,
+            "pickRate": 0.050109,
+            "winRate": 0.532727,
+            "source": "slot6",
+            "icon": "assets/resources/items/6672.webp"
           }
         ]
       }
@@ -190,9 +192,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 1,
-      "name": "净化",
-      "icon": "assets/resources/summoner-spells/1.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>W>E",
@@ -208,58 +210,58 @@
       {
         "id": 3032,
         "name": "育恩塔尔荒野箭",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
         "source": "coreProfile",
         "icon": "assets/resources/items/3032.webp"
       },
       {
-        "id": 6675,
-        "name": "纳沃利烁刃",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6675.webp"
-      },
-      {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
+      },
+      {
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3036.webp"
       }
     ],
     "recommended": [
       {
         "id": 3032,
         "name": "育恩塔尔荒野箭",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
         "source": "coreProfile",
         "icon": "assets/resources/items/3032.webp"
       },
       {
-        "id": 6675,
-        "name": "纳沃利烁刃",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6675.webp"
-      },
-      {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1680,
-        "pickRate": 0.271669,
-        "winRate": 0.532727,
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
+      },
+      {
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 510,
+        "pickRate": 0.082471,
+        "winRate": 0.554156,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3036.webp"
       },
       {
         "id": 3008,
@@ -271,22 +273,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 1411,
-        "pickRate": 0.158539,
-        "winRate": 0.501333,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 166,
+        "pickRate": 0.018652,
+        "winRate": 0.550943,
         "source": "slot5",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3046.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 2470,
-        "pickRate": 0.165206,
-        "winRate": 0.511511,
-        "source": "fallback",
-        "icon": "assets/resources/items/3072.webp"
+        "id": 6672,
+        "name": "海妖杀手",
+        "sampleCount": 252,
+        "pickRate": 0.050109,
+        "winRate": 0.532727,
+        "source": "slot6",
+        "icon": "assets/resources/items/6672.webp"
       }
     ]
   },

@@ -47,22 +47,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 17556,
+    "lowSampleWarning": false,
     "pickRate": 0.588496,
     "winRate": 0.504387,
     "coreProfile": {
-      "sampleCount": 1408,
-      "pickRate": 0.080201,
-      "winRate": 0.527066,
+      "sampleCount": 747,
+      "pickRate": 0.04255,
+      "winRate": 0.531971,
       "itemIds": [
-        126697,
         6676,
-        3036
+        3036,
+        3153
       ]
     },
     "starter": {
-      "sampleCount": 572,
-      "pickRate": 0.477064,
-      "winRate": 0.557715
+      "sampleCount": 130,
+      "pickRate": 0.298165,
+      "winRate": 0.496177
     }
   },
   "defaultBuildKey": "crit",
@@ -71,22 +72,23 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 17556,
+      "lowSampleWarning": false,
       "pickRate": 0.588496,
       "winRate": 0.504387,
       "coreProfile": {
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
         "itemIds": [
-          126697,
           6676,
-          3036
+          3036,
+          3153
         ]
       },
       "starter": {
-        "sampleCount": 572,
-        "pickRate": 0.477064,
-        "winRate": 0.557715
+        "sampleCount": 130,
+        "pickRate": 0.298165,
+        "winRate": 0.496177
       },
       "items": {
         "starter": [
@@ -96,67 +98,67 @@
             "icon": "assets/resources/items/1036.webp"
           },
           {
-            "id": 3134,
-            "name": "锯齿短匕",
-            "icon": "assets/resources/items/3134.webp"
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
           }
         ],
         "core": [
           {
-            "id": 126697,
-            "name": "狂妄",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/126697.webp"
-          },
-          {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3036,
             "name": "多米尼克领主的致意",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
             "source": "coreProfile",
             "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
           }
         ],
         "recommended": [
           {
-            "id": 126697,
-            "name": "狂妄",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/126697.webp"
-          },
-          {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3036,
             "name": "多米尼克领主的致意",
-            "sampleCount": 1408,
-            "pickRate": 0.080201,
-            "winRate": 0.527066,
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
             "source": "coreProfile",
             "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 747,
+            "pickRate": 0.04255,
+            "winRate": 0.531971,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
           },
           {
             "id": 3008,
@@ -168,22 +170,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 1581,
-            "pickRate": 0.084799,
-            "winRate": 0.522733,
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 109,
+            "pickRate": 0.005846,
+            "winRate": 0.624759,
             "source": "slot5",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3814,
+            "name": "夜之锋刃",
+            "sampleCount": 139,
+            "pickRate": 0.013503,
+            "winRate": 0.580405,
+            "source": "slot6",
+            "icon": "assets/resources/items/3814.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 1427,
+      "lowSampleWarning": false,
+      "pickRate": 0.047835,
+      "winRate": 0.475456,
+      "coreProfile": {
+        "sampleCount": 758,
+        "pickRate": 0.531184,
+        "winRate": 0.486272,
+        "itemIds": [
+          6610,
+          3153,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 401,
+        "pickRate": 0.730419,
+        "winRate": 0.473119
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 2021,
+            "name": "掘道钻头",
+            "icon": "assets/resources/items/2021.webp"
+          },
+          {
+            "id": 2022,
+            "name": "荧尘",
+            "icon": "assets/resources/items/2022.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 1781,
-            "pickRate": 0.173013,
-            "winRate": 0.533572,
-            "source": "slot6",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 758,
+            "pickRate": 0.531184,
+            "winRate": 0.486272,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5189,
+            "pickRate": 0.1573,
+            "winRate": 0.515881,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 109,
+            "pickRate": 0.005846,
+            "winRate": 0.624759,
+            "source": "slot5",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3814,
+            "name": "夜之锋刃",
+            "sampleCount": 139,
+            "pickRate": 0.013503,
+            "winRate": 0.580405,
+            "source": "slot6",
+            "icon": "assets/resources/items/3814.webp"
           }
         ]
       }
@@ -192,22 +316,23 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 1950,
+      "lowSampleWarning": false,
       "pickRate": 0.065366,
       "winRate": 0.476177,
       "coreProfile": {
-        "sampleCount": 1106,
-        "pickRate": 0.567179,
-        "winRate": 0.47495,
+        "sampleCount": 844,
+        "pickRate": 0.432821,
+        "winRate": 0.477785,
         "itemIds": [
           126697,
           6676,
-          6333
+          3153
         ]
       },
       "starter": {
-        "sampleCount": 325,
-        "pickRate": 0.387366,
-        "winRate": 0.499254
+        "sampleCount": 280,
+        "pickRate": 0.438185,
+        "winRate": 0.487111
       },
       "items": {
         "starter": [
@@ -217,67 +342,67 @@
             "icon": "assets/resources/items/1036.webp"
           },
           {
-            "id": 3134,
-            "name": "锯齿短匕",
-            "icon": "assets/resources/items/3134.webp"
+            "id": 3133,
+            "name": "考尔菲德的战锤",
+            "icon": "assets/resources/items/3133.webp"
           }
         ],
         "core": [
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/3153.webp"
           }
         ],
         "recommended": [
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 1106,
-            "pickRate": 0.567179,
-            "winRate": 0.47495,
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 844,
+            "pickRate": 0.432821,
+            "winRate": 0.477785,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/3153.webp"
           },
           {
             "id": 3008,
@@ -289,22 +414,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 2061,
-            "pickRate": 0.110545,
-            "winRate": 0.527745,
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 154,
+            "pickRate": 0.00826,
+            "winRate": 0.584189,
             "source": "slot5",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 1140,
-            "pickRate": 0.110744,
-            "winRate": 0.502587,
+            "id": 3814,
+            "name": "夜之锋刃",
+            "sampleCount": 139,
+            "pickRate": 0.013503,
+            "winRate": 0.580405,
             "source": "slot6",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3814.webp"
           }
         ]
       }
@@ -317,9 +442,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -331,67 +456,67 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 1037,
+        "name": "十字镐",
+        "icon": "assets/resources/items/1037.webp"
       }
     ],
     "core": [
       {
-        "id": 126697,
-        "name": "狂妄",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/126697.webp"
-      },
-      {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3036,
         "name": "多米尼克领主的致意",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
         "source": "coreProfile",
         "icon": "assets/resources/items/3036.webp"
+      },
+      {
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3153.webp"
       }
     ],
     "recommended": [
       {
-        "id": 126697,
-        "name": "狂妄",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/126697.webp"
-      },
-      {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3036,
         "name": "多米尼克领主的致意",
-        "sampleCount": 1408,
-        "pickRate": 0.080201,
-        "winRate": 0.527066,
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
         "source": "coreProfile",
         "icon": "assets/resources/items/3036.webp"
+      },
+      {
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 747,
+        "pickRate": 0.04255,
+        "winRate": 0.531971,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3008,
@@ -403,22 +528,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1581,
-        "pickRate": 0.084799,
-        "winRate": 0.522733,
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 109,
+        "pickRate": 0.005846,
+        "winRate": 0.624759,
         "source": "slot5",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 1781,
-        "pickRate": 0.173013,
-        "winRate": 0.533572,
+        "id": 3814,
+        "name": "夜之锋刃",
+        "sampleCount": 139,
+        "pickRate": 0.013503,
+        "winRate": 0.580405,
         "source": "slot6",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/3814.webp"
       }
     ]
   },

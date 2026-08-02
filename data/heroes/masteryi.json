@@ -47,22 +47,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 19586,
+    "lowSampleWarning": false,
     "pickRate": 0.292507,
     "winRate": 0.514861,
     "coreProfile": {
-      "sampleCount": 3060,
-      "pickRate": 0.156234,
-      "winRate": 0.54026,
+      "sampleCount": 683,
+      "pickRate": 0.034872,
+      "winRate": 0.556641,
       "itemIds": [
         6676,
         3031,
-        3036
+        3508
       ]
     },
     "starter": {
-      "sampleCount": 544,
-      "pickRate": 0.198976,
-      "winRate": 0.582212
+      "sampleCount": 115,
+      "pickRate": 0.372168,
+      "winRate": 0.567043
     }
   },
   "defaultBuildKey": "crit",
@@ -71,87 +72,93 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 19586,
+      "lowSampleWarning": false,
       "pickRate": 0.292507,
       "winRate": 0.514861,
       "coreProfile": {
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "itemIds": [
           6676,
           3031,
-          3036
+          3508
         ]
       },
       "starter": {
-        "sampleCount": 544,
-        "pickRate": 0.198976,
-        "winRate": 0.582212
+        "sampleCount": 115,
+        "pickRate": 0.372168,
+        "winRate": 0.567043
       },
       "items": {
         "starter": [
           {
-            "id": 3134,
-            "name": "锯齿短匕",
-            "icon": "assets/resources/items/3134.webp"
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
           }
         ],
         "core": [
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3508.webp"
           }
         ],
         "recommended": [
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 3060,
-            "pickRate": 0.156234,
-            "winRate": 0.54026,
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 683,
+            "pickRate": 0.034872,
+            "winRate": 0.556641,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3508.webp"
           },
           {
             "id": 3008,
@@ -163,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1873,
-            "pickRate": 0.042753,
-            "winRate": 0.548695,
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 110,
+            "pickRate": 0.002511,
+            "winRate": 0.619612,
             "source": "slot5",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/6694.webp"
           },
           {
-            "id": 6675,
-            "name": "纳沃利烁刃",
-            "sampleCount": 1532,
-            "pickRate": 0.064259,
-            "winRate": 0.546422,
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 185,
+            "pickRate": 0.00776,
+            "winRate": 0.626737,
             "source": "slot6",
-            "icon": "assets/resources/items/6675.webp"
+            "icon": "assets/resources/items/3004.webp"
           }
         ]
       }
@@ -187,6 +194,7 @@
       "key": "on_hit",
       "name": "攻速特效流",
       "sampleCount": 14097,
+      "lowSampleWarning": false,
       "pickRate": 0.210532,
       "winRate": 0.501051,
       "coreProfile": {
@@ -279,22 +287,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1873,
-            "pickRate": 0.042753,
-            "winRate": 0.548695,
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 110,
+            "pickRate": 0.002511,
+            "winRate": 0.619612,
             "source": "slot5",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/6694.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1668,
-            "pickRate": 0.069964,
-            "winRate": 0.548291,
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 185,
+            "pickRate": 0.00776,
+            "winRate": 0.626737,
             "source": "slot6",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3004.webp"
           }
         ]
       }
@@ -303,6 +311,7 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 4051,
+      "lowSampleWarning": false,
       "pickRate": 0.0605,
       "winRate": 0.503486,
       "coreProfile": {
@@ -400,22 +409,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1873,
-            "pickRate": 0.042753,
-            "winRate": 0.548695,
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 110,
+            "pickRate": 0.002511,
+            "winRate": 0.619612,
             "source": "slot5",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/6694.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1668,
-            "pickRate": 0.069964,
-            "winRate": 0.548291,
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 185,
+            "pickRate": 0.00776,
+            "winRate": 0.626737,
             "source": "slot6",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3004.webp"
           }
         ]
       }
@@ -424,6 +433,7 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 1130,
+      "lowSampleWarning": false,
       "pickRate": 0.016876,
       "winRate": 0.506096,
       "coreProfile": {
@@ -521,22 +531,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1873,
-            "pickRate": 0.042753,
-            "winRate": 0.548695,
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 110,
+            "pickRate": 0.002511,
+            "winRate": 0.619612,
             "source": "slot5",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/6694.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1668,
-            "pickRate": 0.069964,
-            "winRate": 0.548291,
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 185,
+            "pickRate": 0.00776,
+            "winRate": 0.626737,
             "source": "slot6",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3004.webp"
           }
         ]
       }
@@ -549,76 +559,81 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
   "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
+      },
+      {
+        "id": 1037,
+        "name": "十字镐",
+        "icon": "assets/resources/items/1037.webp"
       }
     ],
     "core": [
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "id": 3508,
+        "name": "夺萃之镰",
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3508.webp"
       }
     ],
     "recommended": [
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 3060,
-        "pickRate": 0.156234,
-        "winRate": 0.54026,
+        "id": 3508,
+        "name": "夺萃之镰",
+        "sampleCount": 683,
+        "pickRate": 0.034872,
+        "winRate": 0.556641,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3508.webp"
       },
       {
         "id": 3008,
@@ -630,22 +645,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 2517,
-        "name": "无穷饥渴",
-        "sampleCount": 1873,
-        "pickRate": 0.042753,
-        "winRate": 0.548695,
+        "id": 6694,
+        "name": "赛瑞尔达的怨恨",
+        "sampleCount": 110,
+        "pickRate": 0.002511,
+        "winRate": 0.619612,
         "source": "slot5",
-        "icon": "assets/resources/items/2517.webp"
+        "icon": "assets/resources/items/6694.webp"
       },
       {
-        "id": 6675,
-        "name": "纳沃利烁刃",
-        "sampleCount": 1532,
-        "pickRate": 0.064259,
-        "winRate": 0.546422,
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 185,
+        "pickRate": 0.00776,
+        "winRate": 0.626737,
         "source": "slot6",
-        "icon": "assets/resources/items/6675.webp"
+        "icon": "assets/resources/items/3004.webp"
       }
     ]
   },

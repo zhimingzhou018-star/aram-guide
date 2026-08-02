@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 24636,
+    "lowSampleWarning": false,
     "pickRate": 0.542118,
     "winRate": 0.47993,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 24636,
+      "lowSampleWarning": false,
       "pickRate": 0.542118,
       "winRate": 0.47993,
       "coreProfile": {
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1984,
-            "pickRate": 0.070255,
-            "winRate": 0.474627,
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 131,
+            "pickRate": 0.004639,
+            "winRate": 0.535546,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3102.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1325,
-            "pickRate": 0.090791,
-            "winRate": 0.485896,
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 133,
+            "pickRate": 0.009113,
+            "winRate": 0.535259,
             "source": "slot6",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/2504.webp"
           }
         ]
       }
@@ -192,22 +194,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 4357,
+      "lowSampleWarning": false,
       "pickRate": 0.095876,
       "winRate": 0.4771,
       "coreProfile": {
-        "sampleCount": 1383,
-        "pickRate": 0.31742,
-        "winRate": 0.477778,
+        "sampleCount": 505,
+        "pickRate": 0.115905,
+        "winRate": 0.517452,
         "itemIds": [
           3084,
-          4633,
-          3065
+          3083,
+          4633
         ]
       },
       "starter": {
-        "sampleCount": 828,
-        "pickRate": 0.708298,
-        "winRate": 0.485061
+        "sampleCount": 224,
+        "pickRate": 0.767123,
+        "winRate": 0.520926
       },
       "items": {
         "starter": [
@@ -226,58 +229,58 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4633.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/4633.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4633.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1383,
-            "pickRate": 0.31742,
-            "winRate": 0.477778,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 505,
+            "pickRate": 0.115905,
+            "winRate": 0.517452,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/4633.webp"
           },
           {
             "id": 3008,
@@ -289,22 +292,139 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 5386,
-            "pickRate": 0.190722,
-            "winRate": 0.476358,
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 131,
+            "pickRate": 0.004639,
+            "winRate": 0.535546,
             "source": "slot5",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3102.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1245,
-            "pickRate": 0.085309,
-            "winRate": 0.463851,
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 133,
+            "pickRate": 0.009113,
+            "winRate": 0.535259,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/2504.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 427,
+      "lowSampleWarning": false,
+      "pickRate": 0.009396,
+      "winRate": 0.512949,
+      "coreProfile": {
+        "sampleCount": 427,
+        "pickRate": 1,
+        "winRate": 0.512949,
+        "itemIds": [
+          3146,
+          123430,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 126,
+        "pickRate": 0.367347,
+        "winRate": 0.468843
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3145,
+            "name": "海克斯科技发电机",
+            "icon": "assets/resources/items/3145.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 427,
+            "pickRate": 1,
+            "winRate": 0.512949,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7791,
+            "pickRate": 0.15323,
+            "winRate": 0.50767,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 131,
+            "pickRate": 0.004639,
+            "winRate": 0.535546,
+            "source": "slot5",
+            "icon": "assets/resources/items/3102.webp"
+          },
+          {
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 133,
+            "pickRate": 0.009113,
+            "winRate": 0.535259,
+            "source": "slot6",
+            "icon": "assets/resources/items/2504.webp"
           }
         ]
       }
@@ -403,22 +523,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 1984,
-        "pickRate": 0.070255,
-        "winRate": 0.474627,
+        "id": 3102,
+        "name": "女妖面纱",
+        "sampleCount": 131,
+        "pickRate": 0.004639,
+        "winRate": 0.535546,
         "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3102.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 1325,
-        "pickRate": 0.090791,
-        "winRate": 0.485896,
+        "id": 2504,
+        "name": "败魔",
+        "sampleCount": 133,
+        "pickRate": 0.009113,
+        "winRate": 0.535259,
         "source": "slot6",
-        "icon": "assets/resources/items/3065.webp"
+        "icon": "assets/resources/items/2504.webp"
       }
     ]
   },

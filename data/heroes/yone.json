@@ -47,22 +47,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 26990,
+    "lowSampleWarning": false,
     "pickRate": 0.573085,
     "winRate": 0.574347,
     "coreProfile": {
-      "sampleCount": 5508,
-      "pickRate": 0.204076,
-      "winRate": 0.625825,
+      "sampleCount": 617,
+      "pickRate": 0.02286,
+      "winRate": 0.680969,
       "itemIds": [
-        3032,
+        3046,
         123430,
         6333
       ]
     },
     "starter": {
-      "sampleCount": 744,
-      "pickRate": 0.149368,
-      "winRate": 0.668306
+      "sampleCount": 117,
+      "pickRate": 0.256018,
+      "winRate": 0.709214
     }
   },
   "defaultBuildKey": "crit",
@@ -71,22 +72,23 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 26990,
+      "lowSampleWarning": false,
       "pickRate": 0.573085,
       "winRate": 0.574347,
       "coreProfile": {
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "itemIds": [
-          3032,
+          3046,
           123430,
           6333
         ]
       },
       "starter": {
-        "sampleCount": 744,
-        "pickRate": 0.149368,
-        "winRate": 0.668306
+        "sampleCount": 117,
+        "pickRate": 0.256018,
+        "winRate": 0.709214
       },
       "items": {
         "starter": [
@@ -103,58 +105,58 @@
         ],
         "core": [
           {
-            "id": 3032,
-            "name": "育恩塔尔荒野箭",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3032.webp"
+            "icon": "assets/resources/items/3046.webp"
           },
           {
             "id": 123430,
             "name": "毁坏仪式",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
             "icon": "assets/resources/items/123430.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           }
         ],
         "recommended": [
           {
-            "id": 3032,
-            "name": "育恩塔尔荒野箭",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3032.webp"
+            "icon": "assets/resources/items/3046.webp"
           },
           {
             "id": 123430,
             "name": "毁坏仪式",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
             "icon": "assets/resources/items/123430.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 5508,
-            "pickRate": 0.204076,
-            "winRate": 0.625825,
+            "sampleCount": 617,
+            "pickRate": 0.02286,
+            "winRate": 0.680969,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           },
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 2758,
-            "pickRate": 0.088739,
-            "winRate": 0.553319,
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 979,
+            "pickRate": 0.031499,
+            "winRate": 0.617144,
             "source": "slot5",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3065.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 1086,
-            "pickRate": 0.067672,
-            "winRate": 0.541509,
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 104,
+            "pickRate": 0.006481,
+            "winRate": 0.585282,
             "source": "slot6",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3156.webp"
           }
         ]
       }
@@ -192,6 +194,7 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 3247,
+      "lowSampleWarning": false,
       "pickRate": 0.068944,
       "winRate": 0.542083,
       "coreProfile": {
@@ -289,22 +292,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 3443,
-            "pickRate": 0.110779,
-            "winRate": 0.546843,
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 979,
+            "pickRate": 0.031499,
+            "winRate": 0.617144,
             "source": "slot5",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3065.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1365,
-            "pickRate": 0.085057,
-            "winRate": 0.532901,
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 104,
+            "pickRate": 0.006481,
+            "winRate": 0.585282,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/3156.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 2691,
+      "lowSampleWarning": false,
+      "pickRate": 0.057139,
+      "winRate": 0.49591,
+      "coreProfile": {
+        "sampleCount": 441,
+        "pickRate": 0.16388,
+        "winRate": 0.504958,
+        "itemIds": [
+          3153,
+          6673,
+          3091
+        ]
+      },
+      "starter": {
+        "sampleCount": 140,
+        "pickRate": 0.394366,
+        "winRate": 0.515502
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6673,
+            "name": "不朽盾弓",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6673.webp"
+          },
+          {
+            "id": 3091,
+            "name": "智慧末刃",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3091.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6673,
+            "name": "不朽盾弓",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6673.webp"
+          },
+          {
+            "id": 3091,
+            "name": "智慧末刃",
+            "sampleCount": 441,
+            "pickRate": 0.16388,
+            "winRate": 0.504958,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3091.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5362,
+            "pickRate": 0.098784,
+            "winRate": 0.587807,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 979,
+            "pickRate": 0.031499,
+            "winRate": 0.617144,
+            "source": "slot5",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 330,
+            "pickRate": 0.020563,
+            "winRate": 0.602299,
+            "source": "slot6",
+            "icon": "assets/resources/items/123430.webp"
           }
         ]
       }
@@ -317,9 +442,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -338,58 +463,58 @@
     ],
     "core": [
       {
-        "id": 3032,
-        "name": "育恩塔尔荒野箭",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3032.webp"
+        "icon": "assets/resources/items/3046.webp"
       },
       {
         "id": 123430,
         "name": "毁坏仪式",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
         "icon": "assets/resources/items/123430.webp"
       },
       {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3032,
-        "name": "育恩塔尔荒野箭",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3032.webp"
+        "icon": "assets/resources/items/3046.webp"
       },
       {
         "id": 123430,
         "name": "毁坏仪式",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
         "icon": "assets/resources/items/123430.webp"
       },
       {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 5508,
-        "pickRate": 0.204076,
-        "winRate": 0.625825,
+        "sampleCount": 617,
+        "pickRate": 0.02286,
+        "winRate": 0.680969,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       },
@@ -403,22 +528,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 2758,
-        "pickRate": 0.088739,
-        "winRate": 0.553319,
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 979,
+        "pickRate": 0.031499,
+        "winRate": 0.617144,
         "source": "slot5",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/3065.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1086,
-        "pickRate": 0.067672,
-        "winRate": 0.541509,
+        "id": 3156,
+        "name": "玛莫提乌斯之噬",
+        "sampleCount": 104,
+        "pickRate": 0.006481,
+        "winRate": 0.585282,
         "source": "slot6",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/3156.webp"
       }
     ]
   },

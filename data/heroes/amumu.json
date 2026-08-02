@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 15516,
+    "lowSampleWarning": false,
     "pickRate": 0.58795,
     "winRate": 0.487436,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 15516,
+      "lowSampleWarning": false,
       "pickRate": 0.58795,
       "winRate": 0.487436,
       "coreProfile": {
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3047.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1110,
-            "pickRate": 0.06443,
-            "winRate": 0.479688,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 156,
+            "pickRate": 0.009055,
+            "winRate": 0.531351,
             "source": "slot5",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1140,
-            "pickRate": 0.112693,
-            "winRate": 0.464752,
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 101,
+            "pickRate": 0.009984,
+            "winRate": 0.536873,
             "source": "slot6",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3116.webp"
           }
         ]
       }
@@ -192,22 +194,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 2113,
+      "lowSampleWarning": false,
       "pickRate": 0.080068,
       "winRate": 0.450833,
       "coreProfile": {
-        "sampleCount": 1054,
-        "pickRate": 0.498817,
-        "winRate": 0.453297,
+        "sampleCount": 777,
+        "pickRate": 0.367724,
+        "winRate": 0.467719,
         "itemIds": [
           3118,
-          4646,
-          4645
+          4645,
+          3089
         ]
       },
       "starter": {
-        "sampleCount": 227,
-        "pickRate": 0.284461,
-        "winRate": 0.492296
+        "sampleCount": 437,
+        "pickRate": 0.687107,
+        "winRate": 0.476651
       },
       "items": {
         "starter": [
@@ -221,58 +224,58 @@
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 4646,
-            "name": "风暴狂涌",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/4646.webp"
-          },
-          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 4646,
-            "name": "风暴狂涌",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/4646.webp"
-          },
-          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1054,
-            "pickRate": 0.498817,
-            "winRate": 0.453297,
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 777,
+            "pickRate": 0.367724,
+            "winRate": 0.467719,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
           },
           {
             "id": 3047,
@@ -284,22 +287,22 @@
             "icon": "assets/resources/items/3047.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 1373,
-            "pickRate": 0.079696,
-            "winRate": 0.503016,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 156,
+            "pickRate": 0.009055,
+            "winRate": 0.531351,
             "source": "slot5",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1140,
-            "pickRate": 0.112693,
-            "winRate": 0.464752,
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 101,
+            "pickRate": 0.009984,
+            "winRate": 0.536873,
             "source": "slot6",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3116.webp"
           }
         ]
       }
@@ -398,22 +401,22 @@
         "icon": "assets/resources/items/3047.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1110,
-        "pickRate": 0.06443,
-        "winRate": 0.479688,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 156,
+        "pickRate": 0.009055,
+        "winRate": 0.531351,
         "source": "slot5",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/4646.webp"
       },
       {
-        "id": 3075,
-        "name": "荆棘之甲",
-        "sampleCount": 1140,
-        "pickRate": 0.112693,
-        "winRate": 0.464752,
+        "id": 3116,
+        "name": "瑞莱的冰晶节杖",
+        "sampleCount": 101,
+        "pickRate": 0.009984,
+        "winRate": 0.536873,
         "source": "slot6",
-        "icon": "assets/resources/items/3075.webp"
+        "icon": "assets/resources/items/3116.webp"
       }
     ]
   },

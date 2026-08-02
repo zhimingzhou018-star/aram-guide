@@ -17,7 +17,7 @@ def stable_hash(value: Any) -> str:
 def top_ids(
     rows: list[dict[str, Any]],
     limit: int = 6,
-    min_samples: int = 1000,
+    min_samples: int = 100,
     min_pick_rate: float = 0,
 ) -> list[int]:
     eligible = [
@@ -29,7 +29,7 @@ def top_ids(
     return [int(row["id"]) for row in eligible[:limit]]
 
 
-def top_build(details: dict[str, Any], min_samples: int = 1000) -> str | None:
+def top_build(details: dict[str, Any], min_samples: int = 100) -> str | None:
     rows = [
         row for row in details.get("builds", {}).get("archetypes", [])
         if int(row.get("sampleCount", 0)) >= min_samples
@@ -86,8 +86,8 @@ def build_diff_report(
             "items": {"before": current_items, "candidateTop": candidate_items},
             "augments": {"before": current_augments, "candidateTop": candidate_augments},
             "lowSampleWarnings": {
-                "itemsExcluded": sum(int(row.get("sampleCount", 0)) < 1000 for row in details.get("items", {}).get("all", [])),
-                "augmentsExcluded": sum(int(row.get("sampleCount", 0)) < 1000 for row in all_augments),
+                "itemsExcluded": sum(int(row.get("sampleCount", 0)) < 100 for row in details.get("items", {}).get("all", [])),
+                "augmentsExcluded": 0,
                 "augmentsBelowOnePercentExcluded": sum(float(row.get("pickRate") or 0) < 0.01 for row in all_augments),
             },
             "lockedGameplay": {

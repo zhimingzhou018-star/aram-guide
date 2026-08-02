@@ -46,6 +46,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 19587,
+    "lowSampleWarning": false,
     "pickRate": 0.824161,
     "winRate": 0.519094,
     "coreProfile": {
@@ -59,9 +60,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 478,
-      "pickRate": 0.075323,
-      "winRate": 0.551937
+      "sampleCount": 3037,
+      "pickRate": 0.478569,
+      "winRate": 0.544797
     }
   },
   "defaultBuildKey": "ap",
@@ -70,6 +71,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 19587,
+      "lowSampleWarning": false,
       "pickRate": 0.824161,
       "winRate": 0.519094,
       "coreProfile": {
@@ -83,16 +85,21 @@
         ]
       },
       "starter": {
-        "sampleCount": 478,
-        "pickRate": 0.075323,
-        "winRate": 0.551937
+        "sampleCount": 3037,
+        "pickRate": 0.478569,
+        "winRate": 0.544797
       },
       "items": {
         "starter": [
           {
-            "id": 3803,
-            "name": "万世催化石",
-            "icon": "assets/resources/items/3803.webp"
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
           }
         ],
         "core": [
@@ -171,13 +178,13 @@
             "icon": "assets/resources/items/4645.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1663,
-            "pickRate": 0.172564,
-            "winRate": 0.511761,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 751,
+            "pickRate": 0.077929,
+            "winRate": 0.531111,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -199,9 +206,14 @@
   "items": {
     "starter": [
       {
-        "id": 3803,
-        "name": "万世催化石",
-        "icon": "assets/resources/items/3803.webp"
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "icon": "assets/resources/items/1026.webp"
+      },
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
       }
     ],
     "core": [
@@ -280,13 +292,13 @@
         "icon": "assets/resources/items/4645.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 1663,
-        "pickRate": 0.172564,
-        "winRate": 0.511761,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 751,
+        "pickRate": 0.077929,
+        "winRate": 0.531111,
         "source": "slot6",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

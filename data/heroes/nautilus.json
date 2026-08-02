@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 39689,
+    "lowSampleWarning": false,
     "pickRate": 0.861232,
     "winRate": 0.486522,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 396,
-      "pickRate": 0.036834,
-      "winRate": 0.52168
+      "sampleCount": 7527,
+      "pickRate": 0.700121,
+      "winRate": 0.503542
     }
   },
   "defaultBuildKey": "tank",
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 39689,
+      "lowSampleWarning": false,
       "pickRate": 0.861232,
       "winRate": 0.486522,
       "coreProfile": {
@@ -84,9 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 396,
-        "pickRate": 0.036834,
-        "winRate": 0.52168
+        "sampleCount": 7527,
+        "pickRate": 0.700121,
+        "winRate": 0.503542
       },
       "items": {
         "starter": [
@@ -96,9 +98,9 @@
             "icon": "assets/resources/items/1011.webp"
           },
           {
-            "id": 3070,
-            "name": "女神之泪",
-            "icon": "assets/resources/items/3070.webp"
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
           }
         ],
         "core": [
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 7267,
-            "pickRate": 0.137505,
-            "winRate": 0.4983,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 158,
+            "pickRate": 0.00299,
+            "winRate": 0.574871,
             "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 6664,
-            "name": "璀璨回响",
-            "sampleCount": 1570,
-            "pickRate": 0.053463,
-            "winRate": 0.468267,
+            "id": 8020,
+            "name": "深渊面具",
+            "sampleCount": 128,
+            "pickRate": 0.004359,
+            "winRate": 0.488142,
             "source": "slot5",
-            "icon": "assets/resources/items/6664.webp"
+            "icon": "assets/resources/items/8020.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1397,
-            "pickRate": 0.083698,
-            "winRate": 0.455388,
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 108,
+            "pickRate": 0.006471,
+            "winRate": 0.493061,
             "source": "slot6",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/2525.webp"
           }
         ]
       }
@@ -196,9 +198,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>W>E",
@@ -210,9 +212,9 @@
         "icon": "assets/resources/items/1011.webp"
       },
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
       }
     ],
     "core": [
@@ -273,31 +275,31 @@
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 7267,
-        "pickRate": 0.137505,
-        "winRate": 0.4983,
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 158,
+        "pickRate": 0.00299,
+        "winRate": 0.574871,
         "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 6664,
-        "name": "璀璨回响",
-        "sampleCount": 1570,
-        "pickRate": 0.053463,
-        "winRate": 0.468267,
+        "id": 8020,
+        "name": "深渊面具",
+        "sampleCount": 128,
+        "pickRate": 0.004359,
+        "winRate": 0.488142,
         "source": "slot5",
-        "icon": "assets/resources/items/6664.webp"
+        "icon": "assets/resources/items/8020.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 1397,
-        "pickRate": 0.083698,
-        "winRate": 0.455388,
+        "id": 2525,
+        "name": "原生质护带",
+        "sampleCount": 108,
+        "pickRate": 0.006471,
+        "winRate": 0.493061,
         "source": "slot6",
-        "icon": "assets/resources/items/3065.webp"
+        "icon": "assets/resources/items/2525.webp"
       }
     ]
   },

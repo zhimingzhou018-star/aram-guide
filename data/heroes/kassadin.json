@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 12278,
+    "lowSampleWarning": false,
     "pickRate": 0.774051,
     "winRate": 0.51733,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 215,
-      "pickRate": 0.212661,
-      "winRate": 0.578989
+      "sampleCount": 487,
+      "pickRate": 0.481701,
+      "winRate": 0.578283
     }
   },
   "defaultBuildKey": "ap",
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 12278,
+      "lowSampleWarning": false,
       "pickRate": 0.774051,
       "winRate": 0.51733,
       "coreProfile": {
@@ -84,9 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 215,
-        "pickRate": 0.212661,
-        "winRate": 0.578989
+        "sampleCount": 487,
+        "pickRate": 0.481701,
+        "winRate": 0.578283
       },
       "items": {
         "starter": [
@@ -168,21 +170,21 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1213,
-            "pickRate": 0.118782,
-            "winRate": 0.53257,
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 279,
+            "pickRate": 0.027321,
+            "winRate": 0.55635,
             "source": "slot5",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/3119.webp"
           },
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 9761,
-            "pickRate": 0.576176,
-            "winRate": 0.514775,
-            "source": "fallback",
+            "sampleCount": 113,
+            "pickRate": 0.020452,
+            "winRate": 0.648716,
+            "source": "slot6",
             "icon": "assets/resources/items/3118.webp"
           }
         ]
@@ -196,9 +198,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
   "skillOrder": "E>Q>W",
@@ -282,21 +284,21 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1213,
-        "pickRate": 0.118782,
-        "winRate": 0.53257,
+        "id": 3119,
+        "name": "凛冬之临",
+        "sampleCount": 279,
+        "pickRate": 0.027321,
+        "winRate": 0.55635,
         "source": "slot5",
-        "icon": "assets/resources/items/4645.webp"
+        "icon": "assets/resources/items/3119.webp"
       },
       {
         "id": 3118,
         "name": "残疫",
-        "sampleCount": 9761,
-        "pickRate": 0.576176,
-        "winRate": 0.514775,
-        "source": "fallback",
+        "sampleCount": 113,
+        "pickRate": 0.020452,
+        "winRate": 0.648716,
+        "source": "slot6",
         "icon": "assets/resources/items/3118.webp"
       }
     ]

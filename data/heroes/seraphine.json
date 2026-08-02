@@ -45,33 +45,157 @@
     "pickRatePercent": 8.36
   },
   "build": {
-    "key": "ap",
-    "name": "法术流",
-    "sampleCount": 60587,
-    "pickRate": 0.711357,
-    "winRate": 0.534302,
+    "key": "utility",
+    "name": "辅助流",
+    "sampleCount": 2641,
+    "lowSampleWarning": false,
+    "pickRate": 0.031008,
+    "winRate": 0.519638,
     "coreProfile": {
-      "sampleCount": 1696,
-      "pickRate": 0.027993,
-      "winRate": 0.591876,
+      "sampleCount": 342,
+      "pickRate": 0.129496,
+      "winRate": 0.596314,
       "itemIds": [
-        2503,
-        6653,
-        3089
+        6617,
+        2526,
+        6616
       ]
     },
     "starter": {
-      "sampleCount": 411,
-      "pickRate": 0.285615,
-      "winRate": 0.599323
+      "sampleCount": 127,
+      "pickRate": 0.585253,
+      "winRate": 0.628846
     }
   },
-  "defaultBuildKey": "ap",
+  "defaultBuildKey": "utility",
   "builds": [
+    {
+      "key": "utility",
+      "name": "辅助流",
+      "sampleCount": 2641,
+      "lowSampleWarning": false,
+      "pickRate": 0.031008,
+      "winRate": 0.519638,
+      "coreProfile": {
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
+        "itemIds": [
+          6617,
+          2526,
+          6616
+        ]
+      },
+      "starter": {
+        "sampleCount": 127,
+        "pickRate": 0.585253,
+        "winRate": 0.628846
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6616.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 342,
+            "pickRate": 0.129496,
+            "winRate": 0.596314,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6616.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 6713,
+            "pickRate": 0.070879,
+            "winRate": 0.570523,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 533,
+            "pickRate": 0.009067,
+            "winRate": 0.55015,
+            "source": "slot5",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 196,
+            "pickRate": 0.005749,
+            "winRate": 0.536969,
+            "source": "slot6",
+            "icon": "assets/resources/items/4629.webp"
+          }
+        ]
+      }
+    },
     {
       "key": "ap",
       "name": "法术流",
       "sampleCount": 60587,
+      "lowSampleWarning": false,
       "pickRate": 0.711357,
       "winRate": 0.534302,
       "coreProfile": {
@@ -164,22 +288,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3003,
-            "name": "大天使之杖",
-            "sampleCount": 4231,
-            "pickRate": 0.071973,
-            "winRate": 0.530167,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 533,
+            "pickRate": 0.009067,
+            "winRate": 0.55015,
             "source": "slot5",
-            "icon": "assets/resources/items/3003.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 1438,
-            "pickRate": 0.042181,
-            "winRate": 0.502873,
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 433,
+            "pickRate": 0.012701,
+            "winRate": 0.570727,
             "source": "slot6",
-            "icon": "assets/resources/items/3116.webp"
+            "icon": "assets/resources/items/6616.webp"
           }
         ]
       }
@@ -201,67 +325,72 @@
   "items": {
     "starter": [
       {
-        "id": 3802,
-        "name": "遗失的章节",
-        "icon": "assets/resources/items/3802.webp"
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
+      },
+      {
+        "id": 4642,
+        "name": "班德尔玻璃镜",
+        "icon": "assets/resources/items/4642.webp"
       }
     ],
     "core": [
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 6617,
+        "name": "月石再生器",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2503.webp"
+        "icon": "assets/resources/items/6617.webp"
       },
       {
-        "id": 6653,
-        "name": "兰德里的折磨",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 2526,
+        "name": "耳语头环",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6653.webp"
+        "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/6616.webp"
       }
     ],
     "recommended": [
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 6617,
+        "name": "月石再生器",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2503.webp"
+        "icon": "assets/resources/items/6617.webp"
       },
       {
-        "id": 6653,
-        "name": "兰德里的折磨",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 2526,
+        "name": "耳语头环",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6653.webp"
+        "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1696,
-        "pickRate": 0.027993,
-        "winRate": 0.591876,
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 342,
+        "pickRate": 0.129496,
+        "winRate": 0.596314,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/6616.webp"
       },
       {
         "id": 3008,
@@ -273,22 +402,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3003,
-        "name": "大天使之杖",
-        "sampleCount": 4231,
-        "pickRate": 0.071973,
-        "winRate": 0.530167,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 533,
+        "pickRate": 0.009067,
+        "winRate": 0.55015,
         "source": "slot5",
-        "icon": "assets/resources/items/3003.webp"
+        "icon": "assets/resources/items/4646.webp"
       },
       {
-        "id": 3116,
-        "name": "瑞莱的冰晶节杖",
-        "sampleCount": 1438,
-        "pickRate": 0.042181,
-        "winRate": 0.502873,
+        "id": 4629,
+        "name": "星界驱驰",
+        "sampleCount": 196,
+        "pickRate": 0.005749,
+        "winRate": 0.536969,
         "source": "slot6",
-        "icon": "assets/resources/items/3116.webp"
+        "icon": "assets/resources/items/4629.webp"
       }
     ]
   },

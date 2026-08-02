@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 25675,
+    "lowSampleWarning": false,
     "pickRate": 0.799769,
     "winRate": 0.362426,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 270,
-      "pickRate": 0.369863,
-      "winRate": 0.374436
+      "sampleCount": 180,
+      "pickRate": 0.246575,
+      "winRate": 0.422584
     }
   },
   "defaultBuildKey": "ap",
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 25675,
+      "lowSampleWarning": false,
       "pickRate": 0.799769,
       "winRate": 0.362426,
       "coreProfile": {
@@ -84,21 +86,21 @@
         ]
       },
       "starter": {
-        "sampleCount": 270,
-        "pickRate": 0.369863,
-        "winRate": 0.374436
+        "sampleCount": 180,
+        "pickRate": 0.246575,
+        "winRate": 0.422584
       },
       "items": {
         "starter": [
           {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
             "id": 1052,
             "name": "增幅典籍",
             "icon": "assets/resources/items/1052.webp"
-          },
-          {
-            "id": 3057,
-            "name": "耀光",
-            "icon": "assets/resources/items/3057.webp"
           }
         ],
         "core": [
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 5920,
-            "pickRate": 0.275991,
-            "winRate": 0.396814,
+            "id": 3137,
+            "name": "蜕生",
+            "sampleCount": 245,
+            "pickRate": 0.011422,
+            "winRate": 0.433014,
             "source": "slot5",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3137.webp"
           },
           {
-            "id": 4646,
-            "name": "风暴狂涌",
-            "sampleCount": 1170,
-            "pickRate": 0.096273,
-            "winRate": 0.421729,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 222,
+            "pickRate": 0.018267,
+            "winRate": 0.441803,
             "source": "slot6",
-            "icon": "assets/resources/items/4646.webp"
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -196,23 +198,23 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
   "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "icon": "assets/resources/items/1026.webp"
+      },
+      {
         "id": 1052,
         "name": "增幅典籍",
         "icon": "assets/resources/items/1052.webp"
-      },
-      {
-        "id": 3057,
-        "name": "耀光",
-        "icon": "assets/resources/items/3057.webp"
       }
     ],
     "core": [
@@ -282,22 +284,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 5920,
-        "pickRate": 0.275991,
-        "winRate": 0.396814,
+        "id": 3137,
+        "name": "蜕生",
+        "sampleCount": 245,
+        "pickRate": 0.011422,
+        "winRate": 0.433014,
         "source": "slot5",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3137.webp"
       },
       {
-        "id": 4646,
-        "name": "风暴狂涌",
-        "sampleCount": 1170,
-        "pickRate": 0.096273,
-        "winRate": 0.421729,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 222,
+        "pickRate": 0.018267,
+        "winRate": 0.441803,
         "source": "slot6",
-        "icon": "assets/resources/items/4646.webp"
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

@@ -66,3 +66,10 @@ test("detail exposes every build as a visible win-rate tab", () => {
   assert.match(appSource, /aria-label="\$\{escapeHtml\(build\.name\)\}，胜率/);
   assert.doesNotMatch(appSource, /点击切换|流派 01/);
 });
+
+test("builds from 100 to 199 samples show a warning badge and selected warning", () => {
+  assert.match(appSource, /sampleCount < 200/);
+  assert.match(appSource, /figma-build-warning-badge/);
+  assert.match(appSource, /figma-low-sample-warning/);
+  assert.match(appSource, /低样本警告/);
+});

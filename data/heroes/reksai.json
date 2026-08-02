@@ -47,22 +47,23 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 2645,
+    "lowSampleWarning": false,
     "pickRate": 0.320257,
     "winRate": 0.476006,
     "coreProfile": {
-      "sampleCount": 1162,
-      "pickRate": 0.439319,
-      "winRate": 0.466426,
+      "sampleCount": 697,
+      "pickRate": 0.263516,
+      "winRate": 0.490378,
       "itemIds": [
         3084,
-        2502,
-        3065
+        3083,
+        2502
       ]
     },
     "starter": {
-      "sampleCount": 648,
-      "pickRate": 0.642857,
-      "winRate": 0.483162
+      "sampleCount": 324,
+      "pickRate": 0.739726,
+      "winRate": 0.475446
     }
   },
   "defaultBuildKey": "tank",
@@ -71,22 +72,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 2645,
+      "lowSampleWarning": false,
       "pickRate": 0.320257,
       "winRate": 0.476006,
       "coreProfile": {
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "itemIds": [
           3084,
-          2502,
-          3065
+          3083,
+          2502
         ]
       },
       "starter": {
-        "sampleCount": 648,
-        "pickRate": 0.642857,
-        "winRate": 0.483162
+        "sampleCount": 324,
+        "pickRate": 0.739726,
+        "winRate": 0.475446
       },
       "items": {
         "starter": [
@@ -105,84 +107,84 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/2502.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
             "id": 2502,
             "name": "无终恨意",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
+            "sampleCount": 697,
+            "pickRate": 0.263516,
+            "winRate": 0.490378,
             "source": "coreProfile",
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 1162,
-            "pickRate": 0.439319,
-            "winRate": 0.466426,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
-          },
-          {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 1439,
-            "pickRate": 0.14988,
-            "winRate": 0.47277,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 390,
+            "pickRate": 0.040621,
+            "winRate": 0.486272,
             "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 2108,
-            "pickRate": 0.21956,
-            "winRate": 0.480208,
-            "source": "fallback",
-            "icon": "assets/resources/items/6333.webp"
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 175,
+            "pickRate": 0.03554,
+            "winRate": 0.491108,
+            "source": "slot5",
+            "icon": "assets/resources/items/6610.webp"
           },
           {
             "id": 2501,
             "name": "霸王血铠",
-            "sampleCount": 1465,
-            "pickRate": 0.152588,
-            "winRate": 0.477241,
-            "source": "fallback",
+            "sampleCount": 219,
+            "pickRate": 0.084752,
+            "winRate": 0.491682,
+            "source": "slot6",
             "icon": "assets/resources/items/2501.webp"
           }
         ]
@@ -219,84 +221,84 @@
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2502.webp"
+        "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "id": 2502,
+        "name": "无终恨意",
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3065.webp"
+        "icon": "assets/resources/items/2502.webp"
       }
     ],
     "recommended": [
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3083.webp"
+      },
+      {
         "id": 2502,
         "name": "无终恨意",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
+        "sampleCount": 697,
+        "pickRate": 0.263516,
+        "winRate": 0.490378,
         "source": "coreProfile",
         "icon": "assets/resources/items/2502.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 1162,
-        "pickRate": 0.439319,
-        "winRate": 0.466426,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3065.webp"
-      },
-      {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 1439,
-        "pickRate": 0.14988,
-        "winRate": 0.47277,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 390,
+        "pickRate": 0.040621,
+        "winRate": 0.486272,
         "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 2108,
-        "pickRate": 0.21956,
-        "winRate": 0.480208,
-        "source": "fallback",
-        "icon": "assets/resources/items/6333.webp"
+        "id": 6610,
+        "name": "焚天",
+        "sampleCount": 175,
+        "pickRate": 0.03554,
+        "winRate": 0.491108,
+        "source": "slot5",
+        "icon": "assets/resources/items/6610.webp"
       },
       {
         "id": 2501,
         "name": "霸王血铠",
-        "sampleCount": 1465,
-        "pickRate": 0.152588,
-        "winRate": 0.477241,
-        "source": "fallback",
+        "sampleCount": 219,
+        "pickRate": 0.084752,
+        "winRate": 0.491682,
+        "source": "slot6",
         "icon": "assets/resources/items/2501.webp"
       }
     ]

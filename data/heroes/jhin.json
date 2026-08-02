@@ -47,6 +47,7 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 20652,
+    "lowSampleWarning": false,
     "pickRate": 0.770252,
     "winRate": 0.489685,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 539,
-      "pickRate": 0.079393,
-      "winRate": 0.514951
+      "sampleCount": 1435,
+      "pickRate": 0.211371,
+      "winRate": 0.511358
     }
   },
   "defaultBuildKey": "crit",
@@ -71,6 +72,7 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 20652,
+      "lowSampleWarning": false,
       "pickRate": 0.770252,
       "winRate": 0.489685,
       "coreProfile": {
@@ -84,21 +86,21 @@
         ]
       },
       "starter": {
-        "sampleCount": 539,
-        "pickRate": 0.079393,
-        "winRate": 0.514951
+        "sampleCount": 1435,
+        "pickRate": 0.211371,
+        "winRate": 0.511358
       },
       "items": {
         "starter": [
           {
-            "id": 1036,
-            "name": "长剑",
-            "icon": "assets/resources/items/1036.webp"
+            "id": 1001,
+            "name": "鞋子",
+            "icon": "assets/resources/items/1001.webp"
           },
           {
-            "id": 1037,
-            "name": "十字镐",
-            "icon": "assets/resources/items/1037.webp"
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
           }
         ],
         "core": [
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/3036.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 4187,
-            "pickRate": 0.139158,
-            "winRate": 0.50064,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 148,
+            "pickRate": 0.004919,
+            "winRate": 0.530583,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 2523,
-            "name": "海克斯镜片 C44",
-            "sampleCount": 1261,
-            "pickRate": 0.065175,
-            "winRate": 0.506744,
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 406,
+            "pickRate": 0.020984,
+            "winRate": 0.522628,
             "source": "slot5",
-            "icon": "assets/resources/items/2523.webp"
+            "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3094,
-            "name": "疾射火炮",
-            "sampleCount": 1147,
-            "pickRate": 0.09672,
-            "winRate": 0.490696,
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 106,
+            "pickRate": 0.008938,
+            "winRate": 0.519747,
             "source": "slot6",
-            "icon": "assets/resources/items/3094.webp"
+            "icon": "assets/resources/items/3156.webp"
           }
         ]
       }
@@ -205,14 +207,14 @@
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
+        "id": 1001,
+        "name": "鞋子",
+        "icon": "assets/resources/items/1001.webp"
       },
       {
-        "id": 1037,
-        "name": "十字镐",
-        "icon": "assets/resources/items/1037.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
@@ -273,31 +275,31 @@
         "icon": "assets/resources/items/3036.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 4187,
-        "pickRate": 0.139158,
-        "winRate": 0.50064,
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 148,
+        "pickRate": 0.004919,
+        "winRate": 0.530583,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 2523,
-        "name": "海克斯镜片 C44",
-        "sampleCount": 1261,
-        "pickRate": 0.065175,
-        "winRate": 0.506744,
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 406,
+        "pickRate": 0.020984,
+        "winRate": 0.522628,
         "source": "slot5",
-        "icon": "assets/resources/items/2523.webp"
+        "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3094,
-        "name": "疾射火炮",
-        "sampleCount": 1147,
-        "pickRate": 0.09672,
-        "winRate": 0.490696,
+        "id": 3156,
+        "name": "玛莫提乌斯之噬",
+        "sampleCount": 106,
+        "pickRate": 0.008938,
+        "winRate": 0.519747,
         "source": "slot6",
-        "icon": "assets/resources/items/3094.webp"
+        "icon": "assets/resources/items/3156.webp"
       }
     ]
   },

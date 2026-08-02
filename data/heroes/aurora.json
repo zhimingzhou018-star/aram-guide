@@ -48,22 +48,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 25935,
+    "lowSampleWarning": false,
     "pickRate": 0.880346,
     "winRate": 0.543525,
     "coreProfile": {
-      "sampleCount": 2422,
-      "pickRate": 0.093387,
-      "winRate": 0.558209,
+      "sampleCount": 1082,
+      "pickRate": 0.04172,
+      "winRate": 0.573339,
       "itemIds": [
-        2503,
+        4646,
         4645,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 1400,
-      "pickRate": 0.698254,
-      "winRate": 0.565662
+      "sampleCount": 121,
+      "pickRate": 0.26477,
+      "winRate": 0.566931
     }
   },
   "defaultBuildKey": "ap",
@@ -72,114 +73,115 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 25935,
+      "lowSampleWarning": false,
       "pickRate": 0.880346,
       "winRate": 0.543525,
       "coreProfile": {
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "itemIds": [
-          2503,
+          4646,
           4645,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 1400,
-        "pickRate": 0.698254,
-        "winRate": 0.565662
+        "sampleCount": 121,
+        "pickRate": 0.26477,
+        "winRate": 0.566931
       },
       "items": {
         "starter": [
           {
-            "id": 3802,
-            "name": "遗失的章节",
-            "icon": "assets/resources/items/3802.webp"
+            "id": 1058,
+            "name": "无用大棒",
+            "icon": "assets/resources/items/1058.webp"
           }
         ],
         "core": [
           {
-            "id": 2503,
-            "name": "黯炎火炬",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2503.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
-            "id": 2503,
-            "name": "黯炎火炬",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2503.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 2422,
-            "pickRate": 0.093387,
-            "winRate": 0.558209,
+            "sampleCount": 1082,
+            "pickRate": 0.04172,
+            "winRate": 0.573339,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 6181,
-            "pickRate": 0.183772,
-            "winRate": 0.578479,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 112,
+            "pickRate": 0.00333,
+            "winRate": 0.594233,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 4646,
-            "name": "风暴狂涌",
-            "sampleCount": 2005,
-            "pickRate": 0.09891,
-            "winRate": 0.559561,
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 215,
+            "pickRate": 0.010606,
+            "winRate": 0.586343,
             "source": "slot5",
-            "icon": "assets/resources/items/4646.webp"
+            "icon": "assets/resources/items/3003.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 2465,
-            "pickRate": 0.207964,
-            "winRate": 0.543284,
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 102,
+            "pickRate": 0.008605,
+            "winRate": 0.622595,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3146.webp"
           }
         ]
       }
@@ -192,103 +194,103 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 6,
-      "name": "幽灵疾步",
-      "icon": "assets/resources/summoner-spells/6.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
-        "id": 3802,
-        "name": "遗失的章节",
-        "icon": "assets/resources/items/3802.webp"
+        "id": 1058,
+        "name": "无用大棒",
+        "icon": "assets/resources/items/1058.webp"
       }
     ],
     "core": [
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2503.webp"
+        "icon": "assets/resources/items/4646.webp"
       },
       {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2503.webp"
+        "icon": "assets/resources/items/4646.webp"
       },
       {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 2422,
-        "pickRate": 0.093387,
-        "winRate": 0.558209,
+        "sampleCount": 1082,
+        "pickRate": 0.04172,
+        "winRate": 0.573339,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 6181,
-        "pickRate": 0.183772,
-        "winRate": 0.578479,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 112,
+        "pickRate": 0.00333,
+        "winRate": 0.594233,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 4646,
-        "name": "风暴狂涌",
-        "sampleCount": 2005,
-        "pickRate": 0.09891,
-        "winRate": 0.559561,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 215,
+        "pickRate": 0.010606,
+        "winRate": 0.586343,
         "source": "slot5",
-        "icon": "assets/resources/items/4646.webp"
+        "icon": "assets/resources/items/3003.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 2465,
-        "pickRate": 0.207964,
-        "winRate": 0.543284,
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 102,
+        "pickRate": 0.008605,
+        "winRate": 0.622595,
         "source": "slot6",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3146.webp"
       }
     ]
   },

@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 8757,
+    "lowSampleWarning": false,
     "pickRate": 0.685587,
     "winRate": 0.518135,
     "coreProfile": {
-      "sampleCount": 1197,
-      "pickRate": 0.136691,
-      "winRate": 0.568861,
+      "sampleCount": 445,
+      "pickRate": 0.050816,
+      "winRate": 0.616446,
       "itemIds": [
         3115,
-        4645,
+        6653,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 300,
-      "pickRate": 0.271248,
-      "winRate": 0.610791
+      "sampleCount": 128,
+      "pickRate": 0.314496,
+      "winRate": 0.64027
     }
   },
   "defaultBuildKey": "ap",
@@ -71,29 +72,35 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 8757,
+      "lowSampleWarning": false,
       "pickRate": 0.685587,
       "winRate": 0.518135,
       "coreProfile": {
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "itemIds": [
           3115,
-          4645,
+          6653,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 300,
-        "pickRate": 0.271248,
-        "winRate": 0.610791
+        "sampleCount": 128,
+        "pickRate": 0.314496,
+        "winRate": 0.64027
       },
       "items": {
         "starter": [
           {
-            "id": 1026,
-            "name": "爆裂魔杖",
-            "icon": "assets/resources/items/1026.webp"
+            "id": 1001,
+            "name": "鞋子",
+            "icon": "assets/resources/items/1001.webp"
+          },
+          {
+            "id": 1043,
+            "name": "反曲之弓",
+            "icon": "assets/resources/items/1043.webp"
           },
           {
             "id": 1052,
@@ -105,27 +112,27 @@
           {
             "id": 3115,
             "name": "纳什之牙",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
             "icon": "assets/resources/items/3115.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
@@ -134,27 +141,27 @@
           {
             "id": 3115,
             "name": "纳什之牙",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
             "icon": "assets/resources/items/3115.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1197,
-            "pickRate": 0.136691,
-            "winRate": 0.568861,
+            "sampleCount": 445,
+            "pickRate": 0.050816,
+            "winRate": 0.616446,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
@@ -168,22 +175,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1554,
-            "pickRate": 0.180677,
-            "winRate": 0.510675,
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 203,
+            "pickRate": 0.023602,
+            "winRate": 0.544404,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3003.webp"
           },
           {
-            "id": 3157,
-            "name": "中娅沙漏",
-            "sampleCount": 2093,
-            "pickRate": 0.145509,
-            "winRate": 0.508652,
-            "source": "fallback",
-            "icon": "assets/resources/items/3157.webp"
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 119,
+            "pickRate": 0.024875,
+            "winRate": 0.58729,
+            "source": "slot6",
+            "icon": "assets/resources/items/2510.webp"
           }
         ]
       }
@@ -196,18 +203,23 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 21,
-      "name": "屏障",
-      "icon": "assets/resources/summoner-spells/21.webp"
+      "id": 7,
+      "name": "治疗术",
+      "icon": "assets/resources/summoner-spells/7.webp"
     }
   ],
   "skillOrder": "W>Q>E",
   "items": {
     "starter": [
       {
-        "id": 1026,
-        "name": "爆裂魔杖",
-        "icon": "assets/resources/items/1026.webp"
+        "id": 1001,
+        "name": "鞋子",
+        "icon": "assets/resources/items/1001.webp"
+      },
+      {
+        "id": 1043,
+        "name": "反曲之弓",
+        "icon": "assets/resources/items/1043.webp"
       },
       {
         "id": 1052,
@@ -219,27 +231,27 @@
       {
         "id": 3115,
         "name": "纳什之牙",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
         "icon": "assets/resources/items/3115.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4645.webp"
+        "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
@@ -248,27 +260,27 @@
       {
         "id": 3115,
         "name": "纳什之牙",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
         "icon": "assets/resources/items/3115.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "id": 6653,
+        "name": "兰德里的折磨",
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4645.webp"
+        "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1197,
-        "pickRate": 0.136691,
-        "winRate": 0.568861,
+        "sampleCount": 445,
+        "pickRate": 0.050816,
+        "winRate": 0.616446,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
@@ -282,22 +294,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 1554,
-        "pickRate": 0.180677,
-        "winRate": 0.510675,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 203,
+        "pickRate": 0.023602,
+        "winRate": 0.544404,
         "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3003.webp"
       },
       {
-        "id": 3157,
-        "name": "中娅沙漏",
-        "sampleCount": 2093,
-        "pickRate": 0.145509,
-        "winRate": 0.508652,
-        "source": "fallback",
-        "icon": "assets/resources/items/3157.webp"
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 119,
+        "pickRate": 0.024875,
+        "winRate": 0.58729,
+        "source": "slot6",
+        "icon": "assets/resources/items/2510.webp"
       }
     ]
   },

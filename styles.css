@@ -1176,6 +1176,22 @@ ul {
   content: "";
 }
 
+.figma-build-warning-badge {
+  position: absolute;
+  top: calc(3 * var(--fp-u));
+  right: calc(4 * var(--fp-u));
+  width: calc(13 * var(--fp-u));
+  height: calc(13 * var(--fp-u));
+  display: grid;
+  place-items: center;
+  border: calc(1 * var(--fp-u)) solid #ffbf4a;
+  border-radius: 50%;
+  color: #ffbf4a;
+  font-size: calc(9 * var(--fp-u));
+  font-weight: 950;
+  line-height: 1;
+}
+
 .figma-build-tab:focus-visible {
   outline: calc(2 * var(--fp-u)) solid #f1f0e8;
   outline-offset: calc(2 * var(--fp-u));
@@ -1213,12 +1229,26 @@ ul {
   font-weight: 900;
 }
 
-.figma-build-strip[data-build-count="4"] .figma-build-tab {
+.figma-build-strip[data-build-count="4"] .figma-build-tab,
+.figma-build-strip[data-build-count="5"] .figma-build-tab {
   padding-inline: calc(8 * var(--fp-u));
 }
 
-.figma-build-strip[data-build-count="4"] .figma-build-name {
+.figma-build-strip[data-build-count="4"] .figma-build-name,
+.figma-build-strip[data-build-count="5"] .figma-build-name {
   font-size: calc(13 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] {
+  gap: calc(5 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] .figma-build-tab {
+  padding-inline: calc(6 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] .figma-build-name {
+  font-size: calc(12 * var(--fp-u));
 }
 
 .figma-build-tab.is-active .figma-build-name {
@@ -1246,6 +1276,20 @@ ul {
   line-height: 1.45;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.figma-low-sample-warning {
+  position: absolute;
+  top: calc(169 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  color: #c9a55b;
+  font-size: calc(10 * var(--fp-u));
+  font-weight: 800;
+  line-height: 1;
+}
+
+.figma-low-sample-warning strong {
+  color: #ffbf4a;
 }
 
 .figma-gameplay strong {
@@ -1287,7 +1331,7 @@ ul {
 
 .figma-starter-items {
   display: grid;
-  grid-template-columns: repeat(2, calc(87 * var(--fp-u)));
+  grid-template-columns: repeat(3, calc(87 * var(--fp-u)));
   gap: calc(14 * var(--fp-u));
   margin-top: calc(4 * var(--fp-u)) !important;
 }

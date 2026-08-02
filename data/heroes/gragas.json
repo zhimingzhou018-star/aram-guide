@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 6821,
+    "lowSampleWarning": false,
     "pickRate": 0.266727,
     "winRate": 0.498062,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 6821,
+      "lowSampleWarning": false,
       "pickRate": 0.266727,
       "winRate": 0.498062,
       "coreProfile": {
@@ -154,31 +156,31 @@
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3020,
-            "name": "法师之靴",
-            "sampleCount": 6458,
-            "pickRate": 0.221544,
-            "winRate": 0.498006,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 837,
+            "pickRate": 0.028714,
+            "winRate": 0.510241,
             "source": "boots",
-            "icon": "assets/resources/items/3020.webp"
-          },
-          {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1397,
-            "pickRate": 0.086181,
-            "winRate": 0.484453,
-            "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
             "id": 3100,
             "name": "巫妖之祸",
-            "sampleCount": 4724,
-            "pickRate": 0.162058,
-            "winRate": 0.495791,
-            "source": "fallback",
+            "sampleCount": 629,
+            "pickRate": 0.038803,
+            "winRate": 0.488952,
+            "source": "slot5",
             "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 343,
+            "pickRate": 0.038513,
+            "winRate": 0.510815,
+            "source": "slot6",
+            "icon": "assets/resources/items/4646.webp"
           }
         ]
       }
@@ -187,22 +189,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 9029,
+      "lowSampleWarning": false,
       "pickRate": 0.353068,
       "winRate": 0.448244,
       "coreProfile": {
-        "sampleCount": 3021,
-        "pickRate": 0.334589,
-        "winRate": 0.463105,
+        "sampleCount": 812,
+        "pickRate": 0.089932,
+        "winRate": 0.475528,
         "itemIds": [
           3084,
-          2502,
+          3119,
           3083
         ]
       },
       "starter": {
-        "sampleCount": 1270,
-        "pickRate": 0.7683,
-        "winRate": 0.464625
+        "sampleCount": 225,
+        "pickRate": 0.550122,
+        "winRate": 0.451029
       },
       "items": {
         "starter": [
@@ -221,27 +224,27 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/3119.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           }
@@ -250,56 +253,56 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/3119.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 3021,
-            "pickRate": 0.334589,
-            "winRate": 0.463105,
+            "sampleCount": 812,
+            "pickRate": 0.089932,
+            "winRate": 0.475528,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3020,
-            "name": "法师之靴",
-            "sampleCount": 6458,
-            "pickRate": 0.221544,
-            "winRate": 0.498006,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 837,
+            "pickRate": 0.028714,
+            "winRate": 0.510241,
             "source": "boots",
-            "icon": "assets/resources/items/3020.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1397,
-            "pickRate": 0.086181,
-            "winRate": 0.484453,
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 629,
+            "pickRate": 0.038803,
+            "winRate": 0.488952,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3100.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 8397,
-            "pickRate": 0.288062,
-            "winRate": 0.501685,
-            "source": "fallback",
-            "icon": "assets/resources/items/3089.webp"
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 343,
+            "pickRate": 0.038513,
+            "winRate": 0.510815,
+            "source": "slot6",
+            "icon": "assets/resources/items/4646.webp"
           }
         ]
       }
@@ -312,9 +315,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -384,31 +387,31 @@
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3020,
-        "name": "法师之靴",
-        "sampleCount": 6458,
-        "pickRate": 0.221544,
-        "winRate": 0.498006,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 837,
+        "pickRate": 0.028714,
+        "winRate": 0.510241,
         "source": "boots",
-        "icon": "assets/resources/items/3020.webp"
-      },
-      {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 1397,
-        "pickRate": 0.086181,
-        "winRate": 0.484453,
-        "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
         "id": 3100,
         "name": "巫妖之祸",
-        "sampleCount": 4724,
-        "pickRate": 0.162058,
-        "winRate": 0.495791,
-        "source": "fallback",
+        "sampleCount": 629,
+        "pickRate": 0.038803,
+        "winRate": 0.488952,
+        "source": "slot5",
         "icon": "assets/resources/items/3100.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 343,
+        "pickRate": 0.038513,
+        "winRate": 0.510815,
+        "source": "slot6",
+        "icon": "assets/resources/items/4646.webp"
       }
     ]
   },

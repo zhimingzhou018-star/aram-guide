@@ -47,22 +47,23 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 14428,
+    "lowSampleWarning": false,
     "pickRate": 0.734735,
     "winRate": 0.465992,
     "coreProfile": {
-      "sampleCount": 5597,
-      "pickRate": 0.387926,
-      "winRate": 0.48627,
+      "sampleCount": 471,
+      "pickRate": 0.032645,
+      "winRate": 0.503459,
       "itemIds": [
         3084,
         3083,
-        2502
+        6665
       ]
     },
     "starter": {
-      "sampleCount": 2499,
-      "pickRate": 0.700196,
-      "winRate": 0.488347
+      "sampleCount": 257,
+      "pickRate": 0.647355,
+      "winRate": 0.519552
     }
   },
   "defaultBuildKey": "tank",
@@ -71,22 +72,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 14428,
+      "lowSampleWarning": false,
       "pickRate": 0.734735,
       "winRate": 0.465992,
       "coreProfile": {
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "itemIds": [
           3084,
           3083,
-          2502
+          6665
         ]
       },
       "starter": {
-        "sampleCount": 2499,
-        "pickRate": 0.700196,
-        "winRate": 0.488347
+        "sampleCount": 257,
+        "pickRate": 0.647355,
+        "winRate": 0.519552
       },
       "items": {
         "starter": [
@@ -105,85 +107,85 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/6665.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 5597,
-            "pickRate": 0.387926,
-            "winRate": 0.48627,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
-          },
-          {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 3573,
-            "pickRate": 0.153572,
-            "winRate": 0.47842,
-            "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
-          },
-          {
             "id": 6665,
             "name": "千变者贾修",
-            "sampleCount": 1133,
-            "pickRate": 0.095507,
-            "winRate": 0.466819,
-            "source": "slot5",
+            "sampleCount": 471,
+            "pickRate": 0.032645,
+            "winRate": 0.503459,
+            "source": "coreProfile",
             "icon": "assets/resources/items/6665.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 264,
+            "pickRate": 0.011347,
+            "winRate": 0.505727,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
           },
           {
             "id": 3109,
             "name": "骑士之誓",
-            "sampleCount": 1475,
-            "pickRate": 0.063397,
-            "winRate": 0.53849,
-            "source": "fallback",
+            "sampleCount": 231,
+            "pickRate": 0.019472,
+            "winRate": 0.534948,
+            "source": "slot5",
             "icon": "assets/resources/items/3109.webp"
+          },
+          {
+            "id": 6664,
+            "name": "璀璨回响",
+            "sampleCount": 213,
+            "pickRate": 0.033896,
+            "winRate": 0.491109,
+            "source": "slot6",
+            "icon": "assets/resources/items/6664.webp"
           }
         ]
       }
@@ -191,9 +193,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -219,85 +221,85 @@
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
         "id": 3083,
         "name": "狂徒铠甲",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "source": "coreProfile",
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "id": 6665,
+        "name": "千变者贾修",
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2502.webp"
+        "icon": "assets/resources/items/6665.webp"
       }
     ],
     "recommended": [
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
         "id": 3083,
         "name": "狂徒铠甲",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
         "source": "coreProfile",
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 5597,
-        "pickRate": 0.387926,
-        "winRate": 0.48627,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2502.webp"
-      },
-      {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 3573,
-        "pickRate": 0.153572,
-        "winRate": 0.47842,
-        "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
-      },
-      {
         "id": 6665,
         "name": "千变者贾修",
-        "sampleCount": 1133,
-        "pickRate": 0.095507,
-        "winRate": 0.466819,
-        "source": "slot5",
+        "sampleCount": 471,
+        "pickRate": 0.032645,
+        "winRate": 0.503459,
+        "source": "coreProfile",
         "icon": "assets/resources/items/6665.webp"
+      },
+      {
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 264,
+        "pickRate": 0.011347,
+        "winRate": 0.505727,
+        "source": "boots",
+        "icon": "assets/resources/items/3009.webp"
       },
       {
         "id": 3109,
         "name": "骑士之誓",
-        "sampleCount": 1475,
-        "pickRate": 0.063397,
-        "winRate": 0.53849,
-        "source": "fallback",
+        "sampleCount": 231,
+        "pickRate": 0.019472,
+        "winRate": 0.534948,
+        "source": "slot5",
         "icon": "assets/resources/items/3109.webp"
+      },
+      {
+        "id": 6664,
+        "name": "璀璨回响",
+        "sampleCount": 213,
+        "pickRate": 0.033896,
+        "winRate": 0.491109,
+        "source": "slot6",
+        "icon": "assets/resources/items/6664.webp"
       }
     ]
   },

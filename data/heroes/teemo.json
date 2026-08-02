@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 52774,
+    "lowSampleWarning": false,
     "pickRate": 0.817796,
     "winRate": 0.542736,
     "coreProfile": {
-      "sampleCount": 4265,
-      "pickRate": 0.080816,
-      "winRate": 0.574654,
+      "sampleCount": 840,
+      "pickRate": 0.015917,
+      "winRate": 0.599829,
       "itemIds": [
-        3118,
+        2503,
         6653,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 2101,
-      "pickRate": 0.62013,
-      "winRate": 0.578375
+      "sampleCount": 141,
+      "pickRate": 0.231908,
+      "winRate": 0.634758
     }
   },
   "defaultBuildKey": "ap",
@@ -71,22 +72,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 52774,
+      "lowSampleWarning": false,
       "pickRate": 0.817796,
       "winRate": 0.542736,
       "coreProfile": {
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "itemIds": [
-          3118,
+          2503,
           6653,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 2101,
-        "pickRate": 0.62013,
-        "winRate": 0.578375
+        "sampleCount": 141,
+        "pickRate": 0.231908,
+        "winRate": 0.634758
       },
       "items": {
         "starter": [
@@ -98,87 +100,214 @@
         ],
         "core": [
           {
-            "id": 3118,
-            "name": "残疫",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3118.webp"
+            "icon": "assets/resources/items/2503.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
-            "id": 3118,
-            "name": "残疫",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3118.webp"
+            "icon": "assets/resources/items/2503.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 4265,
-            "pickRate": 0.080816,
-            "winRate": 0.574654,
+            "sampleCount": 840,
+            "pickRate": 0.015917,
+            "winRate": 0.599829,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 2205,
-            "pickRate": 0.030666,
-            "winRate": 0.56678,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 187,
+            "pickRate": 0.002601,
+            "winRate": 0.570284,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 3003,
-            "name": "大天使之杖",
-            "sampleCount": 1345,
-            "pickRate": 0.031226,
-            "winRate": 0.546019,
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 191,
+            "pickRate": 0.004434,
+            "winRate": 0.569332,
             "source": "slot5",
-            "icon": "assets/resources/items/3003.webp"
+            "icon": "assets/resources/items/3102.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 2856,
-            "pickRate": 0.111741,
-            "winRate": 0.550039,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 168,
+            "pickRate": 0.006573,
+            "winRate": 0.590306,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/4633.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 600,
+      "lowSampleWarning": false,
+      "pickRate": 0.009298,
+      "winRate": 0.511496,
+      "coreProfile": {
+        "sampleCount": 600,
+        "pickRate": 1,
+        "winRate": 0.511496,
+        "itemIds": [
+          3087,
+          6653,
+          3115
+        ]
+      },
+      "starter": {
+        "sampleCount": 169,
+        "pickRate": 0.665354,
+        "winRate": 0.492285
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3113,
+            "name": "以太精魂",
+            "icon": "assets/resources/items/3113.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 600,
+            "pickRate": 1,
+            "winRate": 0.511496,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 187,
+            "pickRate": 0.002601,
+            "winRate": 0.570284,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 191,
+            "pickRate": 0.004434,
+            "winRate": 0.569332,
+            "source": "slot5",
+            "icon": "assets/resources/items/3102.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 168,
+            "pickRate": 0.006573,
+            "winRate": 0.590306,
+            "source": "slot6",
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -207,87 +336,87 @@
     ],
     "core": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/2503.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "id": 2503,
+        "name": "黯炎火炬",
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/2503.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 4265,
-        "pickRate": 0.080816,
-        "winRate": 0.574654,
+        "sampleCount": 840,
+        "pickRate": 0.015917,
+        "winRate": 0.599829,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 2205,
-        "pickRate": 0.030666,
-        "winRate": 0.56678,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 187,
+        "pickRate": 0.002601,
+        "winRate": 0.570284,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 3003,
-        "name": "大天使之杖",
-        "sampleCount": 1345,
-        "pickRate": 0.031226,
-        "winRate": 0.546019,
+        "id": 3102,
+        "name": "女妖面纱",
+        "sampleCount": 191,
+        "pickRate": 0.004434,
+        "winRate": 0.569332,
         "source": "slot5",
-        "icon": "assets/resources/items/3003.webp"
+        "icon": "assets/resources/items/3102.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 2856,
-        "pickRate": 0.111741,
-        "winRate": 0.550039,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 168,
+        "pickRate": 0.006573,
+        "winRate": 0.590306,
         "source": "slot6",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

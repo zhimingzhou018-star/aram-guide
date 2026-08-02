@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 12253,
+    "lowSampleWarning": false,
     "pickRate": 0.2146,
     "winRate": 0.522142,
     "coreProfile": {
-      "sampleCount": 1483,
-      "pickRate": 0.121032,
-      "winRate": 0.577232,
+      "sampleCount": 465,
+      "pickRate": 0.03795,
+      "winRate": 0.584168,
       "itemIds": [
         2503,
         6653,
-        3089
+        4005
       ]
     },
     "starter": {
-      "sampleCount": 814,
-      "pickRate": 0.66776,
-      "winRate": 0.59351
+      "sampleCount": 191,
+      "pickRate": 0.743191,
+      "winRate": 0.587759
     }
   },
   "defaultBuildKey": "ap",
@@ -71,22 +72,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 12253,
+      "lowSampleWarning": false,
       "pickRate": 0.2146,
       "winRate": 0.522142,
       "coreProfile": {
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "itemIds": [
           2503,
           6653,
-          3089
+          4005
         ]
       },
       "starter": {
-        "sampleCount": 814,
-        "pickRate": 0.66776,
-        "winRate": 0.59351
+        "sampleCount": 191,
+        "pickRate": 0.743191,
+        "winRate": 0.587759
       },
       "items": {
         "starter": [
@@ -100,85 +102,85 @@
           {
             "id": 2503,
             "name": "黯炎火炬",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
             "icon": "assets/resources/items/2503.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/4005.webp"
           }
         ],
         "recommended": [
           {
             "id": 2503,
             "name": "黯炎火炬",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
             "icon": "assets/resources/items/2503.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1483,
-            "pickRate": 0.121032,
-            "winRate": 0.577232,
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 465,
+            "pickRate": 0.03795,
+            "winRate": 0.584168,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/4005.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 1061,
-            "pickRate": 0.016505,
-            "winRate": 0.521636,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 201,
+            "pickRate": 0.003127,
+            "winRate": 0.53371,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1450,
-            "pickRate": 0.039257,
-            "winRate": 0.50551,
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 557,
+            "pickRate": 0.01508,
+            "winRate": 0.530995,
             "source": "slot5",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1806,
-            "pickRate": 0.084282,
-            "winRate": 0.467596,
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 199,
+            "pickRate": 0.009287,
+            "winRate": 0.544086,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/4629.webp"
           }
         ]
       }
@@ -187,6 +189,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 31992,
+      "lowSampleWarning": false,
       "pickRate": 0.56031,
       "winRate": 0.476272,
       "coreProfile": {
@@ -275,31 +278,31 @@
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 1061,
-            "pickRate": 0.016505,
-            "winRate": 0.521636,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 201,
+            "pickRate": 0.003127,
+            "winRate": 0.53371,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1450,
-            "pickRate": 0.039257,
-            "winRate": 0.50551,
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 557,
+            "pickRate": 0.01508,
+            "winRate": 0.530995,
             "source": "slot5",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/3118.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1806,
-            "pickRate": 0.084282,
-            "winRate": 0.467596,
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 199,
+            "pickRate": 0.009287,
+            "winRate": 0.544086,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/4629.webp"
           }
         ]
       }
@@ -312,9 +315,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "E>Q>W",
@@ -330,85 +333,85 @@
       {
         "id": 2503,
         "name": "黯炎火炬",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
         "icon": "assets/resources/items/2503.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "id": 4005,
+        "name": "帝国指令",
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/4005.webp"
       }
     ],
     "recommended": [
       {
         "id": 2503,
         "name": "黯炎火炬",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
         "icon": "assets/resources/items/2503.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1483,
-        "pickRate": 0.121032,
-        "winRate": 0.577232,
+        "id": 4005,
+        "name": "帝国指令",
+        "sampleCount": 465,
+        "pickRate": 0.03795,
+        "winRate": 0.584168,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/4005.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 1061,
-        "pickRate": 0.016505,
-        "winRate": 0.521636,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 201,
+        "pickRate": 0.003127,
+        "winRate": 0.53371,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1450,
-        "pickRate": 0.039257,
-        "winRate": 0.50551,
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 557,
+        "pickRate": 0.01508,
+        "winRate": 0.530995,
         "source": "slot5",
-        "icon": "assets/resources/items/4645.webp"
+        "icon": "assets/resources/items/3118.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1806,
-        "pickRate": 0.084282,
-        "winRate": 0.467596,
+        "id": 4629,
+        "name": "星界驱驰",
+        "sampleCount": 199,
+        "pickRate": 0.009287,
+        "winRate": 0.544086,
         "source": "slot6",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/4629.webp"
       }
     ]
   },

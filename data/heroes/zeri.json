@@ -46,22 +46,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 4605,
+    "lowSampleWarning": false,
     "pickRate": 0.436369,
     "winRate": 0.51659,
     "coreProfile": {
-      "sampleCount": 1642,
-      "pickRate": 0.356569,
-      "winRate": 0.533793,
+      "sampleCount": 671,
+      "pickRate": 0.145711,
+      "winRate": 0.544921,
       "itemIds": [
         3032,
-        3085,
+        2512,
         3031
       ]
     },
     "starter": {
-      "sampleCount": 865,
-      "pickRate": 0.629091,
-      "winRate": 0.549142
+      "sampleCount": 366,
+      "pickRate": 0.665455,
+      "winRate": 0.514618
     }
   },
   "defaultBuildKey": "crit",
@@ -70,22 +71,23 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 4605,
+      "lowSampleWarning": false,
       "pickRate": 0.436369,
       "winRate": 0.51659,
       "coreProfile": {
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "itemIds": [
           3032,
-          3085,
+          2512,
           3031
         ]
       },
       "starter": {
-        "sampleCount": 865,
-        "pickRate": 0.629091,
-        "winRate": 0.549142
+        "sampleCount": 366,
+        "pickRate": 0.665455,
+        "winRate": 0.514618
       },
       "items": {
         "starter": [
@@ -99,27 +101,27 @@
           {
             "id": 3032,
             "name": "育恩塔尔荒野箭",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
             "icon": "assets/resources/items/3032.webp"
           },
           {
-            "id": 3085,
-            "name": "卢安娜的飓风",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "id": 2512,
+            "name": "猎魔人弩箭",
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3085.webp"
+            "icon": "assets/resources/items/2512.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           }
@@ -128,27 +130,27 @@
           {
             "id": 3032,
             "name": "育恩塔尔荒野箭",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
             "icon": "assets/resources/items/3032.webp"
           },
           {
-            "id": 3085,
-            "name": "卢安娜的飓风",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "id": 2512,
+            "name": "猎魔人弩箭",
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3085.webp"
+            "icon": "assets/resources/items/2512.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1642,
-            "pickRate": 0.356569,
-            "winRate": 0.533793,
+            "sampleCount": 671,
+            "pickRate": 0.145711,
+            "winRate": 0.544921,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
@@ -162,22 +164,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1320,
-            "pickRate": 0.175392,
-            "winRate": 0.518865,
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 369,
+            "pickRate": 0.04903,
+            "winRate": 0.553935,
             "source": "slot5",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/3085.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 2283,
-            "pickRate": 0.206252,
-            "winRate": 0.510561,
-            "source": "fallback",
-            "icon": "assets/resources/items/3072.webp"
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 162,
+            "pickRate": 0.036266,
+            "winRate": 0.597597,
+            "source": "slot6",
+            "icon": "assets/resources/items/3139.webp"
           }
         ]
       }
@@ -190,9 +192,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 6,
-      "name": "幽灵疾步",
-      "icon": "assets/resources/summoner-spells/6.webp"
+      "id": 1,
+      "name": "净化",
+      "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
   "skillOrder": "E>W>Q",
@@ -208,27 +210,27 @@
       {
         "id": 3032,
         "name": "育恩塔尔荒野箭",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
         "icon": "assets/resources/items/3032.webp"
       },
       {
-        "id": 3085,
-        "name": "卢安娜的飓风",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "id": 2512,
+        "name": "猎魔人弩箭",
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3085.webp"
+        "icon": "assets/resources/items/2512.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       }
@@ -237,27 +239,27 @@
       {
         "id": 3032,
         "name": "育恩塔尔荒野箭",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
         "icon": "assets/resources/items/3032.webp"
       },
       {
-        "id": 3085,
-        "name": "卢安娜的飓风",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "id": 2512,
+        "name": "猎魔人弩箭",
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3085.webp"
+        "icon": "assets/resources/items/2512.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1642,
-        "pickRate": 0.356569,
-        "winRate": 0.533793,
+        "sampleCount": 671,
+        "pickRate": 0.145711,
+        "winRate": 0.544921,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
@@ -271,22 +273,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 1320,
-        "pickRate": 0.175392,
-        "winRate": 0.518865,
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 369,
+        "pickRate": 0.04903,
+        "winRate": 0.553935,
         "source": "slot5",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 2283,
-        "pickRate": 0.206252,
-        "winRate": 0.510561,
-        "source": "fallback",
-        "icon": "assets/resources/items/3072.webp"
+        "id": 3139,
+        "name": "水银弯刀",
+        "sampleCount": 162,
+        "pickRate": 0.036266,
+        "winRate": 0.597597,
+        "source": "slot6",
+        "icon": "assets/resources/items/3139.webp"
       }
     ]
   },

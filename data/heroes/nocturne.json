@@ -47,22 +47,23 @@
     "key": "lethality",
     "name": "穿甲流",
     "sampleCount": 14000,
+    "lowSampleWarning": false,
     "pickRate": 0.62514,
     "winRate": 0.475556,
     "coreProfile": {
-      "sampleCount": 1850,
-      "pickRate": 0.132143,
-      "winRate": 0.483534,
+      "sampleCount": 841,
+      "pickRate": 0.060071,
+      "winRate": 0.522721,
       "itemIds": [
         126697,
         6696,
-        3073
+        6698
       ]
     },
     "starter": {
-      "sampleCount": 234,
-      "pickRate": 0.15507,
-      "winRate": 0.51046
+      "sampleCount": 315,
+      "pickRate": 0.483871,
+      "winRate": 0.513024
     }
   },
   "defaultBuildKey": "lethality",
@@ -71,22 +72,23 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 14000,
+      "lowSampleWarning": false,
       "pickRate": 0.62514,
       "winRate": 0.475556,
       "coreProfile": {
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "itemIds": [
           126697,
           6696,
-          3073
+          6698
         ]
       },
       "starter": {
-        "sampleCount": 234,
-        "pickRate": 0.15507,
-        "winRate": 0.51046
+        "sampleCount": 315,
+        "pickRate": 0.483871,
+        "winRate": 0.513024
       },
       "items": {
         "starter": [
@@ -96,67 +98,67 @@
             "icon": "assets/resources/items/1036.webp"
           },
           {
-            "id": 3133,
-            "name": "考尔菲德的战锤",
-            "icon": "assets/resources/items/3133.webp"
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
           }
         ],
         "core": [
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6696,
             "name": "公理圆弧",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3073,
-            "name": "海克斯注力刚壁",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "id": 6698,
+            "name": "亵渎九头蛇",
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3073.webp"
+            "icon": "assets/resources/items/6698.webp"
           }
         ],
         "recommended": [
           {
             "id": 126697,
             "name": "狂妄",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
             "icon": "assets/resources/items/126697.webp"
           },
           {
             "id": 6696,
             "name": "公理圆弧",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3073,
-            "name": "海克斯注力刚壁",
-            "sampleCount": 1850,
-            "pickRate": 0.132143,
-            "winRate": 0.483534,
+            "id": 6698,
+            "name": "亵渎九头蛇",
+            "sampleCount": 841,
+            "pickRate": 0.060071,
+            "winRate": 0.522721,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3073.webp"
+            "icon": "assets/resources/items/6698.webp"
           },
           {
             "id": 3008,
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3036,
-            "name": "多米尼克领主的致意",
-            "sampleCount": 1079,
-            "pickRate": 0.073148,
-            "winRate": 0.524619,
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 449,
+            "pickRate": 0.030439,
+            "winRate": 0.538661,
             "source": "slot5",
-            "icon": "assets/resources/items/3036.webp"
+            "icon": "assets/resources/items/2517.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 2636,
-            "pickRate": 0.111676,
-            "winRate": 0.542884,
-            "source": "fallback",
-            "icon": "assets/resources/items/6333.webp"
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 105,
+            "pickRate": 0.012209,
+            "winRate": 0.573341,
+            "source": "slot6",
+            "icon": "assets/resources/items/3156.webp"
           }
         ]
       }
@@ -191,9 +193,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -210,67 +212,67 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3133,
-        "name": "考尔菲德的战锤",
-        "icon": "assets/resources/items/3133.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
         "id": 6696,
         "name": "公理圆弧",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
         "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3073,
-        "name": "海克斯注力刚壁",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "id": 6698,
+        "name": "亵渎九头蛇",
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3073.webp"
+        "icon": "assets/resources/items/6698.webp"
       }
     ],
     "recommended": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
         "id": 6696,
         "name": "公理圆弧",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
         "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3073,
-        "name": "海克斯注力刚壁",
-        "sampleCount": 1850,
-        "pickRate": 0.132143,
-        "winRate": 0.483534,
+        "id": 6698,
+        "name": "亵渎九头蛇",
+        "sampleCount": 841,
+        "pickRate": 0.060071,
+        "winRate": 0.522721,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3073.webp"
+        "icon": "assets/resources/items/6698.webp"
       },
       {
         "id": 3008,
@@ -282,22 +284,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 1079,
-        "pickRate": 0.073148,
-        "winRate": 0.524619,
+        "id": 2517,
+        "name": "无穷饥渴",
+        "sampleCount": 449,
+        "pickRate": 0.030439,
+        "winRate": 0.538661,
         "source": "slot5",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/2517.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 2636,
-        "pickRate": 0.111676,
-        "winRate": 0.542884,
-        "source": "fallback",
-        "icon": "assets/resources/items/6333.webp"
+        "id": 3156,
+        "name": "玛莫提乌斯之噬",
+        "sampleCount": 105,
+        "pickRate": 0.012209,
+        "winRate": 0.573341,
+        "source": "slot6",
+        "icon": "assets/resources/items/3156.webp"
       }
     ]
   },

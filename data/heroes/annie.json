@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 8865,
+    "lowSampleWarning": false,
     "pickRate": 0.654582,
     "winRate": 0.514386,
     "coreProfile": {
-      "sampleCount": 1328,
-      "pickRate": 0.149803,
-      "winRate": 0.531374,
+      "sampleCount": 340,
+      "pickRate": 0.038353,
+      "winRate": 0.568006,
       "itemIds": [
         3118,
         6653,
-        4645
+        3089
       ]
     },
     "starter": {
-      "sampleCount": 364,
-      "pickRate": 0.339869,
-      "winRate": 0.538433
+      "sampleCount": 161,
+      "pickRate": 0.557093,
+      "winRate": 0.503793
     }
   },
   "defaultBuildKey": "ap",
@@ -71,22 +72,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 8865,
+      "lowSampleWarning": false,
       "pickRate": 0.654582,
       "winRate": 0.514386,
       "coreProfile": {
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "itemIds": [
           3118,
           6653,
-          4645
+          3089
         ]
       },
       "starter": {
-        "sampleCount": 364,
-        "pickRate": 0.339869,
-        "winRate": 0.538433
+        "sampleCount": 161,
+        "pickRate": 0.557093,
+        "winRate": 0.503793
       },
       "items": {
         "starter": [
@@ -100,85 +102,85 @@
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
+            "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 1328,
-            "pickRate": 0.149803,
-            "winRate": 0.531374,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
-          },
-          {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 1192,
-            "pickRate": 0.078287,
-            "winRate": 0.513772,
-            "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
-          },
-          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 2277,
-            "pickRate": 0.254726,
-            "winRate": 0.504797,
-            "source": "slot5",
+            "sampleCount": 340,
+            "pickRate": 0.038353,
+            "winRate": 0.568006,
+            "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 2503,
-            "name": "黯炎火炬",
-            "sampleCount": 1744,
-            "pickRate": 0.114541,
-            "winRate": 0.542642,
-            "source": "fallback",
-            "icon": "assets/resources/items/2503.webp"
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 835,
+            "pickRate": 0.05484,
+            "winRate": 0.566932,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3137,
+            "name": "蜕生",
+            "sampleCount": 127,
+            "pickRate": 0.014207,
+            "winRate": 0.577154,
+            "source": "slot5",
+            "icon": "assets/resources/items/3137.webp"
+          },
+          {
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 123,
+            "pickRate": 0.025705,
+            "winRate": 0.555452,
+            "source": "slot6",
+            "icon": "assets/resources/items/3152.webp"
           }
         ]
       }
@@ -209,85 +211,85 @@
       {
         "id": 3118,
         "name": "残疫",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "source": "coreProfile",
         "icon": "assets/resources/items/3118.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4645.webp"
+        "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
         "id": 3118,
         "name": "残疫",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "source": "coreProfile",
         "icon": "assets/resources/items/3118.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 1328,
-        "pickRate": 0.149803,
-        "winRate": 0.531374,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/4645.webp"
-      },
-      {
-        "id": 3158,
-        "name": "明朗之靴",
-        "sampleCount": 1192,
-        "pickRate": 0.078287,
-        "winRate": 0.513772,
-        "source": "boots",
-        "icon": "assets/resources/items/3158.webp"
-      },
-      {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 2277,
-        "pickRate": 0.254726,
-        "winRate": 0.504797,
-        "source": "slot5",
+        "sampleCount": 340,
+        "pickRate": 0.038353,
+        "winRate": 0.568006,
+        "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 1744,
-        "pickRate": 0.114541,
-        "winRate": 0.542642,
-        "source": "fallback",
-        "icon": "assets/resources/items/2503.webp"
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 835,
+        "pickRate": 0.05484,
+        "winRate": 0.566932,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 3137,
+        "name": "蜕生",
+        "sampleCount": 127,
+        "pickRate": 0.014207,
+        "winRate": 0.577154,
+        "source": "slot5",
+        "icon": "assets/resources/items/3137.webp"
+      },
+      {
+        "id": 3152,
+        "name": "海克斯科技火箭腰带",
+        "sampleCount": 123,
+        "pickRate": 0.025705,
+        "winRate": 0.555452,
+        "source": "slot6",
+        "icon": "assets/resources/items/3152.webp"
       }
     ]
   },

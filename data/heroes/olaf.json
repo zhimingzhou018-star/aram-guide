@@ -47,22 +47,23 @@
     "key": "bruiser",
     "name": "战士流",
     "sampleCount": 5872,
+    "lowSampleWarning": false,
     "pickRate": 0.428457,
     "winRate": 0.4751,
     "coreProfile": {
-      "sampleCount": 3518,
-      "pickRate": 0.599114,
-      "winRate": 0.478188,
+      "sampleCount": 446,
+      "pickRate": 0.075954,
+      "winRate": 0.503738,
       "itemIds": [
         6631,
         3073,
-        6333
+        6610
       ]
     },
     "starter": {
-      "sampleCount": 308,
-      "pickRate": 0.138055,
-      "winRate": 0.524224
+      "sampleCount": 100,
+      "pickRate": 0.414938,
+      "winRate": 0.581496
     }
   },
   "defaultBuildKey": "bruiser",
@@ -71,92 +72,88 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 5872,
+      "lowSampleWarning": false,
       "pickRate": 0.428457,
       "winRate": 0.4751,
       "coreProfile": {
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "itemIds": [
           6631,
           3073,
-          6333
+          6610
         ]
       },
       "starter": {
-        "sampleCount": 308,
-        "pickRate": 0.138055,
-        "winRate": 0.524224
+        "sampleCount": 100,
+        "pickRate": 0.414938,
+        "winRate": 0.581496
       },
       "items": {
         "starter": [
           {
-            "id": 1001,
-            "name": "鞋子",
-            "icon": "assets/resources/items/1001.webp"
-          },
-          {
-            "id": 3044,
-            "name": "净蚀",
-            "icon": "assets/resources/items/3044.webp"
+            "id": 3077,
+            "name": "提亚马特",
+            "icon": "assets/resources/items/3077.webp"
           }
         ],
         "core": [
           {
             "id": 6631,
             "name": "挺进破坏者",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
             "icon": "assets/resources/items/6631.webp"
           },
           {
             "id": 3073,
             "name": "海克斯注力刚壁",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
             "icon": "assets/resources/items/3073.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/6610.webp"
           }
         ],
         "recommended": [
           {
             "id": 6631,
             "name": "挺进破坏者",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
             "icon": "assets/resources/items/6631.webp"
           },
           {
             "id": 3073,
             "name": "海克斯注力刚壁",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
             "icon": "assets/resources/items/3073.webp"
           },
           {
-            "id": 6333,
-            "name": "死亡之舞",
-            "sampleCount": 3518,
-            "pickRate": 0.599114,
-            "winRate": 0.478188,
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 446,
+            "pickRate": 0.075954,
+            "winRate": 0.503738,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6333.webp"
+            "icon": "assets/resources/items/6610.webp"
           },
           {
             "id": 3008,
@@ -168,22 +165,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 1237,
-            "pickRate": 0.136655,
-            "winRate": 0.447737,
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 103,
+            "pickRate": 0.011379,
+            "winRate": 0.535477,
             "source": "slot5",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3036.webp"
           },
           {
-            "id": 3053,
-            "name": "斯特拉克的挑战护手",
-            "sampleCount": 1387,
-            "pickRate": 0.089721,
-            "winRate": 0.472297,
-            "source": "fallback",
-            "icon": "assets/resources/items/3053.webp"
+            "id": 3156,
+            "name": "玛莫提乌斯之噬",
+            "sampleCount": 126,
+            "pickRate": 0.026239,
+            "winRate": 0.549115,
+            "source": "slot6",
+            "icon": "assets/resources/items/3156.webp"
           }
         ]
       }
@@ -205,72 +202,67 @@
   "items": {
     "starter": [
       {
-        "id": 1001,
-        "name": "鞋子",
-        "icon": "assets/resources/items/1001.webp"
-      },
-      {
-        "id": 3044,
-        "name": "净蚀",
-        "icon": "assets/resources/items/3044.webp"
+        "id": 3077,
+        "name": "提亚马特",
+        "icon": "assets/resources/items/3077.webp"
       }
     ],
     "core": [
       {
         "id": 6631,
         "name": "挺进破坏者",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
         "icon": "assets/resources/items/6631.webp"
       },
       {
         "id": 3073,
         "name": "海克斯注力刚壁",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
         "icon": "assets/resources/items/3073.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "id": 6610,
+        "name": "焚天",
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/6610.webp"
       }
     ],
     "recommended": [
       {
         "id": 6631,
         "name": "挺进破坏者",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
         "icon": "assets/resources/items/6631.webp"
       },
       {
         "id": 3073,
         "name": "海克斯注力刚壁",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
         "icon": "assets/resources/items/3073.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 3518,
-        "pickRate": 0.599114,
-        "winRate": 0.478188,
+        "id": 6610,
+        "name": "焚天",
+        "sampleCount": 446,
+        "pickRate": 0.075954,
+        "winRate": 0.503738,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/6610.webp"
       },
       {
         "id": 3008,
@@ -282,22 +274,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 1237,
-        "pickRate": 0.136655,
-        "winRate": 0.447737,
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 103,
+        "pickRate": 0.011379,
+        "winRate": 0.535477,
         "source": "slot5",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/3036.webp"
       },
       {
-        "id": 3053,
-        "name": "斯特拉克的挑战护手",
-        "sampleCount": 1387,
-        "pickRate": 0.089721,
-        "winRate": 0.472297,
-        "source": "fallback",
-        "icon": "assets/resources/items/3053.webp"
+        "id": 3156,
+        "name": "玛莫提乌斯之噬",
+        "sampleCount": 126,
+        "pickRate": 0.026239,
+        "winRate": 0.549115,
+        "source": "slot6",
+        "icon": "assets/resources/items/3156.webp"
       }
     ]
   },

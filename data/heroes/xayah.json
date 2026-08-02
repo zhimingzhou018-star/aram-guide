@@ -46,22 +46,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 8896,
+    "lowSampleWarning": false,
     "pickRate": 0.585032,
     "winRate": 0.522193,
     "coreProfile": {
-      "sampleCount": 1321,
-      "pickRate": 0.148494,
-      "winRate": 0.519957,
+      "sampleCount": 773,
+      "pickRate": 0.086893,
+      "winRate": 0.54146,
       "itemIds": [
-        3032,
+        6676,
         3031,
-        6675
+        3036
       ]
     },
     "starter": {
-      "sampleCount": 678,
-      "pickRate": 0.672619,
-      "winRate": 0.520296
+      "sampleCount": 103,
+      "pickRate": 0.17851,
+      "winRate": 0.572219
     }
   },
   "defaultBuildKey": "crit",
@@ -70,87 +71,88 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 8896,
+      "lowSampleWarning": false,
       "pickRate": 0.585032,
       "winRate": 0.522193,
       "coreProfile": {
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "itemIds": [
-          3032,
+          6676,
           3031,
-          6675
+          3036
         ]
       },
       "starter": {
-        "sampleCount": 678,
-        "pickRate": 0.672619,
-        "winRate": 0.520296
+        "sampleCount": 103,
+        "pickRate": 0.17851,
+        "winRate": 0.572219
       },
       "items": {
         "starter": [
           {
-            "id": 1038,
-            "name": "暴风之剑",
-            "icon": "assets/resources/items/1038.webp"
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
           }
         ],
         "core": [
           {
-            "id": 3032,
-            "name": "育恩塔尔荒野箭",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3032.webp"
+            "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 6675,
-            "name": "纳沃利烁刃",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6675.webp"
+            "icon": "assets/resources/items/3036.webp"
           }
         ],
         "recommended": [
           {
-            "id": 3032,
-            "name": "育恩塔尔荒野箭",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3032.webp"
+            "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 6675,
-            "name": "纳沃利烁刃",
-            "sampleCount": 1321,
-            "pickRate": 0.148494,
-            "winRate": 0.519957,
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 773,
+            "pickRate": 0.086893,
+            "winRate": 0.54146,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6675.webp"
+            "icon": "assets/resources/items/3036.webp"
           },
           {
             "id": 3008,
@@ -162,22 +164,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1543,
-            "pickRate": 0.142963,
-            "winRate": 0.543772,
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 107,
+            "pickRate": 0.009914,
+            "winRate": 0.560877,
             "source": "slot5",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/3143.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 1131,
-            "pickRate": 0.177718,
-            "winRate": 0.520147,
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 205,
+            "pickRate": 0.032212,
+            "winRate": 0.609065,
             "source": "slot6",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3139.webp"
           }
         ]
       }
@@ -199,67 +201,67 @@
   "items": {
     "starter": [
       {
-        "id": 1038,
-        "name": "暴风之剑",
-        "icon": "assets/resources/items/1038.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
       {
-        "id": 3032,
-        "name": "育恩塔尔荒野箭",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3032.webp"
+        "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 6675,
-        "name": "纳沃利烁刃",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6675.webp"
+        "icon": "assets/resources/items/3036.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3032,
-        "name": "育恩塔尔荒野箭",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3032.webp"
+        "icon": "assets/resources/items/6676.webp"
       },
       {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 6675,
-        "name": "纳沃利烁刃",
-        "sampleCount": 1321,
-        "pickRate": 0.148494,
-        "winRate": 0.519957,
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 773,
+        "pickRate": 0.086893,
+        "winRate": 0.54146,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6675.webp"
+        "icon": "assets/resources/items/3036.webp"
       },
       {
         "id": 3008,
@@ -271,22 +273,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1543,
-        "pickRate": 0.142963,
-        "winRate": 0.543772,
+        "id": 3143,
+        "name": "兰顿之兆",
+        "sampleCount": 107,
+        "pickRate": 0.009914,
+        "winRate": 0.560877,
         "source": "slot5",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/3143.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 1131,
-        "pickRate": 0.177718,
-        "winRate": 0.520147,
+        "id": 3139,
+        "name": "水银弯刀",
+        "sampleCount": 205,
+        "pickRate": 0.032212,
+        "winRate": 0.609065,
         "source": "slot6",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/3139.webp"
       }
     ]
   },

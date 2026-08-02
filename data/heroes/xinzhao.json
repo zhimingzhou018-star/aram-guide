@@ -47,22 +47,23 @@
     "key": "on_hit",
     "name": "攻速特效流",
     "sampleCount": 26197,
+    "lowSampleWarning": false,
     "pickRate": 0.513596,
     "winRate": 0.531283,
     "coreProfile": {
-      "sampleCount": 3811,
-      "pickRate": 0.145475,
-      "winRate": 0.548961,
+      "sampleCount": 3029,
+      "pickRate": 0.115624,
+      "winRate": 0.55595,
       "itemIds": [
-        3087,
         2510,
-        3065
+        3087,
+        3115
       ]
     },
     "starter": {
-      "sampleCount": 206,
-      "pickRate": 0.078957,
-      "winRate": 0.558145
+      "sampleCount": 732,
+      "pickRate": 0.415909,
+      "winRate": 0.572907
     }
   },
   "defaultBuildKey": "on_hit",
@@ -71,119 +72,491 @@
       "key": "on_hit",
       "name": "攻速特效流",
       "sampleCount": 26197,
+      "lowSampleWarning": false,
       "pickRate": 0.513596,
       "winRate": 0.531283,
       "coreProfile": {
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
         "itemIds": [
-          3087,
           2510,
-          3065
+          3087,
+          3115
         ]
       },
       "starter": {
-        "sampleCount": 206,
-        "pickRate": 0.078957,
-        "winRate": 0.558145
+        "sampleCount": 732,
+        "pickRate": 0.415909,
+        "winRate": 0.572907
       },
       "items": {
         "starter": [
           {
-            "id": 1052,
-            "name": "增幅典籍",
-            "icon": "assets/resources/items/1052.webp"
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
           },
           {
-            "id": 3144,
-            "name": "斥候弹弓",
-            "icon": "assets/resources/items/3144.webp"
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3113,
+            "name": "以太精魂",
+            "icon": "assets/resources/items/3113.webp"
           }
         ],
         "core": [
           {
-            "id": 3087,
-            "name": "斯塔缇克电刃",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3087.webp"
-          },
-          {
             "id": 2510,
             "name": "黄昏与黎明",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
             "source": "coreProfile",
             "icon": "assets/resources/items/2510.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
-          }
-        ],
-        "recommended": [
-          {
             "id": 3087,
             "name": "斯塔缇克电刃",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
             "source": "coreProfile",
             "icon": "assets/resources/items/3087.webp"
-          },
-          {
-            "id": 2510,
-            "name": "黄昏与黎明",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2510.webp"
-          },
-          {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 3811,
-            "pickRate": 0.145475,
-            "winRate": 0.548961,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3065.webp"
-          },
-          {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 4646,
-            "pickRate": 0.082253,
-            "winRate": 0.53658,
-            "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
           },
           {
             "id": 3115,
             "name": "纳什之牙",
-            "sampleCount": 1200,
-            "pickRate": 0.038873,
-            "winRate": 0.522539,
-            "source": "slot5",
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
+            "source": "coreProfile",
             "icon": "assets/resources/items/3115.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 3029,
+            "pickRate": 0.115624,
+            "winRate": 0.55595,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 815,
+            "pickRate": 0.014429,
+            "winRate": 0.539824,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 133,
+            "pickRate": 0.004308,
+            "winRate": 0.558948,
+            "source": "slot5",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 149,
+            "pickRate": 0.009382,
+            "winRate": 0.545374,
+            "source": "slot6",
+            "icon": "assets/resources/items/4401.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 3257,
+      "lowSampleWarning": false,
+      "pickRate": 0.063854,
+      "winRate": 0.501333,
+      "coreProfile": {
+        "sampleCount": 413,
+        "pickRate": 0.126804,
+        "winRate": 0.539833,
+        "itemIds": [
+          3084,
+          3087,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 312,
+        "pickRate": 0.836461,
+        "winRate": 0.546321
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
           },
           {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 1325,
-            "pickRate": 0.083433,
-            "winRate": 0.499944,
-            "source": "slot6",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 413,
+            "pickRate": 0.126804,
+            "winRate": 0.539833,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 815,
+            "pickRate": 0.014429,
+            "winRate": 0.539824,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 133,
+            "pickRate": 0.004308,
+            "winRate": 0.558948,
+            "source": "slot5",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 149,
+            "pickRate": 0.009382,
+            "winRate": 0.545374,
+            "source": "slot6",
+            "icon": "assets/resources/items/4401.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 4718,
+      "lowSampleWarning": false,
+      "pickRate": 0.092497,
+      "winRate": 0.512419,
+      "coreProfile": {
+        "sampleCount": 918,
+        "pickRate": 0.194574,
+        "winRate": 0.533165,
+        "itemIds": [
+          3084,
+          2502,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 472,
+        "pickRate": 0.856624,
+        "winRate": 0.495039
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 918,
+            "pickRate": 0.194574,
+            "winRate": 0.533165,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 815,
+            "pickRate": 0.014429,
+            "winRate": 0.539824,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 133,
+            "pickRate": 0.004308,
+            "winRate": 0.558948,
+            "source": "slot5",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 149,
+            "pickRate": 0.009382,
+            "winRate": 0.545374,
+            "source": "slot6",
+            "icon": "assets/resources/items/4401.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 715,
+      "lowSampleWarning": false,
+      "pickRate": 0.014018,
+      "winRate": 0.506927,
+      "coreProfile": {
+        "sampleCount": 411,
+        "pickRate": 0.574825,
+        "winRate": 0.508421,
+        "itemIds": [
+          3084,
+          2510,
+          4633
+        ]
+      },
+      "starter": {
+        "sampleCount": 272,
+        "pickRate": 0.836923,
+        "winRate": 0.546509
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 411,
+            "pickRate": 0.574825,
+            "winRate": 0.508421,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 815,
+            "pickRate": 0.014429,
+            "winRate": 0.539824,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 133,
+            "pickRate": 0.004308,
+            "winRate": 0.558948,
+            "source": "slot5",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 4401,
+            "name": "自然之力",
+            "sampleCount": 149,
+            "pickRate": 0.009382,
+            "winRate": 0.545374,
+            "source": "slot6",
+            "icon": "assets/resources/items/4401.webp"
           }
         ]
       }
@@ -191,9 +564,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -205,99 +578,104 @@
   "items": {
     "starter": [
       {
-        "id": 1052,
-        "name": "增幅典籍",
-        "icon": "assets/resources/items/1052.webp"
+        "id": 1042,
+        "name": "短剑",
+        "icon": "assets/resources/items/1042.webp"
       },
       {
-        "id": 3144,
-        "name": "斥候弹弓",
-        "icon": "assets/resources/items/3144.webp"
+        "id": 1042,
+        "name": "短剑",
+        "icon": "assets/resources/items/1042.webp"
+      },
+      {
+        "id": 3113,
+        "name": "以太精魂",
+        "icon": "assets/resources/items/3113.webp"
       }
     ],
     "core": [
       {
-        "id": 3087,
-        "name": "斯塔缇克电刃",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3087.webp"
-      },
-      {
         "id": 2510,
         "name": "黄昏与黎明",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
         "source": "coreProfile",
         "icon": "assets/resources/items/2510.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3065.webp"
-      }
-    ],
-    "recommended": [
-      {
         "id": 3087,
         "name": "斯塔缇克电刃",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
         "source": "coreProfile",
         "icon": "assets/resources/items/3087.webp"
-      },
-      {
-        "id": 2510,
-        "name": "黄昏与黎明",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2510.webp"
-      },
-      {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 3811,
-        "pickRate": 0.145475,
-        "winRate": 0.548961,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3065.webp"
-      },
-      {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 4646,
-        "pickRate": 0.082253,
-        "winRate": 0.53658,
-        "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
       },
       {
         "id": 3115,
         "name": "纳什之牙",
-        "sampleCount": 1200,
-        "pickRate": 0.038873,
-        "winRate": 0.522539,
-        "source": "slot5",
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3115.webp"
+      }
+    ],
+    "recommended": [
+      {
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/2510.webp"
+      },
+      {
+        "id": 3087,
+        "name": "斯塔缇克电刃",
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3087.webp"
+      },
+      {
+        "id": 3115,
+        "name": "纳什之牙",
+        "sampleCount": 3029,
+        "pickRate": 0.115624,
+        "winRate": 0.55595,
+        "source": "coreProfile",
         "icon": "assets/resources/items/3115.webp"
       },
       {
-        "id": 6333,
-        "name": "死亡之舞",
-        "sampleCount": 1325,
-        "pickRate": 0.083433,
-        "winRate": 0.499944,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 815,
+        "pickRate": 0.014429,
+        "winRate": 0.539824,
+        "source": "boots",
+        "icon": "assets/resources/items/3009.webp"
+      },
+      {
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 133,
+        "pickRate": 0.004308,
+        "winRate": 0.558948,
+        "source": "slot5",
+        "icon": "assets/resources/items/3146.webp"
+      },
+      {
+        "id": 4401,
+        "name": "自然之力",
+        "sampleCount": 149,
+        "pickRate": 0.009382,
+        "winRate": 0.545374,
         "source": "slot6",
-        "icon": "assets/resources/items/6333.webp"
+        "icon": "assets/resources/items/4401.webp"
       }
     ]
   },

@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 10369,
+    "lowSampleWarning": false,
     "pickRate": 0.72668,
     "winRate": 0.567564,
     "coreProfile": {
-      "sampleCount": 6497,
-      "pickRate": 0.626579,
-      "winRate": 0.570328,
+      "sampleCount": 846,
+      "pickRate": 0.081589,
+      "winRate": 0.606036,
       "itemIds": [
-        2510,
         3115,
-        4633
+        2510,
+        4645
       ]
     },
     "starter": {
-      "sampleCount": 885,
-      "pickRate": 0.410292,
-      "winRate": 0.589708
+      "sampleCount": 148,
+      "pickRate": 0.346604,
+      "winRate": 0.550656
     }
   },
   "defaultBuildKey": "ap",
@@ -71,22 +72,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 10369,
+      "lowSampleWarning": false,
       "pickRate": 0.72668,
       "winRate": 0.567564,
       "coreProfile": {
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
         "itemIds": [
-          2510,
           3115,
-          4633
+          2510,
+          4645
         ]
       },
       "starter": {
-        "sampleCount": 885,
-        "pickRate": 0.410292,
-        "winRate": 0.589708
+        "sampleCount": 148,
+        "pickRate": 0.346604,
+        "winRate": 0.550656
       },
       "items": {
         "starter": [
@@ -103,60 +105,60 @@
         ],
         "core": [
           {
-            "id": 2510,
-            "name": "黄昏与黎明",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2510.webp"
-          },
-          {
             "id": 3115,
             "name": "纳什之牙",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
             "source": "coreProfile",
             "icon": "assets/resources/items/3115.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4633.webp"
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
           }
         ],
         "recommended": [
           {
-            "id": 2510,
-            "name": "黄昏与黎明",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2510.webp"
-          },
-          {
             "id": 3115,
             "name": "纳什之牙",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
             "source": "coreProfile",
             "icon": "assets/resources/items/3115.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 6497,
-            "pickRate": 0.626579,
-            "winRate": 0.570328,
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
             "source": "coreProfile",
-            "icon": "assets/resources/items/4633.webp"
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 846,
+            "pickRate": 0.081589,
+            "winRate": 0.606036,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
           },
           {
             "id": 3008,
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1966,
-            "pickRate": 0.223816,
-            "winRate": 0.584811,
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 202,
+            "pickRate": 0.022996,
+            "winRate": 0.589792,
             "source": "slot5",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/4629.webp"
           },
           {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 7470,
-            "pickRate": 0.459777,
-            "winRate": 0.55542,
-            "source": "fallback",
-            "icon": "assets/resources/items/4645.webp"
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 153,
+            "pickRate": 0.035027,
+            "winRate": 0.57287,
+            "source": "slot6",
+            "icon": "assets/resources/items/3143.webp"
           }
         ]
       }
@@ -217,60 +219,60 @@
     ],
     "core": [
       {
-        "id": 2510,
-        "name": "黄昏与黎明",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2510.webp"
-      },
-      {
         "id": 3115,
         "name": "纳什之牙",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
         "source": "coreProfile",
         "icon": "assets/resources/items/3115.webp"
       },
       {
-        "id": 4633,
-        "name": "裂隙制造者",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4633.webp"
+        "icon": "assets/resources/items/2510.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4645.webp"
       }
     ],
     "recommended": [
       {
-        "id": 2510,
-        "name": "黄昏与黎明",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2510.webp"
-      },
-      {
         "id": 3115,
         "name": "纳什之牙",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
         "source": "coreProfile",
         "icon": "assets/resources/items/3115.webp"
       },
       {
-        "id": 4633,
-        "name": "裂隙制造者",
-        "sampleCount": 6497,
-        "pickRate": 0.626579,
-        "winRate": 0.570328,
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4633.webp"
+        "icon": "assets/resources/items/2510.webp"
+      },
+      {
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 846,
+        "pickRate": 0.081589,
+        "winRate": 0.606036,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/4645.webp"
       },
       {
         "id": 3008,
@@ -282,22 +284,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1966,
-        "pickRate": 0.223816,
-        "winRate": 0.584811,
+        "id": 4629,
+        "name": "星界驱驰",
+        "sampleCount": 202,
+        "pickRate": 0.022996,
+        "winRate": 0.589792,
         "source": "slot5",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/4629.webp"
       },
       {
-        "id": 4645,
-        "name": "影焰",
-        "sampleCount": 7470,
-        "pickRate": 0.459777,
-        "winRate": 0.55542,
-        "source": "fallback",
-        "icon": "assets/resources/items/4645.webp"
+        "id": 3143,
+        "name": "兰顿之兆",
+        "sampleCount": 153,
+        "pickRate": 0.035027,
+        "winRate": 0.57287,
+        "source": "slot6",
+        "icon": "assets/resources/items/3143.webp"
       }
     ]
   },

@@ -46,6 +46,7 @@
     "key": "lethality",
     "name": "穿甲流",
     "sampleCount": 64910,
+    "lowSampleWarning": false,
     "pickRate": 0.881378,
     "winRate": 0.468616,
     "coreProfile": {
@@ -70,6 +71,7 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 64910,
+      "lowSampleWarning": false,
       "pickRate": 0.881378,
       "winRate": 0.468616,
       "coreProfile": {
@@ -176,13 +178,135 @@
             "icon": "assets/resources/items/2517.webp"
           },
           {
-            "id": 3156,
-            "name": "玛莫提乌斯之噬",
-            "sampleCount": 1078,
-            "pickRate": 0.032146,
-            "winRate": 0.491873,
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 108,
+            "pickRate": 0.003221,
+            "winRate": 0.526127,
             "source": "slot6",
-            "icon": "assets/resources/items/3156.webp"
+            "icon": "assets/resources/items/2504.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 492,
+      "lowSampleWarning": false,
+      "pickRate": 0.006681,
+      "winRate": 0.428115,
+      "coreProfile": {
+        "sampleCount": 492,
+        "pickRate": 1,
+        "winRate": 0.428115,
+        "itemIds": [
+          126697,
+          6676,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 232,
+        "pickRate": 0.570025,
+        "winRate": 0.411504
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 492,
+            "pickRate": 1,
+            "winRate": 0.428115,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 16694,
+            "pickRate": 0.215813,
+            "winRate": 0.506102,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 4518,
+            "pickRate": 0.086134,
+            "winRate": 0.529152,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2725,
+            "pickRate": 0.081258,
+            "winRate": 0.537714,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
           }
         ]
       }
@@ -195,9 +319,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -290,13 +414,13 @@
         "icon": "assets/resources/items/2517.webp"
       },
       {
-        "id": 3156,
-        "name": "玛莫提乌斯之噬",
-        "sampleCount": 1078,
-        "pickRate": 0.032146,
-        "winRate": 0.491873,
+        "id": 2504,
+        "name": "败魔",
+        "sampleCount": 108,
+        "pickRate": 0.003221,
+        "winRate": 0.526127,
         "source": "slot6",
-        "icon": "assets/resources/items/3156.webp"
+        "icon": "assets/resources/items/2504.webp"
       }
     ]
   },

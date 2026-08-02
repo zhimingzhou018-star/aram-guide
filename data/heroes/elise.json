@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 4224,
+    "lowSampleWarning": false,
     "pickRate": 0.613508,
     "winRate": 0.482223,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 4224,
+      "lowSampleWarning": false,
       "pickRate": 0.613508,
       "winRate": 0.482223,
       "coreProfile": {
@@ -154,31 +156,31 @@
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3020,
-            "name": "法师之靴",
-            "sampleCount": 4342,
-            "pickRate": 0.550945,
-            "winRate": 0.47099,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 731,
+            "pickRate": 0.092755,
+            "winRate": 0.508371,
             "source": "boots",
-            "icon": "assets/resources/items/3020.webp"
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 277,
+            "pickRate": 0.064419,
+            "winRate": 0.512495,
+            "source": "slot5",
+            "icon": "assets/resources/items/4646.webp"
           },
           {
             "id": 3135,
             "name": "虚空之杖",
-            "sampleCount": 1123,
-            "pickRate": 0.261163,
-            "winRate": 0.469042,
-            "source": "slot5",
+            "sampleCount": 494,
+            "pickRate": 0.217047,
+            "winRate": 0.492639,
+            "source": "slot6",
             "icon": "assets/resources/items/3135.webp"
-          },
-          {
-            "id": 3100,
-            "name": "巫妖之祸",
-            "sampleCount": 2222,
-            "pickRate": 0.281944,
-            "winRate": 0.470587,
-            "source": "fallback",
-            "icon": "assets/resources/items/3100.webp"
           }
         ]
       }
@@ -191,9 +193,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>W>E",
@@ -263,31 +265,31 @@
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3020,
-        "name": "法师之靴",
-        "sampleCount": 4342,
-        "pickRate": 0.550945,
-        "winRate": 0.47099,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 731,
+        "pickRate": 0.092755,
+        "winRate": 0.508371,
         "source": "boots",
-        "icon": "assets/resources/items/3020.webp"
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 277,
+        "pickRate": 0.064419,
+        "winRate": 0.512495,
+        "source": "slot5",
+        "icon": "assets/resources/items/4646.webp"
       },
       {
         "id": 3135,
         "name": "虚空之杖",
-        "sampleCount": 1123,
-        "pickRate": 0.261163,
-        "winRate": 0.469042,
-        "source": "slot5",
+        "sampleCount": 494,
+        "pickRate": 0.217047,
+        "winRate": 0.492639,
+        "source": "slot6",
         "icon": "assets/resources/items/3135.webp"
-      },
-      {
-        "id": 3100,
-        "name": "巫妖之祸",
-        "sampleCount": 2222,
-        "pickRate": 0.281944,
-        "winRate": 0.470587,
-        "source": "fallback",
-        "icon": "assets/resources/items/3100.webp"
       }
     ]
   },

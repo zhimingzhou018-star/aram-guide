@@ -46,22 +46,23 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 12939,
+    "lowSampleWarning": false,
     "pickRate": 0.571965,
     "winRate": 0.557498,
     "coreProfile": {
-      "sampleCount": 1065,
-      "pickRate": 0.082309,
-      "winRate": 0.578047,
+      "sampleCount": 664,
+      "pickRate": 0.051318,
+      "winRate": 0.63699,
       "itemIds": [
-        6672,
+        3032,
         3085,
-        3031
+        3153
       ]
     },
     "starter": {
-      "sampleCount": 413,
-      "pickRate": 0.466667,
-      "winRate": 0.610261
+      "sampleCount": 305,
+      "pickRate": 0.647558,
+      "winRate": 0.634847
     }
   },
   "defaultBuildKey": "crit",
@@ -70,22 +71,140 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 12939,
+      "lowSampleWarning": false,
       "pickRate": 0.571965,
       "winRate": 0.557498,
       "coreProfile": {
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "itemIds": [
-          6672,
+          3032,
           3085,
-          3031
+          3153
         ]
       },
       "starter": {
-        "sampleCount": 413,
-        "pickRate": 0.466667,
-        "winRate": 0.610261
+        "sampleCount": 305,
+        "pickRate": 0.647558,
+        "winRate": 0.634847
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1038,
+            "name": "暴风之剑",
+            "icon": "assets/resources/items/1038.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 664,
+            "pickRate": 0.051318,
+            "winRate": 0.63699,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 6811,
+            "pickRate": 0.270396,
+            "winRate": 0.613421,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 100,
+            "pickRate": 0.006401,
+            "winRate": 0.631568,
+            "source": "slot5",
+            "icon": "assets/resources/items/3146.webp"
+          },
+          {
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 249,
+            "pickRate": 0.027859,
+            "winRate": 0.597833,
+            "source": "slot6",
+            "icon": "assets/resources/items/2523.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 398,
+      "lowSampleWarning": false,
+      "pickRate": 0.017593,
+      "winRate": 0.59187,
+      "coreProfile": {
+        "sampleCount": 398,
+        "pickRate": 1,
+        "winRate": 0.59187,
+        "itemIds": [
+          6672,
+          3085,
+          3153
+        ]
+      },
+      "starter": {
+        "sampleCount": 126,
+        "pickRate": 0.520661,
+        "winRate": 0.666489
       },
       "items": {
         "starter": [
@@ -99,58 +218,58 @@
           {
             "id": 6672,
             "name": "海妖杀手",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
             "icon": "assets/resources/items/6672.webp"
           },
           {
             "id": 3085,
             "name": "卢安娜的飓风",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
             "icon": "assets/resources/items/3085.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3153.webp"
           }
         ],
         "recommended": [
           {
             "id": 6672,
             "name": "海妖杀手",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
             "icon": "assets/resources/items/6672.webp"
           },
           {
             "id": 3085,
             "name": "卢安娜的飓风",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
             "icon": "assets/resources/items/3085.webp"
           },
           {
-            "id": 3031,
-            "name": "无尽之刃",
-            "sampleCount": 1065,
-            "pickRate": 0.082309,
-            "winRate": 0.578047,
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 398,
+            "pickRate": 1,
+            "winRate": 0.59187,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3031.webp"
+            "icon": "assets/resources/items/3153.webp"
           },
           {
             "id": 3008,
@@ -162,22 +281,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1469,
-            "pickRate": 0.094028,
-            "winRate": 0.566626,
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 100,
+            "pickRate": 0.006401,
+            "winRate": 0.631568,
             "source": "slot5",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/3146.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 1277,
-            "pickRate": 0.142873,
-            "winRate": 0.528827,
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 249,
+            "pickRate": 0.027859,
+            "winRate": 0.597833,
             "source": "slot6",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/2523.webp"
           }
         ]
       }
@@ -199,67 +318,67 @@
   "items": {
     "starter": [
       {
-        "id": 3051,
-        "name": "缚炉之斧",
-        "icon": "assets/resources/items/3051.webp"
+        "id": 1038,
+        "name": "暴风之剑",
+        "icon": "assets/resources/items/1038.webp"
       }
     ],
     "core": [
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "id": 3032,
+        "name": "育恩塔尔荒野箭",
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6672.webp"
+        "icon": "assets/resources/items/3032.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/3153.webp"
       }
     ],
     "recommended": [
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "id": 3032,
+        "name": "育恩塔尔荒野箭",
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6672.webp"
+        "icon": "assets/resources/items/3032.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1065,
-        "pickRate": 0.082309,
-        "winRate": 0.578047,
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 664,
+        "pickRate": 0.051318,
+        "winRate": 0.63699,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3008,
@@ -271,22 +390,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1469,
-        "pickRate": 0.094028,
-        "winRate": 0.566626,
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 100,
+        "pickRate": 0.006401,
+        "winRate": 0.631568,
         "source": "slot5",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/3146.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 1277,
-        "pickRate": 0.142873,
-        "winRate": 0.528827,
+        "id": 2523,
+        "name": "海克斯镜片 C44",
+        "sampleCount": 249,
+        "pickRate": 0.027859,
+        "winRate": 0.597833,
         "source": "slot6",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/2523.webp"
       }
     ]
   },

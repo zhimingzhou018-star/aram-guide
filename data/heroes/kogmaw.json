@@ -47,6 +47,7 @@
     "key": "on_hit",
     "name": "攻速特效流",
     "sampleCount": 21593,
+    "lowSampleWarning": false,
     "pickRate": 0.480165,
     "winRate": 0.489555,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "on_hit",
       "name": "攻速特效流",
       "sampleCount": 21593,
+      "lowSampleWarning": false,
       "pickRate": 0.480165,
       "winRate": 0.489555,
       "coreProfile": {
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/3302.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 5604,
-            "pickRate": 0.115554,
-            "winRate": 0.512736,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 604,
+            "pickRate": 0.012454,
+            "winRate": 0.533863,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 3003,
-            "name": "大天使之杖",
-            "sampleCount": 1062,
-            "pickRate": 0.031765,
-            "winRate": 0.501433,
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 106,
+            "pickRate": 0.003171,
+            "winRate": 0.53352,
             "source": "slot5",
-            "icon": "assets/resources/items/3003.webp"
+            "icon": "assets/resources/items/3139.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1271,
-            "pickRate": 0.06184,
-            "winRate": 0.506405,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 238,
+            "pickRate": 0.01158,
+            "winRate": 0.537801,
             "source": "slot6",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3046.webp"
           }
         ]
       }
@@ -192,22 +194,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 7311,
+      "lowSampleWarning": false,
       "pickRate": 0.162575,
       "winRate": 0.496536,
       "coreProfile": {
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "sampleCount": 978,
+        "pickRate": 0.133771,
+        "winRate": 0.503964,
         "itemIds": [
           3118,
           6653,
-          3003
+          4645
         ]
       },
       "starter": {
-        "sampleCount": 223,
-        "pickRate": 0.259001,
-        "winRate": 0.50251
+        "sampleCount": 247,
+        "pickRate": 0.297949,
+        "winRate": 0.497808
       },
       "items": {
         "starter": [
@@ -221,85 +224,85 @@
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 3003,
-            "name": "大天使之杖",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3003.webp"
+            "icon": "assets/resources/items/4645.webp"
           }
         ],
         "recommended": [
           {
             "id": 3118,
             "name": "残疫",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
             "icon": "assets/resources/items/3118.webp"
           },
           {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
-            "id": 3003,
-            "name": "大天使之杖",
-            "sampleCount": 1914,
-            "pickRate": 0.261797,
-            "winRate": 0.493171,
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 978,
+            "pickRate": 0.133771,
+            "winRate": 0.503964,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3003.webp"
+            "icon": "assets/resources/items/4645.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 5604,
-            "pickRate": 0.115554,
-            "winRate": 0.512736,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 604,
+            "pickRate": 0.012454,
+            "winRate": 0.533863,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 3302,
-            "name": "界弓",
-            "sampleCount": 5276,
-            "pickRate": 0.157808,
-            "winRate": 0.503176,
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 106,
+            "pickRate": 0.003171,
+            "winRate": 0.53352,
             "source": "slot5",
-            "icon": "assets/resources/items/3302.webp"
+            "icon": "assets/resources/items/3139.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1271,
-            "pickRate": 0.06184,
-            "winRate": 0.506405,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 238,
+            "pickRate": 0.01158,
+            "winRate": 0.537801,
             "source": "slot6",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3046.webp"
           }
         ]
       }
@@ -389,31 +392,31 @@
         "icon": "assets/resources/items/3302.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 5604,
-        "pickRate": 0.115554,
-        "winRate": 0.512736,
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 604,
+        "pickRate": 0.012454,
+        "winRate": 0.533863,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 3003,
-        "name": "大天使之杖",
-        "sampleCount": 1062,
-        "pickRate": 0.031765,
-        "winRate": 0.501433,
+        "id": 3139,
+        "name": "水银弯刀",
+        "sampleCount": 106,
+        "pickRate": 0.003171,
+        "winRate": 0.53352,
         "source": "slot5",
-        "icon": "assets/resources/items/3003.webp"
+        "icon": "assets/resources/items/3139.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1271,
-        "pickRate": 0.06184,
-        "winRate": 0.506405,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 238,
+        "pickRate": 0.01158,
+        "winRate": 0.537801,
         "source": "slot6",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3046.webp"
       }
     ]
   },

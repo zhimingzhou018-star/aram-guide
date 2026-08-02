@@ -47,6 +47,7 @@
     "key": "lethality",
     "name": "穿甲流",
     "sampleCount": 21263,
+    "lowSampleWarning": false,
     "pickRate": 0.351298,
     "winRate": 0.405771,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 21263,
+      "lowSampleWarning": false,
       "pickRate": 0.351298,
       "winRate": 0.405771,
       "coreProfile": {
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 8895,
-            "pickRate": 0.135125,
-            "winRate": 0.445763,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 198,
+            "pickRate": 0.003008,
+            "winRate": 0.448145,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 6694,
-            "name": "赛瑞尔达的怨恨",
-            "sampleCount": 1005,
-            "pickRate": 0.02611,
-            "winRate": 0.454296,
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 314,
+            "pickRate": 0.008158,
+            "winRate": 0.471306,
             "source": "slot5",
-            "icon": "assets/resources/items/6694.webp"
+            "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1565,
-            "pickRate": 0.074481,
-            "winRate": 0.435133,
+            "id": 3142,
+            "name": "幽梦之灵",
+            "sampleCount": 143,
+            "pickRate": 0.006806,
+            "winRate": 0.504089,
             "source": "slot6",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/3142.webp"
           }
         ]
       }
@@ -192,6 +194,7 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 19744,
+      "lowSampleWarning": false,
       "pickRate": 0.326202,
       "winRate": 0.413474,
       "coreProfile": {
@@ -280,31 +283,153 @@
             "icon": "assets/resources/items/6333.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 8895,
-            "pickRate": 0.135125,
-            "winRate": 0.445763,
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 198,
+            "pickRate": 0.003008,
+            "winRate": 0.448145,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 6694,
-            "name": "赛瑞尔达的怨恨",
-            "sampleCount": 1005,
-            "pickRate": 0.02611,
-            "winRate": 0.454296,
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 314,
+            "pickRate": 0.008158,
+            "winRate": 0.471306,
             "source": "slot5",
-            "icon": "assets/resources/items/6694.webp"
+            "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1565,
-            "pickRate": 0.074481,
-            "winRate": 0.435133,
+            "id": 3142,
+            "name": "幽梦之灵",
+            "sampleCount": 143,
+            "pickRate": 0.006806,
+            "winRate": 0.504089,
             "source": "slot6",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/3142.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 597,
+      "lowSampleWarning": false,
+      "pickRate": 0.009863,
+      "winRate": 0.357083,
+      "coreProfile": {
+        "sampleCount": 597,
+        "pickRate": 1,
+        "winRate": 0.357083,
+        "itemIds": [
+          126697,
+          6676,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 256,
+        "pickRate": 0.508946,
+        "winRate": 0.392037
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 597,
+            "pickRate": 1,
+            "winRate": 0.357083,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 198,
+            "pickRate": 0.003008,
+            "winRate": 0.448145,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 314,
+            "pickRate": 0.008158,
+            "winRate": 0.471306,
+            "source": "slot5",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3142,
+            "name": "幽梦之灵",
+            "sampleCount": 143,
+            "pickRate": 0.006806,
+            "winRate": 0.504089,
+            "source": "slot6",
+            "icon": "assets/resources/items/3142.webp"
           }
         ]
       }
@@ -317,9 +442,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -394,31 +519,31 @@
         "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 8895,
-        "pickRate": 0.135125,
-        "winRate": 0.445763,
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 198,
+        "pickRate": 0.003008,
+        "winRate": 0.448145,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 6694,
-        "name": "赛瑞尔达的怨恨",
-        "sampleCount": 1005,
-        "pickRate": 0.02611,
-        "winRate": 0.454296,
+        "id": 3031,
+        "name": "无尽之刃",
+        "sampleCount": 314,
+        "pickRate": 0.008158,
+        "winRate": 0.471306,
         "source": "slot5",
-        "icon": "assets/resources/items/6694.webp"
+        "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 2517,
-        "name": "无穷饥渴",
-        "sampleCount": 1565,
-        "pickRate": 0.074481,
-        "winRate": 0.435133,
+        "id": 3142,
+        "name": "幽梦之灵",
+        "sampleCount": 143,
+        "pickRate": 0.006806,
+        "winRate": 0.504089,
         "source": "slot6",
-        "icon": "assets/resources/items/2517.webp"
+        "icon": "assets/resources/items/3142.webp"
       }
     ]
   },

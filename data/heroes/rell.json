@@ -47,22 +47,23 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 29973,
+    "lowSampleWarning": false,
     "pickRate": 0.84412,
     "winRate": 0.52198,
     "coreProfile": {
-      "sampleCount": 1304,
-      "pickRate": 0.043506,
-      "winRate": 0.551337,
+      "sampleCount": 908,
+      "pickRate": 0.030294,
+      "winRate": 0.568353,
       "itemIds": [
         3084,
-        6664,
-        3083
+        3083,
+        3119
       ]
     },
     "starter": {
-      "sampleCount": 637,
-      "pickRate": 0.699232,
-      "winRate": 0.553647
+      "sampleCount": 151,
+      "pickRate": 0.334071,
+      "winRate": 0.609299
     }
   },
   "defaultBuildKey": "tank",
@@ -71,22 +72,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 29973,
+      "lowSampleWarning": false,
       "pickRate": 0.84412,
       "winRate": 0.52198,
       "coreProfile": {
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
         "itemIds": [
           3084,
-          6664,
-          3083
+          3083,
+          3119
         ]
       },
       "starter": {
-        "sampleCount": 637,
-        "pickRate": 0.699232,
-        "winRate": 0.553647
+        "sampleCount": 151,
+        "pickRate": 0.334071,
+        "winRate": 0.609299
       },
       "items": {
         "starter": [
@@ -105,85 +107,85 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 6664,
-            "name": "璀璨回响",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6664.webp"
-          },
-          {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 6664,
-            "name": "璀璨回响",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6664.webp"
-          },
-          {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1304,
-            "pickRate": 0.043506,
-            "winRate": 0.551337,
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 5192,
-            "pickRate": 0.128293,
-            "winRate": 0.532992,
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 908,
+            "pickRate": 0.030294,
+            "winRate": 0.568353,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 241,
+            "pickRate": 0.005955,
+            "winRate": 0.596659,
             "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 2102,
-            "pickRate": 0.092951,
-            "winRate": 0.511332,
+            "id": 3748,
+            "name": "巨型九头蛇",
+            "sampleCount": 105,
+            "pickRate": 0.004643,
+            "winRate": 0.600848,
             "source": "slot5",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/3748.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1770,
-            "pickRate": 0.13456,
-            "winRate": 0.493342,
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 501,
+            "pickRate": 0.038087,
+            "winRate": 0.558817,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -219,85 +221,85 @@
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
-        "id": 6664,
-        "name": "璀璨回响",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6664.webp"
-      },
-      {
         "id": 3083,
         "name": "狂徒铠甲",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
         "source": "coreProfile",
         "icon": "assets/resources/items/3083.webp"
+      },
+      {
+        "id": 3119,
+        "name": "凛冬之临",
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3119.webp"
       }
     ],
     "recommended": [
       {
         "id": 3084,
         "name": "心之钢",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
         "source": "coreProfile",
         "icon": "assets/resources/items/3084.webp"
       },
       {
-        "id": 6664,
-        "name": "璀璨回响",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6664.webp"
-      },
-      {
         "id": 3083,
         "name": "狂徒铠甲",
-        "sampleCount": 1304,
-        "pickRate": 0.043506,
-        "winRate": 0.551337,
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
         "source": "coreProfile",
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 5192,
-        "pickRate": 0.128293,
-        "winRate": 0.532992,
+        "id": 3119,
+        "name": "凛冬之临",
+        "sampleCount": 908,
+        "pickRate": 0.030294,
+        "winRate": 0.568353,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3119.webp"
+      },
+      {
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 241,
+        "pickRate": 0.005955,
+        "winRate": 0.596659,
         "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 2102,
-        "pickRate": 0.092951,
-        "winRate": 0.511332,
+        "id": 3748,
+        "name": "巨型九头蛇",
+        "sampleCount": 105,
+        "pickRate": 0.004643,
+        "winRate": 0.600848,
         "source": "slot5",
-        "icon": "assets/resources/items/2502.webp"
+        "icon": "assets/resources/items/3748.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1770,
-        "pickRate": 0.13456,
-        "winRate": 0.493342,
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 501,
+        "pickRate": 0.038087,
+        "winRate": 0.558817,
         "source": "slot6",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

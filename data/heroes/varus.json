@@ -44,33 +44,279 @@
     "pickRatePercent": 8.91
   },
   "build": {
-    "key": "crit",
-    "name": "暴击流",
-    "sampleCount": 1558,
-    "pickRate": 0.06066,
-    "winRate": 0.501459,
+    "key": "on_hit",
+    "name": "攻速特效流",
+    "sampleCount": 3105,
+    "lowSampleWarning": false,
+    "pickRate": 0.120892,
+    "winRate": 0.524146,
     "coreProfile": {
-      "sampleCount": 1165,
-      "pickRate": 0.747754,
-      "winRate": 0.501014,
+      "sampleCount": 1575,
+      "pickRate": 0.507246,
+      "winRate": 0.539927,
       "itemIds": [
-        6676,
         3153,
-        3085
+        3085,
+        3124
       ]
     },
     "starter": {
-      "sampleCount": 212,
-      "pickRate": 0.345277,
-      "winRate": 0.454707
+      "sampleCount": 120,
+      "pickRate": 0.205128,
+      "winRate": 0.589927
     }
   },
-  "defaultBuildKey": "crit",
+  "defaultBuildKey": "on_hit",
   "builds": [
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 3105,
+      "lowSampleWarning": false,
+      "pickRate": 0.120892,
+      "winRate": 0.524146,
+      "coreProfile": {
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
+        "itemIds": [
+          3153,
+          3085,
+          3124
+        ]
+      },
+      "starter": {
+        "sampleCount": 120,
+        "pickRate": 0.205128,
+        "winRate": 0.589927
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 1575,
+            "pickRate": 0.507246,
+            "winRate": 0.539927,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4672,
+            "pickRate": 0.164183,
+            "winRate": 0.518366,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 170,
+            "pickRate": 0.009386,
+            "winRate": 0.518358,
+            "source": "slot5",
+            "icon": "assets/resources/items/3143.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 199,
+            "pickRate": 0.018351,
+            "winRate": 0.519156,
+            "source": "slot6",
+            "icon": "assets/resources/items/3004.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 5360,
+      "lowSampleWarning": false,
+      "pickRate": 0.20869,
+      "winRate": 0.474317,
+      "coreProfile": {
+        "sampleCount": 747,
+        "pickRate": 0.139366,
+        "winRate": 0.505924,
+        "itemIds": [
+          126697,
+          3004,
+          6694
+        ]
+      },
+      "starter": {
+        "sampleCount": 513,
+        "pickRate": 0.780822,
+        "winRate": 0.513416
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6694.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 747,
+            "pickRate": 0.139366,
+            "winRate": 0.505924,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6694.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4672,
+            "pickRate": 0.164183,
+            "winRate": 0.518366,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 170,
+            "pickRate": 0.009386,
+            "winRate": 0.518358,
+            "source": "slot5",
+            "icon": "assets/resources/items/3143.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 141,
+            "pickRate": 0.013003,
+            "winRate": 0.517232,
+            "source": "slot6",
+            "icon": "assets/resources/items/6676.webp"
+          }
+        ]
+      }
+    },
     {
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 1558,
+      "lowSampleWarning": false,
       "pickRate": 0.06066,
       "winRate": 0.501459,
       "coreProfile": {
@@ -168,46 +414,169 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3302,
-            "name": "界弓",
-            "sampleCount": 1186,
-            "pickRate": 0.065481,
-            "winRate": 0.493103,
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 170,
+            "pickRate": 0.009386,
+            "winRate": 0.518358,
             "source": "slot5",
-            "icon": "assets/resources/items/3302.webp"
+            "icon": "assets/resources/items/3143.webp"
           },
           {
-            "id": 3087,
-            "name": "斯塔缇克电刃",
-            "sampleCount": 1386,
-            "pickRate": 0.048707,
-            "winRate": 0.507315,
-            "source": "fallback",
-            "icon": "assets/resources/items/3087.webp"
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 199,
+            "pickRate": 0.018351,
+            "winRate": 0.519156,
+            "source": "slot6",
+            "icon": "assets/resources/items/3004.webp"
           }
         ]
       }
     },
     {
-      "key": "lethality",
-      "name": "穿甲流",
-      "sampleCount": 5360,
-      "pickRate": 0.20869,
-      "winRate": 0.474317,
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 1402,
+      "lowSampleWarning": false,
+      "pickRate": 0.054587,
+      "winRate": 0.468077,
       "coreProfile": {
-        "sampleCount": 2862,
-        "pickRate": 0.533955,
-        "winRate": 0.478641,
+        "sampleCount": 626,
+        "pickRate": 0.446505,
+        "winRate": 0.45867,
         "itemIds": [
-          126697,
-          6676,
-          3004
+          3115,
+          4645,
+          3089
         ]
       },
       "starter": {
-        "sampleCount": 1056,
-        "pickRate": 0.766885,
-        "winRate": 0.494283
+        "sampleCount": 165,
+        "pickRate": 0.350318,
+        "winRate": 0.430836
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 626,
+            "pickRate": 0.446505,
+            "winRate": 0.45867,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4672,
+            "pickRate": 0.164183,
+            "winRate": 0.518366,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 170,
+            "pickRate": 0.009386,
+            "winRate": 0.518358,
+            "source": "slot5",
+            "icon": "assets/resources/items/3143.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 199,
+            "pickRate": 0.018351,
+            "winRate": 0.519156,
+            "source": "slot6",
+            "icon": "assets/resources/items/3004.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ad",
+      "name": "推荐流",
+      "sampleCount": 335,
+      "lowSampleWarning": false,
+      "pickRate": 0.013043,
+      "winRate": 0.436444,
+      "coreProfile": {
+        "sampleCount": 335,
+        "pickRate": 1,
+        "winRate": 0.436444,
+        "itemIds": [
+          6676,
+          3004,
+          3153
+        ]
+      },
+      "starter": {
+        "sampleCount": 176,
+        "pickRate": 0.81106,
+        "winRate": 0.489548
       },
       "items": {
         "starter": [
@@ -224,60 +593,60 @@
         ],
         "core": [
           {
-            "id": 126697,
-            "name": "狂妄",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/126697.webp"
-          },
-          {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3004,
             "name": "魔宗",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
             "source": "coreProfile",
             "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
           }
         ],
         "recommended": [
           {
-            "id": 126697,
-            "name": "狂妄",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/126697.webp"
-          },
-          {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
             "id": 3004,
             "name": "魔宗",
-            "sampleCount": 2862,
-            "pickRate": 0.533955,
-            "winRate": 0.478641,
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
             "source": "coreProfile",
             "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 335,
+            "pickRate": 1,
+            "winRate": 0.436444,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
           },
           {
             "id": 3008,
@@ -289,22 +658,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3302,
-            "name": "界弓",
-            "sampleCount": 1186,
-            "pickRate": 0.065481,
-            "winRate": 0.493103,
+            "id": 3143,
+            "name": "兰顿之兆",
+            "sampleCount": 170,
+            "pickRate": 0.009386,
+            "winRate": 0.518358,
             "source": "slot5",
-            "icon": "assets/resources/items/3302.webp"
+            "icon": "assets/resources/items/3143.webp"
           },
           {
-            "id": 3087,
-            "name": "斯塔缇克电刃",
-            "sampleCount": 1386,
-            "pickRate": 0.048707,
-            "winRate": 0.507315,
-            "source": "fallback",
-            "icon": "assets/resources/items/3087.webp"
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 124,
+            "pickRate": 0.011435,
+            "winRate": 0.514658,
+            "source": "slot6",
+            "icon": "assets/resources/items/3102.webp"
           }
         ]
       }
@@ -326,72 +695,72 @@
   "items": {
     "starter": [
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 1042,
+        "name": "短剑",
+        "icon": "assets/resources/items/1042.webp"
       },
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 3006,
+        "name": "狂战士胫甲",
+        "icon": "assets/resources/items/3006.webp"
       }
     ],
     "core": [
       {
-        "id": 6676,
-        "name": "收集者",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6676.webp"
-      },
-      {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
+      },
+      {
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3124.webp"
       }
     ],
     "recommended": [
       {
-        "id": 6676,
-        "name": "收集者",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6676.webp"
-      },
-      {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1165,
-        "pickRate": 0.747754,
-        "winRate": 0.501014,
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
+      },
+      {
+        "id": 3124,
+        "name": "鬼索的狂暴之刃",
+        "sampleCount": 1575,
+        "pickRate": 0.507246,
+        "winRate": 0.539927,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3124.webp"
       },
       {
         "id": 3008,
@@ -403,22 +772,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3302,
-        "name": "界弓",
-        "sampleCount": 1186,
-        "pickRate": 0.065481,
-        "winRate": 0.493103,
+        "id": 3143,
+        "name": "兰顿之兆",
+        "sampleCount": 170,
+        "pickRate": 0.009386,
+        "winRate": 0.518358,
         "source": "slot5",
-        "icon": "assets/resources/items/3302.webp"
+        "icon": "assets/resources/items/3143.webp"
       },
       {
-        "id": 3087,
-        "name": "斯塔缇克电刃",
-        "sampleCount": 1386,
-        "pickRate": 0.048707,
-        "winRate": 0.507315,
-        "source": "fallback",
-        "icon": "assets/resources/items/3087.webp"
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 199,
+        "pickRate": 0.018351,
+        "winRate": 0.519156,
+        "source": "slot6",
+        "icon": "assets/resources/items/3004.webp"
       }
     ]
   },

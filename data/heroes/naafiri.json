@@ -44,33 +44,157 @@
     "pickRatePercent": 3.49
   },
   "build": {
-    "key": "lethality",
-    "name": "穿甲流",
-    "sampleCount": 24554,
-    "pickRate": 0.760115,
-    "winRate": 0.436349,
+    "key": "bruiser",
+    "name": "战士流",
+    "sampleCount": 1422,
+    "lowSampleWarning": false,
+    "pickRate": 0.044021,
+    "winRate": 0.467613,
     "coreProfile": {
-      "sampleCount": 2294,
-      "pickRate": 0.093427,
-      "winRate": 0.503996,
+      "sampleCount": 217,
+      "pickRate": 0.152602,
+      "winRate": 0.512963,
       "itemIds": [
         126697,
-        6696,
-        6333
+        6333,
+        3033
       ]
     },
     "starter": {
-      "sampleCount": 533,
-      "pickRate": 0.260254,
-      "winRate": 0.556954
+      "sampleCount": 118,
+      "pickRate": 0.659218,
+      "winRate": 0.551548
     }
   },
-  "defaultBuildKey": "lethality",
+  "defaultBuildKey": "bruiser",
   "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 1422,
+      "lowSampleWarning": false,
+      "pickRate": 0.044021,
+      "winRate": 0.467613,
+      "coreProfile": {
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
+        "itemIds": [
+          126697,
+          6333,
+          3033
+        ]
+      },
+      "starter": {
+        "sampleCount": 118,
+        "pickRate": 0.659218,
+        "winRate": 0.551548
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3033.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 217,
+            "pickRate": 0.152602,
+            "winRate": 0.512963,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3033.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 8966,
+            "pickRate": 0.260352,
+            "winRate": 0.456089,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 188,
+            "pickRate": 0.008806,
+            "winRate": 0.481588,
+            "source": "slot5",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1365,
+            "pickRate": 0.108093,
+            "winRate": 0.473545,
+            "source": "slot6",
+            "icon": "assets/resources/items/6699.webp"
+          }
+        ]
+      }
+    },
     {
       "key": "lethality",
       "name": "穿甲流",
       "sampleCount": 24554,
+      "lowSampleWarning": false,
       "pickRate": 0.760115,
       "winRate": 0.436349,
       "coreProfile": {
@@ -168,13 +292,135 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1954,
-            "pickRate": 0.091522,
-            "winRate": 0.470732,
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 188,
+            "pickRate": 0.008806,
+            "winRate": 0.481588,
             "source": "slot5",
-            "icon": "assets/resources/items/2517.webp"
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1365,
+            "pickRate": 0.108093,
+            "winRate": 0.473545,
+            "source": "slot6",
+            "icon": "assets/resources/items/6699.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 312,
+      "lowSampleWarning": false,
+      "pickRate": 0.009659,
+      "winRate": 0.3512,
+      "coreProfile": {
+        "sampleCount": 312,
+        "pickRate": 1,
+        "winRate": 0.3512,
+        "itemIds": [
+          126697,
+          6676,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 162,
+        "pickRate": 0.61597,
+        "winRate": 0.337905
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 312,
+            "pickRate": 1,
+            "winRate": 0.3512,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 8966,
+            "pickRate": 0.260352,
+            "winRate": 0.456089,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 188,
+            "pickRate": 0.008806,
+            "winRate": 0.481588,
+            "source": "slot5",
+            "icon": "assets/resources/items/3004.webp"
           },
           {
             "id": 6699,
@@ -196,9 +442,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 21,
+      "name": "屏障",
+      "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -219,58 +465,58 @@
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6696,
-        "name": "公理圆弧",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6696.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 3033,
+        "name": "凡性的提醒",
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3033.webp"
       }
     ],
     "recommended": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6696,
-        "name": "公理圆弧",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6696.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2294,
-        "pickRate": 0.093427,
-        "winRate": 0.503996,
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 3033,
+        "name": "凡性的提醒",
+        "sampleCount": 217,
+        "pickRate": 0.152602,
+        "winRate": 0.512963,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3033.webp"
       },
       {
         "id": 3008,
@@ -282,13 +528,13 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 2517,
-        "name": "无穷饥渴",
-        "sampleCount": 1954,
-        "pickRate": 0.091522,
-        "winRate": 0.470732,
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 188,
+        "pickRate": 0.008806,
+        "winRate": 0.481588,
         "source": "slot5",
-        "icon": "assets/resources/items/2517.webp"
+        "icon": "assets/resources/items/3004.webp"
       },
       {
         "id": 6699,

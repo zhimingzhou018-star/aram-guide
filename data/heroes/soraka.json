@@ -48,6 +48,7 @@
     "key": "utility",
     "name": "辅助流",
     "sampleCount": 34244,
+    "lowSampleWarning": false,
     "pickRate": 0.675464,
     "winRate": 0.523189,
     "coreProfile": {
@@ -72,6 +73,7 @@
       "key": "utility",
       "name": "辅助流",
       "sampleCount": 34244,
+      "lowSampleWarning": false,
       "pickRate": 0.675464,
       "winRate": 0.523189,
       "coreProfile": {
@@ -178,13 +180,13 @@
             "icon": "assets/resources/items/6621.webp"
           },
           {
-            "id": 3504,
-            "name": "炽热香炉",
-            "sampleCount": 2213,
-            "pickRate": 0.107673,
-            "winRate": 0.489757,
+            "id": 124011,
+            "name": "花晓之剑",
+            "sampleCount": 331,
+            "pickRate": 0.016105,
+            "winRate": 0.547088,
             "source": "slot6",
-            "icon": "assets/resources/items/3504.webp"
+            "icon": "assets/resources/items/124011.webp"
           }
         ]
       }
@@ -193,22 +195,23 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 3377,
+      "lowSampleWarning": false,
       "pickRate": 0.066611,
       "winRate": 0.469964,
       "coreProfile": {
-        "sampleCount": 2571,
-        "pickRate": 0.761327,
-        "winRate": 0.464644,
+        "sampleCount": 806,
+        "pickRate": 0.238673,
+        "winRate": 0.486935,
         "itemIds": [
           6657,
-          3083,
-          6617
+          2526,
+          3083
         ]
       },
       "starter": {
-        "sampleCount": 306,
-        "pickRate": 0.227509,
-        "winRate": 0.4653
+        "sampleCount": 118,
+        "pickRate": 0.329609,
+        "winRate": 0.471226
       },
       "items": {
         "starter": [
@@ -222,58 +225,58 @@
           {
             "id": 6657,
             "name": "时光之杖",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
             "icon": "assets/resources/items/6657.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 6617,
-            "name": "月石再生器",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6617.webp"
+            "icon": "assets/resources/items/3083.webp"
           }
         ],
         "recommended": [
           {
             "id": 6657,
             "name": "时光之杖",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
             "icon": "assets/resources/items/6657.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 6617,
-            "name": "月石再生器",
-            "sampleCount": 2571,
-            "pickRate": 0.761327,
-            "winRate": 0.464644,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 806,
+            "pickRate": 0.238673,
+            "winRate": 0.486935,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6617.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
             "id": 3009,
@@ -294,13 +297,13 @@
             "icon": "assets/resources/items/6616.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 2294,
-            "pickRate": 0.111614,
-            "winRate": 0.493842,
+            "id": 124011,
+            "name": "花晓之剑",
+            "sampleCount": 331,
+            "pickRate": 0.016105,
+            "winRate": 0.547088,
             "source": "slot6",
-            "icon": "assets/resources/items/6621.webp"
+            "icon": "assets/resources/items/124011.webp"
           }
         ]
       }
@@ -309,22 +312,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 2098,
+      "lowSampleWarning": false,
       "pickRate": 0.041383,
       "winRate": 0.46339,
       "coreProfile": {
-        "sampleCount": 1479,
-        "pickRate": 0.704957,
-        "winRate": 0.458764,
+        "sampleCount": 619,
+        "pickRate": 0.295043,
+        "winRate": 0.474444,
         "itemIds": [
           6617,
           3083,
-          3119
+          3065
         ]
       },
       "starter": {
-        "sampleCount": 303,
-        "pickRate": 0.362874,
-        "winRate": 0.486525
+        "sampleCount": 241,
+        "pickRate": 0.48008,
+        "winRate": 0.481951
       },
       "items": {
         "starter": [
@@ -343,58 +347,58 @@
           {
             "id": 6617,
             "name": "月石再生器",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
             "icon": "assets/resources/items/6617.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3119,
-            "name": "凛冬之临",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3119.webp"
+            "icon": "assets/resources/items/3065.webp"
           }
         ],
         "recommended": [
           {
             "id": 6617,
             "name": "月石再生器",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
             "icon": "assets/resources/items/6617.webp"
           },
           {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3119,
-            "name": "凛冬之临",
-            "sampleCount": 1479,
-            "pickRate": 0.704957,
-            "winRate": 0.458764,
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 619,
+            "pickRate": 0.295043,
+            "winRate": 0.474444,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3119.webp"
+            "icon": "assets/resources/items/3065.webp"
           },
           {
             "id": 3009,
@@ -415,13 +419,13 @@
             "icon": "assets/resources/items/6616.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 2294,
-            "pickRate": 0.111614,
-            "winRate": 0.493842,
+            "id": 124011,
+            "name": "花晓之剑",
+            "sampleCount": 331,
+            "pickRate": 0.016105,
+            "winRate": 0.547088,
             "source": "slot6",
-            "icon": "assets/resources/items/6621.webp"
+            "icon": "assets/resources/items/124011.webp"
           }
         ]
       }
@@ -529,13 +533,13 @@
         "icon": "assets/resources/items/6621.webp"
       },
       {
-        "id": 3504,
-        "name": "炽热香炉",
-        "sampleCount": 2213,
-        "pickRate": 0.107673,
-        "winRate": 0.489757,
+        "id": 124011,
+        "name": "花晓之剑",
+        "sampleCount": 331,
+        "pickRate": 0.016105,
+        "winRate": 0.547088,
         "source": "slot6",
-        "icon": "assets/resources/items/3504.webp"
+        "icon": "assets/resources/items/124011.webp"
       }
     ]
   },

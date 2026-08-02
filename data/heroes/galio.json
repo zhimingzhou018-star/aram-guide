@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 30541,
+    "lowSampleWarning": false,
     "pickRate": 0.645523,
     "winRate": 0.485916,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 30541,
+      "lowSampleWarning": false,
       "pickRate": 0.645523,
       "winRate": 0.485916,
       "coreProfile": {
@@ -168,22 +170,139 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 101,
+            "pickRate": 0.003411,
+            "winRate": 0.575775,
+            "source": "slot5",
+            "icon": "assets/resources/items/3109.webp"
+          },
+          {
+            "id": 3137,
+            "name": "蜕生",
+            "sampleCount": 124,
+            "pickRate": 0.007562,
+            "winRate": 0.606356,
+            "source": "slot6",
+            "icon": "assets/resources/items/3137.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 1635,
+      "lowSampleWarning": false,
+      "pickRate": 0.034558,
+      "winRate": 0.511609,
+      "coreProfile": {
+        "sampleCount": 505,
+        "pickRate": 0.308869,
+        "winRate": 0.532211,
+        "itemIds": [
+          6655,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 308,
+        "pickRate": 0.736842,
+        "winRate": 0.524245
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1327,
-            "pickRate": 0.044813,
-            "winRate": 0.501141,
-            "source": "slot5",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 505,
+            "pickRate": 0.308869,
+            "winRate": 0.532211,
+            "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1712,
-            "pickRate": 0.104403,
-            "winRate": 0.462966,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1797,
+            "pickRate": 0.033484,
+            "winRate": 0.56913,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 101,
+            "pickRate": 0.003411,
+            "winRate": 0.575775,
+            "source": "slot5",
+            "icon": "assets/resources/items/3109.webp"
+          },
+          {
+            "id": 3137,
+            "name": "蜕生",
+            "sampleCount": 124,
+            "pickRate": 0.007562,
+            "winRate": 0.606356,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/3137.webp"
           }
         ]
       }
@@ -282,22 +401,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1327,
-        "pickRate": 0.044813,
-        "winRate": 0.501141,
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 101,
+        "pickRate": 0.003411,
+        "winRate": 0.575775,
         "source": "slot5",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3109.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1712,
-        "pickRate": 0.104403,
-        "winRate": 0.462966,
+        "id": 3137,
+        "name": "蜕生",
+        "sampleCount": 124,
+        "pickRate": 0.007562,
+        "winRate": 0.606356,
         "source": "slot6",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/3137.webp"
       }
     ]
   },

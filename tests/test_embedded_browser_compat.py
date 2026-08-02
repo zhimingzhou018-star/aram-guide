@@ -1,5 +1,6 @@
 import http.server
 import subprocess
+import tempfile
 import threading
 import unittest
 from pathlib import Path
@@ -58,24 +59,29 @@ class EmbeddedBrowserCompatTests(unittest.TestCase):
         thread = threading.Thread(target=server.serve_forever, daemon=True)
         thread.start()
         try:
-            result = subprocess.run(
-                [
-                    str(browser),
-                    "--headless=new",
-                    "--no-sandbox",
-                    "--disable-gpu",
-                    "--host-resolver-rules=MAP us-assets.i.posthog.com 0.0.0.0",
-                    "--dump-dom",
-                    "--virtual-time-budget=3000",
-                    f"http://127.0.0.1:{server.server_port}/",
-                ],
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                errors="replace",
-                timeout=20,
-                check=False,
-            )
+            with tempfile.TemporaryDirectory() as profile_dir:
+                result = subprocess.run(
+                    [
+                        str(browser),
+                        "--headless=new",
+                        "--no-sandbox",
+                        "--disable-gpu",
+                        "--disable-background-networking",
+                        "--disable-extensions",
+                        "--no-first-run",
+                        f"--user-data-dir={profile_dir}",
+                        "--host-resolver-rules=MAP us-assets.i.posthog.com 0.0.0.0",
+                        "--dump-dom",
+                        "--virtual-time-budget=3000",
+                        f"http://127.0.0.1:{server.server_port}/",
+                    ],
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    errors="replace",
+                    timeout=30,
+                    check=False,
+                )
         finally:
             server.shutdown()
             server.server_close()

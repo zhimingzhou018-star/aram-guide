@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 13493,
+    "lowSampleWarning": false,
     "pickRate": 0.711919,
     "winRate": 0.447292,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 13493,
+      "lowSampleWarning": false,
       "pickRate": 0.711919,
       "winRate": 0.447292,
       "coreProfile": {
@@ -163,22 +165,22 @@
             "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 2025,
-            "pickRate": 0.165902,
-            "winRate": 0.4377,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 760,
+            "pickRate": 0.062264,
+            "winRate": 0.465628,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/4646.webp"
           },
           {
-            "id": 2503,
-            "name": "黯炎火炬",
-            "sampleCount": 1684,
-            "pickRate": 0.078523,
-            "winRate": 0.463952,
-            "source": "fallback",
-            "icon": "assets/resources/items/2503.webp"
+            "id": 3137,
+            "name": "蜕生",
+            "sampleCount": 187,
+            "pickRate": 0.029278,
+            "winRate": 0.451752,
+            "source": "slot6",
+            "icon": "assets/resources/items/3137.webp"
           }
         ]
       }
@@ -191,9 +193,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>E>W",
@@ -272,22 +274,22 @@
         "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 2025,
-        "pickRate": 0.165902,
-        "winRate": 0.4377,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 760,
+        "pickRate": 0.062264,
+        "winRate": 0.465628,
         "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/4646.webp"
       },
       {
-        "id": 2503,
-        "name": "黯炎火炬",
-        "sampleCount": 1684,
-        "pickRate": 0.078523,
-        "winRate": 0.463952,
-        "source": "fallback",
-        "icon": "assets/resources/items/2503.webp"
+        "id": 3137,
+        "name": "蜕生",
+        "sampleCount": 187,
+        "pickRate": 0.029278,
+        "winRate": 0.451752,
+        "source": "slot6",
+        "icon": "assets/resources/items/3137.webp"
       }
     ]
   },

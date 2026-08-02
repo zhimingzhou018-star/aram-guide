@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 32597,
+    "lowSampleWarning": false,
     "pickRate": 0.881977,
     "winRate": 0.482892,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 1372,
-      "pickRate": 0.166041,
-      "winRate": 0.500104
+      "sampleCount": 6010,
+      "pickRate": 0.727339,
+      "winRate": 0.493407
     }
   },
   "defaultBuildKey": "tank",
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 32597,
+      "lowSampleWarning": false,
       "pickRate": 0.881977,
       "winRate": 0.482892,
       "coreProfile": {
@@ -84,9 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 1372,
-        "pickRate": 0.166041,
-        "winRate": 0.500104
+        "sampleCount": 6010,
+        "pickRate": 0.727339,
+        "winRate": 0.493407
       },
       "items": {
         "starter": [
@@ -159,31 +161,31 @@
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 5924,
-            "pickRate": 0.141249,
-            "winRate": 0.500156,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 220,
+            "pickRate": 0.005246,
+            "winRate": 0.548686,
             "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 2423,
-            "pickRate": 0.101194,
-            "winRate": 0.472914,
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 651,
+            "pickRate": 0.027188,
+            "winRate": 0.503811,
             "source": "slot5",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/3119.webp"
           },
           {
-            "id": 3143,
-            "name": "兰顿之兆",
-            "sampleCount": 1346,
-            "pickRate": 0.098862,
-            "winRate": 0.424,
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 898,
+            "pickRate": 0.065957,
+            "winRate": 0.475665,
             "source": "slot6",
-            "icon": "assets/resources/items/3143.webp"
+            "icon": "assets/resources/items/2501.webp"
           }
         ]
       }
@@ -191,9 +193,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -273,31 +275,31 @@
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 5924,
-        "pickRate": 0.141249,
-        "winRate": 0.500156,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 220,
+        "pickRate": 0.005246,
+        "winRate": 0.548686,
         "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 2423,
-        "pickRate": 0.101194,
-        "winRate": 0.472914,
+        "id": 3119,
+        "name": "凛冬之临",
+        "sampleCount": 651,
+        "pickRate": 0.027188,
+        "winRate": 0.503811,
         "source": "slot5",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/3119.webp"
       },
       {
-        "id": 3143,
-        "name": "兰顿之兆",
-        "sampleCount": 1346,
-        "pickRate": 0.098862,
-        "winRate": 0.424,
+        "id": 2501,
+        "name": "霸王血铠",
+        "sampleCount": 898,
+        "pickRate": 0.065957,
+        "winRate": 0.475665,
         "source": "slot6",
-        "icon": "assets/resources/items/3143.webp"
+        "icon": "assets/resources/items/2501.webp"
       }
     ]
   },

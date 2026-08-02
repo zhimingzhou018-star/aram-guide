@@ -46,22 +46,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 11855,
+    "lowSampleWarning": false,
     "pickRate": 0.758769,
     "winRate": 0.451831,
     "coreProfile": {
-      "sampleCount": 1870,
-      "pickRate": 0.157739,
-      "winRate": 0.492328,
+      "sampleCount": 716,
+      "pickRate": 0.060396,
+      "winRate": 0.510453,
       "itemIds": [
+        3118,
         4645,
-        3152,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 547,
-      "pickRate": 0.354734,
-      "winRate": 0.491053
+      "sampleCount": 133,
+      "pickRate": 0.251418,
+      "winRate": 0.563189
     }
   },
   "defaultBuildKey": "ap",
@@ -70,119 +71,120 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 11855,
+      "lowSampleWarning": false,
       "pickRate": 0.758769,
       "winRate": 0.451831,
       "coreProfile": {
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
         "itemIds": [
+          3118,
           4645,
-          3152,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 547,
-        "pickRate": 0.354734,
-        "winRate": 0.491053
+        "sampleCount": 133,
+        "pickRate": 0.251418,
+        "winRate": 0.563189
       },
       "items": {
         "starter": [
           {
-            "id": 1001,
-            "name": "鞋子",
-            "icon": "assets/resources/items/1001.webp"
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
           },
           {
-            "id": 3145,
-            "name": "海克斯科技发电机",
-            "icon": "assets/resources/items/3145.webp"
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
           }
         ],
         "core": [
           {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
-            "id": 3152,
-            "name": "海克斯科技火箭腰带",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3152.webp"
-          },
-          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
-            "id": 3152,
-            "name": "海克斯科技火箭腰带",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3152.webp"
-          },
-          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1870,
-            "pickRate": 0.157739,
-            "winRate": 0.492328,
+            "sampleCount": 716,
+            "pickRate": 0.060396,
+            "winRate": 0.510453,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
           {
-            "id": 3020,
-            "name": "法师之靴",
-            "sampleCount": 10385,
-            "pickRate": 0.595641,
-            "winRate": 0.457248,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 656,
+            "pickRate": 0.037625,
+            "winRate": 0.493182,
             "source": "boots",
-            "icon": "assets/resources/items/3020.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 2301,
-            "pickRate": 0.221976,
-            "winRate": 0.448649,
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 102,
+            "pickRate": 0.00984,
+            "winRate": 0.509083,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3116.webp"
           },
           {
-            "id": 6653,
-            "name": "兰德里的折磨",
-            "sampleCount": 1664,
-            "pickRate": 0.09544,
-            "winRate": 0.448799,
-            "source": "fallback",
-            "icon": "assets/resources/items/6653.webp"
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 132,
+            "pickRate": 0.023614,
+            "winRate": 0.522007,
+            "source": "slot6",
+            "icon": "assets/resources/items/3152.webp"
           }
         ]
       }
@@ -204,99 +206,99 @@
   "items": {
     "starter": [
       {
-        "id": 1001,
-        "name": "鞋子",
-        "icon": "assets/resources/items/1001.webp"
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "icon": "assets/resources/items/1026.webp"
       },
       {
-        "id": 3145,
-        "name": "海克斯科技发电机",
-        "icon": "assets/resources/items/3145.webp"
+        "id": 1052,
+        "name": "增幅典籍",
+        "icon": "assets/resources/items/1052.webp"
       }
     ],
     "core": [
       {
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3118.webp"
+      },
+      {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
-        "id": 3152,
-        "name": "海克斯科技火箭腰带",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3152.webp"
-      },
-      {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3118.webp"
+      },
+      {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
-        "id": 3152,
-        "name": "海克斯科技火箭腰带",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3152.webp"
-      },
-      {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1870,
-        "pickRate": 0.157739,
-        "winRate": 0.492328,
+        "sampleCount": 716,
+        "pickRate": 0.060396,
+        "winRate": 0.510453,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3020,
-        "name": "法师之靴",
-        "sampleCount": 10385,
-        "pickRate": 0.595641,
-        "winRate": 0.457248,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 656,
+        "pickRate": 0.037625,
+        "winRate": 0.493182,
         "source": "boots",
-        "icon": "assets/resources/items/3020.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 2301,
-        "pickRate": 0.221976,
-        "winRate": 0.448649,
+        "id": 3116,
+        "name": "瑞莱的冰晶节杖",
+        "sampleCount": 102,
+        "pickRate": 0.00984,
+        "winRate": 0.509083,
         "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3116.webp"
       },
       {
-        "id": 6653,
-        "name": "兰德里的折磨",
-        "sampleCount": 1664,
-        "pickRate": 0.09544,
-        "winRate": 0.448799,
-        "source": "fallback",
-        "icon": "assets/resources/items/6653.webp"
+        "id": 3152,
+        "name": "海克斯科技火箭腰带",
+        "sampleCount": 132,
+        "pickRate": 0.023614,
+        "winRate": 0.522007,
+        "source": "slot6",
+        "icon": "assets/resources/items/3152.webp"
       }
     ]
   },

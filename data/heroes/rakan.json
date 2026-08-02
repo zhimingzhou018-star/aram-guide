@@ -46,6 +46,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 7030,
+    "lowSampleWarning": false,
     "pickRate": 0.551632,
     "winRate": 0.448041,
     "coreProfile": {
@@ -70,6 +71,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 7030,
+      "lowSampleWarning": false,
       "pickRate": 0.551632,
       "winRate": 0.448041,
       "coreProfile": {
@@ -158,31 +160,31 @@
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3047,
-            "name": "铁板靴",
-            "sampleCount": 1626,
-            "pickRate": 0.111294,
-            "winRate": 0.483327,
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 855,
+            "pickRate": 0.058522,
+            "winRate": 0.510851,
             "source": "boots",
-            "icon": "assets/resources/items/3047.webp"
+            "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 3075,
-            "name": "荆棘之甲",
-            "sampleCount": 1141,
-            "pickRate": 0.141213,
-            "winRate": 0.423352,
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 175,
+            "pickRate": 0.021658,
+            "winRate": 0.516498,
             "source": "slot5",
-            "icon": "assets/resources/items/3075.webp"
+            "icon": "assets/resources/items/3109.webp"
           },
           {
-            "id": 3050,
-            "name": "基克的聚合",
-            "sampleCount": 2556,
-            "pickRate": 0.174949,
-            "winRate": 0.512622,
-            "source": "fallback",
-            "icon": "assets/resources/items/3050.webp"
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 204,
+            "pickRate": 0.046427,
+            "winRate": 0.483417,
+            "source": "slot6",
+            "icon": "assets/resources/items/3119.webp"
           }
         ]
       }
@@ -195,9 +197,9 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 7,
+      "name": "治疗术",
+      "icon": "assets/resources/summoner-spells/7.webp"
     }
   ],
   "skillOrder": "W>E>Q",
@@ -272,31 +274,31 @@
         "icon": "assets/resources/items/2502.webp"
       },
       {
-        "id": 3047,
-        "name": "铁板靴",
-        "sampleCount": 1626,
-        "pickRate": 0.111294,
-        "winRate": 0.483327,
+        "id": 3158,
+        "name": "明朗之靴",
+        "sampleCount": 855,
+        "pickRate": 0.058522,
+        "winRate": 0.510851,
         "source": "boots",
-        "icon": "assets/resources/items/3047.webp"
+        "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 3075,
-        "name": "荆棘之甲",
-        "sampleCount": 1141,
-        "pickRate": 0.141213,
-        "winRate": 0.423352,
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 175,
+        "pickRate": 0.021658,
+        "winRate": 0.516498,
         "source": "slot5",
-        "icon": "assets/resources/items/3075.webp"
+        "icon": "assets/resources/items/3109.webp"
       },
       {
-        "id": 3050,
-        "name": "基克的聚合",
-        "sampleCount": 2556,
-        "pickRate": 0.174949,
-        "winRate": 0.512622,
-        "source": "fallback",
-        "icon": "assets/resources/items/3050.webp"
+        "id": 3119,
+        "name": "凛冬之临",
+        "sampleCount": 204,
+        "pickRate": 0.046427,
+        "winRate": 0.483417,
+        "source": "slot6",
+        "icon": "assets/resources/items/3119.webp"
       }
     ]
   },

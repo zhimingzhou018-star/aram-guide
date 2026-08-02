@@ -47,22 +47,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 20839,
+    "lowSampleWarning": false,
     "pickRate": 0.423609,
     "winRate": 0.480954,
     "coreProfile": {
-      "sampleCount": 1622,
-      "pickRate": 0.077835,
-      "winRate": 0.520477,
+      "sampleCount": 863,
+      "pickRate": 0.041413,
+      "winRate": 0.541884,
       "itemIds": [
-        3084,
         6653,
-        4633
+        4633,
+        3065
       ]
     },
     "starter": {
-      "sampleCount": 743,
-      "pickRate": 0.817382,
-      "winRate": 0.508151
+      "sampleCount": 198,
+      "pickRate": 0.530831,
+      "winRate": 0.586607
     }
   },
   "defaultBuildKey": "ap",
@@ -71,92 +72,88 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 20839,
+      "lowSampleWarning": false,
       "pickRate": 0.423609,
       "winRate": 0.480954,
       "coreProfile": {
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
         "itemIds": [
-          3084,
           6653,
-          4633
+          4633,
+          3065
         ]
       },
       "starter": {
-        "sampleCount": 743,
-        "pickRate": 0.817382,
-        "winRate": 0.508151
+        "sampleCount": 198,
+        "pickRate": 0.530831,
+        "winRate": 0.586607
       },
       "items": {
         "starter": [
           {
-            "id": 1011,
-            "name": "巨人腰带",
-            "icon": "assets/resources/items/1011.webp"
-          },
-          {
-            "id": 1028,
-            "name": "红水晶",
-            "icon": "assets/resources/items/1028.webp"
+            "id": 3147,
+            "name": "幽魂面具",
+            "icon": "assets/resources/items/3147.webp"
           }
         ],
         "core": [
           {
-            "id": 3084,
-            "name": "心之钢",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3084.webp"
-          },
-          {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 4633,
             "name": "裂隙制造者",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
             "source": "coreProfile",
             "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
           }
         ],
         "recommended": [
           {
-            "id": 3084,
-            "name": "心之钢",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3084.webp"
-          },
-          {
             "id": 6653,
             "name": "兰德里的折磨",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
             "source": "coreProfile",
             "icon": "assets/resources/items/6653.webp"
           },
           {
             "id": 4633,
             "name": "裂隙制造者",
-            "sampleCount": 1622,
-            "pickRate": 0.077835,
-            "winRate": 0.520477,
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
             "source": "coreProfile",
             "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 863,
+            "pickRate": 0.041413,
+            "winRate": 0.541884,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
           },
           {
             "id": 3008,
@@ -168,22 +165,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3065,
-            "name": "振奋盔甲",
-            "sampleCount": 5108,
-            "pickRate": 0.145897,
-            "winRate": 0.484108,
+            "id": 3068,
+            "name": "日炎圣盾",
+            "sampleCount": 136,
+            "pickRate": 0.003884,
+            "winRate": 0.574278,
             "source": "slot5",
-            "icon": "assets/resources/items/3065.webp"
+            "icon": "assets/resources/items/3068.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 1258,
-            "pickRate": 0.057818,
-            "winRate": 0.503133,
+            "id": 8020,
+            "name": "深渊面具",
+            "sampleCount": 162,
+            "pickRate": 0.007446,
+            "winRate": 0.537785,
             "source": "slot6",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/8020.webp"
           }
         ]
       }
@@ -192,6 +189,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 12907,
+      "lowSampleWarning": false,
       "pickRate": 0.262369,
       "winRate": 0.471578,
       "coreProfile": {
@@ -289,22 +287,139 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 1265,
-            "pickRate": 0.036132,
-            "winRate": 0.482962,
+            "id": 3068,
+            "name": "日炎圣盾",
+            "sampleCount": 136,
+            "pickRate": 0.003884,
+            "winRate": 0.574278,
             "source": "slot5",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/3068.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 1258,
-            "pickRate": 0.057818,
-            "winRate": 0.503133,
+            "id": 8020,
+            "name": "深渊面具",
+            "sampleCount": 162,
+            "pickRate": 0.007446,
+            "winRate": 0.537785,
             "source": "slot6",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/8020.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 767,
+      "lowSampleWarning": false,
+      "pickRate": 0.015591,
+      "winRate": 0.425781,
+      "coreProfile": {
+        "sampleCount": 253,
+        "pickRate": 0.329857,
+        "winRate": 0.431578,
+        "itemIds": [
+          4633,
+          3073,
+          3065
+        ]
+      },
+      "starter": {
+        "sampleCount": 106,
+        "pickRate": 0.602273,
+        "winRate": 0.415843
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3147,
+            "name": "幽魂面具",
+            "icon": "assets/resources/items/3147.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3073,
+            "name": "海克斯注力刚壁",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3073.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3073,
+            "name": "海克斯注力刚壁",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3073.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 253,
+            "pickRate": 0.329857,
+            "winRate": 0.431578,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 6640,
+            "pickRate": 0.124279,
+            "winRate": 0.501803,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3068,
+            "name": "日炎圣盾",
+            "sampleCount": 136,
+            "pickRate": 0.003884,
+            "winRate": 0.574278,
+            "source": "slot5",
+            "icon": "assets/resources/items/3068.webp"
+          },
+          {
+            "id": 8020,
+            "name": "深渊面具",
+            "sampleCount": 162,
+            "pickRate": 0.007446,
+            "winRate": 0.537785,
+            "source": "slot6",
+            "icon": "assets/resources/items/8020.webp"
           }
         ]
       }
@@ -317,81 +432,76 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 32,
-      "name": "标记",
-      "icon": "assets/resources/summoner-spells/32.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
-        "id": 1011,
-        "name": "巨人腰带",
-        "icon": "assets/resources/items/1011.webp"
-      },
-      {
-        "id": 1028,
-        "name": "红水晶",
-        "icon": "assets/resources/items/1028.webp"
+        "id": 3147,
+        "name": "幽魂面具",
+        "icon": "assets/resources/items/3147.webp"
       }
     ],
     "core": [
       {
-        "id": 3084,
-        "name": "心之钢",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3084.webp"
-      },
-      {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 4633,
         "name": "裂隙制造者",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
         "source": "coreProfile",
         "icon": "assets/resources/items/4633.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3065.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3084,
-        "name": "心之钢",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3084.webp"
-      },
-      {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 4633,
         "name": "裂隙制造者",
-        "sampleCount": 1622,
-        "pickRate": 0.077835,
-        "winRate": 0.520477,
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
         "source": "coreProfile",
         "icon": "assets/resources/items/4633.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 863,
+        "pickRate": 0.041413,
+        "winRate": 0.541884,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3065.webp"
       },
       {
         "id": 3008,
@@ -403,22 +513,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3065,
-        "name": "振奋盔甲",
-        "sampleCount": 5108,
-        "pickRate": 0.145897,
-        "winRate": 0.484108,
+        "id": 3068,
+        "name": "日炎圣盾",
+        "sampleCount": 136,
+        "pickRate": 0.003884,
+        "winRate": 0.574278,
         "source": "slot5",
-        "icon": "assets/resources/items/3065.webp"
+        "icon": "assets/resources/items/3068.webp"
       },
       {
-        "id": 2502,
-        "name": "无终恨意",
-        "sampleCount": 1258,
-        "pickRate": 0.057818,
-        "winRate": 0.503133,
+        "id": 8020,
+        "name": "深渊面具",
+        "sampleCount": 162,
+        "pickRate": 0.007446,
+        "winRate": 0.537785,
         "source": "slot6",
-        "icon": "assets/resources/items/2502.webp"
+        "icon": "assets/resources/items/8020.webp"
       }
     ]
   },

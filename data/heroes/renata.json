@@ -47,22 +47,23 @@
     "key": "utility",
     "name": "辅助流",
     "sampleCount": 10623,
+    "lowSampleWarning": false,
     "pickRate": 0.419765,
     "winRate": 0.532569,
     "coreProfile": {
-      "sampleCount": 1035,
-      "pickRate": 0.09743,
-      "winRate": 0.563034,
+      "sampleCount": 364,
+      "pickRate": 0.034265,
+      "winRate": 0.616612,
       "itemIds": [
         4005,
         2526,
-        6617
+        3504
       ]
     },
     "starter": {
-      "sampleCount": 245,
-      "pickRate": 0.617128,
-      "winRate": 0.580741
+      "sampleCount": 131,
+      "pickRate": 0.564655,
+      "winRate": 0.596039
     }
   },
   "defaultBuildKey": "utility",
@@ -71,22 +72,23 @@
       "key": "utility",
       "name": "辅助流",
       "sampleCount": 10623,
+      "lowSampleWarning": false,
       "pickRate": 0.419765,
       "winRate": 0.532569,
       "coreProfile": {
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "itemIds": [
           4005,
           2526,
-          6617
+          3504
         ]
       },
       "starter": {
-        "sampleCount": 245,
-        "pickRate": 0.617128,
-        "winRate": 0.580741
+        "sampleCount": 131,
+        "pickRate": 0.564655,
+        "winRate": 0.596039
       },
       "items": {
         "starter": [
@@ -105,85 +107,207 @@
           {
             "id": 4005,
             "name": "帝国指令",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
             "source": "coreProfile",
             "icon": "assets/resources/items/4005.webp"
           },
           {
             "id": 2526,
             "name": "耳语头环",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
             "source": "coreProfile",
             "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 6617,
-            "name": "月石再生器",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6617.webp"
+            "icon": "assets/resources/items/3504.webp"
           }
         ],
         "recommended": [
           {
             "id": 4005,
             "name": "帝国指令",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
             "source": "coreProfile",
             "icon": "assets/resources/items/4005.webp"
           },
           {
             "id": 2526,
             "name": "耳语头环",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
             "source": "coreProfile",
             "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 6617,
-            "name": "月石再生器",
-            "sampleCount": 1035,
-            "pickRate": 0.09743,
-            "winRate": 0.563034,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6617.webp"
-          },
-          {
-            "id": 3111,
-            "name": "水银之靴",
-            "sampleCount": 1460,
-            "pickRate": 0.053523,
-            "winRate": 0.534081,
-            "source": "boots",
-            "icon": "assets/resources/items/3111.webp"
-          },
-          {
             "id": 3504,
             "name": "炽热香炉",
-            "sampleCount": 1286,
-            "pickRate": 0.068999,
-            "winRate": 0.555194,
-            "source": "slot5",
+            "sampleCount": 364,
+            "pickRate": 0.034265,
+            "winRate": 0.616612,
+            "source": "coreProfile",
             "icon": "assets/resources/items/3504.webp"
           },
           {
-            "id": 3107,
-            "name": "救赎",
-            "sampleCount": 1159,
-            "pickRate": 0.096906,
-            "winRate": 0.502908,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 270,
+            "pickRate": 0.009898,
+            "winRate": 0.570763,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2524,
+            "name": "班德尔音管",
+            "sampleCount": 140,
+            "pickRate": 0.007512,
+            "winRate": 0.592986,
+            "source": "slot5",
+            "icon": "assets/resources/items/2524.webp"
+          },
+          {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 188,
+            "pickRate": 0.015719,
+            "winRate": 0.578092,
             "source": "slot6",
-            "icon": "assets/resources/items/3107.webp"
+            "icon": "assets/resources/items/3109.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 2436,
+      "lowSampleWarning": false,
+      "pickRate": 0.096258,
+      "winRate": 0.497091,
+      "coreProfile": {
+        "sampleCount": 774,
+        "pickRate": 0.317734,
+        "winRate": 0.505905,
+        "itemIds": [
+          4005,
+          3118,
+          3003
+        ]
+      },
+      "starter": {
+        "sampleCount": 199,
+        "pickRate": 0.512887,
+        "winRate": 0.495498
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 774,
+            "pickRate": 0.317734,
+            "winRate": 0.505905,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 270,
+            "pickRate": 0.009898,
+            "winRate": 0.570763,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2524,
+            "name": "班德尔音管",
+            "sampleCount": 140,
+            "pickRate": 0.007512,
+            "winRate": 0.592986,
+            "source": "slot5",
+            "icon": "assets/resources/items/2524.webp"
+          },
+          {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 188,
+            "pickRate": 0.015719,
+            "winRate": 0.578092,
+            "source": "slot6",
+            "icon": "assets/resources/items/3109.webp"
           }
         ]
       }
@@ -219,85 +343,85 @@
       {
         "id": 4005,
         "name": "帝国指令",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "source": "coreProfile",
         "icon": "assets/resources/items/4005.webp"
       },
       {
         "id": 2526,
         "name": "耳语头环",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "source": "coreProfile",
         "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 6617,
-        "name": "月石再生器",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "id": 3504,
+        "name": "炽热香炉",
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6617.webp"
+        "icon": "assets/resources/items/3504.webp"
       }
     ],
     "recommended": [
       {
         "id": 4005,
         "name": "帝国指令",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "source": "coreProfile",
         "icon": "assets/resources/items/4005.webp"
       },
       {
         "id": 2526,
         "name": "耳语头环",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
         "source": "coreProfile",
         "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 6617,
-        "name": "月石再生器",
-        "sampleCount": 1035,
-        "pickRate": 0.09743,
-        "winRate": 0.563034,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6617.webp"
-      },
-      {
-        "id": 3111,
-        "name": "水银之靴",
-        "sampleCount": 1460,
-        "pickRate": 0.053523,
-        "winRate": 0.534081,
-        "source": "boots",
-        "icon": "assets/resources/items/3111.webp"
-      },
-      {
         "id": 3504,
         "name": "炽热香炉",
-        "sampleCount": 1286,
-        "pickRate": 0.068999,
-        "winRate": 0.555194,
-        "source": "slot5",
+        "sampleCount": 364,
+        "pickRate": 0.034265,
+        "winRate": 0.616612,
+        "source": "coreProfile",
         "icon": "assets/resources/items/3504.webp"
       },
       {
-        "id": 3107,
-        "name": "救赎",
-        "sampleCount": 1159,
-        "pickRate": 0.096906,
-        "winRate": 0.502908,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 270,
+        "pickRate": 0.009898,
+        "winRate": 0.570763,
+        "source": "boots",
+        "icon": "assets/resources/items/3008.webp"
+      },
+      {
+        "id": 2524,
+        "name": "班德尔音管",
+        "sampleCount": 140,
+        "pickRate": 0.007512,
+        "winRate": 0.592986,
+        "source": "slot5",
+        "icon": "assets/resources/items/2524.webp"
+      },
+      {
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 188,
+        "pickRate": 0.015719,
+        "winRate": 0.578092,
         "source": "slot6",
-        "icon": "assets/resources/items/3107.webp"
+        "icon": "assets/resources/items/3109.webp"
       }
     ]
   },

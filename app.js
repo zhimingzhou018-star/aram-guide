@@ -81,7 +81,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=15").then((response) => {
+  return fetch("./data/index.json?rev=16").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -89,7 +89,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=15`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=16`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -221,7 +221,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=15`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=16`;
   document.head.appendChild(link);
 }
 
@@ -434,16 +434,23 @@ function selectedBuildGuide(guide, buildKey) {
   return { ...guide, build, items: build.items };
 }
 
+function isLowSampleBuild(build) {
+  const sampleCount = Number(build.sampleCount || 0);
+  return Boolean(build.lowSampleWarning) || (sampleCount >= 100 && sampleCount < 200);
+}
+
 function FigmaBuildTabs(guide, activeBuild) {
   return `
     <nav class="figma-build-strip" aria-label="流派选择" data-build-count="${guide.builds.length}">
       ${guide.builds.map((build) => {
         const active = build.key === activeBuild.key;
         const winRate = Number(build.coreProfile?.winRate || 0) * 100;
+        const lowSample = isLowSampleBuild(build);
         return `
-          <button class="figma-build-tab${active ? " is-active" : ""}" type="button"
+          <button class="figma-build-tab${active ? " is-active" : ""}${lowSample ? " has-low-sample" : ""}" type="button"
             data-build-key="${escapeHtml(build.key)}" aria-pressed="${active}"
-            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%">
+            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%${lowSample ? "，低样本警告" : ""}">
+            ${lowSample ? '<span class="figma-build-warning-badge" aria-hidden="true">!</span>' : ""}
             <span class="figma-build-name">${escapeHtml(build.name)}</span>
             <span class="figma-build-stat"><span>胜率</span><strong class="figma-build-winrate">${winRate.toFixed(1)}%</strong></span>
           </button>`;
@@ -454,17 +461,19 @@ function FigmaBuildTabs(guide, activeBuild) {
 function FigmaGuidePage(guide, buildKey = guide.defaultBuildKey) {
   const selectedGuide = selectedBuildGuide(guide, buildKey);
   const gameplay = selectedGuide.gameplay.summary.join(" ");
+  const lowSampleWarning = isLowSampleBuild(selectedGuide.build);
   return `
     <article class="figma-poster">
       <div class="figma-accent-line"></div>
       <div class="figma-poster-body">
         ${FigmaHeroHeader(selectedGuide)}
         ${FigmaBuildTabs(guide, selectedGuide.build)}
+        ${lowSampleWarning ? '<p class="figma-low-sample-warning"><strong>!</strong> 低样本警告 · 不足200场，仅供参考</p>' : ""}
         <p class="figma-gameplay"><strong>玩法：</strong>${escapeHtml(gameplay)}</p>
         <section class="figma-items">
           <h2>推荐出装</h2>
           <p>出门装</p>
-          <ul class="figma-starter-items">${selectedGuide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
+          <ul class="figma-starter-items">${selectedGuide.items.starter.map(FigmaItemTile).join("")}</ul>
           <p>推荐选择</p>
           <ol class="figma-recommended-items">${selectedGuide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
         </section>

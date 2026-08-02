@@ -47,6 +47,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 31887,
+    "lowSampleWarning": false,
     "pickRate": 0.681026,
     "winRate": 0.508773,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 31887,
+      "lowSampleWarning": false,
       "pickRate": 0.681026,
       "winRate": 0.508773,
       "coreProfile": {
@@ -163,22 +165,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1281,
-            "pickRate": 0.035833,
-            "winRate": 0.52174,
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 345,
+            "pickRate": 0.009651,
+            "winRate": 0.561247,
             "source": "slot5",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3003.webp"
           },
           {
-            "id": 3083,
-            "name": "狂徒铠甲",
-            "sampleCount": 2097,
-            "pickRate": 0.091736,
-            "winRate": 0.50085,
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 180,
+            "pickRate": 0.007874,
+            "winRate": 0.559314,
             "source": "slot6",
-            "icon": "assets/resources/items/3083.webp"
+            "icon": "assets/resources/items/4629.webp"
           }
         ]
       }
@@ -187,22 +189,23 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 2672,
+      "lowSampleWarning": false,
       "pickRate": 0.057067,
       "winRate": 0.449351,
       "coreProfile": {
-        "sampleCount": 1085,
-        "pickRate": 0.406063,
-        "winRate": 0.440523,
+        "sampleCount": 317,
+        "pickRate": 0.118638,
+        "winRate": 0.489423,
         "itemIds": [
           3084,
-          3116,
-          3083
+          3083,
+          4633
         ]
       },
       "starter": {
-        "sampleCount": 296,
-        "pickRate": 0.571429,
-        "winRate": 0.393699
+        "sampleCount": 157,
+        "pickRate": 0.620553,
+        "winRate": 0.491091
       },
       "items": {
         "starter": [
@@ -221,58 +224,58 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3116.webp"
-          },
-          {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3116.webp"
-          },
-          {
             "id": 3083,
             "name": "狂徒铠甲",
-            "sampleCount": 1085,
-            "pickRate": 0.406063,
-            "winRate": 0.440523,
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
             "source": "coreProfile",
             "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 317,
+            "pickRate": 0.118638,
+            "winRate": 0.489423,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
           },
           {
             "id": 3008,
@@ -284,22 +287,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 1281,
-            "pickRate": 0.035833,
-            "winRate": 0.52174,
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 345,
+            "pickRate": 0.009651,
+            "winRate": 0.561247,
             "source": "slot5",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3003.webp"
           },
           {
-            "id": 4633,
-            "name": "裂隙制造者",
-            "sampleCount": 2333,
-            "pickRate": 0.10206,
-            "winRate": 0.487752,
+            "id": 4629,
+            "name": "星界驱驰",
+            "sampleCount": 180,
+            "pickRate": 0.007874,
+            "winRate": 0.559314,
             "source": "slot6",
-            "icon": "assets/resources/items/4633.webp"
+            "icon": "assets/resources/items/4629.webp"
           }
         ]
       }
@@ -393,22 +396,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1281,
-        "pickRate": 0.035833,
-        "winRate": 0.52174,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 345,
+        "pickRate": 0.009651,
+        "winRate": 0.561247,
         "source": "slot5",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3003.webp"
       },
       {
-        "id": 3083,
-        "name": "狂徒铠甲",
-        "sampleCount": 2097,
-        "pickRate": 0.091736,
-        "winRate": 0.50085,
+        "id": 4629,
+        "name": "星界驱驰",
+        "sampleCount": 180,
+        "pickRate": 0.007874,
+        "winRate": 0.559314,
         "source": "slot6",
-        "icon": "assets/resources/items/3083.webp"
+        "icon": "assets/resources/items/4629.webp"
       }
     ]
   },

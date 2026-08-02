@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#090d0d" />
     <meta name="description" content="海斗英雄模块化攻略，支持英雄名称、称号和外号搜索。" />
     <title>海斗一图流</title>
-    <link rel="preload" href="./data/index.json?rev=15" as="fetch" crossorigin />
+    <link rel="preload" href="./data/index.json?rev=16" as="fetch" crossorigin />
     <!-- Core CSS is embedded so restrictive mobile browsers do not need a style subrequest. -->
     <!-- compat-core-style:start -->
 <style data-compat-core="styles">
@@ -1188,6 +1188,22 @@ ul {
   content: "";
 }
 
+.figma-build-warning-badge {
+  position: absolute;
+  top: calc(3 * var(--fp-u));
+  right: calc(4 * var(--fp-u));
+  width: calc(13 * var(--fp-u));
+  height: calc(13 * var(--fp-u));
+  display: grid;
+  place-items: center;
+  border: calc(1 * var(--fp-u)) solid #ffbf4a;
+  border-radius: 50%;
+  color: #ffbf4a;
+  font-size: calc(9 * var(--fp-u));
+  font-weight: 950;
+  line-height: 1;
+}
+
 .figma-build-tab:focus-visible {
   outline: calc(2 * var(--fp-u)) solid #f1f0e8;
   outline-offset: calc(2 * var(--fp-u));
@@ -1225,12 +1241,26 @@ ul {
   font-weight: 900;
 }
 
-.figma-build-strip[data-build-count="4"] .figma-build-tab {
+.figma-build-strip[data-build-count="4"] .figma-build-tab,
+.figma-build-strip[data-build-count="5"] .figma-build-tab {
   padding-inline: calc(8 * var(--fp-u));
 }
 
-.figma-build-strip[data-build-count="4"] .figma-build-name {
+.figma-build-strip[data-build-count="4"] .figma-build-name,
+.figma-build-strip[data-build-count="5"] .figma-build-name {
   font-size: calc(13 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] {
+  gap: calc(5 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] .figma-build-tab {
+  padding-inline: calc(6 * var(--fp-u));
+}
+
+.figma-build-strip[data-build-count="5"] .figma-build-name {
+  font-size: calc(12 * var(--fp-u));
 }
 
 .figma-build-tab.is-active .figma-build-name {
@@ -1258,6 +1288,20 @@ ul {
   line-height: 1.45;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.figma-low-sample-warning {
+  position: absolute;
+  top: calc(169 * var(--fp-u));
+  left: calc(18 * var(--fp-u));
+  color: #c9a55b;
+  font-size: calc(10 * var(--fp-u));
+  font-weight: 800;
+  line-height: 1;
+}
+
+.figma-low-sample-warning strong {
+  color: #ffbf4a;
 }
 
 .figma-gameplay strong {
@@ -1299,7 +1343,7 @@ ul {
 
 .figma-starter-items {
   display: grid;
-  grid-template-columns: repeat(2, calc(87 * var(--fp-u)));
+  grid-template-columns: repeat(3, calc(87 * var(--fp-u)));
   gap: calc(14 * var(--fp-u));
   margin-top: calc(4 * var(--fp-u)) !important;
 }
@@ -1774,7 +1818,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=15").then((response) => {
+  return fetch("./data/index.json?rev=16").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -1782,7 +1826,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=15`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=16`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -1914,7 +1958,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=15`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=16`;
   document.head.appendChild(link);
 }
 
@@ -2127,16 +2171,23 @@ function selectedBuildGuide(guide, buildKey) {
   return { ...guide, build, items: build.items };
 }
 
+function isLowSampleBuild(build) {
+  const sampleCount = Number(build.sampleCount || 0);
+  return Boolean(build.lowSampleWarning) || (sampleCount >= 100 && sampleCount < 200);
+}
+
 function FigmaBuildTabs(guide, activeBuild) {
   return `
     <nav class="figma-build-strip" aria-label="流派选择" data-build-count="${guide.builds.length}">
       ${guide.builds.map((build) => {
         const active = build.key === activeBuild.key;
         const winRate = Number(build.coreProfile?.winRate || 0) * 100;
+        const lowSample = isLowSampleBuild(build);
         return `
-          <button class="figma-build-tab${active ? " is-active" : ""}" type="button"
+          <button class="figma-build-tab${active ? " is-active" : ""}${lowSample ? " has-low-sample" : ""}" type="button"
             data-build-key="${escapeHtml(build.key)}" aria-pressed="${active}"
-            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%">
+            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%${lowSample ? "，低样本警告" : ""}">
+            ${lowSample ? '<span class="figma-build-warning-badge" aria-hidden="true">!</span>' : ""}
             <span class="figma-build-name">${escapeHtml(build.name)}</span>
             <span class="figma-build-stat"><span>胜率</span><strong class="figma-build-winrate">${winRate.toFixed(1)}%</strong></span>
           </button>`;
@@ -2147,17 +2198,19 @@ function FigmaBuildTabs(guide, activeBuild) {
 function FigmaGuidePage(guide, buildKey = guide.defaultBuildKey) {
   const selectedGuide = selectedBuildGuide(guide, buildKey);
   const gameplay = selectedGuide.gameplay.summary.join(" ");
+  const lowSampleWarning = isLowSampleBuild(selectedGuide.build);
   return `
     <article class="figma-poster">
       <div class="figma-accent-line"></div>
       <div class="figma-poster-body">
         ${FigmaHeroHeader(selectedGuide)}
         ${FigmaBuildTabs(guide, selectedGuide.build)}
+        ${lowSampleWarning ? '<p class="figma-low-sample-warning"><strong>!</strong> 低样本警告 · 不足200场，仅供参考</p>' : ""}
         <p class="figma-gameplay"><strong>玩法：</strong>${escapeHtml(gameplay)}</p>
         <section class="figma-items">
           <h2>推荐出装</h2>
           <p>出门装</p>
-          <ul class="figma-starter-items">${selectedGuide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
+          <ul class="figma-starter-items">${selectedGuide.items.starter.map(FigmaItemTile).join("")}</ul>
           <p>推荐选择</p>
           <ol class="figma-recommended-items">${selectedGuide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
         </section>

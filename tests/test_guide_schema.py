@@ -66,6 +66,13 @@ class GuideSchemaTests(unittest.TestCase):
     def test_valid_guide_passes(self):
         validate_guide(valid_fixture())
 
+    def test_three_starter_items_are_valid(self):
+        payload = valid_fixture()
+        payload["items"]["starter"] = named_rows("出门装", 3)
+        payload["builds"][0]["items"]["starter"] = named_rows("出门装", 3)
+
+        validate_guide(payload)
+
     def test_missing_six_items_fails(self):
         payload = valid_fixture()
         payload["builds"][1]["items"]["recommended"] = payload["builds"][1]["items"]["recommended"][:5]

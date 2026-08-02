@@ -46,6 +46,7 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 37198,
+    "lowSampleWarning": false,
     "pickRate": 0.811103,
     "winRate": 0.476484,
     "coreProfile": {
@@ -59,9 +60,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 730,
-      "pickRate": 0.270471,
-      "winRate": 0.535207
+      "sampleCount": 187,
+      "pickRate": 0.069285,
+      "winRate": 0.588801
     }
   },
   "defaultBuildKey": "ap",
@@ -70,6 +71,7 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 37198,
+      "lowSampleWarning": false,
       "pickRate": 0.811103,
       "winRate": 0.476484,
       "coreProfile": {
@@ -83,16 +85,21 @@
         ]
       },
       "starter": {
-        "sampleCount": 730,
-        "pickRate": 0.270471,
-        "winRate": 0.535207
+        "sampleCount": 187,
+        "pickRate": 0.069285,
+        "winRate": 0.588801
       },
       "items": {
         "starter": [
           {
-            "id": 3802,
-            "name": "遗失的章节",
-            "icon": "assets/resources/items/3802.webp"
+            "id": 2508,
+            "name": "命定灰烬",
+            "icon": "assets/resources/items/2508.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
           }
         ],
         "core": [
@@ -162,22 +169,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 4866,
-            "pickRate": 0.154805,
-            "winRate": 0.459656,
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 843,
+            "pickRate": 0.026819,
+            "winRate": 0.491047,
             "source": "slot5",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/4628.webp"
           },
           {
-            "id": 3157,
-            "name": "中娅沙漏",
-            "sampleCount": 1039,
-            "pickRate": 0.05787,
-            "winRate": 0.459017,
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 424,
+            "pickRate": 0.023616,
+            "winRate": 0.463296,
             "source": "slot6",
-            "icon": "assets/resources/items/3157.webp"
+            "icon": "assets/resources/items/4646.webp"
           }
         ]
       }
@@ -199,9 +206,14 @@
   "items": {
     "starter": [
       {
-        "id": 3802,
-        "name": "遗失的章节",
-        "icon": "assets/resources/items/3802.webp"
+        "id": 2508,
+        "name": "命定灰烬",
+        "icon": "assets/resources/items/2508.webp"
+      },
+      {
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
       }
     ],
     "core": [
@@ -271,22 +283,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 4866,
-        "pickRate": 0.154805,
-        "winRate": 0.459656,
+        "id": 4628,
+        "name": "视界专注",
+        "sampleCount": 843,
+        "pickRate": 0.026819,
+        "winRate": 0.491047,
         "source": "slot5",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/4628.webp"
       },
       {
-        "id": 3157,
-        "name": "中娅沙漏",
-        "sampleCount": 1039,
-        "pickRate": 0.05787,
-        "winRate": 0.459017,
+        "id": 4646,
+        "name": "风暴狂涌",
+        "sampleCount": 424,
+        "pickRate": 0.023616,
+        "winRate": 0.463296,
         "source": "slot6",
-        "icon": "assets/resources/items/3157.webp"
+        "icon": "assets/resources/items/4646.webp"
       }
     ]
   },

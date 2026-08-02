@@ -46,6 +46,7 @@
     "key": "on_hit",
     "name": "攻速特效流",
     "sampleCount": 9909,
+    "lowSampleWarning": false,
     "pickRate": 0.503481,
     "winRate": 0.518698,
     "coreProfile": {
@@ -70,6 +71,7 @@
       "key": "on_hit",
       "name": "攻速特效流",
       "sampleCount": 9909,
+      "lowSampleWarning": false,
       "pickRate": 0.503481,
       "winRate": 0.518698,
       "coreProfile": {
@@ -167,22 +169,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1344,
-            "pickRate": 0.092137,
-            "winRate": 0.530508,
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 125,
+            "pickRate": 0.008569,
+            "winRate": 0.547538,
             "source": "slot5",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/3087.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1114,
-            "pickRate": 0.131291,
-            "winRate": 0.510798,
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 246,
+            "pickRate": 0.028992,
+            "winRate": 0.540253,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/3139.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 2099,
+      "lowSampleWarning": false,
+      "pickRate": 0.106651,
+      "winRate": 0.479101,
+      "coreProfile": {
+        "sampleCount": 1758,
+        "pickRate": 0.837542,
+        "winRate": 0.487574,
+        "itemIds": [
+          6676,
+          3153,
+          3085
+        ]
+      },
+      "starter": {
+        "sampleCount": 152,
+        "pickRate": 0.191195,
+        "winRate": 0.495538
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1758,
+            "pickRate": 0.837542,
+            "winRate": 0.487574,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2426,
+            "pickRate": 0.113529,
+            "winRate": 0.548299,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 125,
+            "pickRate": 0.008569,
+            "winRate": 0.547538,
+            "source": "slot5",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 3139,
+            "name": "水银弯刀",
+            "sampleCount": 246,
+            "pickRate": 0.028992,
+            "winRate": 0.540253,
+            "source": "slot6",
+            "icon": "assets/resources/items/3139.webp"
           }
         ]
       }
@@ -281,22 +405,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1344,
-        "pickRate": 0.092137,
-        "winRate": 0.530508,
+        "id": 3087,
+        "name": "斯塔缇克电刃",
+        "sampleCount": 125,
+        "pickRate": 0.008569,
+        "winRate": 0.547538,
         "source": "slot5",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/3087.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1114,
-        "pickRate": 0.131291,
-        "winRate": 0.510798,
+        "id": 3139,
+        "name": "水银弯刀",
+        "sampleCount": 246,
+        "pickRate": 0.028992,
+        "winRate": 0.540253,
         "source": "slot6",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/3139.webp"
       }
     ]
   },

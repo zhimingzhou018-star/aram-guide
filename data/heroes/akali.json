@@ -46,22 +46,23 @@
     "key": "ap",
     "name": "法术流",
     "sampleCount": 12565,
+    "lowSampleWarning": false,
     "pickRate": 0.66718,
     "winRate": 0.409806,
     "coreProfile": {
-      "sampleCount": 1002,
-      "pickRate": 0.079745,
-      "winRate": 0.434994,
+      "sampleCount": 559,
+      "pickRate": 0.044489,
+      "winRate": 0.466562,
       "itemIds": [
-        3152,
         4645,
+        3100,
         3089
       ]
     },
     "starter": {
-      "sampleCount": 421,
-      "pickRate": 0.487269,
-      "winRate": 0.442049
+      "sampleCount": 100,
+      "pickRate": 0.406504,
+      "winRate": 0.427868
     }
   },
   "defaultBuildKey": "ap",
@@ -70,90 +71,91 @@
       "key": "ap",
       "name": "法术流",
       "sampleCount": 12565,
+      "lowSampleWarning": false,
       "pickRate": 0.66718,
       "winRate": 0.409806,
       "coreProfile": {
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
         "itemIds": [
-          3152,
           4645,
+          3100,
           3089
         ]
       },
       "starter": {
-        "sampleCount": 421,
-        "pickRate": 0.487269,
-        "winRate": 0.442049
+        "sampleCount": 100,
+        "pickRate": 0.406504,
+        "winRate": 0.427868
       },
       "items": {
         "starter": [
           {
-            "id": 1001,
-            "name": "鞋子",
-            "icon": "assets/resources/items/1001.webp"
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
           },
           {
-            "id": 3145,
-            "name": "海克斯科技发电机",
-            "icon": "assets/resources/items/3145.webp"
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
           }
         ],
         "core": [
           {
-            "id": 3152,
-            "name": "海克斯科技火箭腰带",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3152.webp"
-          },
-          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           }
         ],
         "recommended": [
           {
-            "id": 3152,
-            "name": "海克斯科技火箭腰带",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3152.webp"
-          },
-          {
             "id": 4645,
             "name": "影焰",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
             "source": "coreProfile",
             "icon": "assets/resources/items/4645.webp"
           },
           {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
             "id": 3089,
             "name": "灭世者的死亡之帽",
-            "sampleCount": 1002,
-            "pickRate": 0.079745,
-            "winRate": 0.434994,
+            "sampleCount": 559,
+            "pickRate": 0.044489,
+            "winRate": 0.466562,
             "source": "coreProfile",
             "icon": "assets/resources/items/3089.webp"
           },
@@ -167,22 +169,144 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3157,
-            "name": "中娅沙漏",
-            "sampleCount": 1837,
-            "pickRate": 0.145967,
-            "winRate": 0.423018,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 109,
+            "pickRate": 0.008661,
+            "winRate": 0.51163,
             "source": "slot5",
-            "icon": "assets/resources/items/3157.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 1421,
-            "pickRate": 0.205169,
-            "winRate": 0.444033,
+            "id": 3146,
+            "name": "海克斯科技枪刃",
+            "sampleCount": 306,
+            "pickRate": 0.044181,
+            "winRate": 0.448848,
             "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "icon": "assets/resources/items/3146.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 368,
+      "lowSampleWarning": false,
+      "pickRate": 0.01954,
+      "winRate": 0.427216,
+      "coreProfile": {
+        "sampleCount": 368,
+        "pickRate": 1,
+        "winRate": 0.427216,
+        "itemIds": [
+          3084,
+          4633,
+          2502
+        ]
+      },
+      "starter": {
+        "sampleCount": 157,
+        "pickRate": 0.556738,
+        "winRate": 0.430989
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 368,
+            "pickRate": 1,
+            "winRate": 0.427216,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2332,
+            "pickRate": 0.111249,
+            "winRate": 0.44298,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 109,
+            "pickRate": 0.008661,
+            "winRate": 0.51163,
+            "source": "slot5",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 394,
+            "pickRate": 0.056887,
+            "winRate": 0.457259,
+            "source": "slot6",
+            "icon": "assets/resources/items/3100.webp"
           }
         ]
       }
@@ -204,70 +328,70 @@
   "items": {
     "starter": [
       {
-        "id": 1001,
-        "name": "鞋子",
-        "icon": "assets/resources/items/1001.webp"
+        "id": 1052,
+        "name": "增幅典籍",
+        "icon": "assets/resources/items/1052.webp"
       },
       {
-        "id": 3145,
-        "name": "海克斯科技发电机",
-        "icon": "assets/resources/items/3145.webp"
+        "id": 3057,
+        "name": "耀光",
+        "icon": "assets/resources/items/3057.webp"
       }
     ],
     "core": [
       {
-        "id": 3152,
-        "name": "海克斯科技火箭腰带",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3152.webp"
-      },
-      {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3152,
-        "name": "海克斯科技火箭腰带",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3152.webp"
-      },
-      {
         "id": 4645,
         "name": "影焰",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
         "source": "coreProfile",
         "icon": "assets/resources/items/4645.webp"
       },
       {
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3100.webp"
+      },
+      {
         "id": 3089,
         "name": "灭世者的死亡之帽",
-        "sampleCount": 1002,
-        "pickRate": 0.079745,
-        "winRate": 0.434994,
+        "sampleCount": 559,
+        "pickRate": 0.044489,
+        "winRate": 0.466562,
         "source": "coreProfile",
         "icon": "assets/resources/items/3089.webp"
       },
@@ -281,22 +405,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3157,
-        "name": "中娅沙漏",
-        "sampleCount": 1837,
-        "pickRate": 0.145967,
-        "winRate": 0.423018,
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 109,
+        "pickRate": 0.008661,
+        "winRate": 0.51163,
         "source": "slot5",
-        "icon": "assets/resources/items/3157.webp"
+        "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3135,
-        "name": "虚空之杖",
-        "sampleCount": 1421,
-        "pickRate": 0.205169,
-        "winRate": 0.444033,
+        "id": 3146,
+        "name": "海克斯科技枪刃",
+        "sampleCount": 306,
+        "pickRate": 0.044181,
+        "winRate": 0.448848,
         "source": "slot6",
-        "icon": "assets/resources/items/3135.webp"
+        "icon": "assets/resources/items/3146.webp"
       }
     ]
   },

@@ -47,22 +47,23 @@
     "key": "bruiser",
     "name": "战士流",
     "sampleCount": 5422,
+    "lowSampleWarning": false,
     "pickRate": 0.439349,
     "winRate": 0.445628,
     "coreProfile": {
-      "sampleCount": 2510,
-      "pickRate": 0.462929,
-      "winRate": 0.447343,
+      "sampleCount": 924,
+      "pickRate": 0.170417,
+      "winRate": 0.44981,
       "itemIds": [
         3153,
-        6610,
-        6333
+        6333,
+        3091
       ]
     },
     "starter": {
-      "sampleCount": 423,
-      "pickRate": 0.265038,
-      "winRate": 0.454976
+      "sampleCount": 102,
+      "pickRate": 0.211618,
+      "winRate": 0.42772
     }
   },
   "defaultBuildKey": "bruiser",
@@ -71,22 +72,23 @@
       "key": "bruiser",
       "name": "战士流",
       "sampleCount": 5422,
+      "lowSampleWarning": false,
       "pickRate": 0.439349,
       "winRate": 0.445628,
       "coreProfile": {
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
         "itemIds": [
           3153,
-          6610,
-          6333
+          6333,
+          3091
         ]
       },
       "starter": {
-        "sampleCount": 423,
-        "pickRate": 0.265038,
-        "winRate": 0.454976
+        "sampleCount": 102,
+        "pickRate": 0.211618,
+        "winRate": 0.42772
       },
       "items": {
         "starter": [
@@ -105,58 +107,58 @@
           {
             "id": 3153,
             "name": "破败王者之刃",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
             "source": "coreProfile",
             "icon": "assets/resources/items/3153.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
-          },
-          {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3091,
+            "name": "智慧末刃",
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3091.webp"
           }
         ],
         "recommended": [
           {
             "id": 3153,
             "name": "破败王者之刃",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
             "source": "coreProfile",
             "icon": "assets/resources/items/3153.webp"
           },
           {
-            "id": 6610,
-            "name": "焚天",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6610.webp"
-          },
-          {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 2510,
-            "pickRate": 0.462929,
-            "winRate": 0.447343,
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3091,
+            "name": "智慧末刃",
+            "sampleCount": 924,
+            "pickRate": 0.170417,
+            "winRate": 0.44981,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3091.webp"
           },
           {
             "id": 3008,
@@ -168,22 +170,22 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3074,
-            "name": "贪欲九头蛇",
-            "sampleCount": 1287,
-            "pickRate": 0.093335,
-            "winRate": 0.479641,
-            "source": "fallback",
-            "icon": "assets/resources/items/3074.webp"
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 102,
+            "pickRate": 0.012644,
+            "winRate": 0.476739,
+            "source": "slot5",
+            "icon": "assets/resources/items/2501.webp"
           },
           {
-            "id": 2517,
-            "name": "无穷饥渴",
-            "sampleCount": 1411,
-            "pickRate": 0.102328,
-            "winRate": 0.46977,
-            "source": "fallback",
-            "icon": "assets/resources/items/2517.webp"
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 150,
+            "pickRate": 0.035253,
+            "winRate": 0.483014,
+            "source": "slot6",
+            "icon": "assets/resources/items/3078.webp"
           }
         ]
       }
@@ -219,58 +221,58 @@
       {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 3091,
+        "name": "智慧末刃",
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3091.webp"
       }
     ],
     "recommended": [
       {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2510,
-        "pickRate": 0.462929,
-        "winRate": 0.447343,
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 3091,
+        "name": "智慧末刃",
+        "sampleCount": 924,
+        "pickRate": 0.170417,
+        "winRate": 0.44981,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3091.webp"
       },
       {
         "id": 3008,
@@ -282,22 +284,22 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3074,
-        "name": "贪欲九头蛇",
-        "sampleCount": 1287,
-        "pickRate": 0.093335,
-        "winRate": 0.479641,
-        "source": "fallback",
-        "icon": "assets/resources/items/3074.webp"
+        "id": 2501,
+        "name": "霸王血铠",
+        "sampleCount": 102,
+        "pickRate": 0.012644,
+        "winRate": 0.476739,
+        "source": "slot5",
+        "icon": "assets/resources/items/2501.webp"
       },
       {
-        "id": 2517,
-        "name": "无穷饥渴",
-        "sampleCount": 1411,
-        "pickRate": 0.102328,
-        "winRate": 0.46977,
-        "source": "fallback",
-        "icon": "assets/resources/items/2517.webp"
+        "id": 3078,
+        "name": "三相之力",
+        "sampleCount": 150,
+        "pickRate": 0.035253,
+        "winRate": 0.483014,
+        "source": "slot6",
+        "icon": "assets/resources/items/3078.webp"
       }
     ]
   },

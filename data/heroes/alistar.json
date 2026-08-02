@@ -47,6 +47,7 @@
     "key": "tank",
     "name": "坦克流",
     "sampleCount": 27925,
+    "lowSampleWarning": false,
     "pickRate": 0.727479,
     "winRate": 0.517377,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 326,
-      "pickRate": 0.045322,
-      "winRate": 0.548511
+      "sampleCount": 5270,
+      "pickRate": 0.732657,
+      "winRate": 0.533712
     }
   },
   "defaultBuildKey": "tank",
@@ -71,6 +72,7 @@
       "key": "tank",
       "name": "坦克流",
       "sampleCount": 27925,
+      "lowSampleWarning": false,
       "pickRate": 0.727479,
       "winRate": 0.517377,
       "coreProfile": {
@@ -84,9 +86,9 @@
         ]
       },
       "starter": {
-        "sampleCount": 326,
-        "pickRate": 0.045322,
-        "winRate": 0.548511
+        "sampleCount": 5270,
+        "pickRate": 0.732657,
+        "winRate": 0.533712
       },
       "items": {
         "starter": [
@@ -96,9 +98,9 @@
             "icon": "assets/resources/items/1011.webp"
           },
           {
-            "id": 3070,
-            "name": "女神之泪",
-            "icon": "assets/resources/items/3070.webp"
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
           }
         ],
         "core": [
@@ -159,31 +161,148 @@
             "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 1399,
-            "pickRate": 0.031289,
-            "winRate": 0.566383,
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 496,
+            "pickRate": 0.011093,
+            "winRate": 0.578233,
             "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
+            "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 3119,
-            "name": "凛冬之临",
-            "sampleCount": 1007,
-            "pickRate": 0.040544,
-            "winRate": 0.502267,
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 123,
+            "pickRate": 0.004952,
+            "winRate": 0.613327,
             "source": "slot5",
-            "icon": "assets/resources/items/3119.webp"
+            "icon": "assets/resources/items/4005.webp"
           },
           {
-            "id": 6665,
-            "name": "千变者贾修",
-            "sampleCount": 1568,
-            "pickRate": 0.110524,
-            "winRate": 0.468971,
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 103,
+            "pickRate": 0.00726,
+            "winRate": 0.545682,
             "source": "slot6",
-            "icon": "assets/resources/items/6665.webp"
+            "icon": "assets/resources/items/2525.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 1194,
+      "lowSampleWarning": false,
+      "pickRate": 0.031105,
+      "winRate": 0.479038,
+      "coreProfile": {
+        "sampleCount": 384,
+        "pickRate": 0.321608,
+        "winRate": 0.506493,
+        "itemIds": [
+          6655,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 208,
+        "pickRate": 0.658228,
+        "winRate": 0.478047
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 384,
+            "pickRate": 0.321608,
+            "winRate": 0.506493,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 496,
+            "pickRate": 0.011093,
+            "winRate": 0.578233,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 123,
+            "pickRate": 0.004952,
+            "winRate": 0.613327,
+            "source": "slot5",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 2525,
+            "name": "原生质护带",
+            "sampleCount": 103,
+            "pickRate": 0.00726,
+            "winRate": 0.545682,
+            "source": "slot6",
+            "icon": "assets/resources/items/2525.webp"
           }
         ]
       }
@@ -191,9 +310,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 4,
-      "name": "闪现",
-      "icon": "assets/resources/summoner-spells/4.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     },
     {
       "id": 32,
@@ -210,9 +329,9 @@
         "icon": "assets/resources/items/1011.webp"
       },
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
       }
     ],
     "core": [
@@ -273,31 +392,31 @@
         "icon": "assets/resources/items/3083.webp"
       },
       {
-        "id": 3158,
-        "name": "明朗之靴",
-        "sampleCount": 1399,
-        "pickRate": 0.031289,
-        "winRate": 0.566383,
+        "id": 3008,
+        "name": "暴食胫甲",
+        "sampleCount": 496,
+        "pickRate": 0.011093,
+        "winRate": 0.578233,
         "source": "boots",
-        "icon": "assets/resources/items/3158.webp"
+        "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3119,
-        "name": "凛冬之临",
-        "sampleCount": 1007,
-        "pickRate": 0.040544,
-        "winRate": 0.502267,
+        "id": 4005,
+        "name": "帝国指令",
+        "sampleCount": 123,
+        "pickRate": 0.004952,
+        "winRate": 0.613327,
         "source": "slot5",
-        "icon": "assets/resources/items/3119.webp"
+        "icon": "assets/resources/items/4005.webp"
       },
       {
-        "id": 6665,
-        "name": "千变者贾修",
-        "sampleCount": 1568,
-        "pickRate": 0.110524,
-        "winRate": 0.468971,
+        "id": 2525,
+        "name": "原生质护带",
+        "sampleCount": 103,
+        "pickRate": 0.00726,
+        "winRate": 0.545682,
         "source": "slot6",
-        "icon": "assets/resources/items/6665.webp"
+        "icon": "assets/resources/items/2525.webp"
       }
     ]
   },

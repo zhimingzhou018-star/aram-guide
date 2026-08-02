@@ -47,22 +47,23 @@
     "key": "utility",
     "name": "辅助流",
     "sampleCount": 3718,
+    "lowSampleWarning": false,
     "pickRate": 0.424769,
     "winRate": 0.556088,
     "coreProfile": {
-      "sampleCount": 1872,
-      "pickRate": 0.503497,
-      "winRate": 0.574034,
+      "sampleCount": 485,
+      "pickRate": 0.130446,
+      "winRate": 0.592613,
       "itemIds": [
         6617,
         2526,
-        3504
+        6616
       ]
     },
     "starter": {
-      "sampleCount": 752,
-      "pickRate": 0.637829,
-      "winRate": 0.579512
+      "sampleCount": 240,
+      "pickRate": 0.725076,
+      "winRate": 0.557261
     }
   },
   "defaultBuildKey": "utility",
@@ -71,22 +72,23 @@
       "key": "utility",
       "name": "辅助流",
       "sampleCount": 3718,
+      "lowSampleWarning": false,
       "pickRate": 0.424769,
       "winRate": 0.556088,
       "coreProfile": {
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "itemIds": [
           6617,
           2526,
-          3504
+          6616
         ]
       },
       "starter": {
-        "sampleCount": 752,
-        "pickRate": 0.637829,
-        "winRate": 0.579512
+        "sampleCount": 240,
+        "pickRate": 0.725076,
+        "winRate": 0.557261
       },
       "items": {
         "starter": [
@@ -105,58 +107,58 @@
           {
             "id": 6617,
             "name": "月石再生器",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
             "icon": "assets/resources/items/6617.webp"
           },
           {
             "id": 2526,
             "name": "耳语头环",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
             "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 3504,
-            "name": "炽热香炉",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3504.webp"
+            "icon": "assets/resources/items/6616.webp"
           }
         ],
         "recommended": [
           {
             "id": 6617,
             "name": "月石再生器",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
             "icon": "assets/resources/items/6617.webp"
           },
           {
             "id": 2526,
             "name": "耳语头环",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
             "icon": "assets/resources/items/2526.webp"
           },
           {
-            "id": 3504,
-            "name": "炽热香炉",
-            "sampleCount": 1872,
-            "pickRate": 0.503497,
-            "winRate": 0.574034,
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 485,
+            "pickRate": 0.130446,
+            "winRate": 0.592613,
             "source": "coreProfile",
-            "icon": "assets/resources/items/3504.webp"
+            "icon": "assets/resources/items/6616.webp"
           },
           {
             "id": 3158,
@@ -168,22 +170,139 @@
             "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 6616,
-            "name": "流水法杖",
-            "sampleCount": 2322,
-            "pickRate": 0.245195,
-            "winRate": 0.565669,
-            "source": "fallback",
-            "icon": "assets/resources/items/6616.webp"
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 117,
+            "pickRate": 0.019027,
+            "winRate": 0.627453,
+            "source": "slot5",
+            "icon": "assets/resources/items/3109.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 2853,
-            "pickRate": 0.301267,
-            "winRate": 0.532519,
-            "source": "fallback",
-            "icon": "assets/resources/items/6621.webp"
+            "id": 3107,
+            "name": "救赎",
+            "sampleCount": 407,
+            "pickRate": 0.105687,
+            "winRate": 0.531882,
+            "source": "slot6",
+            "icon": "assets/resources/items/3107.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 256,
+      "lowSampleWarning": false,
+      "pickRate": 0.029247,
+      "winRate": 0.404396,
+      "coreProfile": {
+        "sampleCount": 256,
+        "pickRate": 1,
+        "winRate": 0.404396,
+        "itemIds": [
+          3118,
+          3116,
+          6653
+        ]
+      },
+      "starter": {
+        "sampleCount": 100,
+        "pickRate": 0.518135,
+        "winRate": 0.396427
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 256,
+            "pickRate": 1,
+            "winRate": 0.404396,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 4896,
+            "pickRate": 0.517001,
+            "winRate": 0.534017,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 117,
+            "pickRate": 0.019027,
+            "winRate": 0.627453,
+            "source": "slot5",
+            "icon": "assets/resources/items/3109.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 104,
+            "pickRate": 0.027006,
+            "winRate": 0.56335,
+            "source": "slot6",
+            "icon": "assets/resources/items/2526.webp"
           }
         ]
       }
@@ -219,58 +338,58 @@
       {
         "id": 6617,
         "name": "月石再生器",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
         "icon": "assets/resources/items/6617.webp"
       },
       {
         "id": 2526,
         "name": "耳语头环",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
         "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 3504,
-        "name": "炽热香炉",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3504.webp"
+        "icon": "assets/resources/items/6616.webp"
       }
     ],
     "recommended": [
       {
         "id": 6617,
         "name": "月石再生器",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
         "icon": "assets/resources/items/6617.webp"
       },
       {
         "id": 2526,
         "name": "耳语头环",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
         "icon": "assets/resources/items/2526.webp"
       },
       {
-        "id": 3504,
-        "name": "炽热香炉",
-        "sampleCount": 1872,
-        "pickRate": 0.503497,
-        "winRate": 0.574034,
+        "id": 6616,
+        "name": "流水法杖",
+        "sampleCount": 485,
+        "pickRate": 0.130446,
+        "winRate": 0.592613,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3504.webp"
+        "icon": "assets/resources/items/6616.webp"
       },
       {
         "id": 3158,
@@ -282,22 +401,22 @@
         "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 6616,
-        "name": "流水法杖",
-        "sampleCount": 2322,
-        "pickRate": 0.245195,
-        "winRate": 0.565669,
-        "source": "fallback",
-        "icon": "assets/resources/items/6616.webp"
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 117,
+        "pickRate": 0.019027,
+        "winRate": 0.627453,
+        "source": "slot5",
+        "icon": "assets/resources/items/3109.webp"
       },
       {
-        "id": 6621,
-        "name": "黎明核心",
-        "sampleCount": 2853,
-        "pickRate": 0.301267,
-        "winRate": 0.532519,
-        "source": "fallback",
-        "icon": "assets/resources/items/6621.webp"
+        "id": 3107,
+        "name": "救赎",
+        "sampleCount": 407,
+        "pickRate": 0.105687,
+        "winRate": 0.531882,
+        "source": "slot6",
+        "icon": "assets/resources/items/3107.webp"
       }
     ]
   },

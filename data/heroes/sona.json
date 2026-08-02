@@ -47,6 +47,7 @@
     "key": "utility",
     "name": "辅助流",
     "sampleCount": 21427,
+    "lowSampleWarning": false,
     "pickRate": 0.645158,
     "winRate": 0.557436,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "utility",
       "name": "辅助流",
       "sampleCount": 21427,
+      "lowSampleWarning": false,
       "pickRate": 0.645158,
       "winRate": 0.557436,
       "coreProfile": {
@@ -168,13 +170,130 @@
             "icon": "assets/resources/items/3158.webp"
           },
           {
-            "id": 6620,
-            "name": "海力亚的回响",
-            "sampleCount": 1005,
-            "pickRate": 0.042576,
-            "winRate": 0.554509,
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 153,
+            "pickRate": 0.006482,
+            "winRate": 0.567054,
             "source": "slot5",
-            "icon": "assets/resources/items/6620.webp"
+            "icon": "assets/resources/items/3109.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 255,
+            "pickRate": 0.016933,
+            "winRate": 0.561825,
+            "source": "slot6",
+            "icon": "assets/resources/items/3100.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 1116,
+      "lowSampleWarning": false,
+      "pickRate": 0.033602,
+      "winRate": 0.460265,
+      "coreProfile": {
+        "sampleCount": 882,
+        "pickRate": 0.790323,
+        "winRate": 0.441137,
+        "itemIds": [
+          6655,
+          3100,
+          4645
+        ]
+      },
+      "starter": {
+        "sampleCount": 329,
+        "pickRate": 0.458217,
+        "winRate": 0.438242
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 882,
+            "pickRate": 0.790323,
+            "winRate": 0.441137,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 15422,
+            "pickRate": 0.440603,
+            "winRate": 0.547409,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 3109,
+            "name": "骑士之誓",
+            "sampleCount": 153,
+            "pickRate": 0.006482,
+            "winRate": 0.567054,
+            "source": "slot5",
+            "icon": "assets/resources/items/3109.webp"
           },
           {
             "id": 3504,
@@ -282,22 +401,22 @@
         "icon": "assets/resources/items/3158.webp"
       },
       {
-        "id": 6620,
-        "name": "海力亚的回响",
-        "sampleCount": 1005,
-        "pickRate": 0.042576,
-        "winRate": 0.554509,
+        "id": 3109,
+        "name": "骑士之誓",
+        "sampleCount": 153,
+        "pickRate": 0.006482,
+        "winRate": 0.567054,
         "source": "slot5",
-        "icon": "assets/resources/items/6620.webp"
+        "icon": "assets/resources/items/3109.webp"
       },
       {
-        "id": 3504,
-        "name": "炽热香炉",
-        "sampleCount": 1138,
-        "pickRate": 0.075569,
-        "winRate": 0.540715,
+        "id": 3100,
+        "name": "巫妖之祸",
+        "sampleCount": 255,
+        "pickRate": 0.016933,
+        "winRate": 0.561825,
         "source": "slot6",
-        "icon": "assets/resources/items/3504.webp"
+        "icon": "assets/resources/items/3100.webp"
       }
     ]
   },

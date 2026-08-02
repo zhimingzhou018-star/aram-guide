@@ -52,14 +52,14 @@ class AllGuidesTests(unittest.TestCase):
             builds = guide.get("builds", [])
             build_count += len(builds)
             keys = [row.get("key") for row in builds]
-            if not 1 <= len(builds) <= 4:
+            if not builds:
                 invalid.append((slug, "count", len(builds)))
             if len(keys) != len(set(keys)):
                 invalid.append((slug, "duplicate", keys))
             if guide.get("defaultBuildKey") != keys[0]:
                 invalid.append((slug, "default", guide.get("defaultBuildKey"), keys))
             for build in builds:
-                if len(build["items"]["starter"]) not in (1, 2):
+                if not build["items"]["starter"]:
                     invalid.append((slug, build["key"], "starter"))
                 if len(build["items"]["core"]) != 3 or len(build["items"]["recommended"]) != 6:
                     invalid.append((slug, build["key"], "items"))

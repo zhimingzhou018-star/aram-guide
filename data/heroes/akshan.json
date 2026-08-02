@@ -47,6 +47,7 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 2370,
+    "lowSampleWarning": false,
     "pickRate": 0.454807,
     "winRate": 0.497878,
     "coreProfile": {
@@ -60,9 +61,9 @@
       ]
     },
     "starter": {
-      "sampleCount": 291,
-      "pickRate": 0.274788,
-      "winRate": 0.4891
+      "sampleCount": 193,
+      "pickRate": 0.182247,
+      "winRate": 0.524284
     }
   },
   "defaultBuildKey": "crit",
@@ -71,6 +72,7 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 2370,
+      "lowSampleWarning": false,
       "pickRate": 0.454807,
       "winRate": 0.497878,
       "coreProfile": {
@@ -84,21 +86,16 @@
         ]
       },
       "starter": {
-        "sampleCount": 291,
-        "pickRate": 0.274788,
-        "winRate": 0.4891
+        "sampleCount": 193,
+        "pickRate": 0.182247,
+        "winRate": 0.524284
       },
       "items": {
         "starter": [
           {
-            "id": 1036,
-            "name": "长剑",
-            "icon": "assets/resources/items/1036.webp"
-          },
-          {
-            "id": 1037,
-            "name": "十字镐",
-            "icon": "assets/resources/items/1037.webp"
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
           }
         ],
         "core": [
@@ -168,21 +165,21 @@
             "icon": "assets/resources/items/3008.webp"
           },
           {
-            "id": 6672,
-            "name": "海妖杀手",
-            "sampleCount": 1617,
-            "pickRate": 0.273836,
-            "winRate": 0.512575,
-            "source": "fallback",
-            "icon": "assets/resources/items/6672.webp"
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 293,
+            "pickRate": 0.086431,
+            "winRate": 0.581544,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
           },
           {
             "id": 3153,
             "name": "破败王者之刃",
-            "sampleCount": 3434,
-            "pickRate": 0.581541,
-            "winRate": 0.504682,
-            "source": "fallback",
+            "sampleCount": 222,
+            "pickRate": 0.113788,
+            "winRate": 0.53656,
+            "source": "slot6",
             "icon": "assets/resources/items/3153.webp"
           }
         ]
@@ -196,23 +193,18 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 1,
-      "name": "净化",
-      "icon": "assets/resources/summoner-spells/1.webp"
+      "id": 14,
+      "name": "引燃",
+      "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
   "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
-      },
-      {
-        "id": 1037,
-        "name": "十字镐",
-        "icon": "assets/resources/items/1037.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
@@ -282,21 +274,21 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 1617,
-        "pickRate": 0.273836,
-        "winRate": 0.512575,
-        "source": "fallback",
-        "icon": "assets/resources/items/6672.webp"
+        "id": 3072,
+        "name": "饮血剑",
+        "sampleCount": 293,
+        "pickRate": 0.086431,
+        "winRate": 0.581544,
+        "source": "slot5",
+        "icon": "assets/resources/items/3072.webp"
       },
       {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 3434,
-        "pickRate": 0.581541,
-        "winRate": 0.504682,
-        "source": "fallback",
+        "sampleCount": 222,
+        "pickRate": 0.113788,
+        "winRate": 0.53656,
+        "source": "slot6",
         "icon": "assets/resources/items/3153.webp"
       }
     ]

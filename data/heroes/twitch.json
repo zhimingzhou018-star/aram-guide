@@ -47,6 +47,7 @@
     "key": "crit",
     "name": "暴击流",
     "sampleCount": 41978,
+    "lowSampleWarning": false,
     "pickRate": 0.755204,
     "winRate": 0.500869,
     "coreProfile": {
@@ -71,6 +72,7 @@
       "key": "crit",
       "name": "暴击流",
       "sampleCount": 41978,
+      "lowSampleWarning": false,
       "pickRate": 0.755204,
       "winRate": 0.500869,
       "coreProfile": {
@@ -154,31 +156,153 @@
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 6841,
-            "pickRate": 0.115898,
-            "winRate": 0.519407,
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 430,
+            "pickRate": 0.007285,
+            "winRate": 0.52562,
             "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "icon": "assets/resources/items/3111.webp"
           },
           {
-            "id": 3072,
-            "name": "饮血剑",
-            "sampleCount": 1541,
-            "pickRate": 0.037656,
-            "winRate": 0.538274,
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 468,
+            "pickRate": 0.011436,
+            "winRate": 0.638868,
             "source": "slot5",
-            "icon": "assets/resources/items/3072.webp"
+            "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3153,
-            "name": "破败王者之刃",
-            "sampleCount": 3839,
-            "pickRate": 0.148574,
-            "winRate": 0.563781,
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 163,
+            "pickRate": 0.006308,
+            "winRate": 0.694332,
             "source": "slot6",
-            "icon": "assets/resources/items/3153.webp"
+            "icon": "assets/resources/items/3046.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 2200,
+      "lowSampleWarning": false,
+      "pickRate": 0.039579,
+      "winRate": 0.431529,
+      "coreProfile": {
+        "sampleCount": 965,
+        "pickRate": 0.438636,
+        "winRate": 0.464998,
+        "itemIds": [
+          3115,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 257,
+        "pickRate": 0.368195,
+        "winRate": 0.426398
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 965,
+            "pickRate": 0.438636,
+            "winRate": 0.464998,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 430,
+            "pickRate": 0.007285,
+            "winRate": 0.52562,
+            "source": "boots",
+            "icon": "assets/resources/items/3111.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 468,
+            "pickRate": 0.011436,
+            "winRate": 0.638868,
+            "source": "slot5",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 163,
+            "pickRate": 0.006308,
+            "winRate": 0.694332,
+            "source": "slot6",
+            "icon": "assets/resources/items/3046.webp"
           }
         ]
       }
@@ -263,31 +387,31 @@
         "icon": "assets/resources/items/3031.webp"
       },
       {
-        "id": 3008,
-        "name": "暴食胫甲",
-        "sampleCount": 6841,
-        "pickRate": 0.115898,
-        "winRate": 0.519407,
+        "id": 3111,
+        "name": "水银之靴",
+        "sampleCount": 430,
+        "pickRate": 0.007285,
+        "winRate": 0.52562,
         "source": "boots",
-        "icon": "assets/resources/items/3008.webp"
+        "icon": "assets/resources/items/3111.webp"
       },
       {
-        "id": 3072,
-        "name": "饮血剑",
-        "sampleCount": 1541,
-        "pickRate": 0.037656,
-        "winRate": 0.538274,
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 468,
+        "pickRate": 0.011436,
+        "winRate": 0.638868,
         "source": "slot5",
-        "icon": "assets/resources/items/3072.webp"
+        "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 3839,
-        "pickRate": 0.148574,
-        "winRate": 0.563781,
+        "id": 3046,
+        "name": "幻影之舞",
+        "sampleCount": 163,
+        "pickRate": 0.006308,
+        "winRate": 0.694332,
         "source": "slot6",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/3046.webp"
       }
     ]
   },
