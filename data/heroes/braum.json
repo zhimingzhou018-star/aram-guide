@@ -18,16 +18,16 @@
     "icon": "assets/champions/braum.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Braum-Q.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Braum-E.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Braum-W.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Braum-Q.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

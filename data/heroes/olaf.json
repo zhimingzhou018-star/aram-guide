@@ -18,16 +18,16 @@
     "icon": "assets/champions/olaf.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Olaf-W.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Olaf-Q.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Olaf-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Olaf-W.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

@@ -18,16 +18,16 @@
     "icon": "assets/champions/zac.webp",
     "abilities": [
       {
+        "key": "E",
+        "icon": "assets/resources/abilities/Zac-E.webp"
+      },
+      {
         "key": "W",
         "icon": "assets/resources/abilities/Zac-W.webp"
       },
       {
         "key": "Q",
         "icon": "assets/resources/abilities/Zac-Q.webp"
-      },
-      {
-        "key": "E",
-        "icon": "assets/resources/abilities/Zac-E.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "E>W>Q",
   "items": {
     "starter": [
       {

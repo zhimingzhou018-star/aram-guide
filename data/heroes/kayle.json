@@ -19,16 +19,16 @@
     "icon": "assets/champions/kayle.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Kayle-W.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Kayle-E.webp"
       },
       {
         "key": "Q",
         "icon": "assets/resources/abilities/Kayle-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Kayle-W.webp"
       }
     ]
   },
@@ -323,7 +323,7 @@
       "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

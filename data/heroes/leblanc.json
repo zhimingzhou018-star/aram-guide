@@ -18,16 +18,16 @@
     "icon": "assets/champions/leblanc.webp",
     "abilities": [
       {
+        "key": "W",
+        "icon": "assets/resources/abilities/Leblanc-W.webp"
+      },
+      {
         "key": "Q",
         "icon": "assets/resources/abilities/Leblanc-Q.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Leblanc-E.webp"
-      },
-      {
-        "key": "W",
-        "icon": "assets/resources/abilities/Leblanc-W.webp"
       }
     ]
   },
@@ -196,7 +196,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "W>Q>E",
   "items": {
     "starter": [
       {

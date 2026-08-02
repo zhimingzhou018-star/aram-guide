@@ -18,16 +18,16 @@
     "icon": "assets/champions/caitlyn.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Caitlyn-Q.webp"
+      },
+      {
         "key": "W",
         "icon": "assets/resources/abilities/Caitlyn-W.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Caitlyn-E.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Caitlyn-Q.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

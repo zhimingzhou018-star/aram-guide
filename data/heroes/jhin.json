@@ -18,16 +18,16 @@
     "icon": "assets/champions/jhin.webp",
     "abilities": [
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/Jhin-E.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Jhin-Q.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Jhin-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Jhin-E.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "E>Q>W",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

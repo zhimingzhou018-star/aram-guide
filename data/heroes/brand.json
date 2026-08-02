@@ -18,16 +18,16 @@
     "icon": "assets/champions/brand.webp",
     "abilities": [
       {
+        "key": "W",
+        "icon": "assets/resources/abilities/Brand-W.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Brand-E.webp"
       },
       {
         "key": "Q",
         "icon": "assets/resources/abilities/Brand-Q.webp"
-      },
-      {
-        "key": "W",
-        "icon": "assets/resources/abilities/Brand-W.webp"
       }
     ]
   },
@@ -196,7 +196,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "E>Q>W",
+  "skillOrder": "W>E>Q",
   "items": {
     "starter": [
       {

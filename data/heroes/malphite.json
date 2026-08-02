@@ -20,16 +20,16 @@
     "icon": "assets/champions/malphite.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Malphite-W.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Malphite-Q.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Malphite-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Malphite-W.webp"
       }
     ]
   },
@@ -319,7 +319,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

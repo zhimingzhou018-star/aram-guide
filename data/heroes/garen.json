@@ -18,16 +18,16 @@
     "icon": "assets/champions/garen.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Garen-W.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Garen-E.webp"
       },
       {
         "key": "Q",
         "icon": "assets/resources/abilities/Garen-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Garen-W.webp"
       }
     ]
   },
@@ -443,7 +443,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

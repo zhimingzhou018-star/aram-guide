@@ -18,16 +18,16 @@
     "icon": "assets/champions/vi.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Vi-W.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Vi-Q.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Vi-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Vi-W.webp"
       }
     ]
   },
@@ -443,7 +443,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

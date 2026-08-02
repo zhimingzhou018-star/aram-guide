@@ -19,16 +19,16 @@
     "icon": "assets/champions/seraphine.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Seraphine-Q.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Seraphine-E.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Seraphine-W.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Seraphine-Q.webp"
       }
     ]
   },
@@ -197,7 +197,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

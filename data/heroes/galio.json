@@ -18,16 +18,16 @@
     "icon": "assets/champions/galio.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Galio-Q.webp"
+      },
+      {
         "key": "W",
         "icon": "assets/resources/abilities/Galio-W.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Galio-E.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Galio-Q.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

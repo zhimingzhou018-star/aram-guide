@@ -17,16 +17,16 @@
     "icon": "assets/champions/veigar.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Veigar-Q.webp"
+      },
+      {
         "key": "W",
         "icon": "assets/resources/abilities/Veigar-W.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Veigar-E.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Veigar-Q.webp"
       }
     ]
   },
@@ -195,7 +195,7 @@
       "icon": "assets/resources/summoner-spells/21.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

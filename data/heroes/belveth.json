@@ -17,12 +17,12 @@
     "icon": "assets/champions/belveth.webp",
     "abilities": [
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/Belveth-E.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Belveth-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Belveth-E.webp"
       },
       {
         "key": "W",
@@ -200,7 +200,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "E>Q>W",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

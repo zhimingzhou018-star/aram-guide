@@ -17,12 +17,12 @@
     "icon": "assets/champions/rammus.webp",
     "abilities": [
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/Rammus-E.webp"
-      },
-      {
         "key": "W",
         "icon": "assets/resources/abilities/Rammus-W.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Rammus-E.webp"
       },
       {
         "key": "Q",
@@ -200,7 +200,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "W>E>Q",
   "items": {
     "starter": [
       {

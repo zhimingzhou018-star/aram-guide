@@ -18,16 +18,16 @@
     "icon": "assets/champions/karma.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Karma-Q.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Karma-E.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Karma-W.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Karma-Q.webp"
       }
     ]
   },
@@ -317,7 +317,7 @@
       "icon": "assets/resources/summoner-spells/7.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

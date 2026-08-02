@@ -18,12 +18,12 @@
     "icon": "assets/champions/vladimir.webp",
     "abilities": [
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/Vladimir-E.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Vladimir-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Vladimir-E.webp"
       },
       {
         "key": "W",
@@ -317,7 +317,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "E>Q>W",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

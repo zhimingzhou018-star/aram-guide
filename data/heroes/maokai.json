@@ -18,16 +18,16 @@
     "icon": "assets/champions/maokai.webp",
     "abilities": [
       {
+        "key": "E",
+        "icon": "assets/resources/abilities/Maokai-E.webp"
+      },
+      {
         "key": "Q",
         "icon": "assets/resources/abilities/Maokai-Q.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Maokai-W.webp"
-      },
-      {
-        "key": "E",
-        "icon": "assets/resources/abilities/Maokai-E.webp"
       }
     ]
   },
@@ -317,7 +317,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "Q>W>E",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

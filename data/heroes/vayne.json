@@ -19,12 +19,12 @@
     "icon": "assets/champions/vayne.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Vayne-W.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Vayne-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Vayne-W.webp"
       },
       {
         "key": "E",
@@ -323,7 +323,7 @@
       "icon": "assets/resources/summoner-spells/1.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

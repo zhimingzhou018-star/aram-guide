@@ -18,16 +18,16 @@
     "icon": "assets/champions/teemo.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Teemo-Q.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Teemo-E.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Teemo-W.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Teemo-Q.webp"
       }
     ]
   },
@@ -196,7 +196,7 @@
       "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

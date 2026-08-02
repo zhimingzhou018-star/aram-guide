@@ -19,12 +19,12 @@
     "icon": "assets/champions/yasuo.webp",
     "abilities": [
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/Yasuo-E.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Yasuo-Q.webp"
+      },
+      {
+        "key": "E",
+        "icon": "assets/resources/abilities/Yasuo-E.webp"
       },
       {
         "key": "W",
@@ -323,7 +323,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "E>Q>W",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

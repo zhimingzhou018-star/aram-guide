@@ -18,16 +18,16 @@
     "icon": "assets/champions/nautilus.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Nautilus-Q.webp"
+      },
+      {
         "key": "W",
         "icon": "assets/resources/abilities/Nautilus-W.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Nautilus-E.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Nautilus-Q.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

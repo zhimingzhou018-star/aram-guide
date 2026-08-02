@@ -18,16 +18,16 @@
     "icon": "assets/champions/janna.webp",
     "abilities": [
       {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Janna-Q.webp"
+      },
+      {
         "key": "E",
         "icon": "assets/resources/abilities/Janna-E.webp"
       },
       {
         "key": "W",
         "icon": "assets/resources/abilities/Janna-W.webp"
-      },
-      {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Janna-Q.webp"
       }
     ]
   },
@@ -201,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/7.webp"
     }
   ],
-  "skillOrder": "E>W>Q",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {

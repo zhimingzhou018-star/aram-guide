@@ -18,12 +18,12 @@
     "icon": "assets/champions/malzahar.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Malzahar-Q.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Malzahar-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Malzahar-Q.webp"
       },
       {
         "key": "W",
@@ -196,7 +196,7 @@
       "icon": "assets/resources/summoner-spells/14.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {
