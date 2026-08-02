@@ -77,6 +77,23 @@ class AllGuidesTests(unittest.TestCase):
                 ]
         self.assertEqual(invalid, [])
 
+    def test_all_recommended_items_are_unique_and_linked_to_the_selected_route(self):
+        invalid = []
+        expected_sources = ["routeBoots", "routeLater", "routeLater"]
+        for slug, guide in self.guides.items():
+            for build in guide.get("builds", []):
+                recommended = build["items"]["recommended"]
+                ids = [row["id"] for row in recommended]
+                if len(ids) != len(set(ids)):
+                    invalid.append((slug, build["key"], "duplicate", ids))
+                if [row.get("source") for row in recommended[3:]] != expected_sources:
+                    invalid.append((slug, build["key"], "source"))
+                for row in recommended[3:]:
+                    if float(row.get("pickRate") or 0) < 0.01:
+                        invalid.append((slug, build["key"], "pickRate", row["id"], row.get("pickRate")))
+
+        self.assertEqual(invalid, [])
+
     def test_required_search_aliases_are_present(self):
         self.assertIn("石头", self.guides["malphite"]["hero"]["aliases"])
         self.assertIn("石头人", self.guides["malphite"]["hero"]["aliases"])

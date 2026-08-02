@@ -44,157 +44,30 @@
     "pickRatePercent": 9.07
   },
   "build": {
-    "key": "bruiser",
-    "name": "战士流",
-    "sampleCount": 521,
+    "key": "on_hit",
+    "name": "攻速特效流",
+    "sampleCount": 1543,
     "lowSampleWarning": false,
-    "pickRate": 0.015141,
-    "winRate": 0.554326,
+    "pickRate": 0.044842,
+    "winRate": 0.516175,
     "coreProfile": {
-      "sampleCount": 243,
-      "pickRate": 0.466411,
-      "winRate": 0.594412,
+      "sampleCount": 863,
+      "pickRate": 0.5593,
+      "winRate": 0.544634,
       "itemIds": [
         3087,
-        3071,
-        2523
+        124011,
+        3085
       ]
     },
     "starter": {
-      "sampleCount": 127,
-      "pickRate": 0.593458,
-      "winRate": 0.635499
+      "sampleCount": 124,
+      "pickRate": 0.401294,
+      "winRate": 0.546091
     }
   },
-  "defaultBuildKey": "bruiser",
+  "defaultBuildKey": "on_hit",
   "builds": [
-    {
-      "key": "bruiser",
-      "name": "战士流",
-      "sampleCount": 521,
-      "lowSampleWarning": false,
-      "pickRate": 0.015141,
-      "winRate": 0.554326,
-      "coreProfile": {
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
-        "itemIds": [
-          3087,
-          3071,
-          2523
-        ]
-      },
-      "starter": {
-        "sampleCount": 127,
-        "pickRate": 0.593458,
-        "winRate": 0.635499
-      },
-      "items": {
-        "starter": [
-          {
-            "id": 1037,
-            "name": "十字镐",
-            "icon": "assets/resources/items/1037.webp"
-          },
-          {
-            "id": 1042,
-            "name": "短剑",
-            "icon": "assets/resources/items/1042.webp"
-          },
-          {
-            "id": 1042,
-            "name": "短剑",
-            "icon": "assets/resources/items/1042.webp"
-          }
-        ],
-        "core": [
-          {
-            "id": 3087,
-            "name": "斯塔缇克电刃",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3087.webp"
-          },
-          {
-            "id": 3071,
-            "name": "黑色切割者",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3071.webp"
-          },
-          {
-            "id": 2523,
-            "name": "海克斯镜片 C44",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2523.webp"
-          }
-        ],
-        "recommended": [
-          {
-            "id": 3087,
-            "name": "斯塔缇克电刃",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3087.webp"
-          },
-          {
-            "id": 3071,
-            "name": "黑色切割者",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3071.webp"
-          },
-          {
-            "id": 2523,
-            "name": "海克斯镜片 C44",
-            "sampleCount": 243,
-            "pickRate": 0.466411,
-            "winRate": 0.594412,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2523.webp"
-          },
-          {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 431,
-            "pickRate": 0.011172,
-            "winRate": 0.547588,
-            "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
-          },
-          {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 420,
-            "pickRate": 0.017451,
-            "winRate": 0.595323,
-            "source": "slot5",
-            "icon": "assets/resources/items/6621.webp"
-          },
-          {
-            "id": 3504,
-            "name": "炽热香炉",
-            "sampleCount": 217,
-            "pickRate": 0.015123,
-            "winRate": 0.605999,
-            "source": "slot6",
-            "icon": "assets/resources/items/3504.webp"
-          }
-        ]
-      }
-    },
     {
       "key": "on_hit",
       "name": "攻速特效流",
@@ -293,30 +166,30 @@
             "icon": "assets/resources/items/3085.webp"
           },
           {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 431,
-            "pickRate": 0.011172,
-            "winRate": 0.547588,
-            "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 52,
+            "pickRate": 0.168285,
+            "winRate": 0.65155,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3009.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 420,
-            "pickRate": 0.017451,
-            "winRate": 0.595323,
-            "source": "slot5",
-            "icon": "assets/resources/items/6621.webp"
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 91,
+            "pickRate": 0.294498,
+            "winRate": 0.558144,
+            "source": "routeLater",
+            "icon": "assets/resources/items/6617.webp"
           },
           {
             "id": 3504,
             "name": "炽热香炉",
-            "sampleCount": 217,
-            "pickRate": 0.015123,
-            "winRate": 0.605999,
-            "source": "slot6",
+            "sampleCount": 65,
+            "pickRate": 0.210356,
+            "winRate": 0.490012,
+            "source": "routeLater",
             "icon": "assets/resources/items/3504.webp"
           }
         ]
@@ -415,31 +288,31 @@
             "icon": "assets/resources/items/3004.webp"
           },
           {
-            "id": 3158,
-            "name": "明朗之靴",
-            "sampleCount": 431,
-            "pickRate": 0.011172,
-            "winRate": 0.547588,
-            "source": "boots",
-            "icon": "assets/resources/items/3158.webp"
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "sampleCount": 246,
+            "pickRate": 0.449726,
+            "winRate": 0.477379,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3006.webp"
           },
           {
-            "id": 6621,
-            "name": "黎明核心",
-            "sampleCount": 420,
-            "pickRate": 0.017451,
-            "winRate": 0.595323,
-            "source": "slot5",
-            "icon": "assets/resources/items/6621.webp"
+            "id": 3094,
+            "name": "疾射火炮",
+            "sampleCount": 144,
+            "pickRate": 0.263254,
+            "winRate": 0.525482,
+            "source": "routeLater",
+            "icon": "assets/resources/items/3094.webp"
           },
           {
-            "id": 3504,
-            "name": "炽热香炉",
-            "sampleCount": 217,
-            "pickRate": 0.015123,
-            "winRate": 0.605999,
-            "source": "slot6",
-            "icon": "assets/resources/items/3504.webp"
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 199,
+            "pickRate": 0.363803,
+            "winRate": 0.460016,
+            "source": "routeLater",
+            "icon": "assets/resources/items/3036.webp"
           }
         ]
       }
@@ -480,84 +353,84 @@
       {
         "id": 3087,
         "name": "斯塔缇克电刃",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
         "icon": "assets/resources/items/3087.webp"
       },
       {
-        "id": 3071,
-        "name": "黑色切割者",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "id": 124011,
+        "name": "花晓之剑",
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3071.webp"
+        "icon": "assets/resources/items/124011.webp"
       },
       {
-        "id": 2523,
-        "name": "海克斯镜片 C44",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2523.webp"
+        "icon": "assets/resources/items/3085.webp"
       }
     ],
     "recommended": [
       {
         "id": 3087,
         "name": "斯塔缇克电刃",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
         "icon": "assets/resources/items/3087.webp"
       },
       {
-        "id": 3071,
-        "name": "黑色切割者",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "id": 124011,
+        "name": "花晓之剑",
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3071.webp"
+        "icon": "assets/resources/items/124011.webp"
       },
       {
-        "id": 2523,
-        "name": "海克斯镜片 C44",
-        "sampleCount": 243,
-        "pickRate": 0.466411,
-        "winRate": 0.594412,
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 863,
+        "pickRate": 0.5593,
+        "winRate": 0.544634,
         "source": "coreProfile",
-        "icon": "assets/resources/items/2523.webp"
+        "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3158,
-        "name": "明朗之靴",
-        "sampleCount": 431,
-        "pickRate": 0.011172,
-        "winRate": 0.547588,
-        "source": "boots",
-        "icon": "assets/resources/items/3158.webp"
+        "id": 3009,
+        "name": "轻灵之靴",
+        "sampleCount": 52,
+        "pickRate": 0.168285,
+        "winRate": 0.65155,
+        "source": "routeBoots",
+        "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 6621,
-        "name": "黎明核心",
-        "sampleCount": 420,
-        "pickRate": 0.017451,
-        "winRate": 0.595323,
-        "source": "slot5",
-        "icon": "assets/resources/items/6621.webp"
+        "id": 6617,
+        "name": "月石再生器",
+        "sampleCount": 91,
+        "pickRate": 0.294498,
+        "winRate": 0.558144,
+        "source": "routeLater",
+        "icon": "assets/resources/items/6617.webp"
       },
       {
         "id": 3504,
         "name": "炽热香炉",
-        "sampleCount": 217,
-        "pickRate": 0.015123,
-        "winRate": 0.605999,
-        "source": "slot6",
+        "sampleCount": 65,
+        "pickRate": 0.210356,
+        "winRate": 0.490012,
+        "source": "routeLater",
         "icon": "assets/resources/items/3504.webp"
       }
     ]

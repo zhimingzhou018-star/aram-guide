@@ -163,29 +163,29 @@
           {
             "id": 3008,
             "name": "暴食胫甲",
-            "sampleCount": 2564,
-            "pickRate": 0.107736,
-            "winRate": 0.563289,
-            "source": "boots",
+            "sampleCount": 81,
+            "pickRate": 0.145683,
+            "winRate": 0.661703,
+            "source": "routeBoots",
             "icon": "assets/resources/items/3008.webp"
-          },
-          {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 130,
-            "pickRate": 0.009718,
-            "winRate": 0.54119,
-            "source": "slot5",
-            "icon": "assets/resources/items/3116.webp"
           },
           {
             "id": 3135,
             "name": "虚空之杖",
-            "sampleCount": 382,
-            "pickRate": 0.051755,
-            "winRate": 0.563099,
-            "source": "slot6",
+            "sampleCount": 222,
+            "pickRate": 0.399281,
+            "winRate": 0.585126,
+            "source": "routeLater",
             "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 121,
+            "pickRate": 0.217626,
+            "winRate": 0.55702,
+            "source": "routeLater",
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -283,31 +283,31 @@
             "icon": "assets/resources/items/6610.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 2564,
-            "pickRate": 0.107736,
-            "winRate": 0.563289,
-            "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 110,
+            "pickRate": 0.436508,
+            "winRate": 0.440491,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3111.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 130,
-            "pickRate": 0.009718,
-            "winRate": 0.54119,
-            "source": "slot5",
-            "icon": "assets/resources/items/3116.webp"
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 58,
+            "pickRate": 0.230159,
+            "winRate": 0.512278,
+            "source": "routeLater",
+            "icon": "assets/resources/items/4633.webp"
           },
           {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 382,
-            "pickRate": 0.051755,
-            "winRate": 0.563099,
-            "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 64,
+            "pickRate": 0.253968,
+            "winRate": 0.479411,
+            "source": "routeLater",
+            "icon": "assets/resources/items/6333.webp"
           }
         ]
       }
@@ -320,19 +320,19 @@
       "pickRate": 0.108053,
       "winRate": 0.480887,
       "coreProfile": {
-        "sampleCount": 399,
-        "pickRate": 0.173705,
-        "winRate": 0.486264,
+        "sampleCount": 1442,
+        "pickRate": 0.627775,
+        "winRate": 0.485328,
         "itemIds": [
           3084,
-          2502,
-          2510
+          3083,
+          2502
         ]
       },
       "starter": {
-        "sampleCount": 170,
-        "pickRate": 0.723404,
-        "winRate": 0.489154
+        "sampleCount": 683,
+        "pickRate": 0.819928,
+        "winRate": 0.469414
       },
       "items": {
         "starter": [
@@ -351,85 +351,85 @@
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
-            "id": 2502,
-            "name": "无终恨意",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2502.webp"
+            "icon": "assets/resources/items/3083.webp"
           },
           {
-            "id": 2510,
-            "name": "黄昏与黎明",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
             "source": "coreProfile",
-            "icon": "assets/resources/items/2510.webp"
+            "icon": "assets/resources/items/2502.webp"
           }
         ],
         "recommended": [
           {
             "id": 3084,
             "name": "心之钢",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
             "source": "coreProfile",
             "icon": "assets/resources/items/3084.webp"
           },
           {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
             "id": 2502,
             "name": "无终恨意",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
+            "sampleCount": 1442,
+            "pickRate": 0.627775,
+            "winRate": 0.485328,
             "source": "coreProfile",
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 2510,
-            "name": "黄昏与黎明",
-            "sampleCount": 399,
-            "pickRate": 0.173705,
-            "winRate": 0.486264,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/2510.webp"
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 217,
+            "pickRate": 0.260504,
+            "winRate": 0.49734,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3111.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 2564,
-            "pickRate": 0.107736,
-            "winRate": 0.563289,
-            "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 165,
+            "pickRate": 0.198079,
+            "winRate": 0.492006,
+            "source": "routeLater",
+            "icon": "assets/resources/items/2501.webp"
           },
           {
-            "id": 3116,
-            "name": "瑞莱的冰晶节杖",
-            "sampleCount": 130,
-            "pickRate": 0.009718,
-            "winRate": 0.54119,
-            "source": "slot5",
-            "icon": "assets/resources/items/3116.webp"
-          },
-          {
-            "id": 3135,
-            "name": "虚空之杖",
-            "sampleCount": 382,
-            "pickRate": 0.051755,
-            "winRate": 0.563099,
-            "source": "slot6",
-            "icon": "assets/resources/items/3135.webp"
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 277,
+            "pickRate": 0.332533,
+            "winRate": 0.45713,
+            "source": "routeLater",
+            "icon": "assets/resources/items/4633.webp"
           }
         ]
       }
@@ -521,29 +521,29 @@
       {
         "id": 3008,
         "name": "暴食胫甲",
-        "sampleCount": 2564,
-        "pickRate": 0.107736,
-        "winRate": 0.563289,
-        "source": "boots",
+        "sampleCount": 81,
+        "pickRate": 0.145683,
+        "winRate": 0.661703,
+        "source": "routeBoots",
         "icon": "assets/resources/items/3008.webp"
-      },
-      {
-        "id": 3116,
-        "name": "瑞莱的冰晶节杖",
-        "sampleCount": 130,
-        "pickRate": 0.009718,
-        "winRate": 0.54119,
-        "source": "slot5",
-        "icon": "assets/resources/items/3116.webp"
       },
       {
         "id": 3135,
         "name": "虚空之杖",
-        "sampleCount": 382,
-        "pickRate": 0.051755,
-        "winRate": 0.563099,
-        "source": "slot6",
+        "sampleCount": 222,
+        "pickRate": 0.399281,
+        "winRate": 0.585126,
+        "source": "routeLater",
         "icon": "assets/resources/items/3135.webp"
+      },
+      {
+        "id": 4633,
+        "name": "裂隙制造者",
+        "sampleCount": 121,
+        "pickRate": 0.217626,
+        "winRate": 0.55702,
+        "source": "routeLater",
+        "icon": "assets/resources/items/4633.webp"
       }
     ]
   },

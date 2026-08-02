@@ -52,19 +52,19 @@
     "pickRate": 0.533374,
     "winRate": 0.525717,
     "coreProfile": {
-      "sampleCount": 518,
-      "pickRate": 0.085071,
-      "winRate": 0.553423,
+      "sampleCount": 365,
+      "pickRate": 0.059944,
+      "winRate": 0.55299,
       "itemIds": [
         6676,
-        6696,
-        3031
+        3031,
+        3033
       ]
     },
     "starter": {
-      "sampleCount": 111,
-      "pickRate": 0.45679,
-      "winRate": 0.566293
+      "sampleCount": 109,
+      "pickRate": 0.369492,
+      "winRate": 0.593734
     }
   },
   "defaultBuildKey": "crit",
@@ -77,19 +77,19 @@
       "pickRate": 0.533374,
       "winRate": 0.525717,
       "coreProfile": {
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
         "itemIds": [
           6676,
-          6696,
-          3031
+          3031,
+          3033
         ]
       },
       "starter": {
-        "sampleCount": 111,
-        "pickRate": 0.45679,
-        "winRate": 0.566293
+        "sampleCount": 109,
+        "pickRate": 0.369492,
+        "winRate": 0.593734
       },
       "items": {
         "starter": [
@@ -108,202 +108,85 @@
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
-            "id": 6696,
-            "name": "公理圆弧",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6696.webp"
-          },
-          {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3033.webp"
           }
         ],
         "recommended": [
           {
             "id": 6676,
             "name": "收集者",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
             "source": "coreProfile",
             "icon": "assets/resources/items/6676.webp"
           },
           {
-            "id": 6696,
-            "name": "公理圆弧",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6696.webp"
-          },
-          {
             "id": 3031,
             "name": "无尽之刃",
-            "sampleCount": 518,
-            "pickRate": 0.085071,
-            "winRate": 0.553423,
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
             "source": "coreProfile",
             "icon": "assets/resources/items/3031.webp"
           },
           {
-            "id": 3008,
-            "name": "暴食胫甲",
-            "sampleCount": 2531,
-            "pickRate": 0.197118,
-            "winRate": 0.560328,
-            "source": "boots",
-            "icon": "assets/resources/items/3008.webp"
-          },
-          {
-            "id": 6672,
-            "name": "海妖杀手",
-            "sampleCount": 161,
-            "pickRate": 0.020994,
-            "winRate": 0.580115,
-            "source": "slot5",
-            "icon": "assets/resources/items/6672.webp"
-          },
-          {
-            "id": 3156,
-            "name": "玛莫提乌斯之噬",
-            "sampleCount": 117,
-            "pickRate": 0.025782,
-            "winRate": 0.566524,
-            "source": "slot6",
-            "icon": "assets/resources/items/3156.webp"
-          }
-        ]
-      }
-    },
-    {
-      "key": "ap",
-      "name": "法术流",
-      "sampleCount": 527,
-      "lowSampleWarning": false,
-      "pickRate": 0.046163,
-      "winRate": 0.446509,
-      "coreProfile": {
-        "sampleCount": 298,
-        "pickRate": 0.565465,
-        "winRate": 0.46006,
-        "itemIds": [
-          6655,
-          4645,
-          3089
-        ]
-      },
-      "starter": {
-        "sampleCount": 194,
-        "pickRate": 0.788618,
-        "winRate": 0.467705
-      },
-      "items": {
-        "starter": [
-          {
-            "id": 3802,
-            "name": "遗失的章节",
-            "icon": "assets/resources/items/3802.webp"
-          }
-        ],
-        "core": [
-          {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
+            "id": 3033,
+            "name": "凡性的提醒",
+            "sampleCount": 365,
+            "pickRate": 0.059944,
+            "winRate": 0.55299,
             "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
-          },
-          {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
-          },
-          {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3089.webp"
-          }
-        ],
-        "recommended": [
-          {
-            "id": 6655,
-            "name": "卢登的回声",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/6655.webp"
-          },
-          {
-            "id": 4645,
-            "name": "影焰",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/4645.webp"
-          },
-          {
-            "id": 3089,
-            "name": "灭世者的死亡之帽",
-            "sampleCount": 298,
-            "pickRate": 0.565465,
-            "winRate": 0.46006,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3089.webp"
+            "icon": "assets/resources/items/3033.webp"
           },
           {
             "id": 3008,
             "name": "暴食胫甲",
-            "sampleCount": 2531,
-            "pickRate": 0.197118,
-            "winRate": 0.560328,
-            "source": "boots",
+            "sampleCount": 97,
+            "pickRate": 0.328814,
+            "winRate": 0.565643,
+            "source": "routeBoots",
             "icon": "assets/resources/items/3008.webp"
           },
           {
             "id": 6696,
             "name": "公理圆弧",
-            "sampleCount": 284,
-            "pickRate": 0.037032,
-            "winRate": 0.60953,
-            "source": "slot5",
+            "sampleCount": 53,
+            "pickRate": 0.179661,
+            "winRate": 0.712307,
+            "source": "routeLater",
             "icon": "assets/resources/items/6696.webp"
           },
           {
-            "id": 3156,
-            "name": "玛莫提乌斯之噬",
-            "sampleCount": 117,
-            "pickRate": 0.025782,
-            "winRate": 0.566524,
-            "source": "slot6",
-            "icon": "assets/resources/items/3156.webp"
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 67,
+            "pickRate": 0.227119,
+            "winRate": 0.563335,
+            "source": "routeLater",
+            "icon": "assets/resources/items/3072.webp"
           }
         ]
       }
@@ -339,85 +222,85 @@
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
-        "id": 6696,
-        "name": "公理圆弧",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6696.webp"
-      },
-      {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
+      },
+      {
+        "id": 3033,
+        "name": "凡性的提醒",
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3033.webp"
       }
     ],
     "recommended": [
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
-        "id": 6696,
-        "name": "公理圆弧",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6696.webp"
-      },
-      {
         "id": 3031,
         "name": "无尽之刃",
-        "sampleCount": 518,
-        "pickRate": 0.085071,
-        "winRate": 0.553423,
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
         "source": "coreProfile",
         "icon": "assets/resources/items/3031.webp"
       },
       {
+        "id": 3033,
+        "name": "凡性的提醒",
+        "sampleCount": 365,
+        "pickRate": 0.059944,
+        "winRate": 0.55299,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3033.webp"
+      },
+      {
         "id": 3008,
         "name": "暴食胫甲",
-        "sampleCount": 2531,
-        "pickRate": 0.197118,
-        "winRate": 0.560328,
-        "source": "boots",
+        "sampleCount": 97,
+        "pickRate": 0.328814,
+        "winRate": 0.565643,
+        "source": "routeBoots",
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 161,
-        "pickRate": 0.020994,
-        "winRate": 0.580115,
-        "source": "slot5",
-        "icon": "assets/resources/items/6672.webp"
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 53,
+        "pickRate": 0.179661,
+        "winRate": 0.712307,
+        "source": "routeLater",
+        "icon": "assets/resources/items/6696.webp"
       },
       {
-        "id": 3156,
-        "name": "玛莫提乌斯之噬",
-        "sampleCount": 117,
-        "pickRate": 0.025782,
-        "winRate": 0.566524,
-        "source": "slot6",
-        "icon": "assets/resources/items/3156.webp"
+        "id": 3072,
+        "name": "饮血剑",
+        "sampleCount": 67,
+        "pickRate": 0.227119,
+        "winRate": 0.563335,
+        "source": "routeLater",
+        "icon": "assets/resources/items/3072.webp"
       }
     ]
   },

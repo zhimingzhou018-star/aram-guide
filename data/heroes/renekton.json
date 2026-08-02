@@ -51,19 +51,19 @@
     "pickRate": 0.405919,
     "winRate": 0.454117,
     "coreProfile": {
-      "sampleCount": 405,
-      "pickRate": 0.042426,
-      "winRate": 0.514104,
+      "sampleCount": 581,
+      "pickRate": 0.060863,
+      "winRate": 0.506548,
       "itemIds": [
+        126697,
         6610,
-        3071,
         6333
       ]
     },
     "starter": {
-      "sampleCount": 111,
-      "pickRate": 0.560606,
-      "winRate": 0.478001
+      "sampleCount": 215,
+      "pickRate": 0.475664,
+      "winRate": 0.512151
     }
   },
   "defaultBuildKey": "bruiser",
@@ -76,116 +76,116 @@
       "pickRate": 0.405919,
       "winRate": 0.454117,
       "coreProfile": {
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
         "itemIds": [
+          126697,
           6610,
-          3071,
           6333
         ]
       },
       "starter": {
-        "sampleCount": 111,
-        "pickRate": 0.560606,
-        "winRate": 0.478001
+        "sampleCount": 215,
+        "pickRate": 0.475664,
+        "winRate": 0.512151
       },
       "items": {
         "starter": [
           {
-            "id": 2021,
-            "name": "掘道钻头",
-            "icon": "assets/resources/items/2021.webp"
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
           },
           {
-            "id": 2022,
-            "name": "荧尘",
-            "icon": "assets/resources/items/2022.webp"
+            "id": 3133,
+            "name": "考尔菲德的战锤",
+            "icon": "assets/resources/items/3133.webp"
           }
         ],
         "core": [
           {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
             "id": 6610,
             "name": "焚天",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
             "source": "coreProfile",
             "icon": "assets/resources/items/6610.webp"
           },
           {
-            "id": 3071,
-            "name": "黑色切割者",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3071.webp"
-          },
-          {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           }
         ],
         "recommended": [
           {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
             "id": 6610,
             "name": "焚天",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
             "source": "coreProfile",
             "icon": "assets/resources/items/6610.webp"
           },
           {
-            "id": 3071,
-            "name": "黑色切割者",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
-            "source": "coreProfile",
-            "icon": "assets/resources/items/3071.webp"
-          },
-          {
             "id": 6333,
             "name": "死亡之舞",
-            "sampleCount": 405,
-            "pickRate": 0.042426,
-            "winRate": 0.514104,
+            "sampleCount": 581,
+            "pickRate": 0.060863,
+            "winRate": 0.506548,
             "source": "coreProfile",
             "icon": "assets/resources/items/6333.webp"
           },
           {
-            "id": 3009,
-            "name": "轻灵之靴",
-            "sampleCount": 109,
-            "pickRate": 0.004119,
-            "winRate": 0.505111,
-            "source": "boots",
-            "icon": "assets/resources/items/3009.webp"
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 206,
+            "pickRate": 0.455752,
+            "winRate": 0.505378,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3111.webp"
           },
           {
-            "id": 3073,
-            "name": "海克斯注力刚壁",
-            "sampleCount": 121,
-            "pickRate": 0.007921,
-            "winRate": 0.504656,
-            "source": "slot5",
-            "icon": "assets/resources/items/3073.webp"
+            "id": 6692,
+            "name": "星蚀",
+            "sampleCount": 67,
+            "pickRate": 0.14823,
+            "winRate": 0.612464,
+            "source": "routeLater",
+            "icon": "assets/resources/items/6692.webp"
           },
           {
-            "id": 2501,
-            "name": "霸王血铠",
-            "sampleCount": 259,
-            "pickRate": 0.031463,
-            "winRate": 0.52562,
-            "source": "slot6",
-            "icon": "assets/resources/items/2501.webp"
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 106,
+            "pickRate": 0.234513,
+            "winRate": 0.528825,
+            "source": "routeLater",
+            "icon": "assets/resources/items/3161.webp"
           }
         ]
       }
@@ -283,31 +283,31 @@
             "icon": "assets/resources/items/2502.webp"
           },
           {
-            "id": 3009,
-            "name": "轻灵之靴",
-            "sampleCount": 109,
-            "pickRate": 0.004119,
-            "winRate": 0.505111,
-            "source": "boots",
-            "icon": "assets/resources/items/3009.webp"
-          },
-          {
-            "id": 3073,
-            "name": "海克斯注力刚壁",
-            "sampleCount": 121,
-            "pickRate": 0.007921,
-            "winRate": 0.504656,
-            "source": "slot5",
-            "icon": "assets/resources/items/3073.webp"
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 55,
+            "pickRate": 0.275,
+            "winRate": 0.400524,
+            "source": "routeBoots",
+            "icon": "assets/resources/items/3111.webp"
           },
           {
             "id": 2501,
             "name": "霸王血铠",
-            "sampleCount": 259,
-            "pickRate": 0.031463,
-            "winRate": 0.52562,
-            "source": "slot6",
+            "sampleCount": 63,
+            "pickRate": 0.315,
+            "winRate": 0.635444,
+            "source": "routeLater",
             "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 57,
+            "pickRate": 0.285,
+            "winRate": 0.526839,
+            "source": "routeLater",
+            "icon": "assets/resources/items/3065.webp"
           }
         ]
       }
@@ -329,99 +329,99 @@
   "items": {
     "starter": [
       {
-        "id": 2021,
-        "name": "掘道钻头",
-        "icon": "assets/resources/items/2021.webp"
+        "id": 1036,
+        "name": "长剑",
+        "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 2022,
-        "name": "荧尘",
-        "icon": "assets/resources/items/2022.webp"
+        "id": 3133,
+        "name": "考尔菲德的战锤",
+        "icon": "assets/resources/items/3133.webp"
       }
     ],
     "core": [
       {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
         "id": 6610,
         "name": "焚天",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
         "source": "coreProfile",
         "icon": "assets/resources/items/6610.webp"
       },
       {
-        "id": 3071,
-        "name": "黑色切割者",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3071.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       }
     ],
     "recommended": [
       {
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/126697.webp"
+      },
+      {
         "id": 6610,
         "name": "焚天",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
         "source": "coreProfile",
         "icon": "assets/resources/items/6610.webp"
       },
       {
-        "id": 3071,
-        "name": "黑色切割者",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3071.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 405,
-        "pickRate": 0.042426,
-        "winRate": 0.514104,
+        "sampleCount": 581,
+        "pickRate": 0.060863,
+        "winRate": 0.506548,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
       },
       {
-        "id": 3009,
-        "name": "轻灵之靴",
-        "sampleCount": 109,
-        "pickRate": 0.004119,
-        "winRate": 0.505111,
-        "source": "boots",
-        "icon": "assets/resources/items/3009.webp"
+        "id": 3111,
+        "name": "水银之靴",
+        "sampleCount": 206,
+        "pickRate": 0.455752,
+        "winRate": 0.505378,
+        "source": "routeBoots",
+        "icon": "assets/resources/items/3111.webp"
       },
       {
-        "id": 3073,
-        "name": "海克斯注力刚壁",
-        "sampleCount": 121,
-        "pickRate": 0.007921,
-        "winRate": 0.504656,
-        "source": "slot5",
-        "icon": "assets/resources/items/3073.webp"
+        "id": 6692,
+        "name": "星蚀",
+        "sampleCount": 67,
+        "pickRate": 0.14823,
+        "winRate": 0.612464,
+        "source": "routeLater",
+        "icon": "assets/resources/items/6692.webp"
       },
       {
-        "id": 2501,
-        "name": "霸王血铠",
-        "sampleCount": 259,
-        "pickRate": 0.031463,
-        "winRate": 0.52562,
-        "source": "slot6",
-        "icon": "assets/resources/items/2501.webp"
+        "id": 3161,
+        "name": "朔极之矛",
+        "sampleCount": 106,
+        "pickRate": 0.234513,
+        "winRate": 0.528825,
+        "source": "routeLater",
+        "icon": "assets/resources/items/3161.webp"
       }
     ]
   },
