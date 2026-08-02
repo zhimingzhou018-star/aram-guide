@@ -18,12 +18,12 @@
     "icon": "assets/champions/katarina.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Katarina-Q.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Katarina-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Katarina-Q.webp"
       },
       {
         "key": "W",
@@ -437,12 +437,12 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 21,
-      "name": "屏障",
-      "icon": "assets/resources/summoner-spells/21.webp"
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

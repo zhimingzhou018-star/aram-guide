@@ -10,7 +10,8 @@
       "贾克斯",
       "武器大师",
       "Jax",
-      "武器"
+      "武器",
+      "jia"
     ],
     "roles": [
       "Fighter"
@@ -22,12 +23,12 @@
         "icon": "assets/resources/abilities/Jax-W.webp"
       },
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Jax-Q.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Jax-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Jax-Q.webp"
       }
     ]
   },
@@ -325,7 +326,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "W>E>Q",
   "items": {
     "starter": [
       {

@@ -9,7 +9,8 @@
     "aliases": [
       "卡尔萨斯",
       "死亡颂唱者",
-      "Karthus"
+      "Karthus",
+      "死歌"
     ],
     "roles": [
       "Mage"
@@ -17,12 +18,12 @@
     "icon": "assets/champions/karthus.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Karthus-Q.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Karthus-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Karthus-Q.webp"
       },
       {
         "key": "W",
@@ -197,7 +198,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

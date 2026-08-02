@@ -9,7 +9,8 @@
     "aliases": [
       "克格莫",
       "深渊巨口",
-      "KogMaw"
+      "KogMaw",
+      "大嘴"
     ],
     "roles": [
       "Marksman",
@@ -18,16 +19,16 @@
     "icon": "assets/champions/kogmaw.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/KogMaw-W.webp"
+        "key": "E",
+        "icon": "assets/resources/abilities/KogMaw-E.webp"
       },
       {
         "key": "Q",
         "icon": "assets/resources/abilities/KogMaw-Q.webp"
       },
       {
-        "key": "E",
-        "icon": "assets/resources/abilities/KogMaw-E.webp"
+        "key": "W",
+        "icon": "assets/resources/abilities/KogMaw-W.webp"
       }
     ]
   },
@@ -315,12 +316,12 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 1,
-      "name": "净化",
-      "icon": "assets/resources/summoner-spells/1.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

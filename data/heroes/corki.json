@@ -10,7 +10,8 @@
       "库奇",
       "英勇投弹手",
       "Corki",
-      "飞机"
+      "飞机",
+      "fei"
     ],
     "roles": [
       "Marksman",
@@ -19,12 +20,12 @@
     "icon": "assets/champions/corki.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Corki-Q.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Corki-E.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Corki-Q.webp"
       },
       {
         "key": "W",
@@ -204,7 +205,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "E>Q>W",
   "items": {
     "starter": [
       {

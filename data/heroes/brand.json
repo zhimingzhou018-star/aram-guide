@@ -9,7 +9,10 @@
     "aliases": [
       "布兰德",
       "复仇焰魂",
-      "Brand"
+      "Brand",
+      "火男",
+      "huo",
+      "bu"
     ],
     "roles": [
       "Mage",
@@ -18,12 +21,12 @@
     "icon": "assets/champions/brand.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Brand-W.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Brand-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Brand-W.webp"
       },
       {
         "key": "Q",
@@ -198,7 +201,7 @@
       "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "W>E>Q",
+  "skillOrder": "E>W>Q",
   "items": {
     "starter": [
       {

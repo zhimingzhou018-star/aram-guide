@@ -18,12 +18,12 @@
     "icon": "assets/champions/nunu.webp",
     "abilities": [
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Nunu-W.webp"
-      },
-      {
         "key": "Q",
         "icon": "assets/resources/abilities/Nunu-Q.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Nunu-W.webp"
       },
       {
         "key": "E",
@@ -310,9 +310,9 @@
   ],
   "summonerSpells": [
     {
-      "id": 6,
-      "name": "幽灵疾步",
-      "icon": "assets/resources/summoner-spells/6.webp"
+      "id": 4,
+      "name": "闪现",
+      "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
       "id": 32,
@@ -320,7 +320,7 @@
       "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "W>Q>E",
+  "skillOrder": "Q>W>E",
   "items": {
     "starter": [
       {

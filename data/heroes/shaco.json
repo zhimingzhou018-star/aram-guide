@@ -9,7 +9,9 @@
     "aliases": [
       "萨科",
       "恶魔小丑",
-      "Shaco"
+      "Shaco",
+      "小丑",
+      "xiao"
     ],
     "roles": [
       "Assassin"
@@ -17,16 +19,16 @@
     "icon": "assets/champions/shaco.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Shaco-Q.webp"
+        "key": "W",
+        "icon": "assets/resources/abilities/Shaco-W.webp"
       },
       {
         "key": "E",
         "icon": "assets/resources/abilities/Shaco-E.webp"
       },
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Shaco-W.webp"
+        "key": "Q",
+        "icon": "assets/resources/abilities/Shaco-Q.webp"
       }
     ]
   },
@@ -431,12 +433,12 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 14,
-      "name": "引燃",
-      "icon": "assets/resources/summoner-spells/14.webp"
+      "id": 32,
+      "name": "标记",
+      "icon": "assets/resources/summoner-spells/32.webp"
     }
   ],
-  "skillOrder": "Q>E>W",
+  "skillOrder": "W>E>Q",
   "items": {
     "starter": [
       {

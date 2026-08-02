@@ -19,12 +19,12 @@
     "icon": "assets/champions/vayne.webp",
     "abilities": [
       {
-        "key": "Q",
-        "icon": "assets/resources/abilities/Vayne-Q.webp"
-      },
-      {
         "key": "W",
         "icon": "assets/resources/abilities/Vayne-W.webp"
+      },
+      {
+        "key": "Q",
+        "icon": "assets/resources/abilities/Vayne-Q.webp"
       },
       {
         "key": "E",
@@ -321,12 +321,12 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 1,
-      "name": "净化",
-      "icon": "assets/resources/summoner-spells/1.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "Q>W>E",
+  "skillOrder": "W>Q>E",
   "items": {
     "starter": [
       {

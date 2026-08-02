@@ -101,6 +101,25 @@ class AllGuidesTests(unittest.TestCase):
         self.assertIn("狗熊", self.guides["volibear"]["hero"]["aliases"])
         self.assertIn("飞机", self.guides["corki"]["hero"]["aliases"])
         self.assertIn("人马", self.guides["hecarim"]["hero"]["aliases"])
+        self.assertIn("火男", self.guides["brand"]["hero"]["aliases"])
+
+    def test_high_frequency_no_result_searches_have_alias_mappings(self):
+        expected = {
+            "brand": ["火男", "huo"],
+            "shyvana": ["龙女", "long"],
+            "vladimir": ["吸血鬼", "吸血"],
+            "mordekaiser": ["铁男"],
+            "fiddlesticks": ["稻草人"],
+            "monkeyking": ["猴", "猴子"],
+            "fizz": ["小鱼", "小鱼人", "鱼"],
+            "masteryi": ["jiansheng"],
+            "hecarim": ["renma"],
+            "tahmkench": ["tamu"],
+        }
+        for slug, aliases in expected.items():
+            with self.subTest(slug=slug):
+                for alias in aliases:
+                    self.assertIn(alias, self.guides[slug]["hero"]["aliases"])
 
     def test_home_index_stays_lightweight(self):
         self.assertLess((ROOT / "data" / "index.json").stat().st_size, 120_000)

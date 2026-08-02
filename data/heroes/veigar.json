@@ -9,7 +9,9 @@
     "aliases": [
       "维迦",
       "邪恶小法师",
-      "Veigar"
+      "Veigar",
+      "小法",
+      "xiao"
     ],
     "roles": [
       "Mage"
@@ -21,12 +23,12 @@
         "icon": "assets/resources/abilities/Veigar-Q.webp"
       },
       {
-        "key": "W",
-        "icon": "assets/resources/abilities/Veigar-W.webp"
-      },
-      {
         "key": "E",
         "icon": "assets/resources/abilities/Veigar-E.webp"
+      },
+      {
+        "key": "W",
+        "icon": "assets/resources/abilities/Veigar-W.webp"
       }
     ]
   },
@@ -192,12 +194,12 @@
       "icon": "assets/resources/summoner-spells/4.webp"
     },
     {
-      "id": 21,
-      "name": "屏障",
-      "icon": "assets/resources/summoner-spells/21.webp"
+      "id": 6,
+      "name": "幽灵疾步",
+      "icon": "assets/resources/summoner-spells/6.webp"
     }
   ],
-  "skillOrder": "Q>W>E",
+  "skillOrder": "Q>E>W",
   "items": {
     "starter": [
       {
