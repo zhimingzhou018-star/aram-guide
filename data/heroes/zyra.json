@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 143,
     "slug": "zyra",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1391,
       "pickRate": 0.035569,
-      "winRate": 0.537308
+      "winRate": 0.537308,
+      "itemIds": [
+        2503,
+        6653,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 275,
+      "pickRate": 0.244227,
+      "winRate": 0.558972
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 39107,
+      "pickRate": 0.878572,
+      "winRate": 0.487283,
+      "coreProfile": {
+        "sampleCount": 1391,
+        "pickRate": 0.035569,
+        "winRate": 0.537308,
+        "itemIds": [
+          2503,
+          6653,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 275,
+        "pickRate": 0.244227,
+        "winRate": 0.558972
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1391,
+            "pickRate": 0.035569,
+            "winRate": 0.537308,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5562,
+            "pickRate": 0.112925,
+            "winRate": 0.513414,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 2887,
+            "pickRate": 0.094328,
+            "winRate": 0.482348,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1725,
+            "pickRate": 0.098656,
+            "winRate": 0.471541,
+            "source": "slot6",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -70,11 +199,6 @@
   "skillOrder": "Q>W>E",
   "items": {
     "starter": [
-      {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
       {
         "id": 3802,
         "name": "遗失的章节",

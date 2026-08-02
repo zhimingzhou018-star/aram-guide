@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 157,
     "slug": "yasuo",
@@ -53,9 +53,264 @@
     "coreProfile": {
       "sampleCount": 3951,
       "pickRate": 0.115049,
-      "winRate": 0.648175
+      "winRate": 0.648175,
+      "itemIds": [
+        3046,
+        123430,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 326,
+      "pickRate": 0.149267,
+      "winRate": 0.627523
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 34342,
+      "pickRate": 0.536787,
+      "winRate": 0.587569,
+      "coreProfile": {
+        "sampleCount": 3951,
+        "pickRate": 0.115049,
+        "winRate": 0.648175,
+        "itemIds": [
+          3046,
+          123430,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 326,
+        "pickRate": 0.149267,
+        "winRate": 0.627523
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          },
+          {
+            "id": 3113,
+            "name": "以太精魂",
+            "icon": "assets/resources/items/3113.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3046.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3046.webp"
+          },
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 3951,
+            "pickRate": 0.115049,
+            "winRate": 0.648175,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5604,
+            "pickRate": 0.075495,
+            "winRate": 0.598294,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 2219,
+            "pickRate": 0.054061,
+            "winRate": 0.582648,
+            "source": "slot5",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 1892,
+            "pickRate": 0.092978,
+            "winRate": 0.544039,
+            "source": "slot6",
+            "icon": "assets/resources/items/6665.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 6551,
+      "pickRate": 0.102396,
+      "winRate": 0.572661,
+      "coreProfile": {
+        "sampleCount": 5604,
+        "pickRate": 0.855442,
+        "winRate": 0.58384,
+        "itemIds": [
+          123430,
+          3153,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 241,
+        "pickRate": 0.069094,
+        "winRate": 0.628312
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 123430,
+            "name": "毁坏仪式",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/123430.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 5604,
+            "pickRate": 0.855442,
+            "winRate": 0.58384,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5604,
+            "pickRate": 0.075495,
+            "winRate": 0.598294,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 2219,
+            "pickRate": 0.054061,
+            "winRate": 0.582648,
+            "source": "slot5",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 1892,
+            "pickRate": 0.092978,
+            "winRate": 0.544039,
+            "source": "slot6",
+            "icon": "assets/resources/items/6665.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

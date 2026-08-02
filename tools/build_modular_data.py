@@ -143,6 +143,28 @@ def transform_guide(
     ranking = reviewed["ranking"]
     gameplay = reviewed["gameplay"]
     skill_order = reviewed["skillOrder"]
+    reviewed_builds = reviewed.get("builds") or [{
+        **reviewed["build"],
+        "starterItems": reviewed["starterItems"],
+        "coreItems": reviewed["coreItems"],
+        "recommendedItems": reviewed["recommendedItems"],
+    }]
+    builds = []
+    for build in reviewed_builds:
+        builds.append({
+            **{
+                key: value
+                for key, value in build.items()
+                if key not in {"starterItems", "coreItems", "recommendedItems"}
+            },
+            "items": {
+                "starter": [resources.item(row) for row in build["starterItems"]],
+                "core": [resources.item(row) for row in build["coreItems"]],
+                "recommended": [resources.item(row) for row in build["recommendedItems"]],
+            },
+        })
+    primary_build = builds[0]
+    primary_items = primary_build["items"]
     augment_rows: dict[str, list[dict[str, Any]]] = {}
     for rarity in ("prismatic", "gold", "silver"):
         augment_rows[rarity] = [resources.augment(row, rarity) for row in reviewed["augments"][rarity]]
@@ -151,7 +173,7 @@ def transform_guide(
             resources.ensure_augment(augment_id, name)
 
     guide = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "hero": {
             "id": champion_id,
             "slug": slug,
@@ -168,14 +190,16 @@ def transform_guide(
             "winRatePercent": percent(ranking.get("winRate")),
             "pickRatePercent": percent(ranking.get("pickRate")),
         },
-        "build": reviewed["build"],
+        "build": {
+            key: value
+            for key, value in primary_build.items()
+            if key != "items"
+        },
+        "defaultBuildKey": primary_build["key"],
+        "builds": builds,
         "summonerSpells": [resources.summoner_spell(row) for row in reviewed["summonerSpells"]],
         "skillOrder": skill_order,
-        "items": {
-            "starter": [resources.item(row) for row in reviewed["starterItems"]],
-            "core": [resources.item(row) for row in reviewed["coreItems"]],
-            "recommended": [resources.item(row) for row in reviewed["recommendedItems"]],
-        },
+        "items": primary_items,
         "augments": {
             **augment_rows,
             "combinations": [
@@ -272,7 +296,7 @@ def build_site_data(
 
     index_rows.sort(key=lambda row: (row["rank"] is None, row["rank"] or 9999, row["id"]))
     payload = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "site": {
             "title": "海斗一图流",
             "version": source["version"],

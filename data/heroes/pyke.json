@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 555,
     "slug": "pyke",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 5670,
       "pickRate": 0.1007,
-      "winRate": 0.501197
+      "winRate": 0.501197,
+      "itemIds": [
+        126697,
+        6696,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 611,
+      "pickRate": 0.129422,
+      "winRate": 0.5466
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 56306,
+      "pickRate": 0.871219,
+      "winRate": 0.452392,
+      "coreProfile": {
+        "sampleCount": 5670,
+        "pickRate": 0.1007,
+        "winRate": 0.501197,
+        "itemIds": [
+          126697,
+          6696,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 611,
+        "pickRate": 0.129422,
+        "winRate": 0.5466
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 5670,
+            "pickRate": 0.1007,
+            "winRate": 0.501197,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 7035,
+            "pickRate": 0.100267,
+            "winRate": 0.485584,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3142,
+            "name": "幽梦之灵",
+            "sampleCount": 5517,
+            "pickRate": 0.123855,
+            "winRate": 0.468288,
+            "source": "slot5",
+            "icon": "assets/resources/items/3142.webp"
+          },
+          {
+            "id": 6698,
+            "name": "亵渎九头蛇",
+            "sampleCount": 1653,
+            "pickRate": 0.06379,
+            "winRate": 0.481541,
+            "source": "slot6",
+            "icon": "assets/resources/items/6698.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 222,
     "slug": "jinx",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 1828,
       "pickRate": 0.119688,
-      "winRate": 0.563802
+      "winRate": 0.563802,
+      "itemIds": [
+        3032,
+        3085,
+        3031
+      ]
+    },
+    "starter": {
+      "sampleCount": 743,
+      "pickRate": 0.610518,
+      "winRate": 0.571013
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 15273,
+      "pickRate": 0.606312,
+      "winRate": 0.544531,
+      "coreProfile": {
+        "sampleCount": 1828,
+        "pickRate": 0.119688,
+        "winRate": 0.563802,
+        "itemIds": [
+          3032,
+          3085,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 743,
+        "pickRate": 0.610518,
+        "winRate": 0.571013
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1038,
+            "name": "暴风之剑",
+            "icon": "assets/resources/items/1038.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1828,
+            "pickRate": 0.119688,
+            "winRate": 0.563802,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4418,
+            "pickRate": 0.155165,
+            "winRate": 0.583491,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1776,
+            "pickRate": 0.102939,
+            "winRate": 0.535305,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1691,
+            "pickRate": 0.173489,
+            "winRate": 0.523468,
+            "source": "slot6",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

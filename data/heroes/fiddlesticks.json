@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 9,
     "slug": "fiddlesticks",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1387,
       "pickRate": 0.064578,
-      "winRate": 0.511923
+      "winRate": 0.511923,
+      "itemIds": [
+        3118,
+        6653,
+        3116
+      ]
+    },
+    "starter": {
+      "sampleCount": 327,
+      "pickRate": 0.385613,
+      "winRate": 0.518288
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 21478,
+      "pickRate": 0.766141,
+      "winRate": 0.49076,
+      "coreProfile": {
+        "sampleCount": 1387,
+        "pickRate": 0.064578,
+        "winRate": 0.511923,
+        "itemIds": [
+          3118,
+          6653,
+          3116
+        ]
+      },
+      "starter": {
+        "sampleCount": 327,
+        "pickRate": 0.385613,
+        "winRate": 0.518288
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 1387,
+            "pickRate": 0.064578,
+            "winRate": 0.511923,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2094,
+            "pickRate": 0.067846,
+            "winRate": 0.506244,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2168,
+            "pickRate": 0.118283,
+            "winRate": 0.504236,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1669,
+            "pickRate": 0.162734,
+            "winRate": 0.489785,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -70,11 +199,6 @@
   "skillOrder": "W>Q>E",
   "items": {
     "starter": [
-      {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
       {
         "id": 3802,
         "name": "遗失的章节",

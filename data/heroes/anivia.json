@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 34,
     "slug": "anivia",
@@ -49,11 +49,145 @@
     "pickRate": 0.723067,
     "winRate": 0.457744,
     "coreProfile": {
-      "sampleCount": 1489,
-      "pickRate": 0.078476,
-      "winRate": 0.478997
+      "sampleCount": 6482,
+      "pickRate": 0.341625,
+      "winRate": 0.466275,
+      "itemIds": [
+        6657,
+        6653,
+        3003
+      ]
+    },
+    "starter": {
+      "sampleCount": 1484,
+      "pickRate": 0.383463,
+      "winRate": 0.462446
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 18974,
+      "pickRate": 0.723067,
+      "winRate": 0.457744,
+      "coreProfile": {
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
+        "itemIds": [
+          6657,
+          6653,
+          3003
+        ]
+      },
+      "starter": {
+        "sampleCount": 1484,
+        "pickRate": 0.383463,
+        "winRate": 0.462446
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 6482,
+            "pickRate": 0.341625,
+            "winRate": 0.466275,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2921,
+            "pickRate": 0.098836,
+            "winRate": 0.525143,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 3041,
+            "pickRate": 0.169029,
+            "winRate": 0.453441,
+            "source": "slot5",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3165,
+            "name": "莫雷洛秘典",
+            "sampleCount": 1619,
+            "pickRate": 0.160091,
+            "winRate": 0.405257,
+            "source": "slot6",
+            "icon": "assets/resources/items/3165.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -82,58 +216,58 @@
     ],
     "core": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "id": 6657,
+        "name": "时光之杖",
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/6657.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "id": 6657,
+        "name": "时光之杖",
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/6657.webp"
       },
       {
         "id": 6653,
         "name": "兰德里的折磨",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
         "icon": "assets/resources/items/6653.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1489,
-        "pickRate": 0.078476,
-        "winRate": 0.478997,
+        "sampleCount": 6482,
+        "pickRate": 0.341625,
+        "winRate": 0.466275,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       },

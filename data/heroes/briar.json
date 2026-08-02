@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 233,
     "slug": "briar",
@@ -52,9 +52,264 @@
     "coreProfile": {
       "sampleCount": 2663,
       "pickRate": 0.818377,
-      "winRate": 0.505601
+      "winRate": 0.505601,
+      "itemIds": [
+        126697,
+        6676,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 845,
+      "pickRate": 0.377738,
+      "winRate": 0.52742
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 3254,
+      "pickRate": 0.170099,
+      "winRate": 0.505004,
+      "coreProfile": {
+        "sampleCount": 2663,
+        "pickRate": 0.818377,
+        "winRate": 0.505601,
+        "itemIds": [
+          126697,
+          6676,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 845,
+        "pickRate": 0.377738,
+        "winRate": 0.52742
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2663,
+            "pickRate": 0.818377,
+            "winRate": 0.505601,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3687,
+            "pickRate": 0.177456,
+            "winRate": 0.518213,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1813,
+            "pickRate": 0.151222,
+            "winRate": 0.507848,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3748,
+            "name": "巨型九头蛇",
+            "sampleCount": 1289,
+            "pickRate": 0.06204,
+            "winRate": 0.523718,
+            "source": "fallback",
+            "icon": "assets/resources/items/3748.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 2909,
+      "pickRate": 0.152065,
+      "winRate": 0.496456,
+      "coreProfile": {
+        "sampleCount": 1402,
+        "pickRate": 0.481953,
+        "winRate": 0.488181,
+        "itemIds": [
+          126697,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 502,
+        "pickRate": 0.412829,
+        "winRate": 0.499176
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1402,
+            "pickRate": 0.481953,
+            "winRate": 0.488181,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3687,
+            "pickRate": 0.177456,
+            "winRate": 0.518213,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1806,
+            "pickRate": 0.150638,
+            "winRate": 0.517556,
+            "source": "slot5",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3748,
+            "name": "巨型九头蛇",
+            "sampleCount": 1289,
+            "pickRate": 0.06204,
+            "winRate": 0.523718,
+            "source": "fallback",
+            "icon": "assets/resources/items/3748.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -76,9 +331,9 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [

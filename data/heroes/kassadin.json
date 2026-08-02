@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 38,
     "slug": "kassadin",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1119,
       "pickRate": 0.091139,
-      "winRate": 0.563826
+      "winRate": 0.563826,
+      "itemIds": [
+        6657,
+        3003,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 215,
+      "pickRate": 0.212661,
+      "winRate": 0.578989
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 12278,
+      "pickRate": 0.774051,
+      "winRate": 0.51733,
+      "coreProfile": {
+        "sampleCount": 1119,
+        "pickRate": 0.091139,
+        "winRate": 0.563826,
+        "itemIds": [
+          6657,
+          3003,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 215,
+        "pickRate": 0.212661,
+        "winRate": 0.578989
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1119,
+            "pickRate": 0.091139,
+            "winRate": 0.563826,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1847,
+            "pickRate": 0.109025,
+            "winRate": 0.548093,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1213,
+            "pickRate": 0.118782,
+            "winRate": 0.53257,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 9761,
+            "pickRate": 0.576176,
+            "winRate": 0.514775,
+            "source": "fallback",
+            "icon": "assets/resources/items/3118.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

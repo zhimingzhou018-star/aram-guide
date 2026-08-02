@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 429,
     "slug": "kalista",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 1808,
       "pickRate": 0.18246,
-      "winRate": 0.534808
+      "winRate": 0.534808,
+      "itemIds": [
+        3085,
+        3153,
+        3302
+      ]
+    },
+    "starter": {
+      "sampleCount": 422,
+      "pickRate": 0.32263,
+      "winRate": 0.526343
     }
   },
+  "defaultBuildKey": "on_hit",
+  "builds": [
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 9909,
+      "pickRate": 0.503481,
+      "winRate": 0.518698,
+      "coreProfile": {
+        "sampleCount": 1808,
+        "pickRate": 0.18246,
+        "winRate": 0.534808,
+        "itemIds": [
+          3085,
+          3153,
+          3302
+        ]
+      },
+      "starter": {
+        "sampleCount": 422,
+        "pickRate": 0.32263,
+        "winRate": 0.526343
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3302.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1808,
+            "pickRate": 0.18246,
+            "winRate": 0.534808,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2426,
+            "pickRate": 0.113529,
+            "winRate": 0.548299,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1344,
+            "pickRate": 0.092137,
+            "winRate": 0.530508,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 1114,
+            "pickRate": 0.131291,
+            "winRate": 0.510798,
+            "source": "slot6",
+            "icon": "assets/resources/items/6665.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 36,
     "slug": "drmundo",
@@ -53,9 +53,143 @@
     "coreProfile": {
       "sampleCount": 13362,
       "pickRate": 0.200818,
-      "winRate": 0.518678
+      "winRate": 0.518678,
+      "itemIds": [
+        3084,
+        3083,
+        2501
+      ]
+    },
+    "starter": {
+      "sampleCount": 10304,
+      "pickRate": 0.816676,
+      "winRate": 0.523941
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 66538,
+      "pickRate": 0.949498,
+      "winRate": 0.501756,
+      "coreProfile": {
+        "sampleCount": 13362,
+        "pickRate": 0.200818,
+        "winRate": 0.518678,
+        "itemIds": [
+          3084,
+          3083,
+          2501
+        ]
+      },
+      "starter": {
+        "sampleCount": 10304,
+        "pickRate": 0.816676,
+        "winRate": 0.523941
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 13362,
+            "pickRate": 0.200818,
+            "winRate": 0.518678,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 3472,
+            "pickRate": 0.043496,
+            "winRate": 0.557774,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3748,
+            "name": "巨型九头蛇",
+            "sampleCount": 2363,
+            "pickRate": 0.052718,
+            "winRate": 0.508658,
+            "source": "slot5",
+            "icon": "assets/resources/items/3748.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 2697,
+            "pickRate": 0.103563,
+            "winRate": 0.48171,
+            "source": "slot6",
+            "icon": "assets/resources/items/3065.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 6,

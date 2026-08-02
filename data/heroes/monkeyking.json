@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 62,
     "slug": "monkeyking",
@@ -52,9 +52,264 @@
     "coreProfile": {
       "sampleCount": 2937,
       "pickRate": 0.243512,
-      "winRate": 0.488501
+      "winRate": 0.488501,
+      "itemIds": [
+        6610,
+        3078,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 1146,
+      "pickRate": 0.704797,
+      "winRate": 0.505717
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 12061,
+      "pickRate": 0.253553,
+      "winRate": 0.470213,
+      "coreProfile": {
+        "sampleCount": 2937,
+        "pickRate": 0.243512,
+        "winRate": 0.488501,
+        "itemIds": [
+          6610,
+          3078,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 1146,
+        "pickRate": 0.704797,
+        "winRate": 0.505717
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 2021,
+            "name": "掘道钻头",
+            "icon": "assets/resources/items/2021.webp"
+          },
+          {
+            "id": 2022,
+            "name": "荧尘",
+            "icon": "assets/resources/items/2022.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2937,
+            "pickRate": 0.243512,
+            "winRate": 0.488501,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5143,
+            "pickRate": 0.097735,
+            "winRate": 0.493295,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1603,
+            "pickRate": 0.053176,
+            "winRate": 0.481956,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3071,
+            "name": "黑色切割者",
+            "sampleCount": 1034,
+            "pickRate": 0.063486,
+            "winRate": 0.441771,
+            "source": "slot6",
+            "icon": "assets/resources/items/3071.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 7946,
+      "pickRate": 0.167045,
+      "winRate": 0.460109,
+      "coreProfile": {
+        "sampleCount": 1938,
+        "pickRate": 0.243896,
+        "winRate": 0.470516,
+        "itemIds": [
+          3084,
+          2502,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 898,
+        "pickRate": 0.808281,
+        "winRate": 0.454434
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1938,
+            "pickRate": 0.243896,
+            "winRate": 0.470516,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5143,
+            "pickRate": 0.097735,
+            "winRate": 0.493295,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1603,
+            "pickRate": 0.053176,
+            "winRate": 0.481956,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1189,
+            "pickRate": 0.073003,
+            "winRate": 0.463802,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

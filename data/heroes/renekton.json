@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 58,
     "slug": "renekton",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1287,
       "pickRate": 0.134821,
-      "winRate": 0.456623
+      "winRate": 0.456623,
+      "itemIds": [
+        6610,
+        3161,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 465,
+      "pickRate": 0.644938,
+      "winRate": 0.445685
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 9546,
+      "pickRate": 0.405919,
+      "winRate": 0.454117,
+      "coreProfile": {
+        "sampleCount": 1287,
+        "pickRate": 0.134821,
+        "winRate": 0.456623,
+        "itemIds": [
+          6610,
+          3161,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 465,
+        "pickRate": 0.644938,
+        "winRate": 0.445685
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 2021,
+            "name": "掘道钻头",
+            "icon": "assets/resources/items/2021.webp"
+          },
+          {
+            "id": 2022,
+            "name": "荧尘",
+            "icon": "assets/resources/items/2022.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1287,
+            "pickRate": 0.134821,
+            "winRate": 0.456623,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2108,
+            "pickRate": 0.079652,
+            "winRate": 0.487241,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1653,
+            "pickRate": 0.108209,
+            "winRate": 0.44517,
+            "source": "slot5",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3074,
+            "name": "贪欲九头蛇",
+            "sampleCount": 1232,
+            "pickRate": 0.046552,
+            "winRate": 0.463998,
+            "source": "fallback",
+            "icon": "assets/resources/items/3074.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

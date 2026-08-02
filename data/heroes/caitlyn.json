@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 51,
     "slug": "caitlyn",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1531,
       "pickRate": 0.093731,
-      "winRate": 0.580362
+      "winRate": 0.580362,
+      "itemIds": [
+        6676,
+        3031,
+        2523
+      ]
+    },
+    "starter": {
+      "sampleCount": 206,
+      "pickRate": 0.305638,
+      "winRate": 0.636538
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 16334,
+      "pickRate": 0.69347,
+      "winRate": 0.5497,
+      "coreProfile": {
+        "sampleCount": 1531,
+        "pickRate": 0.093731,
+        "winRate": 0.580362,
+        "itemIds": [
+          6676,
+          3031,
+          2523
+        ]
+      },
+      "starter": {
+        "sampleCount": 206,
+        "pickRate": 0.305638,
+        "winRate": 0.636538
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2523.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 1531,
+            "pickRate": 0.093731,
+            "winRate": 0.580362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2523.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3465,
+            "pickRate": 0.129301,
+            "winRate": 0.587029,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 2212,
+            "pickRate": 0.136115,
+            "winRate": 0.548277,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1541,
+            "pickRate": 0.164778,
+            "winRate": 0.517088,
+            "source": "slot6",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

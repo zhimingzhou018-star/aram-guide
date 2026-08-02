@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 13,
     "slug": "ryze",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 7432,
       "pickRate": 0.379435,
-      "winRate": 0.543873
+      "winRate": 0.543873,
+      "itemIds": [
+        6657,
+        3003,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 478,
+      "pickRate": 0.075323,
+      "winRate": 0.551937
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 19587,
+      "pickRate": 0.824161,
+      "winRate": 0.519094,
+      "coreProfile": {
+        "sampleCount": 7432,
+        "pickRate": 0.379435,
+        "winRate": 0.543873,
+        "itemIds": [
+          6657,
+          3003,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 478,
+        "pickRate": 0.075323,
+        "winRate": 0.551937
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3803,
+            "name": "万世催化石",
+            "icon": "assets/resources/items/3803.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 7432,
+            "pickRate": 0.379435,
+            "winRate": 0.543873,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 6322,
+            "pickRate": 0.236045,
+            "winRate": 0.551299,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1309,
+            "pickRate": 0.080857,
+            "winRate": 0.530434,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1663,
+            "pickRate": 0.172564,
+            "winRate": 0.511761,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -70,14 +199,9 @@
   "items": {
     "starter": [
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
-      },
-      {
-        "id": 3112,
-        "name": "守护者法球",
-        "icon": "assets/resources/items/3112.webp"
+        "id": 3803,
+        "name": "万世催化石",
+        "icon": "assets/resources/items/3803.webp"
       }
     ],
     "core": [

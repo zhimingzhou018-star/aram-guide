@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 266,
     "slug": "aatrox",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 6672,
       "pickRate": 0.163305,
-      "winRate": 0.472236
+      "winRate": 0.472236,
+      "itemIds": [
+        126697,
+        6333,
+        2517
+      ]
+    },
+    "starter": {
+      "sampleCount": 971,
+      "pickRate": 0.238049,
+      "winRate": 0.504763
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 40856,
+      "pickRate": 0.655206,
+      "winRate": 0.443698,
+      "coreProfile": {
+        "sampleCount": 6672,
+        "pickRate": 0.163305,
+        "winRate": 0.472236,
+        "itemIds": [
+          126697,
+          6333,
+          2517
+        ]
+      },
+      "starter": {
+        "sampleCount": 971,
+        "pickRate": 0.238049,
+        "winRate": 0.504763
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 6672,
+            "pickRate": 0.163305,
+            "winRate": 0.472236,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 10703,
+            "pickRate": 0.150556,
+            "winRate": 0.470075,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 1646,
+            "pickRate": 0.041566,
+            "winRate": 0.454037,
+            "source": "slot5",
+            "icon": "assets/resources/items/6694.webp"
+          },
+          {
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 1621,
+            "pickRate": 0.078659,
+            "winRate": 0.442025,
+            "source": "slot6",
+            "icon": "assets/resources/items/3053.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

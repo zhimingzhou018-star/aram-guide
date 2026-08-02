@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 96,
     "slug": "kogmaw",
@@ -44,17 +44,267 @@
     "pickRatePercent": 5.17
   },
   "build": {
-    "key": "ap",
-    "name": "法术流",
-    "sampleCount": 7311,
-    "pickRate": 0.162575,
-    "winRate": 0.496536,
+    "key": "on_hit",
+    "name": "攻速特效流",
+    "sampleCount": 21593,
+    "pickRate": 0.480165,
+    "winRate": 0.489555,
     "coreProfile": {
-      "sampleCount": 1914,
-      "pickRate": 0.261797,
-      "winRate": 0.493171
+      "sampleCount": 1376,
+      "pickRate": 0.063724,
+      "winRate": 0.513226,
+      "itemIds": [
+        3153,
+        3085,
+        3302
+      ]
+    },
+    "starter": {
+      "sampleCount": 391,
+      "pickRate": 0.377778,
+      "winRate": 0.512408
     }
   },
+  "defaultBuildKey": "on_hit",
+  "builds": [
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 21593,
+      "pickRate": 0.480165,
+      "winRate": 0.489555,
+      "coreProfile": {
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
+        "itemIds": [
+          3153,
+          3085,
+          3302
+        ]
+      },
+      "starter": {
+        "sampleCount": 391,
+        "pickRate": 0.377778,
+        "winRate": 0.512408
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3302.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1376,
+            "pickRate": 0.063724,
+            "winRate": 0.513226,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5604,
+            "pickRate": 0.115554,
+            "winRate": 0.512736,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1062,
+            "pickRate": 0.031765,
+            "winRate": 0.501433,
+            "source": "slot5",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1271,
+            "pickRate": 0.06184,
+            "winRate": 0.506405,
+            "source": "slot6",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 7311,
+      "pickRate": 0.162575,
+      "winRate": 0.496536,
+      "coreProfile": {
+        "sampleCount": 1914,
+        "pickRate": 0.261797,
+        "winRate": 0.493171,
+        "itemIds": [
+          3118,
+          6653,
+          3003
+        ]
+      },
+      "starter": {
+        "sampleCount": 223,
+        "pickRate": 0.259001,
+        "winRate": 0.50251
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1914,
+            "pickRate": 0.261797,
+            "winRate": 0.493171,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5604,
+            "pickRate": 0.115554,
+            "winRate": 0.512736,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 5276,
+            "pickRate": 0.157808,
+            "winRate": 0.503176,
+            "source": "slot5",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1271,
+            "pickRate": 0.06184,
+            "winRate": 0.506405,
+            "source": "slot6",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,72 +321,72 @@
   "items": {
     "starter": [
       {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
+        "id": 1042,
+        "name": "短剑",
+        "icon": "assets/resources/items/1042.webp"
       },
       {
-        "id": 3802,
-        "name": "遗失的章节",
-        "icon": "assets/resources/items/3802.webp"
+        "id": 3006,
+        "name": "狂战士胫甲",
+        "icon": "assets/resources/items/3006.webp"
       }
     ],
     "core": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6653,
-        "name": "兰德里的折磨",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6653.webp"
+        "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3003,
-        "name": "大天使之杖",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3302,
+        "name": "界弓",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3003.webp"
+        "icon": "assets/resources/items/3302.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3118,
-        "name": "残疫",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3153,
+        "name": "破败王者之刃",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3118.webp"
+        "icon": "assets/resources/items/3153.webp"
       },
       {
-        "id": 6653,
-        "name": "兰德里的折磨",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3085,
+        "name": "卢安娜的飓风",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6653.webp"
+        "icon": "assets/resources/items/3085.webp"
       },
       {
-        "id": 3003,
-        "name": "大天使之杖",
-        "sampleCount": 1914,
-        "pickRate": 0.261797,
-        "winRate": 0.493171,
+        "id": 3302,
+        "name": "界弓",
+        "sampleCount": 1376,
+        "pickRate": 0.063724,
+        "winRate": 0.513226,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3003.webp"
+        "icon": "assets/resources/items/3302.webp"
       },
       {
         "id": 3008,
@@ -148,13 +398,13 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 3302,
-        "name": "界弓",
-        "sampleCount": 5276,
-        "pickRate": 0.157808,
-        "winRate": 0.503176,
+        "id": 3003,
+        "name": "大天使之杖",
+        "sampleCount": 1062,
+        "pickRate": 0.031765,
+        "winRate": 0.501433,
         "source": "slot5",
-        "icon": "assets/resources/items/3302.webp"
+        "icon": "assets/resources/items/3003.webp"
       },
       {
         "id": 3089,

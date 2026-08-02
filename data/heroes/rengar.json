@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 107,
     "slug": "rengar",
@@ -44,17 +44,272 @@
     "pickRatePercent": 3.79
   },
   "build": {
-    "key": "crit",
-    "name": "暴击流",
-    "sampleCount": 8972,
-    "pickRate": 0.318868,
-    "winRate": 0.467614,
+    "key": "lethality",
+    "name": "穿甲流",
+    "sampleCount": 10681,
+    "pickRate": 0.379607,
+    "winRate": 0.45746,
     "coreProfile": {
-      "sampleCount": 5177,
-      "pickRate": 0.577017,
-      "winRate": 0.468629
+      "sampleCount": 1442,
+      "pickRate": 0.135006,
+      "winRate": 0.471392,
+      "itemIds": [
+        126697,
+        6676,
+        6696
+      ]
+    },
+    "starter": {
+      "sampleCount": 564,
+      "pickRate": 0.61039,
+      "winRate": 0.464364
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 10681,
+      "pickRate": 0.379607,
+      "winRate": 0.45746,
+      "coreProfile": {
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
+        "itemIds": [
+          126697,
+          6676,
+          6696
+        ]
+      },
+      "starter": {
+        "sampleCount": 564,
+        "pickRate": 0.61039,
+        "winRate": 0.464364
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1442,
+            "pickRate": 0.135006,
+            "winRate": 0.471392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5033,
+            "pickRate": 0.168052,
+            "winRate": 0.479857,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1492,
+            "pickRate": 0.085536,
+            "winRate": 0.489771,
+            "source": "slot5",
+            "icon": "assets/resources/items/6699.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1192,
+            "pickRate": 0.119463,
+            "winRate": 0.505698,
+            "source": "slot6",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 8972,
+      "pickRate": 0.318868,
+      "winRate": 0.467614,
+      "coreProfile": {
+        "sampleCount": 5177,
+        "pickRate": 0.577017,
+        "winRate": 0.468629,
+        "itemIds": [
+          126697,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 2685,
+        "pickRate": 0.619663,
+        "winRate": 0.468354
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 5177,
+            "pickRate": 0.577017,
+            "winRate": 0.468629,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 5033,
+            "pickRate": 0.168052,
+            "winRate": 0.479857,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1492,
+            "pickRate": 0.085536,
+            "winRate": 0.489771,
+            "source": "slot5",
+            "icon": "assets/resources/items/6699.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1192,
+            "pickRate": 0.119463,
+            "winRate": 0.505698,
+            "source": "slot6",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -76,67 +331,67 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/6696.webp"
       }
     ],
     "recommended": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
         "id": 6676,
         "name": "收集者",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
         "icon": "assets/resources/items/6676.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 5177,
-        "pickRate": 0.577017,
-        "winRate": 0.468629,
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1442,
+        "pickRate": 0.135006,
+        "winRate": 0.471392,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/6696.webp"
       },
       {
         "id": 3008,

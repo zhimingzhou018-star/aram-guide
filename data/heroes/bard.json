@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 432,
     "slug": "bard",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1798,
       "pickRate": 0.421176,
-      "winRate": 0.397027
+      "winRate": 0.397027,
+      "itemIds": [
+        6655,
+        3100,
+        3115
+      ]
+    },
+    "starter": {
+      "sampleCount": 807,
+      "pickRate": 0.556552,
+      "winRate": 0.395366
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 4269,
+      "pickRate": 0.206023,
+      "winRate": 0.411201,
+      "coreProfile": {
+        "sampleCount": 1798,
+        "pickRate": 0.421176,
+        "winRate": 0.397027,
+        "itemIds": [
+          6655,
+          3100,
+          3115
+        ]
+      },
+      "starter": {
+        "sampleCount": 807,
+        "pickRate": 0.556552,
+        "winRate": 0.395366
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 1798,
+            "pickRate": 0.421176,
+            "winRate": 0.397027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 2428,
+            "pickRate": 0.10104,
+            "winRate": 0.427551,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 1781,
+            "pickRate": 0.074116,
+            "winRate": 0.493579,
+            "source": "fallback",
+            "icon": "assets/resources/items/3504.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 1053,
+            "pickRate": 0.04382,
+            "winRate": 0.490057,
+            "source": "fallback",
+            "icon": "assets/resources/items/6616.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -608,7 +737,7 @@
       "region": "unknown",
       "dataLevel": "aggregate",
       "segment": "all",
-      "fallbackReason": "没有满足样本门槛的流派"
+      "fallbackReason": "没有可生成完整攻略的有效流派"
     },
     {
       "provider": "ARAMGG",

@@ -39,7 +39,7 @@ test("detail keeps a home control and removes poster actions", () => {
 
 test("confirmed Figma detail is enabled for every champion", () => {
   assert.doesNotMatch(appSource, /FIGMA_PILOT_SLUGS/);
-  assert.match(appSource, /app\.innerHTML = `<section class="detail-shell figma-detail-shell">\$\{FigmaGuidePage\(guide\)\}<\/section>`/);
+  assert.match(appSource, /app\.innerHTML = `<section class="detail-shell figma-detail-shell">\$\{FigmaGuidePage\(guide, selectedGuide\.build\.key\)\}<\/section>`/);
 });
 
 test("all detail pages use the confirmed Figma poster structure", () => {
@@ -55,4 +55,14 @@ test("all detail pages use the confirmed Figma poster structure", () => {
   ]) {
     assert.match(appSource, new RegExp(className));
   }
+});
+
+test("detail exposes every build as a visible win-rate tab", () => {
+  assert.match(appSource, /guide\.builds/);
+  assert.match(appSource, /figma-build-tab/);
+  assert.match(appSource, /figma-build-stat/);
+  assert.match(appSource, /coreProfile/);
+  assert.match(appSource, /aria-pressed/);
+  assert.match(appSource, /aria-label="\$\{escapeHtml\(build\.name\)\}，胜率/);
+  assert.doesNotMatch(appSource, /点击切换|流派 01/);
 });

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 246,
     "slug": "qiyana",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 1006,
       "pickRate": 0.044245,
-      "winRate": 0.522823
+      "winRate": 0.522823,
+      "itemIds": [
+        126697,
+        6696,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 414,
+      "pickRate": 0.446602,
+      "winRate": 0.567603
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 22737,
+      "pickRate": 0.770067,
+      "winRate": 0.428635,
+      "coreProfile": {
+        "sampleCount": 1006,
+        "pickRate": 0.044245,
+        "winRate": 0.522823,
+        "itemIds": [
+          126697,
+          6696,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 414,
+        "pickRate": 0.446602,
+        "winRate": 0.567603
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1006,
+            "pickRate": 0.044245,
+            "winRate": 0.522823,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7394,
+            "pickRate": 0.233176,
+            "winRate": 0.494152,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1493,
+            "pickRate": 0.076458,
+            "winRate": 0.47067,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1154,
+            "pickRate": 0.100095,
+            "winRate": 0.435401,
+            "source": "slot6",
+            "icon": "assets/resources/items/6699.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

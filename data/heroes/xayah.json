@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 498,
     "slug": "xayah",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 1321,
       "pickRate": 0.148494,
-      "winRate": 0.519957
+      "winRate": 0.519957,
+      "itemIds": [
+        3032,
+        3031,
+        6675
+      ]
+    },
+    "starter": {
+      "sampleCount": 678,
+      "pickRate": 0.672619,
+      "winRate": 0.520296
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 8896,
+      "pickRate": 0.585032,
+      "winRate": 0.522193,
+      "coreProfile": {
+        "sampleCount": 1321,
+        "pickRate": 0.148494,
+        "winRate": 0.519957,
+        "itemIds": [
+          3032,
+          3031,
+          6675
+        ]
+      },
+      "starter": {
+        "sampleCount": 678,
+        "pickRate": 0.672619,
+        "winRate": 0.520296
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1038,
+            "name": "暴风之剑",
+            "icon": "assets/resources/items/1038.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 6675,
+            "name": "纳沃利烁刃",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6675.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3032,
+            "name": "育恩塔尔荒野箭",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3032.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 6675,
+            "name": "纳沃利烁刃",
+            "sampleCount": 1321,
+            "pickRate": 0.148494,
+            "winRate": 0.519957,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6675.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3346,
+            "pickRate": 0.19687,
+            "winRate": 0.560662,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1543,
+            "pickRate": 0.142963,
+            "winRate": 0.543772,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1131,
+            "pickRate": 0.177718,
+            "winRate": 0.520147,
+            "source": "slot6",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

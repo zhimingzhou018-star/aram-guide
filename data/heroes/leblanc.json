@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 7,
     "slug": "leblanc",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 8314,
       "pickRate": 0.423449,
-      "winRate": 0.442442
+      "winRate": 0.442442,
+      "itemIds": [
+        6655,
+        3089,
+        4645
+      ]
+    },
+    "starter": {
+      "sampleCount": 4276,
+      "pickRate": 0.583914,
+      "winRate": 0.440801
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 19634,
+      "pickRate": 0.832161,
+      "winRate": 0.426354,
+      "coreProfile": {
+        "sampleCount": 8314,
+        "pickRate": 0.423449,
+        "winRate": 0.442442,
+        "itemIds": [
+          6655,
+          3089,
+          4645
+        ]
+      },
+      "starter": {
+        "sampleCount": 4276,
+        "pickRate": 0.583914,
+        "winRate": 0.440801
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 8314,
+            "pickRate": 0.423449,
+            "winRate": 0.442442,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2495,
+            "pickRate": 0.095704,
+            "winRate": 0.447628,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1557,
+            "pickRate": 0.097252,
+            "winRate": 0.452577,
+            "source": "slot5",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3102,
+            "name": "女妖面纱",
+            "sampleCount": 1362,
+            "pickRate": 0.151149,
+            "winRate": 0.436918,
+            "source": "slot6",
+            "icon": "assets/resources/items/3102.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,14 +200,9 @@
   "items": {
     "starter": [
       {
-        "id": 1027,
-        "name": "蓝水晶",
-        "icon": "assets/resources/items/1027.webp"
-      },
-      {
-        "id": 3145,
-        "name": "海克斯科技发电机",
-        "icon": "assets/resources/items/3145.webp"
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
       }
     ],
     "core": [

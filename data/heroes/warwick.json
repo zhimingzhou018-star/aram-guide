@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 19,
     "slug": "warwick",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1325,
       "pickRate": 0.366427,
-      "winRate": 0.485577
+      "winRate": 0.485577,
+      "itemIds": [
+        3084,
+        3153,
+        3065
+      ]
+    },
+    "starter": {
+      "sampleCount": 794,
+      "pickRate": 0.771623,
+      "winRate": 0.504318
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 3616,
+      "pickRate": 0.255187,
+      "winRate": 0.478476,
+      "coreProfile": {
+        "sampleCount": 1325,
+        "pickRate": 0.366427,
+        "winRate": 0.485577,
+        "itemIds": [
+          3084,
+          3153,
+          3065
+        ]
+      },
+      "starter": {
+        "sampleCount": 794,
+        "pickRate": 0.771623,
+        "winRate": 0.504318
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1325,
+            "pickRate": 0.366427,
+            "winRate": 0.485577,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1136,
+            "pickRate": 0.072205,
+            "winRate": 0.495014,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3075,
+            "name": "荆棘之甲",
+            "sampleCount": 1019,
+            "pickRate": 0.106157,
+            "winRate": 0.451112,
+            "source": "slot5",
+            "icon": "assets/resources/items/3075.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 3364,
+            "pickRate": 0.213818,
+            "winRate": 0.49012,
+            "source": "fallback",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 26,
     "slug": "zilean",
@@ -50,11 +50,140 @@
     "pickRate": 0.525302,
     "winRate": 0.506354,
     "coreProfile": {
-      "sampleCount": 1453,
-      "pickRate": 0.07657,
-      "winRate": 0.544973
+      "sampleCount": 1430,
+      "pickRate": 0.075358,
+      "winRate": 0.544027,
+      "itemIds": [
+        6655,
+        3003,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 252,
+      "pickRate": 0.322663,
+      "winRate": 0.566505
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 18976,
+      "pickRate": 0.525302,
+      "winRate": 0.506354,
+      "coreProfile": {
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
+        "itemIds": [
+          6655,
+          3003,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 252,
+        "pickRate": 0.322663,
+        "winRate": 0.566505
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1430,
+            "pickRate": 0.075358,
+            "winRate": 0.544027,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1358,
+            "pickRate": 0.032024,
+            "winRate": 0.56945,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1264,
+            "pickRate": 0.051767,
+            "winRate": 0.509317,
+            "source": "slot5",
+            "icon": "assets/resources/items/4628.webp"
+          },
+          {
+            "id": 3165,
+            "name": "莫雷洛秘典",
+            "sampleCount": 1028,
+            "pickRate": 0.076403,
+            "winRate": 0.446438,
+            "source": "slot6",
+            "icon": "assets/resources/items/3165.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,11 +200,6 @@
   "items": {
     "starter": [
       {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
-      {
         "id": 3802,
         "name": "遗失的章节",
         "icon": "assets/resources/items/3802.webp"
@@ -85,58 +209,58 @@
       {
         "id": 6655,
         "name": "卢登的回声",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
         "icon": "assets/resources/items/6655.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       },
       {
-        "id": 4629,
-        "name": "星界驱驰",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4629.webp"
+        "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
         "id": 6655,
         "name": "卢登的回声",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
         "icon": "assets/resources/items/6655.webp"
       },
       {
         "id": 3003,
         "name": "大天使之杖",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
         "icon": "assets/resources/items/3003.webp"
       },
       {
-        "id": 4629,
-        "name": "星界驱驰",
-        "sampleCount": 1453,
-        "pickRate": 0.07657,
-        "winRate": 0.544973,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 1430,
+        "pickRate": 0.075358,
+        "winRate": 0.544027,
         "source": "coreProfile",
-        "icon": "assets/resources/items/4629.webp"
+        "icon": "assets/resources/items/3089.webp"
       },
       {
         "id": 3008,
@@ -157,13 +281,13 @@
         "icon": "assets/resources/items/4628.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1420,
-        "pickRate": 0.105537,
-        "winRate": 0.509865,
+        "id": 3165,
+        "name": "莫雷洛秘典",
+        "sampleCount": 1028,
+        "pickRate": 0.076403,
+        "winRate": 0.446438,
         "source": "slot6",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3165.webp"
       }
     ]
   },

@@ -9,8 +9,13 @@ def named_rows(prefix: str, count: int) -> list[dict]:
 
 
 def valid_fixture() -> dict:
+    items = {
+        "starter": named_rows("出门装", 2),
+        "core": named_rows("核心装", 3),
+        "recommended": named_rows("推荐装", 6),
+    }
     return {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "hero": {
             "id": 54,
             "slug": "malphite",
@@ -22,13 +27,14 @@ def valid_fixture() -> dict:
         },
         "ranking": {"rank": 113, "tier": "B", "winRate": 0.473438, "pickRate": 0.097088},
         "build": {"key": "tank", "name": "坦克流"},
+        "defaultBuildKey": "tank",
+        "builds": [
+            {"key": "tank", "name": "坦克流", "items": copy.deepcopy(items)},
+            {"key": "ap", "name": "法术流", "items": copy.deepcopy(items)},
+        ],
         "summonerSpells": named_rows("召唤师技能", 2),
         "skillOrder": "W>Q>E",
-        "items": {
-            "starter": named_rows("出门装", 2),
-            "core": named_rows("核心装", 3),
-            "recommended": named_rows("推荐装", 6),
-        },
+        "items": items,
         "augments": {
             "prismatic": named_rows("棱彩", 6),
             "gold": named_rows("金色", 6),
@@ -62,9 +68,16 @@ class GuideSchemaTests(unittest.TestCase):
 
     def test_missing_six_items_fails(self):
         payload = valid_fixture()
-        payload["items"]["recommended"] = payload["items"]["recommended"][:5]
+        payload["builds"][1]["items"]["recommended"] = payload["builds"][1]["items"]["recommended"][:5]
 
         with self.assertRaisesRegex(ValidationError, "recommended"):
+            validate_guide(payload)
+
+    def test_default_build_key_must_reference_a_build(self):
+        payload = valid_fixture()
+        payload["defaultBuildKey"] = "missing"
+
+        with self.assertRaisesRegex(ValidationError, "defaultBuildKey"):
             validate_guide(payload)
 
     def test_each_augment_rarity_requires_six_entries(self):

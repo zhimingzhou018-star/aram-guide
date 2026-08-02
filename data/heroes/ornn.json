@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 516,
     "slug": "ornn",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 17889,
       "pickRate": 0.508629,
-      "winRate": 0.522088
+      "winRate": 0.522088,
+      "itemIds": [
+        3084,
+        3083,
+        2502
+      ]
+    },
+    "starter": {
+      "sampleCount": 8932,
+      "pickRate": 0.651876,
+      "winRate": 0.51704
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 35171,
+      "pickRate": 0.871648,
+      "winRate": 0.504045,
+      "coreProfile": {
+        "sampleCount": 17889,
+        "pickRate": 0.508629,
+        "winRate": 0.522088,
+        "itemIds": [
+          3084,
+          3083,
+          2502
+        ]
+      },
+      "starter": {
+        "sampleCount": 8932,
+        "pickRate": 0.651876,
+        "winRate": 0.51704
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 17889,
+            "pickRate": 0.508629,
+            "winRate": 0.522088,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 15614,
+            "pickRate": 0.351841,
+            "winRate": 0.48674,
+            "source": "boots",
+            "icon": "assets/resources/items/3111.webp"
+          },
+          {
+            "id": 2501,
+            "name": "霸王血铠",
+            "sampleCount": 1265,
+            "pickRate": 0.046651,
+            "winRate": 0.570356,
+            "source": "slot5",
+            "icon": "assets/resources/items/2501.webp"
+          },
+          {
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 2986,
+            "pickRate": 0.180543,
+            "winRate": 0.54526,
+            "source": "slot6",
+            "icon": "assets/resources/items/6665.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -75,9 +209,9 @@
         "icon": "assets/resources/items/1011.webp"
       },
       {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 1028,
+        "name": "红水晶",
+        "icon": "assets/resources/items/1028.webp"
       }
     ],
     "core": [

@@ -38,11 +38,23 @@ def require_named_entries(value: Any, expected: int, path: str) -> list[dict[str
     return value
 
 
+def validate_items(items: dict[str, Any], path: str) -> None:
+    starter = items.get("starter")
+    if not isinstance(starter, list) or not 1 <= len(starter) <= 2:
+        raise ValidationError(f"{path}.starter 必须包含 1–2 项")
+    for index, row in enumerate(starter):
+        if not isinstance(row, dict) or row.get("id") is None:
+            raise ValidationError(f"{path}.starter[{index}] 缺少 id")
+        require_text(row, "name", f"{path}.starter[{index}]")
+    require_named_entries(items.get("core"), 3, f"{path}.core")
+    require_named_entries(items.get("recommended"), 6, f"{path}.recommended")
+
+
 def validate_guide(payload: dict[str, Any]) -> None:
     if not isinstance(payload, dict):
         raise ValidationError("攻略必须是对象")
-    if payload.get("schemaVersion") != 2:
-        raise ValidationError("schemaVersion 必须为 2")
+    if payload.get("schemaVersion") != 3:
+        raise ValidationError("schemaVersion 必须为 3")
 
     hero = require_mapping(payload, "hero")
     if not isinstance(hero.get("id"), int):
@@ -57,6 +69,24 @@ def validate_guide(payload: dict[str, Any]) -> None:
     build = require_mapping(payload, "build")
     require_text(build, "key", "build")
     require_text(build, "name", "build")
+    builds = payload.get("builds")
+    if not isinstance(builds, list) or not builds:
+        raise ValidationError("builds 至少包含 1 个流派")
+    build_keys: list[str] = []
+    for index, row in enumerate(builds):
+        if not isinstance(row, dict):
+            raise ValidationError(f"builds[{index}] 必须是对象")
+        build_key = require_text(row, "key", f"builds[{index}]")
+        require_text(row, "name", f"builds[{index}]")
+        if build_key in build_keys:
+            raise ValidationError(f"builds[{index}].key 不得重复")
+        build_keys.append(build_key)
+        validate_items(require_mapping(row, "items"), f"builds[{index}].items")
+    default_build_key = require_text(payload, "defaultBuildKey", "guide")
+    if default_build_key not in build_keys:
+        raise ValidationError("defaultBuildKey 必须引用 builds 中的流派")
+    if build.get("key") != default_build_key:
+        raise ValidationError("build 必须镜像默认流派")
     require_named_entries(payload.get("summonerSpells"), 2, "summonerSpells")
 
     skill_order = str(payload.get("skillOrder", ""))
@@ -65,15 +95,7 @@ def validate_guide(payload: dict[str, Any]) -> None:
         raise ValidationError("skillOrder 必须是三个不重复技能的加点顺序")
 
     items = require_mapping(payload, "items")
-    starter = items.get("starter")
-    if not isinstance(starter, list) or not 1 <= len(starter) <= 2:
-        raise ValidationError("items.starter 必须包含 1–2 项")
-    for index, row in enumerate(starter):
-        if not isinstance(row, dict) or row.get("id") is None:
-            raise ValidationError(f"items.starter[{index}] 缺少 id")
-        require_text(row, "name", f"items.starter[{index}]")
-    require_named_entries(items.get("core"), 3, "items.core")
-    require_named_entries(items.get("recommended"), 6, "items.recommended")
+    validate_items(items, "items")
 
     augments = require_mapping(payload, "augments")
     for rarity in ("prismatic", "gold", "silver"):

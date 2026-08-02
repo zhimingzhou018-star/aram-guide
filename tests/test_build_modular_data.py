@@ -35,6 +35,12 @@ class BuildModularDataTests(unittest.TestCase):
             self.assertIn("狗熊", guides["volibear"]["hero"]["aliases"])
             self.assertEqual(len(guides["graves"]["items"]["recommended"]), 6)
             self.assertTrue(guides["graves"]["gameplay"]["locked"])
+            self.assertGreaterEqual(len(guides["malphite"]["builds"]), 2)
+            self.assertEqual(guides["malphite"]["defaultBuildKey"], guides["malphite"]["builds"][0]["key"])
+            self.assertNotEqual(
+                guides["malphite"]["builds"][0]["items"]["core"],
+                guides["malphite"]["builds"][1]["items"]["core"],
+            )
 
     def test_index_is_lightweight_and_excludes_detail_modules(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -85,7 +91,7 @@ class BuildModularDataTests(unittest.TestCase):
             aramkit = next(source for source in guide["sources"] if source["provider"] == "ARAMKit")
 
             self.assertEqual(aramkit["segment"], "all")
-            self.assertEqual(aramkit["fallbackReason"], "没有满足样本门槛的流派")
+            self.assertEqual(aramkit["fallbackReason"], "没有可生成完整攻略的有效流派")
 
 
 if __name__ == "__main__":

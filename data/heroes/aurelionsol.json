@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 136,
     "slug": "aurelionsol",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 22185,
       "pickRate": 0.25651,
-      "winRate": 0.55814
+      "winRate": 0.55814,
+      "itemIds": [
+        3116,
+        2503,
+        6653
+      ]
+    },
+    "starter": {
+      "sampleCount": 466,
+      "pickRate": 0.05152,
+      "winRate": 0.605069
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 86488,
+      "pickRate": 0.875128,
+      "winRate": 0.525844,
+      "coreProfile": {
+        "sampleCount": 22185,
+        "pickRate": 0.25651,
+        "winRate": 0.55814,
+        "itemIds": [
+          3116,
+          2503,
+          6653
+        ]
+      },
+      "starter": {
+        "sampleCount": 466,
+        "pickRate": 0.05152,
+        "winRate": 0.605069
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 2508,
+            "name": "命定灰烬",
+            "icon": "assets/resources/items/2508.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 22185,
+            "pickRate": 0.25651,
+            "winRate": 0.55814,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 12443,
+            "pickRate": 0.11953,
+            "winRate": 0.55255,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 6046,
+            "pickRate": 0.086297,
+            "winRate": 0.551061,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 2857,
+            "pickRate": 0.06506,
+            "winRate": 0.539629,
+            "source": "slot6",
+            "icon": "assets/resources/items/3003.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

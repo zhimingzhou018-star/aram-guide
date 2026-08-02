@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 8,
     "slug": "vladimir",
@@ -52,9 +52,259 @@
     "coreProfile": {
       "sampleCount": 1478,
       "pickRate": 0.056185,
-      "winRate": 0.54224
+      "winRate": 0.54224,
+      "itemIds": [
+        4646,
+        3089,
+        4645
+      ]
+    },
+    "starter": {
+      "sampleCount": 227,
+      "pickRate": 0.344985,
+      "winRate": 0.546908
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 26306,
+      "pickRate": 0.6391,
+      "winRate": 0.504809,
+      "coreProfile": {
+        "sampleCount": 1478,
+        "pickRate": 0.056185,
+        "winRate": 0.54224,
+        "itemIds": [
+          4646,
+          3089,
+          4645
+        ]
+      },
+      "starter": {
+        "sampleCount": 227,
+        "pickRate": 0.344985,
+        "winRate": 0.546908
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3145,
+            "name": "海克斯科技发电机",
+            "icon": "assets/resources/items/3145.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1478,
+            "pickRate": 0.056185,
+            "winRate": 0.54224,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3857,
+            "pickRate": 0.082759,
+            "winRate": 0.520752,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 1721,
+            "pickRate": 0.0627,
+            "winRate": 0.535955,
+            "source": "slot5",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 1334,
+            "pickRate": 0.088128,
+            "winRate": 0.483688,
+            "source": "slot6",
+            "icon": "assets/resources/items/3157.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 1288,
+      "pickRate": 0.031292,
+      "winRate": 0.440853,
+      "coreProfile": {
+        "sampleCount": 1288,
+        "pickRate": 1,
+        "winRate": 0.440853,
+        "itemIds": [
+          3084,
+          4633,
+          3065
+        ]
+      },
+      "starter": {
+        "sampleCount": 801,
+        "pickRate": 0.794643,
+        "winRate": 0.438123
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1288,
+            "pickRate": 1,
+            "winRate": 0.440853,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3857,
+            "pickRate": 0.082759,
+            "winRate": 0.520752,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2117,
+            "pickRate": 0.077128,
+            "winRate": 0.509401,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 1334,
+            "pickRate": 0.088128,
+            "winRate": 0.483688,
+            "source": "slot6",
+            "icon": "assets/resources/items/3157.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 6,

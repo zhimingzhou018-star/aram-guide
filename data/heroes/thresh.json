@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 412,
     "slug": "thresh",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 2641,
       "pickRate": 0.065163,
-      "winRate": 0.449003
+      "winRate": 0.449003,
+      "itemIds": [
+        3084,
+        3083,
+        2504
+      ]
+    },
+    "starter": {
+      "sampleCount": 293,
+      "pickRate": 0.13057,
+      "winRate": 0.471304
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 40529,
+      "pickRate": 0.773085,
+      "winRate": 0.428839,
+      "coreProfile": {
+        "sampleCount": 2641,
+        "pickRate": 0.065163,
+        "winRate": 0.449003,
+        "itemIds": [
+          3084,
+          3083,
+          2504
+        ]
+      },
+      "starter": {
+        "sampleCount": 293,
+        "pickRate": 0.13057,
+        "winRate": 0.471304
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2504.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2504,
+            "name": "败魔",
+            "sampleCount": 2641,
+            "pickRate": 0.065163,
+            "winRate": 0.449003,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2504.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 3441,
+            "pickRate": 0.056736,
+            "winRate": 0.471473,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 2045,
+            "pickRate": 0.061294,
+            "winRate": 0.430153,
+            "source": "slot5",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 1012,
+            "pickRate": 0.055841,
+            "winRate": 0.425755,
+            "source": "slot6",
+            "icon": "assets/resources/items/3119.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

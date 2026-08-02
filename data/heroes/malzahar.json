@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 90,
     "slug": "malzahar",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 2103,
       "pickRate": 0.038617,
-      "winRate": 0.530439
+      "winRate": 0.530439,
+      "itemIds": [
+        2503,
+        6653,
+        8010
+      ]
+    },
+    "starter": {
+      "sampleCount": 1106,
+      "pickRate": 0.598485,
+      "winRate": 0.525481
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 54458,
+      "pickRate": 0.915568,
+      "winRate": 0.512536,
+      "coreProfile": {
+        "sampleCount": 2103,
+        "pickRate": 0.038617,
+        "winRate": 0.530439,
+        "itemIds": [
+          2503,
+          6653,
+          8010
+        ]
+      },
+      "starter": {
+        "sampleCount": 1106,
+        "pickRate": 0.598485,
+        "winRate": 0.525481
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/8010.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 2103,
+            "pickRate": 0.038617,
+            "winRate": 0.530439,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 9472,
+            "pickRate": 0.145781,
+            "winRate": 0.530421,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 2287,
+            "pickRate": 0.056099,
+            "winRate": 0.493172,
+            "source": "slot5",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2104,
+            "pickRate": 0.090022,
+            "winRate": 0.468866,
+            "source": "slot6",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

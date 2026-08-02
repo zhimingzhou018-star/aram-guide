@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 164,
     "slug": "camille",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 2521,
       "pickRate": 0.372103,
-      "winRate": 0.4686
+      "winRate": 0.4686,
+      "itemIds": [
+        3078,
+        3074,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 358,
+      "pickRate": 0.193618,
+      "winRate": 0.533672
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 6775,
+      "pickRate": 0.596391,
+      "winRate": 0.440606,
+      "coreProfile": {
+        "sampleCount": 2521,
+        "pickRate": 0.372103,
+        "winRate": 0.4686,
+        "itemIds": [
+          3078,
+          3074,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 358,
+        "pickRate": 0.193618,
+        "winRate": 0.533672
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 3074,
+            "name": "贪欲九头蛇",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3074.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 3074,
+            "name": "贪欲九头蛇",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3074.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2521,
+            "pickRate": 0.372103,
+            "winRate": 0.4686,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1175,
+            "pickRate": 0.086594,
+            "winRate": 0.490125,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1303,
+            "pickRate": 0.096028,
+            "winRate": 0.444788,
+            "source": "fallback",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3053,
+            "name": "斯特拉克的挑战护手",
+            "sampleCount": 2207,
+            "pickRate": 0.16265,
+            "winRate": 0.433698,
+            "source": "fallback",
+            "icon": "assets/resources/items/3053.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

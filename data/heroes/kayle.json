@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 10,
     "slug": "kayle",
@@ -53,9 +53,264 @@
     "coreProfile": {
       "sampleCount": 2517,
       "pickRate": 0.443994,
-      "winRate": 0.629992
+      "winRate": 0.629992,
+      "itemIds": [
+        3115,
+        2510,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 649,
+      "pickRate": 0.362165,
+      "winRate": 0.641347
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 5669,
+      "pickRate": 0.157867,
+      "winRate": 0.60141,
+      "coreProfile": {
+        "sampleCount": 2517,
+        "pickRate": 0.443994,
+        "winRate": 0.629992,
+        "itemIds": [
+          3115,
+          2510,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 649,
+        "pickRate": 0.362165,
+        "winRate": 0.641347
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2517,
+            "pickRate": 0.443994,
+            "winRate": 0.629992,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7112,
+            "pickRate": 0.177365,
+            "winRate": 0.599852,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1424,
+            "pickRate": 0.05798,
+            "winRate": 0.626724,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1480,
+            "pickRate": 0.107872,
+            "winRate": 0.579958,
+            "source": "slot6",
+            "icon": "assets/resources/items/3302.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 17356,
+      "pickRate": 0.483319,
+      "winRate": 0.568719,
+      "coreProfile": {
+        "sampleCount": 2433,
+        "pickRate": 0.140182,
+        "winRate": 0.587491,
+        "itemIds": [
+          3115,
+          2510,
+          3124
+        ]
+      },
+      "starter": {
+        "sampleCount": 241,
+        "pickRate": 0.262814,
+        "winRate": 0.617429
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1026,
+            "name": "爆裂魔杖",
+            "icon": "assets/resources/items/1026.webp"
+          },
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 2433,
+            "pickRate": 0.140182,
+            "winRate": 0.587491,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7112,
+            "pickRate": 0.177365,
+            "winRate": 0.599852,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1424,
+            "pickRate": 0.05798,
+            "winRate": 0.626724,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1480,
+            "pickRate": 0.107872,
+            "winRate": 0.579958,
+            "source": "slot6",
+            "icon": "assets/resources/items/3302.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

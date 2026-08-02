@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 126,
     "slug": "jayce",
@@ -44,17 +44,272 @@
     "pickRatePercent": 8.64
   },
   "build": {
-    "key": "crit",
-    "name": "暴击流",
-    "sampleCount": 5135,
-    "pickRate": 0.129714,
-    "winRate": 0.460739,
+    "key": "lethality",
+    "name": "穿甲流",
+    "sampleCount": 22779,
+    "pickRate": 0.575416,
+    "winRate": 0.44068,
     "coreProfile": {
-      "sampleCount": 1583,
-      "pickRate": 0.308277,
-      "winRate": 0.468786
+      "sampleCount": 1964,
+      "pickRate": 0.08622,
+      "winRate": 0.499377,
+      "itemIds": [
+        126697,
+        3004,
+        6699
+      ]
+    },
+    "starter": {
+      "sampleCount": 207,
+      "pickRate": 0.185152,
+      "winRate": 0.510424
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 22779,
+      "pickRate": 0.575416,
+      "winRate": 0.44068,
+      "coreProfile": {
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
+        "itemIds": [
+          126697,
+          3004,
+          6699
+        ]
+      },
+      "starter": {
+        "sampleCount": 207,
+        "pickRate": 0.185152,
+        "winRate": 0.510424
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6699.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 6699,
+            "name": "电震涡流剑",
+            "sampleCount": 1964,
+            "pickRate": 0.08622,
+            "winRate": 0.499377,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6699.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7485,
+            "pickRate": 0.172956,
+            "winRate": 0.495966,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1038,
+            "pickRate": 0.038948,
+            "winRate": 0.498319,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3814,
+            "name": "夜之锋刃",
+            "sampleCount": 1682,
+            "pickRate": 0.104589,
+            "winRate": 0.445879,
+            "source": "slot6",
+            "icon": "assets/resources/items/3814.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 5135,
+      "pickRate": 0.129714,
+      "winRate": 0.460739,
+      "coreProfile": {
+        "sampleCount": 1583,
+        "pickRate": 0.308277,
+        "winRate": 0.468786,
+        "itemIds": [
+          6676,
+          3036,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 329,
+        "pickRate": 0.298548,
+        "winRate": 0.465888
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1583,
+            "pickRate": 0.308277,
+            "winRate": 0.468786,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7485,
+            "pickRate": 0.172956,
+            "winRate": 0.495966,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1038,
+            "pickRate": 0.038948,
+            "winRate": 0.498319,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3814,
+            "name": "夜之锋刃",
+            "sampleCount": 1682,
+            "pickRate": 0.104589,
+            "winRate": 0.445879,
+            "source": "slot6",
+            "icon": "assets/resources/items/3814.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,67 +326,72 @@
   "items": {
     "starter": [
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
+      },
+      {
+        "id": 3177,
+        "name": "守护者之刃",
+        "icon": "assets/resources/items/3177.webp"
       }
     ],
     "core": [
       {
-        "id": 6676,
-        "name": "收集者",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6676.webp"
+        "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3004.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 6699,
+        "name": "电震涡流剑",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/6699.webp"
       }
     ],
     "recommended": [
       {
-        "id": 6676,
-        "name": "收集者",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 126697,
+        "name": "狂妄",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6676.webp"
+        "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 3036,
-        "name": "多米尼克领主的致意",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 3004,
+        "name": "魔宗",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3036.webp"
+        "icon": "assets/resources/items/3004.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1583,
-        "pickRate": 0.308277,
-        "winRate": 0.468786,
+        "id": 6699,
+        "name": "电震涡流剑",
+        "sampleCount": 1964,
+        "pickRate": 0.08622,
+        "winRate": 0.499377,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3031.webp"
+        "icon": "assets/resources/items/6699.webp"
       },
       {
         "id": 3008,

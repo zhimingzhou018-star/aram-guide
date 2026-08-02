@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 141,
     "slug": "kayn",
@@ -52,9 +52,264 @@
     "coreProfile": {
       "sampleCount": 1968,
       "pickRate": 0.03176,
-      "winRate": 0.604199
+      "winRate": 0.604199,
+      "itemIds": [
+        126697,
+        6696,
+        3036
+      ]
+    },
+    "starter": {
+      "sampleCount": 312,
+      "pickRate": 0.169289,
+      "winRate": 0.609632
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 61964,
+      "pickRate": 0.634227,
+      "winRate": 0.562461,
+      "coreProfile": {
+        "sampleCount": 1968,
+        "pickRate": 0.03176,
+        "winRate": 0.604199,
+        "itemIds": [
+          126697,
+          6696,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 312,
+        "pickRate": 0.169289,
+        "winRate": 0.609632
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3133,
+            "name": "考尔菲德的战锤",
+            "icon": "assets/resources/items/3133.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1968,
+            "pickRate": 0.03176,
+            "winRate": 0.604199,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 26400,
+            "pickRate": 0.248798,
+            "winRate": 0.575337,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 9450,
+            "pickRate": 0.148676,
+            "winRate": 0.566991,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2806,
+            "pickRate": 0.078207,
+            "winRate": 0.566597,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 20375,
+      "pickRate": 0.208547,
+      "winRate": 0.561678,
+      "coreProfile": {
+        "sampleCount": 1884,
+        "pickRate": 0.092466,
+        "winRate": 0.580725,
+        "itemIds": [
+          126697,
+          3161,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 372,
+        "pickRate": 0.350613,
+        "winRate": 0.592676
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3133,
+            "name": "考尔菲德的战锤",
+            "icon": "assets/resources/items/3133.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3161.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1884,
+            "pickRate": 0.092466,
+            "winRate": 0.580725,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 26400,
+            "pickRate": 0.248798,
+            "winRate": 0.575337,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 2581,
+            "pickRate": 0.040607,
+            "winRate": 0.582568,
+            "source": "slot5",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 4566,
+            "pickRate": 0.127261,
+            "winRate": 0.562301,
+            "source": "slot6",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

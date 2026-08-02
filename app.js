@@ -4,6 +4,7 @@ const state = {
   index: null,
   query: sessionStorage.getItem("hero-guide-query") || "",
   guideCache: new Map(),
+  selectedBuilds: new Map(),
 };
 
 const SEARCH_CAPTURE_DELAY_MS = 450;
@@ -52,7 +53,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=12").then((response) => {
+  return fetch("./data/index.json?rev=13").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -60,11 +61,11 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=12`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=13`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
-  if (guide.schemaVersion !== 2 || guide.hero?.slug !== slug) {
+  if (guide.schemaVersion !== 3 || guide.hero?.slug !== slug) {
     throw new Error("Invalid hero guide payload");
   }
   state.guideCache.set(slug, guide);
@@ -192,7 +193,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=12`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=13`;
   document.head.appendChild(link);
 }
 
@@ -400,29 +401,52 @@ function FigmaCombinations(guide) {
     </section>`;
 }
 
-function FigmaGuidePage(guide) {
-  const gameplay = guide.gameplay.summary.join(" ");
+function selectedBuildGuide(guide, buildKey) {
+  const build = guide.builds.find((row) => row.key === buildKey) || guide.builds[0];
+  return { ...guide, build, items: build.items };
+}
+
+function FigmaBuildTabs(guide, activeBuild) {
+  return `
+    <nav class="figma-build-strip" aria-label="流派选择" data-build-count="${guide.builds.length}">
+      ${guide.builds.map((build) => {
+        const active = build.key === activeBuild.key;
+        const winRate = Number(build.coreProfile?.winRate || 0) * 100;
+        return `
+          <button class="figma-build-tab${active ? " is-active" : ""}" type="button"
+            data-build-key="${escapeHtml(build.key)}" aria-pressed="${active}"
+            aria-label="${escapeHtml(build.name)}，胜率 ${winRate.toFixed(1)}%">
+            <span class="figma-build-name">${escapeHtml(build.name)}</span>
+            <span class="figma-build-stat"><span>胜率</span><strong class="figma-build-winrate">${winRate.toFixed(1)}%</strong></span>
+          </button>`;
+      }).join("")}
+    </nav>`;
+}
+
+function FigmaGuidePage(guide, buildKey = guide.defaultBuildKey) {
+  const selectedGuide = selectedBuildGuide(guide, buildKey);
+  const gameplay = selectedGuide.gameplay.summary.join(" ");
   return `
     <article class="figma-poster">
       <div class="figma-accent-line"></div>
       <div class="figma-poster-body">
-        ${FigmaHeroHeader(guide)}
-        <div class="figma-build-strip"><strong>${escapeHtml(guide.build.name)}</strong><span>流派 01</span></div>
+        ${FigmaHeroHeader(selectedGuide)}
+        ${FigmaBuildTabs(guide, selectedGuide.build)}
         <p class="figma-gameplay"><strong>玩法：</strong>${escapeHtml(gameplay)}</p>
         <section class="figma-items">
           <h2>推荐出装</h2>
           <p>出门装</p>
-          <ul class="figma-starter-items">${guide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
+          <ul class="figma-starter-items">${selectedGuide.items.starter.slice(0, 2).map(FigmaItemTile).join("")}</ul>
           <p>推荐选择</p>
-          <ol class="figma-recommended-items">${guide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
+          <ol class="figma-recommended-items">${selectedGuide.items.recommended.slice(0, 6).map(FigmaItemTile).join("")}</ol>
         </section>
         <section class="figma-augments">
           <h2>海克斯推荐</h2>
-          ${FigmaAugmentTier("棱彩", "prismatic", guide.augments.prismatic)}
-          ${FigmaAugmentTier("金色", "gold", guide.augments.gold)}
-          ${FigmaAugmentTier("银色", "silver", guide.augments.silver)}
+          ${FigmaAugmentTier("棱彩", "prismatic", selectedGuide.augments.prismatic)}
+          ${FigmaAugmentTier("金色", "gold", selectedGuide.augments.gold)}
+          ${FigmaAugmentTier("银色", "silver", selectedGuide.augments.silver)}
         </section>
-        ${FigmaCombinations(guide)}
+        ${FigmaCombinations(selectedGuide)}
       </div>
     </article>`;
 }
@@ -456,8 +480,24 @@ async function renderDetail(slug) {
   app.innerHTML = `<section class="detail-shell"><header class="detail-topbar detail-loading"><a class="back-button" href="#/">←</a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>加载模块数据</span></div><span></span></header><div class="module-skeleton"></div></section>`;
   try {
     const guide = await loadGuide(slug);
-    document.title = `${guide.hero.name}｜${guide.build.name}`;
-    app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide)}</section>`;
+    const renderSelectedBuild = (buildKey) => {
+      const selectedGuide = selectedBuildGuide(guide, buildKey);
+      state.selectedBuilds.set(slug, selectedGuide.build.key);
+      document.title = `${guide.hero.name}｜${selectedGuide.build.name}`;
+      app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide, selectedGuide.build.key)}</section>`;
+      document.querySelectorAll(".figma-build-tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          if (tab.dataset.buildKey === selectedGuide.build.key) return;
+          capture("build_switch", {
+            ...guideEventProperties(guide),
+            from_build_key: selectedGuide.build.key,
+            to_build_key: tab.dataset.buildKey,
+          });
+          renderSelectedBuild(tab.dataset.buildKey);
+        });
+      });
+    };
+    renderSelectedBuild(state.selectedBuilds.get(slug) || guide.defaultBuildKey);
     recordGuideView(guide);
   } catch (error) {
     app.innerHTML = `<section class="detail-shell"><header class="detail-topbar"><a class="back-button" href="#/">← <em>返回首页</em></a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>旧版兜底</span></div><span></span></header>${LegacyPosterFallback(indexGuide)}</section>`;

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 711,
     "slug": "vex",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 1330,
       "pickRate": 0.102111,
-      "winRate": 0.507735
+      "winRate": 0.507735,
+      "itemIds": [
+        2503,
+        6653,
+        4645
+      ]
+    },
+    "starter": {
+      "sampleCount": 371,
+      "pickRate": 0.323171,
+      "winRate": 0.528958
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 13025,
+      "pickRate": 0.747189,
+      "winRate": 0.490552,
+      "coreProfile": {
+        "sampleCount": 1330,
+        "pickRate": 0.102111,
+        "winRate": 0.507735,
+        "itemIds": [
+          2503,
+          6653,
+          4645
+        ]
+      },
+      "starter": {
+        "sampleCount": 371,
+        "pickRate": 0.323171,
+        "winRate": 0.528958
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1330,
+            "pickRate": 0.102111,
+            "winRate": 0.507735,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1619,
+            "pickRate": 0.081971,
+            "winRate": 0.54583,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 1473,
+            "pickRate": 0.125715,
+            "winRate": 0.470466,
+            "source": "slot5",
+            "icon": "assets/resources/items/3157.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1386,
+            "pickRate": 0.21505,
+            "winRate": 0.477037,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -69,11 +198,6 @@
   "skillOrder": "Q>W>E",
   "items": {
     "starter": [
-      {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
       {
         "id": 3802,
         "name": "遗失的章节",

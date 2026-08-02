@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 84,
     "slug": "akali",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 1002,
       "pickRate": 0.079745,
-      "winRate": 0.434994
+      "winRate": 0.434994,
+      "itemIds": [
+        3152,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 421,
+      "pickRate": 0.487269,
+      "winRate": 0.442049
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 12565,
+      "pickRate": 0.66718,
+      "winRate": 0.409806,
+      "coreProfile": {
+        "sampleCount": 1002,
+        "pickRate": 0.079745,
+        "winRate": 0.434994,
+        "itemIds": [
+          3152,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 421,
+        "pickRate": 0.487269,
+        "winRate": 0.442049
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1001,
+            "name": "鞋子",
+            "icon": "assets/resources/items/1001.webp"
+          },
+          {
+            "id": 3145,
+            "name": "海克斯科技发电机",
+            "icon": "assets/resources/items/3145.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3152.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3152.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1002,
+            "pickRate": 0.079745,
+            "winRate": 0.434994,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2332,
+            "pickRate": 0.111249,
+            "winRate": 0.44298,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3157,
+            "name": "中娅沙漏",
+            "sampleCount": 1837,
+            "pickRate": 0.145967,
+            "winRate": 0.423018,
+            "source": "slot5",
+            "icon": "assets/resources/items/3157.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1421,
+            "pickRate": 0.205169,
+            "winRate": 0.444033,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

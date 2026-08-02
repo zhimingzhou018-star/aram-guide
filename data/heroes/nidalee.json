@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 76,
     "slug": "nidalee",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1267,
       "pickRate": 0.049051,
-      "winRate": 0.474472
+      "winRate": 0.474472,
+      "itemIds": [
+        6655,
+        4646,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 398,
+      "pickRate": 0.403651,
+      "winRate": 0.473787
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 25830,
+      "pickRate": 0.81339,
+      "winRate": 0.433516,
+      "coreProfile": {
+        "sampleCount": 1267,
+        "pickRate": 0.049051,
+        "winRate": 0.474472,
+        "itemIds": [
+          6655,
+          4646,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 398,
+        "pickRate": 0.403651,
+        "winRate": 0.473787
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1267,
+            "pickRate": 0.049051,
+            "winRate": 0.474472,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 1435,
+            "pickRate": 0.038868,
+            "winRate": 0.435259,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1782,
+            "pickRate": 0.085562,
+            "winRate": 0.427185,
+            "source": "slot5",
+            "icon": "assets/resources/items/4628.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 2655,
+            "pickRate": 0.223956,
+            "winRate": 0.419114,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -70,11 +199,6 @@
   "skillOrder": "Q>W>E",
   "items": {
     "starter": [
-      {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
       {
         "id": 3802,
         "name": "遗失的章节",

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 12,
     "slug": "alistar",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 11522,
       "pickRate": 0.412605,
-      "winRate": 0.540515
+      "winRate": 0.540515,
+      "itemIds": [
+        3084,
+        2502,
+        3083
+      ]
+    },
+    "starter": {
+      "sampleCount": 326,
+      "pickRate": 0.045322,
+      "winRate": 0.548511
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 27925,
+      "pickRate": 0.727479,
+      "winRate": 0.517377,
+      "coreProfile": {
+        "sampleCount": 11522,
+        "pickRate": 0.412605,
+        "winRate": 0.540515,
+        "itemIds": [
+          3084,
+          2502,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 326,
+        "pickRate": 0.045322,
+        "winRate": 0.548511
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 11522,
+            "pickRate": 0.412605,
+            "winRate": 0.540515,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 1399,
+            "pickRate": 0.031289,
+            "winRate": 0.566383,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 1007,
+            "pickRate": 0.040544,
+            "winRate": 0.502267,
+            "source": "slot5",
+            "icon": "assets/resources/items/3119.webp"
+          },
+          {
+            "id": 6665,
+            "name": "千变者贾修",
+            "sampleCount": 1568,
+            "pickRate": 0.110524,
+            "winRate": 0.468971,
+            "source": "slot6",
+            "icon": "assets/resources/items/6665.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

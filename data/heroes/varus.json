@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 110,
     "slug": "varus",
@@ -44,17 +44,272 @@
     "pickRatePercent": 8.91
   },
   "build": {
-    "key": "on_hit",
-    "name": "攻速特效流",
-    "sampleCount": 3105,
-    "pickRate": 0.120892,
-    "winRate": 0.524146,
+    "key": "crit",
+    "name": "暴击流",
+    "sampleCount": 1558,
+    "pickRate": 0.06066,
+    "winRate": 0.501459,
     "coreProfile": {
-      "sampleCount": 1575,
-      "pickRate": 0.507246,
-      "winRate": 0.539927
+      "sampleCount": 1165,
+      "pickRate": 0.747754,
+      "winRate": 0.501014,
+      "itemIds": [
+        6676,
+        3153,
+        3085
+      ]
+    },
+    "starter": {
+      "sampleCount": 212,
+      "pickRate": 0.345277,
+      "winRate": 0.454707
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 1558,
+      "pickRate": 0.06066,
+      "winRate": 0.501459,
+      "coreProfile": {
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
+        "itemIds": [
+          6676,
+          3153,
+          3085
+        ]
+      },
+      "starter": {
+        "sampleCount": 212,
+        "pickRate": 0.345277,
+        "winRate": 0.454707
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1165,
+            "pickRate": 0.747754,
+            "winRate": 0.501014,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4672,
+            "pickRate": 0.164183,
+            "winRate": 0.518366,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1186,
+            "pickRate": 0.065481,
+            "winRate": 0.493103,
+            "source": "slot5",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 1386,
+            "pickRate": 0.048707,
+            "winRate": 0.507315,
+            "source": "fallback",
+            "icon": "assets/resources/items/3087.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 5360,
+      "pickRate": 0.20869,
+      "winRate": 0.474317,
+      "coreProfile": {
+        "sampleCount": 2862,
+        "pickRate": 0.533955,
+        "winRate": 0.478641,
+        "itemIds": [
+          126697,
+          6676,
+          3004
+        ]
+      },
+      "starter": {
+        "sampleCount": 1056,
+        "pickRate": 0.766885,
+        "winRate": 0.494283
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 2862,
+            "pickRate": 0.533955,
+            "winRate": 0.478641,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4672,
+            "pickRate": 0.164183,
+            "winRate": 0.518366,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1186,
+            "pickRate": 0.065481,
+            "winRate": 0.493103,
+            "source": "slot5",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 1386,
+            "pickRate": 0.048707,
+            "winRate": 0.507315,
+            "source": "fallback",
+            "icon": "assets/resources/items/3087.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,72 +326,72 @@
   "items": {
     "starter": [
       {
-        "id": 1042,
-        "name": "短剑",
-        "icon": "assets/resources/items/1042.webp"
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
       },
       {
-        "id": 3006,
-        "name": "狂战士胫甲",
-        "icon": "assets/resources/items/3006.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [
       {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
-      },
-      {
-        "id": 3124,
-        "name": "鬼索的狂暴之刃",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3124.webp"
       }
     ],
     "recommended": [
       {
+        "id": 6676,
+        "name": "收集者",
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6676.webp"
+      },
+      {
         "id": 3153,
         "name": "破败王者之刃",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
         "source": "coreProfile",
         "icon": "assets/resources/items/3153.webp"
       },
       {
         "id": 3085,
         "name": "卢安娜的飓风",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
+        "sampleCount": 1165,
+        "pickRate": 0.747754,
+        "winRate": 0.501014,
         "source": "coreProfile",
         "icon": "assets/resources/items/3085.webp"
-      },
-      {
-        "id": 3124,
-        "name": "鬼索的狂暴之刃",
-        "sampleCount": 1575,
-        "pickRate": 0.507246,
-        "winRate": 0.539927,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/3124.webp"
       },
       {
         "id": 3008,

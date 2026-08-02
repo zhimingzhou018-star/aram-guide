@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 888,
     "slug": "renata",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1035,
       "pickRate": 0.09743,
-      "winRate": 0.563034
+      "winRate": 0.563034,
+      "itemIds": [
+        4005,
+        2526,
+        6617
+      ]
+    },
+    "starter": {
+      "sampleCount": 245,
+      "pickRate": 0.617128,
+      "winRate": 0.580741
     }
   },
+  "defaultBuildKey": "utility",
+  "builds": [
+    {
+      "key": "utility",
+      "name": "辅助流",
+      "sampleCount": 10623,
+      "pickRate": 0.419765,
+      "winRate": 0.532569,
+      "coreProfile": {
+        "sampleCount": 1035,
+        "pickRate": 0.09743,
+        "winRate": 0.563034,
+        "itemIds": [
+          4005,
+          2526,
+          6617
+        ]
+      },
+      "starter": {
+        "sampleCount": 245,
+        "pickRate": 0.617128,
+        "winRate": 0.580741
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1035,
+            "pickRate": 0.09743,
+            "winRate": 0.563034,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 1460,
+            "pickRate": 0.053523,
+            "winRate": 0.534081,
+            "source": "boots",
+            "icon": "assets/resources/items/3111.webp"
+          },
+          {
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 1286,
+            "pickRate": 0.068999,
+            "winRate": 0.555194,
+            "source": "slot5",
+            "icon": "assets/resources/items/3504.webp"
+          },
+          {
+            "id": 3107,
+            "name": "救赎",
+            "sampleCount": 1159,
+            "pickRate": 0.096906,
+            "winRate": 0.502908,
+            "source": "slot6",
+            "icon": "assets/resources/items/3107.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 77,
     "slug": "udyr",
@@ -52,9 +52,259 @@
     "coreProfile": {
       "sampleCount": 2776,
       "pickRate": 0.081755,
-      "winRate": 0.508119
+      "winRate": 0.508119,
+      "itemIds": [
+        3118,
+        6653,
+        2503
+      ]
+    },
+    "starter": {
+      "sampleCount": 740,
+      "pickRate": 0.640138,
+      "winRate": 0.521278
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 33955,
+      "pickRate": 0.752983,
+      "winRate": 0.485201,
+      "coreProfile": {
+        "sampleCount": 2776,
+        "pickRate": 0.081755,
+        "winRate": 0.508119,
+        "itemIds": [
+          3118,
+          6653,
+          2503
+        ]
+      },
+      "starter": {
+        "sampleCount": 740,
+        "pickRate": 0.640138,
+        "winRate": 0.521278
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 2776,
+            "pickRate": 0.081755,
+            "winRate": 0.508119,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3613,
+            "pickRate": 0.074946,
+            "winRate": 0.49224,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1582,
+            "pickRate": 0.052004,
+            "winRate": 0.497237,
+            "source": "slot5",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 3535,
+            "pickRate": 0.187613,
+            "winRate": 0.488861,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 1832,
+      "pickRate": 0.040626,
+      "winRate": 0.423317,
+      "coreProfile": {
+        "sampleCount": 1143,
+        "pickRate": 0.623908,
+        "winRate": 0.425494,
+        "itemIds": [
+          126697,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 465,
+        "pickRate": 0.489989,
+        "winRate": 0.445312
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1143,
+            "pickRate": 0.623908,
+            "winRate": 0.425494,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3613,
+            "pickRate": 0.074946,
+            "winRate": 0.49224,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1582,
+            "pickRate": 0.052004,
+            "winRate": 0.497237,
+            "source": "slot5",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 3535,
+            "pickRate": 0.187613,
+            "winRate": 0.488861,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -70,11 +320,6 @@
   "skillOrder": "R>W>E",
   "items": {
     "starter": [
-      {
-        "id": 2031,
-        "name": "复用型药水",
-        "icon": "assets/resources/items/2031.webp"
-      },
       {
         "id": 3802,
         "name": "遗失的章节",

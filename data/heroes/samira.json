@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 360,
     "slug": "samira",
@@ -53,9 +53,143 @@
     "coreProfile": {
       "sampleCount": 1517,
       "pickRate": 0.129691,
-      "winRate": 0.540223
+      "winRate": 0.540223,
+      "itemIds": [
+        126697,
+        6676,
+        3031
+      ]
+    },
+    "starter": {
+      "sampleCount": 457,
+      "pickRate": 0.466803,
+      "winRate": 0.550509
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 11697,
+      "pickRate": 0.858055,
+      "winRate": 0.529346,
+      "coreProfile": {
+        "sampleCount": 1517,
+        "pickRate": 0.129691,
+        "winRate": 0.540223,
+        "itemIds": [
+          126697,
+          6676,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 457,
+        "pickRate": 0.466803,
+        "winRate": 0.550509
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1517,
+            "pickRate": 0.129691,
+            "winRate": 0.540223,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4352,
+            "pickRate": 0.291748,
+            "winRate": 0.544631,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1366,
+            "pickRate": 0.15402,
+            "winRate": 0.536173,
+            "source": "slot5",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 9439,
+            "pickRate": 0.632768,
+            "winRate": 0.528515,
+            "source": "fallback",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

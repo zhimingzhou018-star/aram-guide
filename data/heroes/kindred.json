@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 203,
     "slug": "kindred",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 1800,
       "pickRate": 0.099917,
-      "winRate": 0.51431
+      "winRate": 0.51431,
+      "itemIds": [
+        6676,
+        3036,
+        3031
+      ]
+    },
+    "starter": {
+      "sampleCount": 208,
+      "pickRate": 0.149748,
+      "winRate": 0.532622
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 18015,
+      "pickRate": 0.703436,
+      "winRate": 0.494413,
+      "coreProfile": {
+        "sampleCount": 1800,
+        "pickRate": 0.099917,
+        "winRate": 0.51431,
+        "itemIds": [
+          6676,
+          3036,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 208,
+        "pickRate": 0.149748,
+        "winRate": 0.532622
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1001,
+            "name": "鞋子",
+            "icon": "assets/resources/items/1001.webp"
+          },
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1800,
+            "pickRate": 0.099917,
+            "winRate": 0.51431,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4527,
+            "pickRate": 0.158653,
+            "winRate": 0.529354,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1393,
+            "pickRate": 0.079067,
+            "winRate": 0.523583,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1045,
+            "pickRate": 0.103856,
+            "winRate": 0.495711,
+            "source": "slot6",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

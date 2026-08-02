@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 60,
     "slug": "elise",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1319,
       "pickRate": 0.312263,
-      "winRate": 0.48392
+      "winRate": 0.48392,
+      "itemIds": [
+        6655,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 690,
+      "pickRate": 0.590248,
+      "winRate": 0.478146
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 4224,
+      "pickRate": 0.613508,
+      "winRate": 0.482223,
+      "coreProfile": {
+        "sampleCount": 1319,
+        "pickRate": 0.312263,
+        "winRate": 0.48392,
+        "itemIds": [
+          6655,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 690,
+        "pickRate": 0.590248,
+        "winRate": 0.478146
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1319,
+            "pickRate": 0.312263,
+            "winRate": 0.48392,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3020,
+            "name": "法师之靴",
+            "sampleCount": 4342,
+            "pickRate": 0.550945,
+            "winRate": 0.47099,
+            "source": "boots",
+            "icon": "assets/resources/items/3020.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1123,
+            "pickRate": 0.261163,
+            "winRate": 0.469042,
+            "source": "slot5",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 2222,
+            "pickRate": 0.281944,
+            "winRate": 0.470587,
+            "source": "fallback",
+            "icon": "assets/resources/items/3100.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

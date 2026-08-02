@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 79,
     "slug": "gragas",
@@ -52,9 +52,259 @@
     "coreProfile": {
       "sampleCount": 2456,
       "pickRate": 0.360065,
-      "winRate": 0.522126
+      "winRate": 0.522126,
+      "itemIds": [
+        6655,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 1251,
+      "pickRate": 0.58159,
+      "winRate": 0.525274
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 6821,
+      "pickRate": 0.266727,
+      "winRate": 0.498062,
+      "coreProfile": {
+        "sampleCount": 2456,
+        "pickRate": 0.360065,
+        "winRate": 0.522126,
+        "itemIds": [
+          6655,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 1251,
+        "pickRate": 0.58159,
+        "winRate": 0.525274
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2456,
+            "pickRate": 0.360065,
+            "winRate": 0.522126,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3020,
+            "name": "法师之靴",
+            "sampleCount": 6458,
+            "pickRate": 0.221544,
+            "winRate": 0.498006,
+            "source": "boots",
+            "icon": "assets/resources/items/3020.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1397,
+            "pickRate": 0.086181,
+            "winRate": 0.484453,
+            "source": "slot5",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 4724,
+            "pickRate": 0.162058,
+            "winRate": 0.495791,
+            "source": "fallback",
+            "icon": "assets/resources/items/3100.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 9029,
+      "pickRate": 0.353068,
+      "winRate": 0.448244,
+      "coreProfile": {
+        "sampleCount": 3021,
+        "pickRate": 0.334589,
+        "winRate": 0.463105,
+        "itemIds": [
+          3084,
+          2502,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 1270,
+        "pickRate": 0.7683,
+        "winRate": 0.464625
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 3021,
+            "pickRate": 0.334589,
+            "winRate": 0.463105,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3020,
+            "name": "法师之靴",
+            "sampleCount": 6458,
+            "pickRate": 0.221544,
+            "winRate": 0.498006,
+            "source": "boots",
+            "icon": "assets/resources/items/3020.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1397,
+            "pickRate": 0.086181,
+            "winRate": 0.484453,
+            "source": "slot5",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 8397,
+            "pickRate": 0.288062,
+            "winRate": 0.501685,
+            "source": "fallback",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

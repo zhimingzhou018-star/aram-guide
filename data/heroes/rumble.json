@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 68,
     "slug": "rumble",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 2551,
       "pickRate": 0.076976,
-      "winRate": 0.554281
+      "winRate": 0.554281,
+      "itemIds": [
+        6653,
+        4633,
+        8010
+      ]
+    },
+    "starter": {
+      "sampleCount": 471,
+      "pickRate": 0.250266,
+      "winRate": 0.564353
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 33140,
+      "pickRate": 0.845473,
+      "winRate": 0.508348,
+      "coreProfile": {
+        "sampleCount": 2551,
+        "pickRate": 0.076976,
+        "winRate": 0.554281,
+        "itemIds": [
+          6653,
+          4633,
+          8010
+        ]
+      },
+      "starter": {
+        "sampleCount": 471,
+        "pickRate": 0.250266,
+        "winRate": 0.564353
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3147,
+            "name": "幽魂面具",
+            "icon": "assets/resources/items/3147.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/8010.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 4633,
+            "name": "裂隙制造者",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4633.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 2551,
+            "pickRate": 0.076976,
+            "winRate": 0.554281,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 7033,
+            "pickRate": 0.163787,
+            "winRate": 0.530096,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2531,
+            "pickRate": 0.091763,
+            "winRate": 0.511252,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1964,
+            "pickRate": 0.120609,
+            "winRate": 0.506216,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,14 +200,9 @@
   "items": {
     "starter": [
       {
-        "id": 1052,
-        "name": "增幅典籍",
-        "icon": "assets/resources/items/1052.webp"
-      },
-      {
-        "id": 2508,
-        "name": "命定灰烬",
-        "icon": "assets/resources/items/2508.webp"
+        "id": 3147,
+        "name": "幽魂面具",
+        "icon": "assets/resources/items/3147.webp"
       }
     ],
     "core": [

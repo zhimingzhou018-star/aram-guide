@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 804,
     "slug": "yunara",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 1065,
       "pickRate": 0.082309,
-      "winRate": 0.578047
+      "winRate": 0.578047,
+      "itemIds": [
+        6672,
+        3085,
+        3031
+      ]
+    },
+    "starter": {
+      "sampleCount": 413,
+      "pickRate": 0.466667,
+      "winRate": 0.610261
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 12939,
+      "pickRate": 0.571965,
+      "winRate": 0.557498,
+      "coreProfile": {
+        "sampleCount": 1065,
+        "pickRate": 0.082309,
+        "winRate": 0.578047,
+        "itemIds": [
+          6672,
+          3085,
+          3031
+        ]
+      },
+      "starter": {
+        "sampleCount": 413,
+        "pickRate": 0.466667,
+        "winRate": 0.610261
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3051,
+            "name": "缚炉之斧",
+            "icon": "assets/resources/items/3051.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6672,
+            "name": "海妖杀手",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6672.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6672,
+            "name": "海妖杀手",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6672.webp"
+          },
+          {
+            "id": 3085,
+            "name": "卢安娜的飓风",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3085.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1065,
+            "pickRate": 0.082309,
+            "winRate": 0.578047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 6811,
+            "pickRate": 0.270396,
+            "winRate": 0.613421,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1469,
+            "pickRate": 0.094028,
+            "winRate": 0.566626,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1277,
+            "pickRate": 0.142873,
+            "winRate": 0.528827,
+            "source": "slot6",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 40,
     "slug": "janna",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 4020,
       "pickRate": 0.347631,
-      "winRate": 0.599362
+      "winRate": 0.599362,
+      "itemIds": [
+        6617,
+        2526,
+        3504
+      ]
+    },
+    "starter": {
+      "sampleCount": 1500,
+      "pickRate": 0.575595,
+      "winRate": 0.608397
     }
   },
+  "defaultBuildKey": "utility",
+  "builds": [
+    {
+      "key": "utility",
+      "name": "辅助流",
+      "sampleCount": 11564,
+      "pickRate": 0.461637,
+      "winRate": 0.577834,
+      "coreProfile": {
+        "sampleCount": 4020,
+        "pickRate": 0.347631,
+        "winRate": 0.599362,
+        "itemIds": [
+          6617,
+          2526,
+          3504
+        ]
+      },
+      "starter": {
+        "sampleCount": 1500,
+        "pickRate": 0.575595,
+        "winRate": 0.608397
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3504.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 4020,
+            "pickRate": 0.347631,
+            "winRate": 0.599362,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3504.webp"
+          },
+          {
+            "id": 3158,
+            "name": "明朗之靴",
+            "sampleCount": 12923,
+            "pickRate": 0.472004,
+            "winRate": 0.548846,
+            "source": "boots",
+            "icon": "assets/resources/items/3158.webp"
+          },
+          {
+            "id": 6621,
+            "name": "黎明核心",
+            "sampleCount": 2438,
+            "pickRate": 0.13945,
+            "winRate": 0.554743,
+            "source": "slot5",
+            "icon": "assets/resources/items/6621.webp"
+          },
+          {
+            "id": 3107,
+            "name": "救赎",
+            "sampleCount": 1229,
+            "pickRate": 0.113902,
+            "winRate": 0.523723,
+            "source": "slot6",
+            "icon": "assets/resources/items/3107.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

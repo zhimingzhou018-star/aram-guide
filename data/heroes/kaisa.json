@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 145,
     "slug": "kaisa",
@@ -44,17 +44,262 @@
     "pickRatePercent": 13.16
   },
   "build": {
-    "key": "on_hit",
-    "name": "攻速特效流",
-    "sampleCount": 6161,
-    "pickRate": 0.164741,
-    "winRate": 0.482862,
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 13313,
+    "pickRate": 0.355982,
+    "winRate": 0.468277,
     "coreProfile": {
-      "sampleCount": 2726,
-      "pickRate": 0.442461,
-      "winRate": 0.487149
+      "sampleCount": 2599,
+      "pickRate": 0.195223,
+      "winRate": 0.49015,
+      "itemIds": [
+        6655,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 414,
+      "pickRate": 0.204344,
+      "winRate": 0.537411
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 13313,
+      "pickRate": 0.355982,
+      "winRate": 0.468277,
+      "coreProfile": {
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
+        "itemIds": [
+          6655,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 414,
+        "pickRate": 0.204344,
+        "winRate": 0.537411
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6655,
+            "name": "卢登的回声",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6655.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2599,
+            "pickRate": 0.195223,
+            "winRate": 0.49015,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4663,
+            "pickRate": 0.104159,
+            "winRate": 0.496953,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1466,
+            "pickRate": 0.060504,
+            "winRate": 0.482505,
+            "source": "slot5",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1165,
+            "pickRate": 0.085248,
+            "winRate": 0.483962,
+            "source": "slot6",
+            "icon": "assets/resources/items/3135.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 6161,
+      "pickRate": 0.164741,
+      "winRate": 0.482862,
+      "coreProfile": {
+        "sampleCount": 2726,
+        "pickRate": 0.442461,
+        "winRate": 0.487149,
+        "itemIds": [
+          6672,
+          3153,
+          3124
+        ]
+      },
+      "starter": {
+        "sampleCount": 701,
+        "pickRate": 0.484451,
+        "winRate": 0.499153
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3051,
+            "name": "缚炉之斧",
+            "icon": "assets/resources/items/3051.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6672,
+            "name": "海妖杀手",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6672.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6672,
+            "name": "海妖杀手",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6672.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3124,
+            "name": "鬼索的狂暴之刃",
+            "sampleCount": 2726,
+            "pickRate": 0.442461,
+            "winRate": 0.487149,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3124.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4663,
+            "pickRate": 0.104159,
+            "winRate": 0.496953,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3302,
+            "name": "界弓",
+            "sampleCount": 1466,
+            "pickRate": 0.060504,
+            "winRate": 0.482505,
+            "source": "slot5",
+            "icon": "assets/resources/items/3302.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1292,
+            "pickRate": 0.094541,
+            "winRate": 0.492172,
+            "source": "slot6",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,67 +316,67 @@
   "items": {
     "starter": [
       {
-        "id": 3051,
-        "name": "缚炉之斧",
-        "icon": "assets/resources/items/3051.webp"
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
       }
     ],
     "core": [
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6672.webp"
+        "icon": "assets/resources/items/6655.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/4645.webp"
       },
       {
-        "id": 3124,
-        "name": "鬼索的狂暴之刃",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3124.webp"
+        "icon": "assets/resources/items/3089.webp"
       }
     ],
     "recommended": [
       {
-        "id": 6672,
-        "name": "海妖杀手",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 6655,
+        "name": "卢登的回声",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/6672.webp"
+        "icon": "assets/resources/items/6655.webp"
       },
       {
-        "id": 3153,
-        "name": "破败王者之刃",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3153.webp"
+        "icon": "assets/resources/items/4645.webp"
       },
       {
-        "id": 3124,
-        "name": "鬼索的狂暴之刃",
-        "sampleCount": 2726,
-        "pickRate": 0.442461,
-        "winRate": 0.487149,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2599,
+        "pickRate": 0.195223,
+        "winRate": 0.49015,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3124.webp"
+        "icon": "assets/resources/items/3089.webp"
       },
       {
         "id": 3008,
@@ -152,13 +397,13 @@
         "icon": "assets/resources/items/3302.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 1292,
-        "pickRate": 0.094541,
-        "winRate": 0.492172,
+        "id": 3135,
+        "name": "虚空之杖",
+        "sampleCount": 1165,
+        "pickRate": 0.085248,
+        "winRate": 0.483962,
         "source": "slot6",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3135.webp"
       }
     ]
   },

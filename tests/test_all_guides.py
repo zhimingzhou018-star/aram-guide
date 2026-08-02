@@ -45,6 +45,27 @@ class AllGuidesTests(unittest.TestCase):
         unlocked = [slug for slug, guide in self.guides.items() if not guide["gameplay"].get("locked")]
         self.assertEqual(unlocked, [])
 
+    def test_all_guides_publish_every_valid_build(self):
+        build_count = 0
+        invalid = []
+        for slug, guide in self.guides.items():
+            builds = guide.get("builds", [])
+            build_count += len(builds)
+            keys = [row.get("key") for row in builds]
+            if not 1 <= len(builds) <= 4:
+                invalid.append((slug, "count", len(builds)))
+            if len(keys) != len(set(keys)):
+                invalid.append((slug, "duplicate", keys))
+            if guide.get("defaultBuildKey") != keys[0]:
+                invalid.append((slug, "default", guide.get("defaultBuildKey"), keys))
+            for build in builds:
+                if len(build["items"]["starter"]) not in (1, 2):
+                    invalid.append((slug, build["key"], "starter"))
+                if len(build["items"]["core"]) != 3 or len(build["items"]["recommended"]) != 6:
+                    invalid.append((slug, build["key"], "items"))
+        self.assertGreater(build_count, 172)
+        self.assertEqual(invalid, [])
+
     def test_all_single_augments_meet_one_percent_pick_rate(self):
         invalid = []
         for slug, guide in self.guides.items():

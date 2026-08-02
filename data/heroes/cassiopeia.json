@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 69,
     "slug": "cassiopeia",
@@ -51,9 +51,138 @@
     "coreProfile": {
       "sampleCount": 1177,
       "pickRate": 0.104095,
-      "winRate": 0.484082
+      "winRate": 0.484082,
+      "itemIds": [
+        2503,
+        6653,
+        3116
+      ]
+    },
+    "starter": {
+      "sampleCount": 290,
+      "pickRate": 0.516934,
+      "winRate": 0.573313
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 11307,
+      "pickRate": 0.676782,
+      "winRate": 0.462564,
+      "coreProfile": {
+        "sampleCount": 1177,
+        "pickRate": 0.104095,
+        "winRate": 0.484082,
+        "itemIds": [
+          2503,
+          6653,
+          3116
+        ]
+      },
+      "starter": {
+        "sampleCount": 290,
+        "pickRate": 0.516934,
+        "winRate": 0.573313
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 1177,
+            "pickRate": 0.104095,
+            "winRate": 0.484082,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3116.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3421,
+            "pickRate": 0.18955,
+            "winRate": 0.50105,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3003,
+            "name": "大天使之杖",
+            "sampleCount": 1096,
+            "pickRate": 0.092271,
+            "winRate": 0.496431,
+            "source": "slot5",
+            "icon": "assets/resources/items/3003.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1495,
+            "pickRate": 0.211039,
+            "winRate": 0.453892,
+            "source": "slot6",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

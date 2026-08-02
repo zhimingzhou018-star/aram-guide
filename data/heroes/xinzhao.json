@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 5,
     "slug": "xinzhao",
@@ -50,11 +50,145 @@
     "pickRate": 0.513596,
     "winRate": 0.531283,
     "coreProfile": {
-      "sampleCount": 3029,
-      "pickRate": 0.115624,
-      "winRate": 0.55595
+      "sampleCount": 3811,
+      "pickRate": 0.145475,
+      "winRate": 0.548961,
+      "itemIds": [
+        3087,
+        2510,
+        3065
+      ]
+    },
+    "starter": {
+      "sampleCount": 206,
+      "pickRate": 0.078957,
+      "winRate": 0.558145
     }
   },
+  "defaultBuildKey": "on_hit",
+  "builds": [
+    {
+      "key": "on_hit",
+      "name": "攻速特效流",
+      "sampleCount": 26197,
+      "pickRate": 0.513596,
+      "winRate": 0.531283,
+      "coreProfile": {
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
+        "itemIds": [
+          3087,
+          2510,
+          3065
+        ]
+      },
+      "starter": {
+        "sampleCount": 206,
+        "pickRate": 0.078957,
+        "winRate": 0.558145
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          },
+          {
+            "id": 3144,
+            "name": "斥候弹弓",
+            "icon": "assets/resources/items/3144.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3087,
+            "name": "斯塔缇克电刃",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3087.webp"
+          },
+          {
+            "id": 2510,
+            "name": "黄昏与黎明",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2510.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 3811,
+            "pickRate": 0.145475,
+            "winRate": 0.548961,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4646,
+            "pickRate": 0.082253,
+            "winRate": 0.53658,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3115,
+            "name": "纳什之牙",
+            "sampleCount": 1200,
+            "pickRate": 0.038873,
+            "winRate": 0.522539,
+            "source": "slot5",
+            "icon": "assets/resources/items/3115.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1325,
+            "pickRate": 0.083433,
+            "winRate": 0.499944,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -83,60 +217,60 @@
     ],
     "core": [
       {
-        "id": 2510,
-        "name": "黄昏与黎明",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2510.webp"
-      },
-      {
         "id": 3087,
         "name": "斯塔缇克电刃",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
         "source": "coreProfile",
         "icon": "assets/resources/items/3087.webp"
       },
       {
-        "id": 3115,
-        "name": "纳什之牙",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3115.webp"
+        "icon": "assets/resources/items/2510.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3065.webp"
       }
     ],
     "recommended": [
       {
-        "id": 2510,
-        "name": "黄昏与黎明",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/2510.webp"
-      },
-      {
         "id": 3087,
         "name": "斯塔缇克电刃",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
         "source": "coreProfile",
         "icon": "assets/resources/items/3087.webp"
       },
       {
-        "id": 3115,
-        "name": "纳什之牙",
-        "sampleCount": 3029,
-        "pickRate": 0.115624,
-        "winRate": 0.55595,
+        "id": 2510,
+        "name": "黄昏与黎明",
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3115.webp"
+        "icon": "assets/resources/items/2510.webp"
+      },
+      {
+        "id": 3065,
+        "name": "振奋盔甲",
+        "sampleCount": 3811,
+        "pickRate": 0.145475,
+        "winRate": 0.548961,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3065.webp"
       },
       {
         "id": 3008,
@@ -148,13 +282,13 @@
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 4633,
-        "name": "裂隙制造者",
-        "sampleCount": 1689,
-        "pickRate": 0.054713,
-        "winRate": 0.51132,
+        "id": 3115,
+        "name": "纳什之牙",
+        "sampleCount": 1200,
+        "pickRate": 0.038873,
+        "winRate": 0.522539,
         "source": "slot5",
-        "icon": "assets/resources/items/4633.webp"
+        "icon": "assets/resources/items/3115.webp"
       },
       {
         "id": 6333,

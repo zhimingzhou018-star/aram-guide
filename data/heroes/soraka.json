@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 16,
     "slug": "soraka",
@@ -53,9 +53,380 @@
     "coreProfile": {
       "sampleCount": 1652,
       "pickRate": 0.048242,
-      "winRate": 0.59895
+      "winRate": 0.59895,
+      "itemIds": [
+        2526,
+        6617,
+        6616
+      ]
+    },
+    "starter": {
+      "sampleCount": 755,
+      "pickRate": 0.739471,
+      "winRate": 0.586851
     }
   },
+  "defaultBuildKey": "utility",
+  "builds": [
+    {
+      "key": "utility",
+      "name": "辅助流",
+      "sampleCount": 34244,
+      "pickRate": 0.675464,
+      "winRate": 0.523189,
+      "coreProfile": {
+        "sampleCount": 1652,
+        "pickRate": 0.048242,
+        "winRate": 0.59895,
+        "itemIds": [
+          2526,
+          6617,
+          6616
+        ]
+      },
+      "starter": {
+        "sampleCount": 755,
+        "pickRate": 0.739471,
+        "winRate": 0.586851
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6616.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 2526,
+            "name": "耳语头环",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2526.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 1652,
+            "pickRate": 0.048242,
+            "winRate": 0.59895,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6616.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1650,
+            "pickRate": 0.030468,
+            "winRate": 0.516054,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 6621,
+            "name": "黎明核心",
+            "sampleCount": 4430,
+            "pickRate": 0.129695,
+            "winRate": 0.518198,
+            "source": "slot5",
+            "icon": "assets/resources/items/6621.webp"
+          },
+          {
+            "id": 3504,
+            "name": "炽热香炉",
+            "sampleCount": 2213,
+            "pickRate": 0.107673,
+            "winRate": 0.489757,
+            "source": "slot6",
+            "icon": "assets/resources/items/3504.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 3377,
+      "pickRate": 0.066611,
+      "winRate": 0.469964,
+      "coreProfile": {
+        "sampleCount": 2571,
+        "pickRate": 0.761327,
+        "winRate": 0.464644,
+        "itemIds": [
+          6657,
+          3083,
+          6617
+        ]
+      },
+      "starter": {
+        "sampleCount": 306,
+        "pickRate": 0.227509,
+        "winRate": 0.4653
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3803,
+            "name": "万世催化石",
+            "icon": "assets/resources/items/3803.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6657,
+            "name": "时光之杖",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6657.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 2571,
+            "pickRate": 0.761327,
+            "winRate": 0.464644,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1650,
+            "pickRate": 0.030468,
+            "winRate": 0.516054,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 1752,
+            "pickRate": 0.051293,
+            "winRate": 0.533267,
+            "source": "slot5",
+            "icon": "assets/resources/items/6616.webp"
+          },
+          {
+            "id": 6621,
+            "name": "黎明核心",
+            "sampleCount": 2294,
+            "pickRate": 0.111614,
+            "winRate": 0.493842,
+            "source": "slot6",
+            "icon": "assets/resources/items/6621.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 2098,
+      "pickRate": 0.041383,
+      "winRate": 0.46339,
+      "coreProfile": {
+        "sampleCount": 1479,
+        "pickRate": 0.704957,
+        "winRate": 0.458764,
+        "itemIds": [
+          6617,
+          3083,
+          3119
+        ]
+      },
+      "starter": {
+        "sampleCount": 303,
+        "pickRate": 0.362874,
+        "winRate": 0.486525
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6617,
+            "name": "月石再生器",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6617.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 1479,
+            "pickRate": 0.704957,
+            "winRate": 0.458764,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1650,
+            "pickRate": 0.030468,
+            "winRate": 0.516054,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 6616,
+            "name": "流水法杖",
+            "sampleCount": 1752,
+            "pickRate": 0.051293,
+            "winRate": 0.533267,
+            "source": "slot5",
+            "icon": "assets/resources/items/6616.webp"
+          },
+          {
+            "id": 6621,
+            "name": "黎明核心",
+            "sampleCount": 2294,
+            "pickRate": 0.111614,
+            "winRate": 0.493842,
+            "source": "slot6",
+            "icon": "assets/resources/items/6621.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

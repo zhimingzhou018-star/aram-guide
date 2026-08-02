@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 42,
     "slug": "corki",
@@ -53,9 +53,138 @@
     "coreProfile": {
       "sampleCount": 1863,
       "pickRate": 0.502834,
-      "winRate": 0.507053
+      "winRate": 0.507053,
+      "itemIds": [
+        6676,
+        3031,
+        3036
+      ]
+    },
+    "starter": {
+      "sampleCount": 294,
+      "pickRate": 0.193676,
+      "winRate": 0.521984
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 3705,
+      "pickRate": 0.510542,
+      "winRate": 0.508356,
+      "coreProfile": {
+        "sampleCount": 1863,
+        "pickRate": 0.502834,
+        "winRate": 0.507053,
+        "itemIds": [
+          6676,
+          3031,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 294,
+        "pickRate": 0.193676,
+        "winRate": 0.521984
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3134,
+            "name": "锯齿短匕",
+            "icon": "assets/resources/items/3134.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1863,
+            "pickRate": 0.502834,
+            "winRate": 0.507053,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 2247,
+            "pickRate": 0.272364,
+            "winRate": 0.539213,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3508,
+            "name": "夺萃之镰",
+            "sampleCount": 2354,
+            "pickRate": 0.285333,
+            "winRate": 0.510104,
+            "source": "fallback",
+            "icon": "assets/resources/items/3508.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 2062,
+            "pickRate": 0.249939,
+            "winRate": 0.506498,
+            "source": "fallback",
+            "icon": "assets/resources/items/3072.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -72,14 +201,9 @@
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
-      },
-      {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3134,
+        "name": "锯齿短匕",
+        "icon": "assets/resources/items/3134.webp"
       }
     ],
     "core": [

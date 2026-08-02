@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 23,
     "slug": "tryndamere",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 2082,
       "pickRate": 0.137945,
-      "winRate": 0.505794
+      "winRate": 0.505794,
+      "itemIds": [
+        3153,
+        3031,
+        3046
+      ]
+    },
+    "starter": {
+      "sampleCount": 318,
+      "pickRate": 0.378121,
+      "winRate": 0.483256
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 15093,
+      "pickRate": 0.367128,
+      "winRate": 0.479656,
+      "coreProfile": {
+        "sampleCount": 2082,
+        "pickRate": 0.137945,
+        "winRate": 0.505794,
+        "itemIds": [
+          3153,
+          3031,
+          3046
+        ]
+      },
+      "starter": {
+        "sampleCount": 318,
+        "pickRate": 0.378121,
+        "winRate": 0.483256
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 3006,
+            "name": "狂战士胫甲",
+            "icon": "assets/resources/items/3006.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3046.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3046,
+            "name": "幻影之舞",
+            "sampleCount": 2082,
+            "pickRate": 0.137945,
+            "winRate": 0.505794,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3046.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 3079,
+            "pickRate": 0.068333,
+            "winRate": 0.509122,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3072,
+            "name": "饮血剑",
+            "sampleCount": 1104,
+            "pickRate": 0.038542,
+            "winRate": 0.515181,
+            "source": "slot5",
+            "icon": "assets/resources/items/3072.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 1628,
+            "pickRate": 0.100911,
+            "winRate": 0.502959,
+            "source": "slot6",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -76,9 +210,9 @@
         "icon": "assets/resources/items/1042.webp"
       },
       {
-        "id": 1053,
-        "name": "吸血鬼节杖",
-        "icon": "assets/resources/items/1053.webp"
+        "id": 3006,
+        "name": "狂战士胫甲",
+        "icon": "assets/resources/items/3006.webp"
       }
     ],
     "core": [

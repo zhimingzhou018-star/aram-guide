@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 876,
     "slug": "lillia",
@@ -53,9 +53,138 @@
     "coreProfile": {
       "sampleCount": 4976,
       "pickRate": 0.071181,
-      "winRate": 0.609561
+      "winRate": 0.609561,
+      "itemIds": [
+        6653,
+        2503,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 2849,
+      "pickRate": 0.665188,
+      "winRate": 0.618613
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 69906,
+      "pickRate": 0.880706,
+      "winRate": 0.5527,
+      "coreProfile": {
+        "sampleCount": 4976,
+        "pickRate": 0.071181,
+        "winRate": 0.609561,
+        "itemIds": [
+          6653,
+          2503,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 2849,
+        "pickRate": 0.665188,
+        "winRate": 0.618613
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 4976,
+            "pickRate": 0.071181,
+            "winRate": 0.609561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 28514,
+            "pickRate": 0.324957,
+            "winRate": 0.579814,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2847,
+            "pickRate": 0.049377,
+            "winRate": 0.561807,
+            "source": "slot5",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3116,
+            "name": "瑞莱的冰晶节杖",
+            "sampleCount": 1879,
+            "pickRate": 0.054022,
+            "winRate": 0.538758,
+            "source": "slot6",
+            "icon": "assets/resources/items/3116.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -72,14 +201,9 @@
   "items": {
     "starter": [
       {
-        "id": 1052,
-        "name": "增幅典籍",
-        "icon": "assets/resources/items/1052.webp"
-      },
-      {
-        "id": 2508,
-        "name": "命定灰烬",
-        "icon": "assets/resources/items/2508.webp"
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
       }
     ],
     "core": [

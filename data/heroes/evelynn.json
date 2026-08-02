@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 28,
     "slug": "evelynn",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 1011,
       "pickRate": 0.41846,
-      "winRate": 0.495101
+      "winRate": 0.495101,
+      "itemIds": [
+        3100,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 213,
+      "pickRate": 0.364726,
+      "winRate": 0.461373
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 2416,
+      "pickRate": 0.48641,
+      "winRate": 0.49079,
+      "coreProfile": {
+        "sampleCount": 1011,
+        "pickRate": 0.41846,
+        "winRate": 0.495101,
+        "itemIds": [
+          3100,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 213,
+        "pickRate": 0.364726,
+        "winRate": 0.461373
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          },
+          {
+            "id": 3057,
+            "name": "耀光",
+            "icon": "assets/resources/items/3057.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3100,
+            "name": "巫妖之祸",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3100.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1011,
+            "pickRate": 0.41846,
+            "winRate": 0.495101,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3020,
+            "name": "法师之靴",
+            "sampleCount": 3328,
+            "pickRate": 0.596309,
+            "winRate": 0.463832,
+            "source": "boots",
+            "icon": "assets/resources/items/3020.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 2293,
+            "pickRate": 0.410858,
+            "winRate": 0.485464,
+            "source": "fallback",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 2571,
+            "pickRate": 0.46067,
+            "winRate": 0.471886,
+            "source": "fallback",
+            "icon": "assets/resources/items/4646.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,14 +205,14 @@
   "items": {
     "starter": [
       {
-        "id": 1026,
-        "name": "爆裂魔杖",
-        "icon": "assets/resources/items/1026.webp"
-      },
-      {
         "id": 1052,
         "name": "增幅典籍",
         "icon": "assets/resources/items/1052.webp"
+      },
+      {
+        "id": 3057,
+        "name": "耀光",
+        "icon": "assets/resources/items/3057.webp"
       }
     ],
     "core": [

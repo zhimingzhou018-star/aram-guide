@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 202,
     "slug": "jhin",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 8412,
       "pickRate": 0.407321,
-      "winRate": 0.496404
+      "winRate": 0.496404,
+      "itemIds": [
+        6676,
+        3031,
+        3036
+      ]
+    },
+    "starter": {
+      "sampleCount": 539,
+      "pickRate": 0.079393,
+      "winRate": 0.514951
     }
   },
+  "defaultBuildKey": "crit",
+  "builds": [
+    {
+      "key": "crit",
+      "name": "暴击流",
+      "sampleCount": 20652,
+      "pickRate": 0.770252,
+      "winRate": 0.489685,
+      "coreProfile": {
+        "sampleCount": 8412,
+        "pickRate": 0.407321,
+        "winRate": 0.496404,
+        "itemIds": [
+          6676,
+          3031,
+          3036
+        ]
+      },
+      "starter": {
+        "sampleCount": 539,
+        "pickRate": 0.079393,
+        "winRate": 0.514951
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 1037,
+            "name": "十字镐",
+            "icon": "assets/resources/items/1037.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6676,
+            "name": "收集者",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6676.webp"
+          },
+          {
+            "id": 3031,
+            "name": "无尽之刃",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3031.webp"
+          },
+          {
+            "id": 3036,
+            "name": "多米尼克领主的致意",
+            "sampleCount": 8412,
+            "pickRate": 0.407321,
+            "winRate": 0.496404,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3036.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4187,
+            "pickRate": 0.139158,
+            "winRate": 0.50064,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2523,
+            "name": "海克斯镜片 C44",
+            "sampleCount": 1261,
+            "pickRate": 0.065175,
+            "winRate": 0.506744,
+            "source": "slot5",
+            "icon": "assets/resources/items/2523.webp"
+          },
+          {
+            "id": 3094,
+            "name": "疾射火炮",
+            "sampleCount": 1147,
+            "pickRate": 0.09672,
+            "winRate": 0.490696,
+            "source": "slot6",
+            "icon": "assets/resources/items/3094.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -76,9 +210,9 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 1037,
+        "name": "十字镐",
+        "icon": "assets/resources/items/1037.webp"
       }
     ],
     "core": [

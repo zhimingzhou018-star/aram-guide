@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 48,
     "slug": "trundle",
@@ -52,9 +52,501 @@
     "coreProfile": {
       "sampleCount": 17910,
       "pickRate": 0.495203,
-      "winRate": 0.527047
+      "winRate": 0.527047,
+      "itemIds": [
+        4005,
+        6653,
+        2503
+      ]
+    },
+    "starter": {
+      "sampleCount": 209,
+      "pickRate": 0.019386,
+      "winRate": 0.569831
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 36167,
+      "pickRate": 0.355789,
+      "winRate": 0.496235,
+      "coreProfile": {
+        "sampleCount": 17910,
+        "pickRate": 0.495203,
+        "winRate": 0.527047,
+        "itemIds": [
+          4005,
+          6653,
+          2503
+        ]
+      },
+      "starter": {
+        "sampleCount": 209,
+        "pickRate": 0.019386,
+        "winRate": 0.569831
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6653.webp"
+          },
+          {
+            "id": 2503,
+            "name": "黯炎火炬",
+            "sampleCount": 17910,
+            "pickRate": 0.495203,
+            "winRate": 0.527047,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2503.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4712,
+            "pickRate": 0.041061,
+            "winRate": 0.522621,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 1704,
+            "pickRate": 0.025959,
+            "winRate": 0.511513,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1178,
+            "pickRate": 0.031023,
+            "winRate": 0.553393,
+            "source": "slot6",
+            "icon": "assets/resources/items/4628.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 15066,
+      "pickRate": 0.14821,
+      "winRate": 0.471442,
+      "coreProfile": {
+        "sampleCount": 2265,
+        "pickRate": 0.150339,
+        "winRate": 0.498097,
+        "itemIds": [
+          3084,
+          2502,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 925,
+        "pickRate": 0.708812,
+        "winRate": 0.479993
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 2265,
+            "pickRate": 0.150339,
+            "winRate": 0.498097,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4712,
+            "pickRate": 0.041061,
+            "winRate": 0.522621,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 1704,
+            "pickRate": 0.025959,
+            "winRate": 0.511513,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1178,
+            "pickRate": 0.031023,
+            "winRate": 0.553393,
+            "source": "slot6",
+            "icon": "assets/resources/items/4628.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "utility",
+      "name": "辅助流",
+      "sampleCount": 4344,
+      "pickRate": 0.042734,
+      "winRate": 0.489453,
+      "coreProfile": {
+        "sampleCount": 2450,
+        "pickRate": 0.563996,
+        "winRate": 0.496893,
+        "itemIds": [
+          4005,
+          2524,
+          3119
+        ]
+      },
+      "starter": {
+        "sampleCount": 784,
+        "pickRate": 0.458748,
+        "winRate": 0.50077
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1052,
+            "name": "增幅典籍",
+            "icon": "assets/resources/items/1052.webp"
+          },
+          {
+            "id": 4642,
+            "name": "班德尔玻璃镜",
+            "icon": "assets/resources/items/4642.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 2524,
+            "name": "班德尔音管",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2524.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4005,
+            "name": "帝国指令",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4005.webp"
+          },
+          {
+            "id": 2524,
+            "name": "班德尔音管",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2524.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 2450,
+            "pickRate": 0.563996,
+            "winRate": 0.496893,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4712,
+            "pickRate": 0.041061,
+            "winRate": 0.522621,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 1704,
+            "pickRate": 0.025959,
+            "winRate": 0.511513,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1178,
+            "pickRate": 0.031023,
+            "winRate": 0.553393,
+            "source": "slot6",
+            "icon": "assets/resources/items/4628.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 5639,
+      "pickRate": 0.055473,
+      "winRate": 0.478555,
+      "coreProfile": {
+        "sampleCount": 1346,
+        "pickRate": 0.238695,
+        "winRate": 0.48081,
+        "itemIds": [
+          6610,
+          3078,
+          3153
+        ]
+      },
+      "starter": {
+        "sampleCount": 299,
+        "pickRate": 0.57722,
+        "winRate": 0.527441
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 2021,
+            "name": "掘道钻头",
+            "icon": "assets/resources/items/2021.webp"
+          },
+          {
+            "id": 2022,
+            "name": "荧尘",
+            "icon": "assets/resources/items/2022.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 3078,
+            "name": "三相之力",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3078.webp"
+          },
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 1346,
+            "pickRate": 0.238695,
+            "winRate": 0.48081,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 4712,
+            "pickRate": 0.041061,
+            "winRate": 0.522621,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 8010,
+            "name": "放血者的诅咒",
+            "sampleCount": 1704,
+            "pickRate": 0.025959,
+            "winRate": 0.511513,
+            "source": "slot5",
+            "icon": "assets/resources/items/8010.webp"
+          },
+          {
+            "id": 4628,
+            "name": "视界专注",
+            "sampleCount": 1178,
+            "pickRate": 0.031023,
+            "winRate": 0.553393,
+            "source": "slot6",
+            "icon": "assets/resources/items/4628.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

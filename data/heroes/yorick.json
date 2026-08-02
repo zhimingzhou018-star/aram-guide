@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 83,
     "slug": "yorick",
@@ -52,9 +52,264 @@
     "coreProfile": {
       "sampleCount": 1072,
       "pickRate": 0.088602,
-      "winRate": 0.478487
+      "winRate": 0.478487,
+      "itemIds": [
+        3084,
+        3065,
+        3083
+      ]
+    },
+    "starter": {
+      "sampleCount": 258,
+      "pickRate": 0.337255,
+      "winRate": 0.534826
     }
   },
+  "defaultBuildKey": "tank",
+  "builds": [
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 12099,
+      "pickRate": 0.359479,
+      "winRate": 0.443037,
+      "coreProfile": {
+        "sampleCount": 1072,
+        "pickRate": 0.088602,
+        "winRate": 0.478487,
+        "itemIds": [
+          3084,
+          3065,
+          3083
+        ]
+      },
+      "starter": {
+        "sampleCount": 258,
+        "pickRate": 0.337255,
+        "winRate": 0.534826
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3065,
+            "name": "振奋盔甲",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3065.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1072,
+            "pickRate": 0.088602,
+            "winRate": 0.478487,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1709,
+            "pickRate": 0.043401,
+            "winRate": 0.468638,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6662,
+            "name": "冰脉护手",
+            "sampleCount": 1146,
+            "pickRate": 0.054827,
+            "winRate": 0.447586,
+            "source": "slot5",
+            "icon": "assets/resources/items/6662.webp"
+          },
+          {
+            "id": 3075,
+            "name": "荆棘之甲",
+            "sampleCount": 1394,
+            "pickRate": 0.125722,
+            "winRate": 0.388752,
+            "source": "slot6",
+            "icon": "assets/resources/items/3075.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 6181,
+      "pickRate": 0.183647,
+      "winRate": 0.434823,
+      "coreProfile": {
+        "sampleCount": 3494,
+        "pickRate": 0.565281,
+        "winRate": 0.444419,
+        "itemIds": [
+          3084,
+          6610,
+          6662
+        ]
+      },
+      "starter": {
+        "sampleCount": 1636,
+        "pickRate": 0.594261,
+        "winRate": 0.449209
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6662,
+            "name": "冰脉护手",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6662.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6662,
+            "name": "冰脉护手",
+            "sampleCount": 3494,
+            "pickRate": 0.565281,
+            "winRate": 0.444419,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6662.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1709,
+            "pickRate": 0.043401,
+            "winRate": 0.468638,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1276,
+            "pickRate": 0.061047,
+            "winRate": 0.435679,
+            "source": "slot5",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3075,
+            "name": "荆棘之甲",
+            "sampleCount": 1394,
+            "pickRate": 0.125722,
+            "winRate": 0.388752,
+            "source": "slot6",
+            "icon": "assets/resources/items/3075.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -606,7 +861,7 @@
       "region": "unknown",
       "dataLevel": "aggregate",
       "segment": "all",
-      "fallbackReason": "没有满足样本门槛的流派"
+      "fallbackReason": "没有可生成完整攻略的有效流派"
     },
     {
       "provider": "ARAMGG",

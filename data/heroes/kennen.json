@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 85,
     "slug": "kennen",
@@ -51,9 +51,143 @@
     "coreProfile": {
       "sampleCount": 1870,
       "pickRate": 0.157739,
-      "winRate": 0.492328
+      "winRate": 0.492328,
+      "itemIds": [
+        4645,
+        3152,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 547,
+      "pickRate": 0.354734,
+      "winRate": 0.491053
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 11855,
+      "pickRate": 0.758769,
+      "winRate": 0.451831,
+      "coreProfile": {
+        "sampleCount": 1870,
+        "pickRate": 0.157739,
+        "winRate": 0.492328,
+        "itemIds": [
+          4645,
+          3152,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 547,
+        "pickRate": 0.354734,
+        "winRate": 0.491053
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1001,
+            "name": "鞋子",
+            "icon": "assets/resources/items/1001.webp"
+          },
+          {
+            "id": 3145,
+            "name": "海克斯科技发电机",
+            "icon": "assets/resources/items/3145.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3152.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3152,
+            "name": "海克斯科技火箭腰带",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3152.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1870,
+            "pickRate": 0.157739,
+            "winRate": 0.492328,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3020,
+            "name": "法师之靴",
+            "sampleCount": 10385,
+            "pickRate": 0.595641,
+            "winRate": 0.457248,
+            "source": "boots",
+            "icon": "assets/resources/items/3020.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 2301,
+            "pickRate": 0.221976,
+            "winRate": 0.448649,
+            "source": "slot5",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 6653,
+            "name": "兰德里的折磨",
+            "sampleCount": 1664,
+            "pickRate": 0.09544,
+            "winRate": 0.448799,
+            "source": "fallback",
+            "icon": "assets/resources/items/6653.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

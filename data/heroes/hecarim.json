@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 120,
     "slug": "hecarim",
@@ -52,9 +52,264 @@
     "coreProfile": {
       "sampleCount": 2034,
       "pickRate": 0.033016,
-      "winRate": 0.565792
+      "winRate": 0.565792,
+      "itemIds": [
+        126697,
+        6333,
+        2517
+      ]
+    },
+    "starter": {
+      "sampleCount": 291,
+      "pickRate": 0.25684,
+      "winRate": 0.621895
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 61607,
+      "pickRate": 0.725659,
+      "winRate": 0.523034,
+      "coreProfile": {
+        "sampleCount": 2034,
+        "pickRate": 0.033016,
+        "winRate": 0.565792,
+        "itemIds": [
+          126697,
+          6333,
+          2517
+        ]
+      },
+      "starter": {
+        "sampleCount": 291,
+        "pickRate": 0.25684,
+        "winRate": 0.621895
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 2034,
+            "pickRate": 0.033016,
+            "winRate": 0.565792,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 28506,
+            "pickRate": 0.301625,
+            "winRate": 0.55428,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3004,
+            "name": "魔宗",
+            "sampleCount": 6119,
+            "pickRate": 0.103512,
+            "winRate": 0.527594,
+            "source": "slot5",
+            "icon": "assets/resources/items/3004.webp"
+          },
+          {
+            "id": 3161,
+            "name": "朔极之矛",
+            "sampleCount": 1225,
+            "pickRate": 0.036296,
+            "winRate": 0.523642,
+            "source": "slot6",
+            "icon": "assets/resources/items/3161.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 3517,
+      "pickRate": 0.041426,
+      "winRate": 0.443129,
+      "coreProfile": {
+        "sampleCount": 1245,
+        "pickRate": 0.353995,
+        "winRate": 0.457286,
+        "itemIds": [
+          3084,
+          3083,
+          2502
+        ]
+      },
+      "starter": {
+        "sampleCount": 528,
+        "pickRate": 0.725275,
+        "winRate": 0.477878
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 1028,
+            "name": "红水晶",
+            "icon": "assets/resources/items/1028.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 1245,
+            "pickRate": 0.353995,
+            "winRate": 0.457286,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/2502.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 28506,
+            "pickRate": 0.301625,
+            "winRate": 0.55428,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 13735,
+            "pickRate": 0.232348,
+            "winRate": 0.532163,
+            "source": "slot5",
+            "icon": "assets/resources/items/2517.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2701,
+            "pickRate": 0.08003,
+            "winRate": 0.532459,
+            "source": "slot6",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 6,
@@ -71,14 +326,14 @@
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
+        "id": 3070,
+        "name": "女神之泪",
+        "icon": "assets/resources/items/3070.webp"
       },
       {
-        "id": 3134,
-        "name": "锯齿短匕",
-        "icon": "assets/resources/items/3134.webp"
+        "id": 3177,
+        "name": "守护者之刃",
+        "icon": "assets/resources/items/3177.webp"
       }
     ],
     "core": [

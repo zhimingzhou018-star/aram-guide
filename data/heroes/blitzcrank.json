@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 53,
     "slug": "blitzcrank",
@@ -44,17 +44,267 @@
     "pickRatePercent": 7.43
   },
   "build": {
-    "key": "tank",
-    "name": "坦克流",
-    "sampleCount": 16120,
-    "pickRate": 0.358724,
-    "winRate": 0.436018,
+    "key": "ap",
+    "name": "法术流",
+    "sampleCount": 10886,
+    "pickRate": 0.24225,
+    "winRate": 0.435387,
     "coreProfile": {
-      "sampleCount": 6555,
-      "pickRate": 0.406638,
-      "winRate": 0.442012
+      "sampleCount": 2804,
+      "pickRate": 0.257579,
+      "winRate": 0.449534,
+      "itemIds": [
+        3118,
+        3089,
+        4645
+      ]
+    },
+    "starter": {
+      "sampleCount": 1444,
+      "pickRate": 0.629194,
+      "winRate": 0.44973
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 10886,
+      "pickRate": 0.24225,
+      "winRate": 0.435387,
+      "coreProfile": {
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
+        "itemIds": [
+          3118,
+          3089,
+          4645
+        ]
+      },
+      "starter": {
+        "sampleCount": 1444,
+        "pickRate": 0.629194,
+        "winRate": 0.44973
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3802,
+            "name": "遗失的章节",
+            "icon": "assets/resources/items/3802.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3118,
+            "name": "残疫",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3118.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 2804,
+            "pickRate": 0.257579,
+            "winRate": 0.449534,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1003,
+            "pickRate": 0.019116,
+            "winRate": 0.505433,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 1804,
+            "pickRate": 0.063278,
+            "winRate": 0.460377,
+            "source": "slot5",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3075,
+            "name": "荆棘之甲",
+            "sampleCount": 1241,
+            "pickRate": 0.082966,
+            "winRate": 0.406962,
+            "source": "slot6",
+            "icon": "assets/resources/items/3075.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tank",
+      "name": "坦克流",
+      "sampleCount": 16120,
+      "pickRate": 0.358724,
+      "winRate": 0.436018,
+      "coreProfile": {
+        "sampleCount": 6555,
+        "pickRate": 0.406638,
+        "winRate": 0.442012,
+        "itemIds": [
+          3084,
+          3083,
+          3119
+        ]
+      },
+      "starter": {
+        "sampleCount": 1369,
+        "pickRate": 0.345707,
+        "winRate": 0.442668
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1011,
+            "name": "巨人腰带",
+            "icon": "assets/resources/items/1011.webp"
+          },
+          {
+            "id": 3070,
+            "name": "女神之泪",
+            "icon": "assets/resources/items/3070.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3084,
+            "name": "心之钢",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3084.webp"
+          },
+          {
+            "id": 3083,
+            "name": "狂徒铠甲",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3083.webp"
+          },
+          {
+            "id": 3119,
+            "name": "凛冬之临",
+            "sampleCount": 6555,
+            "pickRate": 0.406638,
+            "winRate": 0.442012,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3119.webp"
+          },
+          {
+            "id": 3009,
+            "name": "轻灵之靴",
+            "sampleCount": 1003,
+            "pickRate": 0.019116,
+            "winRate": 0.505433,
+            "source": "boots",
+            "icon": "assets/resources/items/3009.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 2942,
+            "pickRate": 0.103195,
+            "winRate": 0.449825,
+            "source": "slot5",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3075,
+            "name": "荆棘之甲",
+            "sampleCount": 1241,
+            "pickRate": 0.082966,
+            "winRate": 0.406962,
+            "source": "slot6",
+            "icon": "assets/resources/items/3075.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,72 +321,67 @@
   "items": {
     "starter": [
       {
-        "id": 1011,
-        "name": "巨人腰带",
-        "icon": "assets/resources/items/1011.webp"
-      },
-      {
-        "id": 3070,
-        "name": "女神之泪",
-        "icon": "assets/resources/items/3070.webp"
+        "id": 3802,
+        "name": "遗失的章节",
+        "icon": "assets/resources/items/3802.webp"
       }
     ],
     "core": [
       {
-        "id": 3084,
-        "name": "心之钢",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3084.webp"
+        "icon": "assets/resources/items/3118.webp"
       },
       {
-        "id": 3083,
-        "name": "狂徒铠甲",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3083.webp"
+        "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3119,
-        "name": "凛冬之临",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3119.webp"
+        "icon": "assets/resources/items/4645.webp"
       }
     ],
     "recommended": [
       {
-        "id": 3084,
-        "name": "心之钢",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 3118,
+        "name": "残疫",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3084.webp"
+        "icon": "assets/resources/items/3118.webp"
       },
       {
-        "id": 3083,
-        "name": "狂徒铠甲",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 3089,
+        "name": "灭世者的死亡之帽",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3083.webp"
+        "icon": "assets/resources/items/3089.webp"
       },
       {
-        "id": 3119,
-        "name": "凛冬之临",
-        "sampleCount": 6555,
-        "pickRate": 0.406638,
-        "winRate": 0.442012,
+        "id": 4645,
+        "name": "影焰",
+        "sampleCount": 2804,
+        "pickRate": 0.257579,
+        "winRate": 0.449534,
         "source": "coreProfile",
-        "icon": "assets/resources/items/3119.webp"
+        "icon": "assets/resources/items/4645.webp"
       },
       {
         "id": 3009,
@@ -148,13 +393,13 @@
         "icon": "assets/resources/items/3009.webp"
       },
       {
-        "id": 3089,
-        "name": "灭世者的死亡之帽",
-        "sampleCount": 2942,
-        "pickRate": 0.103195,
-        "winRate": 0.449825,
+        "id": 3083,
+        "name": "狂徒铠甲",
+        "sampleCount": 1804,
+        "pickRate": 0.063278,
+        "winRate": 0.460377,
         "source": "slot5",
-        "icon": "assets/resources/items/3089.webp"
+        "icon": "assets/resources/items/3083.webp"
       },
       {
         "id": 3075,

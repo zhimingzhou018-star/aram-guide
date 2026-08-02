@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 39,
     "slug": "irelia",
@@ -52,9 +52,143 @@
     "coreProfile": {
       "sampleCount": 2510,
       "pickRate": 0.462929,
-      "winRate": 0.447343
+      "winRate": 0.447343,
+      "itemIds": [
+        3153,
+        6610,
+        6333
+      ]
+    },
+    "starter": {
+      "sampleCount": 423,
+      "pickRate": 0.265038,
+      "winRate": 0.454976
     }
   },
+  "defaultBuildKey": "bruiser",
+  "builds": [
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 5422,
+      "pickRate": 0.439349,
+      "winRate": 0.445628,
+      "coreProfile": {
+        "sampleCount": 2510,
+        "pickRate": 0.462929,
+        "winRate": 0.447343,
+        "itemIds": [
+          3153,
+          6610,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 423,
+        "pickRate": 0.265038,
+        "winRate": 0.454976
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1042,
+            "name": "短剑",
+            "icon": "assets/resources/items/1042.webp"
+          },
+          {
+            "id": 1053,
+            "name": "吸血鬼节杖",
+            "icon": "assets/resources/items/1053.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 3153,
+            "name": "破败王者之刃",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3153.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2510,
+            "pickRate": 0.462929,
+            "winRate": 0.447343,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 1374,
+            "pickRate": 0.099645,
+            "winRate": 0.502169,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 3074,
+            "name": "贪欲九头蛇",
+            "sampleCount": 1287,
+            "pickRate": 0.093335,
+            "winRate": 0.479641,
+            "source": "fallback",
+            "icon": "assets/resources/items/3074.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1411,
+            "pickRate": 0.102328,
+            "winRate": 0.46977,
+            "source": "fallback",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -71,14 +205,14 @@
   "items": {
     "starter": [
       {
-        "id": 1036,
-        "name": "长剑",
-        "icon": "assets/resources/items/1036.webp"
+        "id": 1042,
+        "name": "短剑",
+        "icon": "assets/resources/items/1042.webp"
       },
       {
-        "id": 1037,
-        "name": "十字镐",
-        "icon": "assets/resources/items/1037.webp"
+        "id": 1053,
+        "name": "吸血鬼节杖",
+        "icon": "assets/resources/items/1053.webp"
       }
     ],
     "core": [

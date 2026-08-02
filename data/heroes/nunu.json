@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 20,
     "slug": "nunu",
@@ -52,9 +52,138 @@
     "coreProfile": {
       "sampleCount": 1410,
       "pickRate": 0.182548,
-      "winRate": 0.435561
+      "winRate": 0.435561,
+      "itemIds": [
+        4646,
+        4645,
+        3089
+      ]
+    },
+    "starter": {
+      "sampleCount": 206,
+      "pickRate": 0.227876,
+      "winRate": 0.465741
     }
   },
+  "defaultBuildKey": "ap",
+  "builds": [
+    {
+      "key": "ap",
+      "name": "法术流",
+      "sampleCount": 7724,
+      "pickRate": 0.486245,
+      "winRate": 0.427542,
+      "coreProfile": {
+        "sampleCount": 1410,
+        "pickRate": 0.182548,
+        "winRate": 0.435561,
+        "itemIds": [
+          4646,
+          4645,
+          3089
+        ]
+      },
+      "starter": {
+        "sampleCount": 206,
+        "pickRate": 0.227876,
+        "winRate": 0.465741
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 3145,
+            "name": "海克斯科技发电机",
+            "icon": "assets/resources/items/3145.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 4646,
+            "name": "风暴狂涌",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4646.webp"
+          },
+          {
+            "id": 4645,
+            "name": "影焰",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/4645.webp"
+          },
+          {
+            "id": 3089,
+            "name": "灭世者的死亡之帽",
+            "sampleCount": 1410,
+            "pickRate": 0.182548,
+            "winRate": 0.435561,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/3089.webp"
+          },
+          {
+            "id": 3111,
+            "name": "水银之靴",
+            "sampleCount": 2632,
+            "pickRate": 0.148265,
+            "winRate": 0.455394,
+            "source": "boots",
+            "icon": "assets/resources/items/3111.webp"
+          },
+          {
+            "id": 3135,
+            "name": "虚空之杖",
+            "sampleCount": 1638,
+            "pickRate": 0.155718,
+            "winRate": 0.437972,
+            "source": "slot5",
+            "icon": "assets/resources/items/3135.webp"
+          },
+          {
+            "id": 2502,
+            "name": "无终恨意",
+            "sampleCount": 2696,
+            "pickRate": 0.15187,
+            "winRate": 0.485353,
+            "source": "fallback",
+            "icon": "assets/resources/items/2502.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "hero": {
     "id": 64,
     "slug": "leesin",
@@ -44,17 +44,272 @@
     "pickRatePercent": 6.18
   },
   "build": {
-    "key": "bruiser",
-    "name": "战士流",
-    "sampleCount": 19744,
-    "pickRate": 0.326202,
-    "winRate": 0.413474,
+    "key": "lethality",
+    "name": "穿甲流",
+    "sampleCount": 21263,
+    "pickRate": 0.351298,
+    "winRate": 0.405771,
     "coreProfile": {
-      "sampleCount": 2536,
-      "pickRate": 0.128444,
-      "winRate": 0.422227
+      "sampleCount": 1324,
+      "pickRate": 0.062268,
+      "winRate": 0.461877,
+      "itemIds": [
+        126697,
+        6333,
+        6696
+      ]
+    },
+    "starter": {
+      "sampleCount": 268,
+      "pickRate": 0.2607,
+      "winRate": 0.474943
     }
   },
+  "defaultBuildKey": "lethality",
+  "builds": [
+    {
+      "key": "lethality",
+      "name": "穿甲流",
+      "sampleCount": 21263,
+      "pickRate": 0.351298,
+      "winRate": 0.405771,
+      "coreProfile": {
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
+        "itemIds": [
+          126697,
+          6333,
+          6696
+        ]
+      },
+      "starter": {
+        "sampleCount": 268,
+        "pickRate": 0.2607,
+        "winRate": 0.474943
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 6696,
+            "name": "公理圆弧",
+            "sampleCount": 1324,
+            "pickRate": 0.062268,
+            "winRate": 0.461877,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6696.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 8895,
+            "pickRate": 0.135125,
+            "winRate": 0.445763,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 1005,
+            "pickRate": 0.02611,
+            "winRate": 0.454296,
+            "source": "slot5",
+            "icon": "assets/resources/items/6694.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1565,
+            "pickRate": 0.074481,
+            "winRate": 0.435133,
+            "source": "slot6",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ]
+      }
+    },
+    {
+      "key": "bruiser",
+      "name": "战士流",
+      "sampleCount": 19744,
+      "pickRate": 0.326202,
+      "winRate": 0.413474,
+      "coreProfile": {
+        "sampleCount": 2536,
+        "pickRate": 0.128444,
+        "winRate": 0.422227,
+        "itemIds": [
+          126697,
+          6610,
+          6333
+        ]
+      },
+      "starter": {
+        "sampleCount": 200,
+        "pickRate": 0.116144,
+        "winRate": 0.523599
+      },
+      "items": {
+        "starter": [
+          {
+            "id": 1036,
+            "name": "长剑",
+            "icon": "assets/resources/items/1036.webp"
+          },
+          {
+            "id": 3177,
+            "name": "守护者之刃",
+            "icon": "assets/resources/items/3177.webp"
+          }
+        ],
+        "core": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          }
+        ],
+        "recommended": [
+          {
+            "id": 126697,
+            "name": "狂妄",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/126697.webp"
+          },
+          {
+            "id": 6610,
+            "name": "焚天",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6610.webp"
+          },
+          {
+            "id": 6333,
+            "name": "死亡之舞",
+            "sampleCount": 2536,
+            "pickRate": 0.128444,
+            "winRate": 0.422227,
+            "source": "coreProfile",
+            "icon": "assets/resources/items/6333.webp"
+          },
+          {
+            "id": 3008,
+            "name": "暴食胫甲",
+            "sampleCount": 8895,
+            "pickRate": 0.135125,
+            "winRate": 0.445763,
+            "source": "boots",
+            "icon": "assets/resources/items/3008.webp"
+          },
+          {
+            "id": 6694,
+            "name": "赛瑞尔达的怨恨",
+            "sampleCount": 1005,
+            "pickRate": 0.02611,
+            "winRate": 0.454296,
+            "source": "slot5",
+            "icon": "assets/resources/items/6694.webp"
+          },
+          {
+            "id": 2517,
+            "name": "无穷饥渴",
+            "sampleCount": 1565,
+            "pickRate": 0.074481,
+            "winRate": 0.435133,
+            "source": "slot6",
+            "icon": "assets/resources/items/2517.webp"
+          }
+        ]
+      }
+    }
+  ],
   "summonerSpells": [
     {
       "id": 4,
@@ -85,58 +340,58 @@
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6696.webp"
       }
     ],
     "recommended": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6610,
-        "name": "焚天",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6610.webp"
-      },
-      {
         "id": 6333,
         "name": "死亡之舞",
-        "sampleCount": 2536,
-        "pickRate": 0.128444,
-        "winRate": 0.422227,
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
         "source": "coreProfile",
         "icon": "assets/resources/items/6333.webp"
+      },
+      {
+        "id": 6696,
+        "name": "公理圆弧",
+        "sampleCount": 1324,
+        "pickRate": 0.062268,
+        "winRate": 0.461877,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/6696.webp"
       },
       {
         "id": 3008,
