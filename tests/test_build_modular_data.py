@@ -72,6 +72,21 @@ class BuildModularDataTests(unittest.TestCase):
 
             self.assertTrue(combination_ids.issubset(catalog))
 
+    def test_fallback_hero_preserves_its_actual_statistics_segment(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output_root = Path(directory)
+            build_site_data(
+                PROJECT_ROOT,
+                output_root,
+                selected_slugs={"bard"},
+                copy_assets=False,
+            )
+            guide = json.loads((output_root / "data" / "heroes" / "bard.json").read_text(encoding="utf-8"))
+            aramkit = next(source for source in guide["sources"] if source["provider"] == "ARAMKit")
+
+            self.assertEqual(aramkit["segment"], "all")
+            self.assertEqual(aramkit["fallbackReason"], "没有满足样本门槛的流派")
+
 
 if __name__ == "__main__":
     unittest.main()

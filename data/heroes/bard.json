@@ -35,13 +35,13 @@
     "id": 432,
     "rank": 171,
     "tier": "D",
-    "sampleCount": 62650,
-    "winRate": 0.397558,
-    "pickRate": 0.007766,
-    "blueWinRate": 0.414168,
-    "redWinRate": 0.380783,
-    "winRatePercent": 39.76,
-    "pickRatePercent": 0.78
+    "sampleCount": 15922,
+    "winRate": 0.399761,
+    "pickRate": 0.007895,
+    "blueWinRate": 0.41746,
+    "redWinRate": 0.381493,
+    "winRatePercent": 39.98,
+    "pickRatePercent": 0.79
   },
   "build": {
     "key": "ap",
@@ -260,13 +260,13 @@
         "icon": "assets/resources/augments/1095.webp"
       },
       {
-        "id": 1331,
-        "rank": 17,
-        "sampleCount": 1474,
-        "pickRate": 0.024873,
-        "winRate": 0.421303,
-        "blueWinRate": 0.421053,
-        "redWinRate": 0.421569,
+        "id": 1195,
+        "rank": 19,
+        "sampleCount": 703,
+        "pickRate": 0.011863,
+        "winRate": 0.423898,
+        "blueWinRate": 0.440111,
+        "redWinRate": 0.406977,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -274,9 +274,9 @@
           3,
           4
         ],
-        "name": "至高天诺言",
+        "name": "巨人杀手",
         "rarity": "prismatic",
-        "icon": "assets/resources/augments/1331.webp"
+        "icon": "assets/resources/augments/1195.webp"
       }
     ],
     "gold": [
@@ -357,6 +357,25 @@
         "icon": "assets/resources/augments/2133.webp"
       },
       {
+        "id": 2089,
+        "rank": 22,
+        "sampleCount": 930,
+        "pickRate": 0.015694,
+        "winRate": 0.42043,
+        "blueWinRate": 0.452083,
+        "redWinRate": 0.386667,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "哎哟，我的硬币！",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2089.webp"
+      },
+      {
         "id": 1129,
         "rank": 21,
         "sampleCount": 1860,
@@ -374,15 +393,17 @@
         "name": "神射法师",
         "rarity": "gold",
         "icon": "assets/resources/augments/1129.webp"
-      },
+      }
+    ],
+    "silver": [
       {
-        "id": 1238,
-        "rank": 24,
-        "sampleCount": 3407,
-        "pickRate": 0.057492,
-        "winRate": 0.408864,
-        "blueWinRate": 0.418361,
-        "redWinRate": 0.39917,
+        "id": 1333,
+        "rank": 9,
+        "sampleCount": 982,
+        "pickRate": 0.016571,
+        "winRate": 0.433809,
+        "blueWinRate": 0.426696,
+        "redWinRate": 0.44,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -390,12 +411,10 @@
           3,
           4
         ],
-        "name": "质变：棱彩阶",
-        "rarity": "gold",
-        "icon": "assets/resources/augments/1238.webp"
-      }
-    ],
-    "silver": [
+        "name": "逃跑计划",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1333.webp"
+      },
       {
         "id": 1037,
         "rank": 5,
@@ -490,25 +509,6 @@
         "name": "扇巴掌",
         "rarity": "silver",
         "icon": "assets/resources/augments/1136.webp"
-      },
-      {
-        "id": 1022,
-        "rank": 36,
-        "sampleCount": 1815,
-        "pickRate": 0.030628,
-        "winRate": 0.398898,
-        "blueWinRate": 0.408117,
-        "redWinRate": 0.390086,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "灵巧",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1022.webp"
       }
     ],
     "combinations": [
@@ -607,7 +607,8 @@
       "dataDate": "2026-08-01",
       "region": "unknown",
       "dataLevel": "aggregate",
-      "segment": "all"
+      "segment": "all",
+      "fallbackReason": "没有满足样本门槛的流派"
     },
     {
       "provider": "ARAMGG",

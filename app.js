@@ -52,7 +52,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=10").then((response) => {
+  return fetch("./data/index.json?rev=11").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -60,7 +60,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=10`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=11`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -192,7 +192,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=10`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=11`;
   document.head.appendChild(link);
 }
 

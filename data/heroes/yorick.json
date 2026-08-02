@@ -33,15 +33,15 @@
   },
   "ranking": {
     "id": 83,
-    "rank": 162,
-    "tier": "C",
-    "sampleCount": 90324,
-    "winRate": 0.436019,
-    "pickRate": 0.011196,
-    "blueWinRate": 0.452016,
-    "redWinRate": 0.419605,
-    "winRatePercent": 43.6,
-    "pickRatePercent": 1.12
+    "rank": 165,
+    "tier": "D",
+    "sampleCount": 20130,
+    "winRate": 0.429011,
+    "pickRate": 0.009981,
+    "blueWinRate": 0.448848,
+    "redWinRate": 0.408968,
+    "winRatePercent": 42.9,
+    "pickRatePercent": 1.0
   },
   "build": {
     "key": "tank",
@@ -605,7 +605,8 @@
       "dataDate": "2026-08-01",
       "region": "unknown",
       "dataLevel": "aggregate",
-      "segment": "all"
+      "segment": "all",
+      "fallbackReason": "没有满足样本门槛的流派"
     },
     {
       "provider": "ARAMGG",

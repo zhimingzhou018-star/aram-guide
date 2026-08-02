@@ -33,26 +33,26 @@
   },
   "ranking": {
     "id": 56,
-    "rank": 121,
+    "rank": 120,
     "tier": "C",
-    "sampleCount": 224325,
-    "winRate": 0.468539,
-    "pickRate": 0.027807,
-    "blueWinRate": 0.486701,
-    "redWinRate": 0.450344,
-    "winRatePercent": 46.85,
-    "pickRatePercent": 2.78
+    "sampleCount": 56443,
+    "winRate": 0.469837,
+    "pickRate": 0.027986,
+    "blueWinRate": 0.491102,
+    "redWinRate": 0.448506,
+    "winRatePercent": 46.98,
+    "pickRatePercent": 2.8
   },
   "build": {
     "key": "lethality",
     "name": "穿甲流",
-    "sampleCount": 66773,
-    "pickRate": 0.737505,
-    "winRate": 0.474549,
+    "sampleCount": 14000,
+    "pickRate": 0.62514,
+    "winRate": 0.475556,
     "coreProfile": {
-      "sampleCount": 2741,
-      "pickRate": 0.04105,
-      "winRate": 0.52479
+      "sampleCount": 1850,
+      "pickRate": 0.132143,
+      "winRate": 0.483534
     }
   },
   "summonerSpells": [
@@ -76,94 +76,94 @@
         "icon": "assets/resources/items/1036.webp"
       },
       {
-        "id": 3177,
-        "name": "守护者之刃",
-        "icon": "assets/resources/items/3177.webp"
+        "id": 3133,
+        "name": "考尔菲德的战锤",
+        "icon": "assets/resources/items/3133.webp"
       }
     ],
     "core": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6698,
-        "name": "亵渎九头蛇",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6698.webp"
-      },
-      {
         "id": 6696,
         "name": "公理圆弧",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
         "source": "coreProfile",
         "icon": "assets/resources/items/6696.webp"
+      },
+      {
+        "id": 3073,
+        "name": "海克斯注力刚壁",
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3073.webp"
       }
     ],
     "recommended": [
       {
         "id": 126697,
         "name": "狂妄",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
         "source": "coreProfile",
         "icon": "assets/resources/items/126697.webp"
       },
       {
-        "id": 6698,
-        "name": "亵渎九头蛇",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
-        "source": "coreProfile",
-        "icon": "assets/resources/items/6698.webp"
-      },
-      {
         "id": 6696,
         "name": "公理圆弧",
-        "sampleCount": 2741,
-        "pickRate": 0.04105,
-        "winRate": 0.52479,
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
         "source": "coreProfile",
         "icon": "assets/resources/items/6696.webp"
       },
       {
+        "id": 3073,
+        "name": "海克斯注力刚壁",
+        "sampleCount": 1850,
+        "pickRate": 0.132143,
+        "winRate": 0.483534,
+        "source": "coreProfile",
+        "icon": "assets/resources/items/3073.webp"
+      },
+      {
         "id": 3008,
         "name": "暴食胫甲",
-        "sampleCount": 11724,
-        "pickRate": 0.123175,
-        "winRate": 0.501514,
+        "sampleCount": 3069,
+        "pickRate": 0.13002,
+        "winRate": 0.50175,
         "source": "boots",
         "icon": "assets/resources/items/3008.webp"
       },
       {
-        "id": 2517,
-        "name": "无穷饥渴",
-        "sampleCount": 1631,
-        "pickRate": 0.026703,
-        "winRate": 0.538352,
+        "id": 3036,
+        "name": "多米尼克领主的致意",
+        "sampleCount": 1079,
+        "pickRate": 0.073148,
+        "winRate": 0.524619,
         "source": "slot5",
-        "icon": "assets/resources/items/2517.webp"
+        "icon": "assets/resources/items/3036.webp"
       },
       {
-        "id": 3031,
-        "name": "无尽之刃",
-        "sampleCount": 1730,
-        "pickRate": 0.047733,
-        "winRate": 0.527848,
-        "source": "slot6",
-        "icon": "assets/resources/items/3031.webp"
+        "id": 6333,
+        "name": "死亡之舞",
+        "sampleCount": 2636,
+        "pickRate": 0.111676,
+        "winRate": 0.542884,
+        "source": "fallback",
+        "icon": "assets/resources/items/6333.webp"
       }
     ]
   },
@@ -172,11 +172,11 @@
       {
         "id": 2095,
         "rank": 1,
-        "sampleCount": 5134,
-        "pickRate": 0.024229,
-        "winRate": 0.57051,
-        "blueWinRate": 0.583822,
-        "redWinRate": 0.557282,
+        "sampleCount": 1465,
+        "pickRate": 0.027509,
+        "winRate": 0.561775,
+        "blueWinRate": 0.570674,
+        "redWinRate": 0.55226,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -190,12 +190,12 @@
       },
       {
         "id": 1413,
-        "rank": 3,
-        "sampleCount": 5107,
-        "pickRate": 0.024102,
-        "winRate": 0.50656,
-        "blueWinRate": 0.52,
-        "redWinRate": 0.494166,
+        "rank": 6,
+        "sampleCount": 1340,
+        "pickRate": 0.025161,
+        "winRate": 0.502985,
+        "blueWinRate": 0.518519,
+        "redWinRate": 0.488439,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -209,12 +209,12 @@
       },
       {
         "id": 1344,
-        "rank": 8,
-        "sampleCount": 41236,
-        "pickRate": 0.194608,
-        "winRate": 0.494156,
-        "blueWinRate": 0.514494,
-        "redWinRate": 0.473659,
+        "rank": 5,
+        "sampleCount": 10287,
+        "pickRate": 0.193161,
+        "winRate": 0.496549,
+        "blueWinRate": 0.518511,
+        "redWinRate": 0.474221,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -228,12 +228,12 @@
       },
       {
         "id": 1006,
-        "rank": 11,
-        "sampleCount": 17500,
-        "pickRate": 0.082589,
-        "winRate": 0.491314,
-        "blueWinRate": 0.506534,
-        "redWinRate": 0.476449,
+        "rank": 13,
+        "sampleCount": 4592,
+        "pickRate": 0.086225,
+        "winRate": 0.49216,
+        "blueWinRate": 0.510316,
+        "redWinRate": 0.475736,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -247,12 +247,12 @@
       },
       {
         "id": 1195,
-        "rank": 27,
-        "sampleCount": 3122,
-        "pickRate": 0.014734,
-        "winRate": 0.483024,
-        "blueWinRate": 0.492469,
-        "redWinRate": 0.473981,
+        "rank": 26,
+        "sampleCount": 799,
+        "pickRate": 0.015003,
+        "winRate": 0.490613,
+        "blueWinRate": 0.480106,
+        "redWinRate": 0.5,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -266,12 +266,12 @@
       },
       {
         "id": 2098,
-        "rank": 35,
-        "sampleCount": 5218,
-        "pickRate": 0.024626,
-        "winRate": 0.475086,
-        "blueWinRate": 0.48728,
-        "redWinRate": 0.463387,
+        "rank": 31,
+        "sampleCount": 1366,
+        "pickRate": 0.02565,
+        "winRate": 0.479502,
+        "blueWinRate": 0.490769,
+        "redWinRate": 0.469274,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -287,12 +287,12 @@
     "gold": [
       {
         "id": 1038,
-        "rank": 2,
-        "sampleCount": 3794,
-        "pickRate": 0.017905,
-        "winRate": 0.52214,
-        "blueWinRate": 0.533228,
-        "redWinRate": 0.511064,
+        "rank": 3,
+        "sampleCount": 1051,
+        "pickRate": 0.019735,
+        "winRate": 0.540438,
+        "blueWinRate": 0.534799,
+        "redWinRate": 0.546535,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -303,13 +303,13 @@
         "icon": "assets/resources/augments/1038.webp"
       },
       {
-        "id": 1403,
-        "rank": 18,
-        "sampleCount": 5168,
-        "pickRate": 0.02439,
-        "winRate": 0.487036,
-        "blueWinRate": 0.49322,
-        "redWinRate": 0.480866,
+        "id": 2089,
+        "rank": 21,
+        "sampleCount": 569,
+        "pickRate": 0.010684,
+        "winRate": 0.499121,
+        "blueWinRate": 0.491582,
+        "redWinRate": 0.507353,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -317,18 +317,18 @@
           3,
           4
         ],
-        "name": "属性叠属性！",
+        "name": "哎哟，我的硬币！",
         "rarity": "gold",
-        "icon": "assets/resources/augments/1403.webp"
+        "icon": "assets/resources/augments/2089.webp"
       },
       {
         "id": 1384,
         "rank": 17,
-        "sampleCount": 7648,
-        "pickRate": 0.036094,
-        "winRate": 0.485617,
-        "blueWinRate": 0.512787,
-        "redWinRate": 0.457771,
+        "sampleCount": 2067,
+        "pickRate": 0.038813,
+        "winRate": 0.489598,
+        "blueWinRate": 0.507777,
+        "redWinRate": 0.469199,
         "stageAgnostic": false,
         "availableStages": [
           2,
@@ -340,32 +340,48 @@
         "icon": "assets/resources/augments/1384.webp"
       },
       {
-        "id": 2032,
-        "rank": 25,
-        "sampleCount": 2257,
-        "pickRate": 0.010652,
-        "winRate": 0.4856,
-        "blueWinRate": 0.495041,
-        "redWinRate": 0.476481,
+        "id": 2083,
+        "rank": 8,
+        "sampleCount": 13163,
+        "pickRate": 0.247165,
+        "winRate": 0.489174,
+        "blueWinRate": 0.509294,
+        "redWinRate": 0.468836,
         "stageAgnostic": false,
         "availableStages": [
           1,
+          2
+        ],
+        "name": "牙仙子",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/2083.webp"
+      },
+      {
+        "id": 1403,
+        "rank": 22,
+        "sampleCount": 1348,
+        "pickRate": 0.025312,
+        "winRate": 0.488131,
+        "blueWinRate": 0.500726,
+        "redWinRate": 0.474962,
+        "stageAgnostic": false,
+        "availableStages": [
           2,
           3,
           4
         ],
-        "name": "鲨鱼诱饵",
+        "name": "属性叠属性！",
         "rarity": "gold",
-        "icon": "assets/resources/augments/2032.webp"
+        "icon": "assets/resources/augments/1403.webp"
       },
       {
         "id": 1238,
-        "rank": 16,
-        "sampleCount": 18992,
-        "pickRate": 0.08963,
-        "winRate": 0.485257,
-        "blueWinRate": 0.508755,
-        "redWinRate": 0.461555,
+        "rank": 15,
+        "sampleCount": 4861,
+        "pickRate": 0.091276,
+        "winRate": 0.485085,
+        "blueWinRate": 0.511416,
+        "redWinRate": 0.459217,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -376,36 +392,17 @@
         "name": "质变：棱彩阶",
         "rarity": "gold",
         "icon": "assets/resources/augments/1238.webp"
-      },
-      {
-        "id": 1401,
-        "rank": 23,
-        "sampleCount": 3424,
-        "pickRate": 0.016159,
-        "winRate": 0.485105,
-        "blueWinRate": 0.5,
-        "redWinRate": 0.470106,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "生机迸发",
-        "rarity": "gold",
-        "icon": "assets/resources/augments/1401.webp"
       }
     ],
     "silver": [
       {
         "id": 1333,
-        "rank": 9,
-        "sampleCount": 4477,
-        "pickRate": 0.021129,
-        "winRate": 0.499888,
-        "blueWinRate": 0.514973,
-        "redWinRate": 0.485262,
+        "rank": 4,
+        "sampleCount": 1210,
+        "pickRate": 0.02272,
+        "winRate": 0.51405,
+        "blueWinRate": 0.521523,
+        "redWinRate": 0.506601,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -418,70 +415,13 @@
         "icon": "assets/resources/augments/1333.webp"
       },
       {
-        "id": 1206,
-        "rank": 10,
-        "sampleCount": 11623,
-        "pickRate": 0.054853,
-        "winRate": 0.493934,
-        "blueWinRate": 0.512287,
-        "redWinRate": 0.475273,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "魔法转物理",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1206.webp"
-      },
-      {
-        "id": 1025,
-        "rank": 14,
-        "sampleCount": 5743,
-        "pickRate": 0.027103,
-        "winRate": 0.49051,
-        "blueWinRate": 0.505166,
-        "redWinRate": 0.476499,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "俯冲轰炸",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1025.webp"
-      },
-      {
-        "id": 1007,
-        "rank": 12,
-        "sampleCount": 27721,
-        "pickRate": 0.130825,
-        "winRate": 0.488835,
-        "blueWinRate": 0.507996,
-        "redWinRate": 0.469615,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "大力",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1007.webp"
-      },
-      {
         "id": 1046,
-        "rank": 29,
-        "sampleCount": 2688,
-        "pickRate": 0.012686,
-        "winRate": 0.482887,
-        "blueWinRate": 0.48695,
-        "redWinRate": 0.478842,
+        "rank": 16,
+        "sampleCount": 700,
+        "pickRate": 0.013144,
+        "winRate": 0.5,
+        "blueWinRate": 0.532213,
+        "redWinRate": 0.466472,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -494,13 +434,70 @@
         "icon": "assets/resources/augments/1046.webp"
       },
       {
+        "id": 1206,
+        "rank": 10,
+        "sampleCount": 3164,
+        "pickRate": 0.059411,
+        "winRate": 0.494627,
+        "blueWinRate": 0.515868,
+        "redWinRate": 0.472704,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "魔法转物理",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1206.webp"
+      },
+      {
+        "id": 1007,
+        "rank": 7,
+        "sampleCount": 7117,
+        "pickRate": 0.133638,
+        "winRate": 0.492904,
+        "blueWinRate": 0.508073,
+        "redWinRate": 0.477447,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "大力",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1007.webp"
+      },
+      {
+        "id": 1025,
+        "rank": 24,
+        "sampleCount": 1461,
+        "pickRate": 0.027434,
+        "winRate": 0.485284,
+        "blueWinRate": 0.489971,
+        "redWinRate": 0.480996,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "俯冲轰炸",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1025.webp"
+      },
+      {
         "id": 1138,
-        "rank": 21,
-        "sampleCount": 27705,
-        "pickRate": 0.13075,
-        "winRate": 0.480166,
-        "blueWinRate": 0.497775,
-        "redWinRate": 0.462348,
+        "rank": 25,
+        "sampleCount": 6718,
+        "pickRate": 0.126145,
+        "winRate": 0.476035,
+        "blueWinRate": 0.497933,
+        "redWinRate": 0.453782,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -515,52 +512,14 @@
     ],
     "combinations": [
       {
-        "rank": 6,
-        "augmentIds": [
-          1154,
-          1206
-        ],
-        "sampleCount": 104,
-        "pickRate": 0.000491,
-        "winRate": 0.653846,
-        "selectionMinSamples": 100,
-        "names": [
-          "海牛阿福的勇士",
-          "魔法转物理"
-        ],
-        "ids": [
-          1154,
-          1206
-        ]
-      },
-      {
-        "rank": 5,
-        "augmentIds": [
-          1238,
-          2095
-        ],
-        "sampleCount": 241,
-        "pickRate": 0.001137,
-        "winRate": 0.626556,
-        "selectionMinSamples": 100,
-        "names": [
-          "质变：棱彩阶",
-          "掷骰狂人"
-        ],
-        "ids": [
-          1238,
-          2095
-        ]
-      },
-      {
-        "rank": 2,
+        "rank": 1,
         "augmentIds": [
           1007,
           2095
         ],
-        "sampleCount": 693,
-        "pickRate": 0.003271,
-        "winRate": 0.616162,
+        "sampleCount": 207,
+        "pickRate": 0.003887,
+        "winRate": 0.628019,
         "selectionMinSamples": 100,
         "names": [
           "大力",
@@ -572,14 +531,52 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 2,
+        "augmentIds": [
+          1336,
+          2095
+        ],
+        "sampleCount": 196,
+        "pickRate": 0.00368,
+        "winRate": 0.627551,
+        "selectionMinSamples": 100,
+        "names": [
+          "升级：无尽之刃",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1336,
+          2095
+        ]
+      },
+      {
+        "rank": 4,
+        "augmentIds": [
+          1084,
+          2095
+        ],
+        "sampleCount": 207,
+        "pickRate": 0.003887,
+        "winRate": 0.618357,
+        "selectionMinSamples": 100,
+        "names": [
+          "穿针引线",
+          "掷骰狂人"
+        ],
+        "ids": [
+          1084,
+          2095
+        ]
+      },
+      {
+        "rank": 6,
         "augmentIds": [
           1206,
           2095
         ],
-        "sampleCount": 434,
-        "pickRate": 0.002048,
-        "winRate": 0.603687,
+        "sampleCount": 129,
+        "pickRate": 0.002422,
+        "winRate": 0.612403,
         "selectionMinSamples": 100,
         "names": [
           "魔法转物理",
@@ -609,7 +606,7 @@
       "dataDate": "2026-08-01",
       "region": "unknown",
       "dataLevel": "aggregate",
-      "segment": "all"
+      "segment": "high"
     },
     {
       "provider": "ARAMGG",

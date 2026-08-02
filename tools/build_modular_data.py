@@ -199,7 +199,12 @@ def transform_guide(
                 "dataDate": source["dataDate"],
                 "region": "unknown",
                 "dataLevel": "aggregate",
-                "segment": source.get("segment", "all"),
+                "segment": reviewed.get("statisticsSegment", source.get("segment", "all")),
+                **(
+                    {"fallbackReason": reviewed["segmentFallbackReason"]}
+                    if reviewed.get("segmentFallbackReason")
+                    else {}
+                ),
             },
             {
                 "provider": gameplay.get("sourceProvider", "ARAMGG"),
