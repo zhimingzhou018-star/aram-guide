@@ -1,0 +1,49 @@
+{
+  "status": "ready-for-local-review",
+  "productionPublished": false,
+  "branch": "feature/modular-guide-v2",
+  "sourceVersion": "16.15",
+  "sourceDataDate": "2026-08-01",
+  "migration": {
+    "heroCount": 172,
+    "validGuideCount": 172,
+    "missingAssetCount": 0,
+    "lockedGameplayCount": 172,
+    "indexBytes": 91930,
+    "heroJsonBytes": 2571930,
+    "sharedResourceAssetBytes": 3061950
+  },
+  "mobileAudit": {
+    "viewport": "390x844",
+    "horizontalOverflow": false,
+    "homeColumns": 2,
+    "itemLayout": "3x2",
+    "augmentLayoutPerTier": "3x2",
+    "representativeHero": "graves",
+    "representativeItemCount": 6,
+    "representativeAugmentCounts": {
+      "prismatic": 6,
+      "gold": 6,
+      "silver": 6
+    }
+  },
+  "searchAudit": {
+    "query": "石头",
+    "resultCount": 1,
+    "matchedHero": "墨菲特"
+  },
+  "verification": {
+    "pythonTests": 26,
+    "nodeTests": 4,
+    "nodeSyntaxChecks": [
+      "app.js",
+      "sw.js"
+    ],
+    "allPassed": true
+  },
+  "releaseGate": {
+    "manualApprovalRequired": true,
+    "mergeAllowed": false,
+    "pushToProductionAllowed": false
+  }
+}
