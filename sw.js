@@ -1,65 +1,75 @@
-const CACHE_NAME = "aram-guide-v6";
+const CACHE_PREFIX = "aram-guide-v7";
+const CORE_CACHE = `${CACHE_PREFIX}-core`;
+const DATA_CACHE = `${CACHE_PREFIX}-data`;
+const RESOURCE_CACHE = `${CACHE_PREFIX}-resources`;
+
 const CORE_ASSETS = [
   "./index.html",
-  "./styles.css?rev=6",
-  "./analytics-config.js?rev=6",
-  "./analytics.js?rev=6",
-  "./app.js?rev=6",
-  "./data/guides.json?rev=6",
+  "./styles.css?rev=7",
+  "./analytics-config.js?rev=7",
+  "./analytics.js?rev=7",
+  "./app.js?rev=7",
 ];
-const CORE_ASSET_URLS = new Set(
-  CORE_ASSETS.map((path) => new URL(path, self.registration.scope).href),
-);
+
+const CORE_URLS = new Set(CORE_ASSETS.map((path) => new URL(path, self.registration.scope).href));
 const INDEX_URL = new URL("./index.html", self.registration.scope).href;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches
-      .open(CACHE_NAME)
+    caches.open(CORE_CACHE)
       .then((cache) => cache.addAll(CORE_ASSETS))
       .then(() => self.skipWaiting()),
   );
 });
 
-async function activateCurrentCache() {
-  const names = await caches.keys();
-  await Promise.all(
-    names
-      .filter((name) => name.startsWith("aram-guide-") && name !== CACHE_NAME)
-      .map((name) => caches.delete(name)),
-  );
-  await self.clients.claim();
-}
-
 self.addEventListener("activate", (event) => {
-  event.waitUntil(activateCurrentCache());
+  event.waitUntil((async () => {
+    const cacheNames = await caches.keys();
+    await Promise.all(
+      cacheNames
+        .filter((name) => name.startsWith("aram-guide-") && !name.startsWith(CACHE_PREFIX))
+        .map((name) => caches.delete(name)),
+    );
+    await self.clients.claim();
+  })());
 });
 
-async function cacheFirst(request) {
-  const cached = await caches.match(request);
-  if (cached) return cached;
-
-  const response = await fetch(request);
-  if (response.ok) {
-    const cache = await caches.open(CACHE_NAME);
-    await cache.put(request, response.clone());
-  }
+async function putIfCacheable(cacheName, request, response) {
+  if (!response?.ok) return response;
+  const cache = await caches.open(cacheName);
+  await cache.put(request, response.clone());
   return response;
 }
 
-async function networkFirstNavigation(request) {
+async function cacheFirst(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  return putIfCacheable(cacheName, request, await fetch(request));
+}
+
+async function networkFirst(request, cacheName, fallbackUrl = null) {
   try {
-    return await fetch(request);
+    return await putIfCacheable(cacheName, request, await fetch(request));
   } catch {
-    const cached = await caches.match(INDEX_URL);
-    return cached || Response.error();
+    const cache = await caches.open(cacheName);
+    return (await cache.match(request))
+      || (fallbackUrl ? await cache.match(fallbackUrl) : null)
+      || Response.error();
   }
 }
 
-function isPersistentImage(url) {
-  return url.origin === self.location.origin
-    && (url.pathname.includes("/assets/guides/")
-      || url.pathname.includes("/assets/champions/"));
+async function staleWhileRevalidate(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(request);
+  const refresh = fetch(request)
+    .then((response) => putIfCacheable(cacheName, request, response))
+    .catch(() => null);
+  if (cached) {
+    refresh.catch(() => {});
+    return cached;
+  }
+  return (await refresh) || Response.error();
 }
 
 self.addEventListener("fetch", (event) => {
@@ -67,11 +77,31 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+
   if (request.mode === "navigate") {
-    event.respondWith(networkFirstNavigation(request));
+    event.respondWith(networkFirst(request, CORE_CACHE, INDEX_URL));
     return;
   }
-  if (isPersistentImage(url) || CORE_ASSET_URLS.has(request.url)) {
-    event.respondWith(cacheFirst(request));
+
+  if (url.pathname.endsWith("/data/index.json")) {
+    event.respondWith(networkFirst(request, DATA_CACHE));
+    return;
+  }
+
+  if (url.pathname.includes("/data/heroes/") && url.pathname.endsWith(".json")) {
+    event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
+    return;
+  }
+
+  if (url.pathname.includes("/assets/resources/")
+      || url.pathname.includes("/assets/champions/")
+      || url.pathname.includes("/assets/guides/")) {
+    event.respondWith(cacheFirst(request, RESOURCE_CACHE));
+    return;
+  }
+
+  if (CORE_URLS.has(request.url)) {
+    event.respondWith(cacheFirst(request, CORE_CACHE));
   }
 });
