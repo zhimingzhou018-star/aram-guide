@@ -1,53 +1,19 @@
 const app = document.querySelector("#app");
 
 const state = {
-  payload: null,
+  index: null,
   query: sessionStorage.getItem("hero-guide-query") || "",
+  guideCache: new Map(),
 };
-const MAX_AUTO_PREFETCHED_GUIDES = 6;
+
 const SEARCH_CAPTURE_DELAY_MS = 450;
 const SESSION_GUIDE_VIEWS_KEY = "hero-guide-session-views";
-const prefetchedGuideImages = new Set();
-const automaticallyPrefetchedGuideImages = new Set();
-let cardPrefetchObserver = null;
-let searchCaptureTimer = null;
+const prefetchedSlugs = new Set();
 let previousRoute = null;
+let searchCaptureTimer = null;
 
 function capture(eventName, properties = {}) {
   window.ARAM_ANALYTICS?.capture(eventName, properties);
-}
-
-function guideEventProperties(guide) {
-  return {
-    hero_slug: guide.slug,
-    hero_name: guide.name,
-    rank: guide.rank,
-    build_key: guide.buildKey,
-    build_name: guide.buildName,
-  };
-}
-
-function recordGuideView(guide) {
-  let viewedSlugs = [];
-  try {
-    viewedSlugs = JSON.parse(sessionStorage.getItem(SESSION_GUIDE_VIEWS_KEY) || "[]");
-  } catch {
-    viewedSlugs = [];
-  }
-  const uniqueViews = new Set(Array.isArray(viewedSlugs) ? viewedSlugs : []);
-  uniqueViews.add(guide.slug);
-  sessionStorage.setItem(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
-  capture("guide_view", {
-    ...guideEventProperties(guide),
-    session_unique_guides_viewed: uniqueViews.size,
-  });
-}
-
-function normalize(value) {
-  return String(value || "")
-    .normalize("NFKC")
-    .toLocaleLowerCase("zh-CN")
-    .replace(/[^a-z0-9\u3400-\u9fff]/g, "");
 }
 
 function escapeHtml(value) {
@@ -59,204 +25,356 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function route() {
-  const match = location.hash.match(/^#\/champion\/([a-z0-9-]+)$/i);
-  return match ? { name: "detail", slug: match[1] } : { name: "home" };
+function normalize(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("zh-CN")
+    .replace(/[^a-z0-9\u3400-\u9fff]/g, "");
 }
 
 function matchesGuide(guide, query) {
   const needle = normalize(query);
   if (!needle) return true;
-  const haystack = [guide.name, guide.title, guide.riotId, guide.buildName, ...(guide.aliases || [])]
+  return [guide.name, guide.title, guide.riotId, guide.buildName, ...(guide.aliases || [])]
     .map(normalize)
-    .join("|");
-  return haystack.includes(needle);
+    .some((value) => value.includes(needle));
 }
 
-function cardTemplate(guide) {
-  const published = guide.status === "published";
-  const score = guide.winRate == null ? "—" : `${guide.winRate.toFixed(1)}%`;
+function currentRoute() {
+  const match = location.hash.match(/^#\/champion\/([a-z0-9-]+)$/i);
+  return match ? { name: "detail", slug: match[1] } : { name: "home" };
+}
+
+async function fetchJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+
+function loadIndex() {
+  return fetch("./data/index.json?rev=7").then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  });
+}
+
+async function loadGuide(slug) {
+  if (state.guideCache.has(slug)) return state.guideCache.get(slug);
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=7`).then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  });
+  if (guide.schemaVersion !== 2 || guide.hero?.slug !== slug) {
+    throw new Error("Invalid hero guide payload");
+  }
+  state.guideCache.set(slug, guide);
+  return guide;
+}
+
+function guideEventProperties(guide) {
+  const hero = guide.hero || guide;
+  const ranking = guide.ranking || guide;
+  const build = guide.build || guide;
+  return {
+    hero_slug: hero.slug,
+    hero_name: hero.name,
+    rank: ranking.rank,
+    build_key: build.key || build.buildKey,
+    build_name: build.name || build.buildName,
+  };
+}
+
+function recordGuideView(guide) {
+  let viewedSlugs = [];
+  try {
+    viewedSlugs = JSON.parse(sessionStorage.getItem(SESSION_GUIDE_VIEWS_KEY) || "[]");
+  } catch {
+    viewedSlugs = [];
+  }
+  const uniqueViews = new Set(Array.isArray(viewedSlugs) ? viewedSlugs : []);
+  uniqueViews.add(guide.hero.slug);
+  sessionStorage.setItem(SESSION_GUIDE_VIEWS_KEY, JSON.stringify([...uniqueViews]));
+  capture("guide_view", {
+    ...guideEventProperties(guide),
+    session_unique_guides_viewed: uniqueViews.size,
+  });
+}
+
+function heroCard(guide) {
+  const winRate = guide.winRate == null ? "—" : `${Number(guide.winRate).toFixed(1)}%`;
   return `
-    <button class="hero-card ${published ? "" : "is-building"}" type="button"
-      data-slug="${escapeHtml(guide.slug)}" ${published ? "" : "aria-disabled=\"true\""}>
+    <button class="hero-card" type="button" data-slug="${escapeHtml(guide.slug)}">
       <span class="portrait-wrap">
-        ${guide.icon ? `<img src="${escapeHtml(guide.icon)}" alt="" width="96" height="96" loading="lazy" decoding="async" />` : ""}
+        <img src="${escapeHtml(guide.icon)}" alt="" width="96" height="96" loading="lazy" decoding="async" />
         <span class="rank-mark">#${escapeHtml(guide.rank ?? "—")}</span>
       </span>
       <span class="hero-copy">
-        <h2 class="hero-title">${escapeHtml(guide.name)}</h2>
-        <p class="hero-epithet">${escapeHtml(guide.title)}</p>
-      </span>
-      <span class="card-foot">
+        <strong class="hero-name">${escapeHtml(guide.name)}</strong>
+        <span class="hero-title">${escapeHtml(guide.title)}</span>
         <span class="build-label">${escapeHtml(guide.buildName)}</span>
-        <span class="score-block">
-          <strong>${score}</strong>
-          <span>胜率</span>
-          ${published ? "" : '<em class="building-tag">制作中</em>'}
-        </span>
       </span>
+      <span class="win-rate"><strong>${winRate}</strong><small>胜率</small></span>
     </button>`;
 }
 
+function renderHeroGrid(guides) {
+  const grid = document.querySelector(".guide-list");
+  const count = document.querySelector("[data-result-count]");
+  if (count) count.textContent = `${guides.length} 位英雄`;
+  if (grid) {
+    grid.innerHTML = guides.length
+      ? guides.map(heroCard).join("")
+      : '<div class="empty-state"><span>未命中</span><p>换个英雄名、外号或称号试试</p></div>';
+  }
+  bindHeroCards();
+}
+
 function renderHome() {
-  const { site, guides } = state.payload;
+  const { site, guides } = state.index;
   const visible = guides.filter((guide) => matchesGuide(guide, state.query));
   document.title = site.title;
   app.innerHTML = `
     <section class="home-shell">
       <header class="site-header">
-        <div class="brand-row">
+        <div class="brand-lockup">
+          <span class="brand-index">H / ARAM</span>
           <div>
-            <p class="brand-kicker">HEXTECH ARAM</p>
             <h1>海斗一图流</h1>
-            <p class="brand-subtitle">抖音搜「芝士不是知识」</p>
-          </div>
-          <div class="version-chip">
-            <strong>v${escapeHtml(site.version)}</strong>
-            <span>${escapeHtml(site.dataDate)}</span>
+            <p>抖音搜「芝士不是知识」</p>
           </div>
         </div>
+        <div class="version-chip"><strong>V${escapeHtml(site.version)}</strong><span>${escapeHtml(site.dataDate)}</span></div>
       </header>
-      <div class="search-wrap">
-        <div class="search-field">
+      <div class="search-dock">
+        <label class="search-field">
+          <span aria-hidden="true">⌕</span>
           <input id="heroSearch" type="search" autocomplete="off" placeholder="搜索英雄 / 外号 / 称号"
             aria-label="搜索英雄、外号或称号" value="${escapeHtml(state.query)}" />
           <button class="search-clear" type="button" aria-label="清空搜索">×</button>
-        </div>
+        </label>
       </div>
-      <div class="list-meta">
-        <span>${visible.length} 位英雄</span>
-        <span>按当前胜率排序</span>
-      </div>
-      <section class="guide-list" aria-label="英雄攻略列表">
-        ${visible.length ? visible.map(cardTemplate).join("") : '<div class="empty-state"><p>没有找到这个英雄</p></div>'}
-      </section>
+      <div class="list-meta"><span data-result-count>${visible.length} 位英雄</span><span>按胜率排序</span></div>
+      <section class="guide-list" aria-label="英雄攻略列表"></section>
     </section>`;
 
+  renderHeroGrid(visible);
   const input = document.querySelector("#heroSearch");
   input.addEventListener("input", (event) => {
     state.query = event.target.value;
     sessionStorage.setItem("hero-guide-query", state.query);
     const filtered = guides.filter((guide) => matchesGuide(guide, state.query));
-    document.querySelector(".list-meta span").textContent = `${filtered.length} 位英雄`;
-    document.querySelector(".guide-list").innerHTML = filtered.length
-      ? filtered.map(cardTemplate).join("")
-      : '<div class="empty-state"><p>没有找到这个英雄</p></div>';
+    renderHeroGrid(filtered);
     clearTimeout(searchCaptureTimer);
-    const query = state.query.trim();
-    if (query) {
-      searchCaptureTimer = setTimeout(() => {
-        capture("hero_search", {
-          query,
-          query_length: query.length,
-          result_count: filtered.length,
-          has_results: filtered.length > 0,
-        });
-      }, SEARCH_CAPTURE_DELAY_MS);
+    if (state.query.trim()) {
+      searchCaptureTimer = setTimeout(() => capture("hero_search", {
+        query: state.query.trim(),
+        query_length: state.query.trim().length,
+        result_count: filtered.length,
+        has_results: filtered.length > 0,
+      }), SEARCH_CAPTURE_DELAY_MS);
     }
-    bindCards();
   });
   document.querySelector(".search-clear").addEventListener("click", () => {
-    clearTimeout(searchCaptureTimer);
     state.query = "";
     sessionStorage.removeItem("hero-guide-query");
-    renderHome();
-    document.querySelector("#heroSearch").focus();
+    input.value = "";
+    renderHeroGrid(guides);
+    input.focus();
   });
-  bindCards();
   requestAnimationFrame(() => window.scrollTo(0, Number(sessionStorage.getItem("hero-guide-scroll") || 0)));
-  capture("home_view", {
-    query: state.query,
-    result_count: visible.length,
-    guide_count: guides.length,
-  });
+  capture("home_view", { query: state.query, result_count: visible.length, guide_count: guides.length });
 }
 
-function bindCards() {
-  const guideBySlug = new Map(state.payload.guides.map((guide) => [guide.slug, guide]));
-  const prefetchGuide = (slug, { automatic = false } = {}) => {
-    const preview = guideBySlug.get(slug)?.images?.preview;
-    if (automatic && automaticallyPrefetchedGuideImages.size >= MAX_AUTO_PREFETCHED_GUIDES) return;
-    if (!preview || prefetchedGuideImages.has(preview)) return;
-    prefetchedGuideImages.add(preview);
-    if (automatic) automaticallyPrefetchedGuideImages.add(preview);
-    const link = document.createElement("link");
-    link.rel = "prefetch";
-    link.as = "image";
-    link.href = preview;
-    document.head.appendChild(link);
-  };
-  cardPrefetchObserver?.disconnect();
-  cardPrefetchObserver = "IntersectionObserver" in window
-    ? new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          prefetchGuide(entry.target.dataset.slug, { automatic: true });
-          cardPrefetchObserver.unobserve(entry.target);
-        });
-      }, { rootMargin: "240px 0px" })
-    : null;
-  document.querySelectorAll(".hero-card:not(.is-building)").forEach((card) => {
-    cardPrefetchObserver?.observe(card);
+function prefetchGuide(slug) {
+  if (prefetchedSlugs.has(slug) || state.guideCache.has(slug)) return;
+  prefetchedSlugs.add(slug);
+  const link = document.createElement("link");
+  link.rel = "prefetch";
+  link.as = "fetch";
+  link.crossOrigin = "anonymous";
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=7`;
+  document.head.appendChild(link);
+}
+
+function bindHeroCards() {
+  const bySlug = new Map(state.index.guides.map((guide) => [guide.slug, guide]));
+  document.querySelectorAll(".hero-card").forEach((card) => {
     card.addEventListener("pointerenter", () => prefetchGuide(card.dataset.slug), { once: true });
     card.addEventListener("focusin", () => prefetchGuide(card.dataset.slug), { once: true });
-    card.addEventListener("touchstart", () => prefetchGuide(card.dataset.slug), {
-      once: true,
-      passive: true,
-    });
+    card.addEventListener("touchstart", () => prefetchGuide(card.dataset.slug), { once: true, passive: true });
     card.addEventListener("click", () => {
-      const guide = guideBySlug.get(card.dataset.slug);
-      capture("hero_card_click", {
-        ...guideEventProperties(guide),
-        query: state.query,
-      });
+      const guide = bySlug.get(card.dataset.slug);
+      capture("hero_card_click", { ...guideEventProperties(guide), query: state.query });
       sessionStorage.setItem("hero-guide-scroll", String(window.scrollY));
       location.hash = `#/champion/${card.dataset.slug}`;
     });
   });
 }
 
-function renderDetail(slug) {
-  const { site, guides } = state.payload;
-  const guide = guides.find((row) => row.slug === slug && row.status === "published");
-  if (!guide) {
+function ModuleShell(title, eyebrow, content, className = "") {
+  return `
+    <section class="guide-module ${className}">
+      <header class="module-heading"><span>${escapeHtml(eyebrow)}</span><h2>${escapeHtml(title)}</h2></header>
+      ${content}
+    </section>`;
+}
+
+function HeroHeader(guide) {
+  const { hero, ranking, build } = guide;
+  return `
+    <section class="hero-overview">
+      <img class="overview-portrait" src="${escapeHtml(hero.icon)}" alt="${escapeHtml(hero.name)}" width="128" height="128" decoding="async" />
+      <div class="overview-copy">
+        <span class="overview-kicker">#${escapeHtml(ranking.rank)} · ${escapeHtml(ranking.tier)}级</span>
+        <h1>${escapeHtml(hero.name)}</h1>
+        <p>${escapeHtml(hero.title)}</p>
+        <strong>${escapeHtml(build.name)}</strong>
+      </div>
+      <div class="overview-score"><strong>${Number(ranking.winRatePercent).toFixed(1)}%</strong><span>当前胜率</span></div>
+    </section>`;
+}
+
+function iconTile(entry, className = "") {
+  return `
+    <li class="icon-tile ${className}">
+      <img src="${escapeHtml(entry.icon)}" alt="" width="64" height="64" loading="lazy" decoding="async" />
+      <span>${escapeHtml(entry.name)}</span>
+    </li>`;
+}
+
+function SpellAndSkillModule(guide) {
+  const abilityByKey = new Map((guide.hero.abilities || []).map((ability) => [ability.key, ability]));
+  const skillKeys = guide.skillOrder.split(">");
+  const spells = guide.summonerSpells.map((spell) => iconTile(spell, "spell-tile")).join("");
+  const skills = skillKeys.map((key, index) => {
+    const ability = abilityByKey.get(key);
+    return `
+      <li class="skill-step">
+        <span>${index + 1}</span>
+        ${ability ? `<img src="${escapeHtml(ability.icon)}" alt="" width="56" height="56" loading="lazy" decoding="async" />` : ""}
+        <strong>${escapeHtml(key)}</strong>
+      </li>`;
+  }).join("");
+  return ModuleShell("召唤师技能与加点", "LOADOUT 01", `
+    <div class="spell-skill-layout">
+      <div><p class="micro-label">召唤师技能</p><ul class="spell-list">${spells}</ul></div>
+      <div><p class="micro-label">技能优先级</p><ol class="skill-order">${skills}</ol></div>
+    </div>`);
+}
+
+function ItemModule(guide) {
+  const starters = guide.items.starter.map((item) => iconTile(item)).join("");
+  const recommended = guide.items.recommended.map((item, index) => `
+    <li class="item-tile ${index < 3 ? "is-core" : ""}">
+      <span class="item-index">${String(index + 1).padStart(2, "0")}</span>
+      <img src="${escapeHtml(item.icon)}" alt="" width="72" height="72" loading="lazy" decoding="async" />
+      <strong>${escapeHtml(item.name)}</strong>
+    </li>`).join("");
+  return ModuleShell("推荐出装", "LOADOUT 02", `
+    <div class="item-section"><p class="micro-label">出门装</p><ul class="starter-list">${starters}</ul></div>
+    <div class="item-section"><p class="micro-label">六件成装 <span>前三件为核心顺序</span></p><ol class="item-grid">${recommended}</ol></div>`);
+}
+
+function AugmentTierModule(title, rarity, entries) {
+  return `
+    <section class="augment-tier augment-${escapeHtml(rarity)}">
+      <header><span>${escapeHtml(title)}</span><small>${entries.length} 个推荐</small></header>
+      <ul>${entries.map((entry) => iconTile(entry)).join("")}</ul>
+    </section>`;
+}
+
+function AugmentCombinationModule(guide) {
+  const augmentMap = new Map();
+  for (const rarity of ["prismatic", "gold", "silver"]) {
+    for (const augment of guide.augments[rarity]) augmentMap.set(Number(augment.id), augment);
+  }
+  const rows = guide.augments.combinations.map((combination) => {
+    const augments = combination.ids.map((id, index) => augmentMap.get(Number(id)) || {
+      id,
+      name: combination.names[index],
+      icon: "",
+    });
+    return `
+      <li class="combo-row">
+        <span class="combo-rank">#${escapeHtml(combination.rank)}</span>
+        <span class="combo-pair">${augments.map((augment) => augment.icon
+          ? `<img src="${escapeHtml(augment.icon)}" alt="${escapeHtml(augment.name)}" width="48" height="48" loading="lazy" decoding="async" />`
+          : "").join("")}</span>
+        <span class="combo-names">${augments.map((augment) => escapeHtml(augment.name)).join(" + ")}</span>
+        <strong>${(Number(combination.winRate) * 100).toFixed(1)}%</strong>
+      </li>`;
+  }).join("");
+  return rows ? `<div class="combo-block"><p class="micro-label">高胜率组合</p><ol>${rows}</ol></div>` : "";
+}
+
+function GameplayModule(guide) {
+  const points = guide.gameplay.summary.map((point, index) => `
+    <li><span>${String(index + 1).padStart(2, "0")}</span><p>${escapeHtml(point)}</p></li>`).join("");
+  return ModuleShell("玩法摘要", "PLAYBOOK", `<ol class="gameplay-list">${points}</ol>`, "gameplay-module");
+}
+
+function LegacyPosterFallback(indexGuide, message = "模块数据暂不可用") {
+  if (!indexGuide?.legacyPoster) {
+    return `<section class="error-state"><span>!</span><p>${escapeHtml(message)}</p><a href="#/">返回首页</a></section>`;
+  }
+  return `
+    <section class="fallback-shell">
+      <div class="fallback-notice"><strong>${escapeHtml(message)}</strong><span>暂时显示上一版攻略</span></div>
+      <img src="${escapeHtml(indexGuide.legacyPoster)}" alt="${escapeHtml(indexGuide.name)}旧版攻略" width="648" height="1152" />
+    </section>`;
+}
+
+function renderDetailTopbar(guide) {
+  return `
+    <header class="detail-topbar">
+      <a class="back-button" href="#/" aria-label="返回首页"><span aria-hidden="true">←</span><em>返回首页</em></a>
+      <div class="detail-heading"><strong>${escapeHtml(guide.hero.name)}</strong><span>${escapeHtml(guide.build.name)} · V${escapeHtml(state.index.site.version)}</span></div>
+      <span class="topbar-spacer" aria-hidden="true"></span>
+    </header>`;
+}
+
+async function renderDetail(slug) {
+  const indexGuide = state.index.guides.find((guide) => guide.slug === slug);
+  if (!indexGuide) {
     location.hash = "#/";
     return;
   }
-  document.title = `${guide.name}｜${guide.buildName}`;
-  app.innerHTML = `
-    <section class="detail-shell">
-      <header class="detail-topbar">
-        <button class="back-button" type="button" aria-label="返回首页">←</button>
-        <div class="detail-heading">
-          <strong>${escapeHtml(guide.name)}</strong>
-          <span>${escapeHtml(guide.buildName)} · v${escapeHtml(site.version)}</span>
-        </div>
-        <span class="topbar-spacer" aria-hidden="true"></span>
-      </header>
-      <div class="guide-stage">
-        <img class="guide-image" src="${escapeHtml(guide.images.preview)}" width="648" height="1152"
-          loading="eager" decoding="async" fetchpriority="high"
-          alt="${escapeHtml(guide.name)}${escapeHtml(guide.buildName)}海克斯大乱斗一图流" />
-      </div>
-    </section>`;
-  document.querySelector(".back-button").addEventListener("click", () => {
-    location.hash = "#/";
-  });
-  recordGuideView(guide);
+  app.innerHTML = `<section class="detail-shell"><header class="detail-topbar detail-loading"><a class="back-button" href="#/">←</a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>加载模块数据</span></div><span></span></header><div class="module-skeleton"></div></section>`;
+  try {
+    const guide = await loadGuide(slug);
+    document.title = `${guide.hero.name}｜${guide.build.name}`;
+    const augments = [
+      AugmentTierModule("棱彩", "prismatic", guide.augments.prismatic),
+      AugmentTierModule("金色", "gold", guide.augments.gold),
+      AugmentTierModule("银色", "silver", guide.augments.silver),
+    ].join("");
+    app.innerHTML = `
+      <section class="detail-shell">
+        ${renderDetailTopbar(guide)}
+        <main class="detail-content">
+          ${HeroHeader(guide)}
+          ${SpellAndSkillModule(guide)}
+          ${ItemModule(guide)}
+          ${ModuleShell("海克斯推荐", "AUGMENTS", `<div class="augment-stack">${augments}</div>${AugmentCombinationModule(guide)}`)}
+          ${GameplayModule(guide)}
+          <footer class="detail-footer"><span>数据版本 V${escapeHtml(state.index.site.version)}</span><strong>芝士不是知识</strong></footer>
+        </main>
+      </section>`;
+    recordGuideView(guide);
+  } catch (error) {
+    app.innerHTML = `<section class="detail-shell"><header class="detail-topbar"><a class="back-button" href="#/">← <em>返回首页</em></a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>旧版兜底</span></div><span></span></header>${LegacyPosterFallback(indexGuide)}</section>`;
+  }
   window.scrollTo(0, 0);
 }
 
-function render() {
-  const current = route();
-  if (previousRoute?.name === "detail" && current.name === "home") {
-    const previousGuide = state.payload.guides.find((guide) => guide.slug === previousRoute.slug);
-    capture("return_home", previousGuide ? guideEventProperties(previousGuide) : {
-      hero_slug: previousRoute.slug,
-    });
+async function renderRoute() {
+  const route = currentRoute();
+  if (previousRoute?.name === "detail" && route.name === "home") {
+    const guide = state.index.guides.find((entry) => entry.slug === previousRoute.slug);
+    capture("return_home", guide ? guideEventProperties(guide) : { hero_slug: previousRoute.slug });
   }
-  previousRoute = current;
-  if (current.name === "detail") renderDetail(current.slug);
+  previousRoute = route;
+  if (route.name === "detail") await renderDetail(route.slug);
   else renderHome();
 }
 
@@ -269,15 +387,13 @@ function registerServiceWorker() {
 
 async function start() {
   try {
-    const response = await fetch("./data/guides.json?rev=6");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.payload = await response.json();
-    render();
+    state.index = await loadIndex();
+    await renderRoute();
   } catch (error) {
-    app.innerHTML = '<section class="error-state"><span class="loading-mark">!</span><p>攻略载入失败，请稍后刷新</p></section>';
+    app.innerHTML = '<section class="error-state"><span>!</span><p>攻略加载失败，请稍后刷新</p></section>';
   }
 }
 
-window.addEventListener("hashchange", render);
+window.addEventListener("hashchange", renderRoute);
 registerServiceWorker();
 start();
