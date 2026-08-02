@@ -1,0 +1,37 @@
+name: Check ARAMKit data update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 2 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  candidate-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Check version and data date
+        id: check
+        run: python tools/check_aramkit_update.py --output reports/update-check.json --github-output "$GITHUB_OUTPUT"
+      - name: Fetch immutable candidate snapshot
+        if: steps.check.outputs.changed == 'true'
+        id: fetch
+        run: python tools/fetch_aramkit_snapshot.py --metadata reports/update-check.json --snapshots-root snapshots --github-output "$GITHUB_OUTPUT"
+      - name: Build human review diff
+        if: steps.check.outputs.changed == 'true'
+        run: python tools/build_diff_report.py --candidate "${{ steps.fetch.outputs.candidate }}" --output reports/update-diff.json
+      - name: Upload review artifacts
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: aramkit-candidate-${{ github.run_id }}
+          path: |
+            reports/
+            snapshots/
+          retention-days: 14
