@@ -169,25 +169,6 @@
   "augments": {
     "prismatic": [
       {
-        "id": 2031,
-        "rank": 1,
-        "sampleCount": 1521,
-        "pickRate": 0.009848,
-        "winRate": 0.51545,
-        "blueWinRate": 0.528327,
-        "redWinRate": 0.502625,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "空投熊",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/2031.webp"
-      },
-      {
         "id": 2095,
         "rank": 2,
         "sampleCount": 3128,
@@ -205,25 +186,6 @@
         "name": "掷骰狂人",
         "rarity": "prismatic",
         "icon": "assets/resources/augments/2095.webp"
-      },
-      {
-        "id": 1041,
-        "rank": 10,
-        "sampleCount": 1274,
-        "pickRate": 0.008248,
-        "winRate": 0.44584,
-        "blueWinRate": 0.46,
-        "redWinRate": 0.43109,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "歌利亚巨人",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/1041.webp"
       },
       {
         "id": 1156,
@@ -279,6 +241,44 @@
         "name": "史上最大雪球",
         "rarity": "prismatic",
         "icon": "assets/resources/augments/1329.webp"
+      },
+      {
+        "id": 1011,
+        "rank": 33,
+        "sampleCount": 4765,
+        "pickRate": 0.030851,
+        "winRate": 0.416789,
+        "blueWinRate": 0.423945,
+        "redWinRate": 0.409843,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "你摸不到",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1011.webp"
+      },
+      {
+        "id": 2098,
+        "rank": 28,
+        "sampleCount": 8649,
+        "pickRate": 0.055997,
+        "winRate": 0.41658,
+        "blueWinRate": 0.43656,
+        "redWinRate": 0.397223,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "吃过路兵",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2098.webp"
       }
     ],
     "gold": [
@@ -374,23 +374,22 @@
         "icon": "assets/resources/augments/1152.webp"
       },
       {
-        "id": 1358,
-        "rank": 31,
-        "sampleCount": 1418,
-        "pickRate": 0.009181,
-        "winRate": 0.425247,
-        "blueWinRate": 0.427536,
-        "redWinRate": 0.423077,
+        "id": 1384,
+        "rank": 23,
+        "sampleCount": 5475,
+        "pickRate": 0.035447,
+        "winRate": 0.423196,
+        "blueWinRate": 0.437268,
+        "redWinRate": 0.409565,
         "stageAgnostic": false,
         "availableStages": [
-          1,
           2,
           3,
           4
         ],
-        "name": "弹球",
+        "name": "捐赠",
         "rarity": "gold",
-        "icon": "assets/resources/augments/1358.webp"
+        "icon": "assets/resources/augments/1384.webp"
       }
     ],
     "silver": [
@@ -412,25 +411,6 @@
         "name": "逃跑计划",
         "rarity": "silver",
         "icon": "assets/resources/augments/1333.webp"
-      },
-      {
-        "id": 1026,
-        "rank": 21,
-        "sampleCount": 1027,
-        "pickRate": 0.006649,
-        "winRate": 0.435248,
-        "blueWinRate": 0.450593,
-        "redWinRate": 0.420345,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "唯快不破",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1026.webp"
       },
       {
         "id": 1315,
@@ -507,6 +487,25 @@
         "name": "物理转魔法",
         "rarity": "silver",
         "icon": "assets/resources/augments/1205.webp"
+      },
+      {
+        "id": 1305,
+        "rank": 36,
+        "sampleCount": 2023,
+        "pickRate": 0.013098,
+        "winRate": 0.417696,
+        "blueWinRate": 0.444674,
+        "redWinRate": 0.392992,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "练腿日",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1305.webp"
       }
     ],
     "combinations": [

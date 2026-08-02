@@ -77,7 +77,10 @@ def validate_guide(payload: dict[str, Any]) -> None:
 
     augments = require_mapping(payload, "augments")
     for rarity in ("prismatic", "gold", "silver"):
-        require_named_entries(augments.get(rarity), 6, f"augments.{rarity}")
+        rows = require_named_entries(augments.get(rarity), 6, f"augments.{rarity}")
+        for index, row in enumerate(rows):
+            if float(row.get("pickRate") or 0) < 0.01:
+                raise ValidationError(f"augments.{rarity}[{index}].pickRate 必须大于等于 0.01")
     combinations = augments.get("combinations")
     if not isinstance(combinations, list) or len(combinations) != 4:
         raise ValidationError("augments.combinations 必须包含 4 项")
@@ -109,4 +112,3 @@ def validate_guide(payload: dict[str, Any]) -> None:
         require_text(aramkit, key, "sources.ARAMKit")
     if aramkit["region"] != "unknown" or aramkit["dataLevel"] != "aggregate":
         raise ValidationError("ARAMKit 来源必须标记为 unknown / aggregate")
-

@@ -169,24 +169,6 @@
   "augments": {
     "prismatic": [
       {
-        "id": 1337,
-        "rank": 4,
-        "sampleCount": 1033,
-        "pickRate": 0.002399,
-        "winRate": 0.530494,
-        "blueWinRate": 0.550752,
-        "redWinRate": 0.508982,
-        "stageAgnostic": false,
-        "availableStages": [
-          2,
-          3,
-          4
-        ],
-        "name": "尊我为王",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/1337.webp"
-      },
-      {
         "id": 1195,
         "rank": 3,
         "sampleCount": 37301,
@@ -206,61 +188,6 @@
         "icon": "assets/resources/augments/1195.webp"
       },
       {
-        "id": 2031,
-        "rank": 12,
-        "sampleCount": 1293,
-        "pickRate": 0.003003,
-        "winRate": 0.515081,
-        "blueWinRate": 0.537721,
-        "redWinRate": 0.49403,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "空投熊",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/2031.webp"
-      },
-      {
-        "id": 1389,
-        "rank": 16,
-        "sampleCount": 1024,
-        "pickRate": 0.002378,
-        "winRate": 0.514648,
-        "blueWinRate": 0.510246,
-        "redWinRate": 0.518657,
-        "stageAgnostic": false,
-        "availableStages": [
-          3,
-          4
-        ],
-        "name": "男爵之手",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/1389.webp"
-      },
-      {
-        "id": 1062,
-        "rank": 8,
-        "sampleCount": 2394,
-        "pickRate": 0.005559,
-        "winRate": 0.513367,
-        "blueWinRate": 0.525192,
-        "redWinRate": 0.502044,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "全能龙魂",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/1062.webp"
-      },
-      {
         "id": 1388,
         "rank": 5,
         "sampleCount": 43920,
@@ -276,17 +203,15 @@
         "name": "无限循环往复",
         "rarity": "prismatic",
         "icon": "assets/resources/augments/1388.webp"
-      }
-    ],
-    "gold": [
+      },
       {
-        "id": 1420,
-        "rank": 2,
-        "sampleCount": 2297,
-        "pickRate": 0.005334,
-        "winRate": 0.527645,
-        "blueWinRate": 0.553618,
-        "redWinRate": 0.501739,
+        "id": 2095,
+        "rank": 7,
+        "sampleCount": 6300,
+        "pickRate": 0.014629,
+        "winRate": 0.509841,
+        "blueWinRate": 0.535502,
+        "redWinRate": 0.483403,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -294,10 +219,67 @@
           3,
           4
         ],
-        "name": "咏叹奏鸣",
-        "rarity": "gold",
-        "icon": "assets/resources/augments/1420.webp"
+        "name": "掷骰狂人",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2095.webp"
       },
+      {
+        "id": 1030,
+        "rank": 10,
+        "sampleCount": 88042,
+        "pickRate": 0.204445,
+        "winRate": 0.501965,
+        "blueWinRate": 0.519499,
+        "redWinRate": 0.484343,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尤里卡",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1030.webp"
+      },
+      {
+        "id": 1004,
+        "rank": 21,
+        "sampleCount": 8683,
+        "pickRate": 0.020163,
+        "winRate": 0.49833,
+        "blueWinRate": 0.522786,
+        "redWinRate": 0.475045,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "回归基本功",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1004.webp"
+      },
+      {
+        "id": 1156,
+        "rank": 46,
+        "sampleCount": 25804,
+        "pickRate": 0.05992,
+        "winRate": 0.477407,
+        "blueWinRate": 0.493565,
+        "redWinRate": 0.461065,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "沃格勒特的巫师帽",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1156.webp"
+      }
+    ],
+    "gold": [
       {
         "id": 1180,
         "rank": 6,
@@ -388,6 +370,25 @@
         "name": "超凡邪恶",
         "rarity": "gold",
         "icon": "assets/resources/augments/1390.webp"
+      },
+      {
+        "id": 1068,
+        "rank": 27,
+        "sampleCount": 16845,
+        "pickRate": 0.039116,
+        "winRate": 0.494153,
+        "blueWinRate": 0.515848,
+        "redWinRate": 0.472613,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "循环往复",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1068.webp"
       }
     ],
     "silver": [
@@ -487,13 +488,13 @@
         "icon": "assets/resources/augments/2127.webp"
       },
       {
-        "id": 1305,
-        "rank": 20,
-        "sampleCount": 4250,
-        "pickRate": 0.009869,
-        "winRate": 0.501412,
-        "blueWinRate": 0.515166,
-        "redWinRate": 0.487423,
+        "id": 1060,
+        "rank": 23,
+        "sampleCount": 8941,
+        "pickRate": 0.020762,
+        "winRate": 0.497819,
+        "blueWinRate": 0.513321,
+        "redWinRate": 0.482082,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -501,9 +502,9 @@
           3,
           4
         ],
-        "name": "练腿日",
+        "name": "海洋龙魂",
         "rarity": "silver",
-        "icon": "assets/resources/augments/1305.webp"
+        "icon": "assets/resources/augments/1060.webp"
       }
     ],
     "combinations": [

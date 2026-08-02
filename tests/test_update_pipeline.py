@@ -94,6 +94,29 @@ class UpdatePipelineTests(unittest.TestCase):
         self.assertTrue(report["reviewGate"]["manualApprovalRequired"])
         self.assertFalse(report["reviewGate"]["publishAllowed"])
 
+    def test_diff_candidates_exclude_augments_below_one_percent_pick_rate(self):
+        current = {
+            "hero": {"id": 1, "slug": "hero"},
+            "ranking": {},
+            "build": {},
+            "items": {"recommended": []},
+            "augments": {"prismatic": [], "gold": [], "silver": []},
+            "gameplay": {"locked": True, "summary": []},
+        }
+        rows = [
+            {"id": 1, "sampleCount": 10_000, "pickRate": 0.0099, "winRate": 0.99},
+            {"id": 2, "sampleCount": 10_000, "pickRate": 0.01, "winRate": 0.60},
+        ]
+        raw = {
+            "rankings": {"rows": [{"id": 1}]},
+            "details": {1: {"augments": {"all": rows}}},
+            "augmentResources": {"1": {"rarity": "prismatic"}, "2": {"rarity": "prismatic"}},
+        }
+
+        report = build_diff_report([current], raw, {})
+
+        self.assertEqual(report["heroes"][0]["augments"]["candidateTop"]["prismatic"], [2])
+
 
 if __name__ == "__main__":
     unittest.main()

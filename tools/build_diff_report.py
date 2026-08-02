@@ -14,8 +14,17 @@ def stable_hash(value: Any) -> str:
     return hashlib.sha256(raw).hexdigest()[:16]
 
 
-def top_ids(rows: list[dict[str, Any]], limit: int = 6, min_samples: int = 1000) -> list[int]:
-    eligible = [row for row in rows if int(row.get("sampleCount", 0)) >= min_samples]
+def top_ids(
+    rows: list[dict[str, Any]],
+    limit: int = 6,
+    min_samples: int = 1000,
+    min_pick_rate: float = 0,
+) -> list[int]:
+    eligible = [
+        row for row in rows
+        if int(row.get("sampleCount", 0)) >= min_samples
+        and float(row.get("pickRate") or 0) >= min_pick_rate
+    ]
     eligible.sort(key=lambda row: (float(row.get("winRate", 0)), int(row.get("sampleCount", 0))), reverse=True)
     return [int(row["id"]) for row in eligible[:limit]]
 
@@ -50,7 +59,7 @@ def build_diff_report(
                 row for row in all_augments
                 if augment_resources.get(str(row.get("id")), {}).get("rarity") == rarity
             ]
-            candidate_augments[rarity] = top_ids(rows)
+            candidate_augments[rarity] = top_ids(rows, min_pick_rate=0.01)
 
         current_items = [int(row["id"]) for row in guide.get("items", {}).get("recommended", [])]
         candidate_items = top_ids(details.get("items", {}).get("all", []))
@@ -79,6 +88,7 @@ def build_diff_report(
             "lowSampleWarnings": {
                 "itemsExcluded": sum(int(row.get("sampleCount", 0)) < 1000 for row in details.get("items", {}).get("all", [])),
                 "augmentsExcluded": sum(int(row.get("sampleCount", 0)) < 1000 for row in all_augments),
+                "augmentsBelowOnePercentExcluded": sum(float(row.get("pickRate") or 0) < 0.01 for row in all_augments),
             },
             "lockedGameplay": {
                 "locked": bool(gameplay.get("locked")),

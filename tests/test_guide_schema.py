@@ -5,7 +5,7 @@ from tools.guide_schema import ValidationError, validate_guide
 
 
 def named_rows(prefix: str, count: int) -> list[dict]:
-    return [{"id": index + 1, "name": f"{prefix}{index + 1}"} for index in range(count)]
+    return [{"id": index + 1, "name": f"{prefix}{index + 1}", "pickRate": 0.01} for index in range(count)]
 
 
 def valid_fixture() -> dict:
@@ -72,6 +72,13 @@ class GuideSchemaTests(unittest.TestCase):
         payload["augments"]["gold"] = payload["augments"]["gold"][:5]
 
         with self.assertRaisesRegex(ValidationError, "gold"):
+            validate_guide(payload)
+
+    def test_single_augment_pick_rate_must_be_at_least_one_percent(self):
+        payload = valid_fixture()
+        payload["augments"]["prismatic"][0]["pickRate"] = 0.0099
+
+        with self.assertRaisesRegex(ValidationError, "pickRate"):
             validate_guide(payload)
 
     def test_numeric_display_names_are_rejected(self):

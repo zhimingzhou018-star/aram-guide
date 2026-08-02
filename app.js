@@ -8,13 +8,6 @@ const state = {
 
 const SEARCH_CAPTURE_DELAY_MS = 450;
 const SESSION_GUIDE_VIEWS_KEY = "hero-guide-session-views";
-const FIGMA_PILOT_SLUGS = new Set([
-  "vayne",
-  "graves",
-  "yunara",
-  "lillia",
-  "yasuo",
-]);
 const prefetchedSlugs = new Set();
 let previousRoute = null;
 let searchCaptureTimer = null;
@@ -59,7 +52,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=8").then((response) => {
+  return fetch("./data/index.json?rev=9").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -67,7 +60,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=8`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=9`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -199,7 +192,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=8`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=9`;
   document.head.appendChild(link);
 }
 
@@ -464,27 +457,7 @@ async function renderDetail(slug) {
   try {
     const guide = await loadGuide(slug);
     document.title = `${guide.hero.name}｜${guide.build.name}`;
-    if (FIGMA_PILOT_SLUGS.has(slug)) {
-      app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide)}</section>`;
-    } else {
-      const augments = [
-        AugmentTierModule("棱彩", "prismatic", guide.augments.prismatic),
-        AugmentTierModule("金色", "gold", guide.augments.gold),
-        AugmentTierModule("银色", "silver", guide.augments.silver),
-      ].join("");
-      app.innerHTML = `
-        <section class="detail-shell">
-          ${renderDetailTopbar(guide)}
-          <main class="detail-content">
-            ${HeroHeader(guide)}
-            ${SpellAndSkillModule(guide)}
-            ${ItemModule(guide)}
-            ${ModuleShell("海克斯推荐", "AUGMENTS", `<div class="augment-stack">${augments}</div>${AugmentCombinationModule(guide)}`)}
-            ${GameplayModule(guide)}
-            <footer class="detail-footer"><span>数据版本 V${escapeHtml(state.index.site.version)}</span><strong>芝士不是知识</strong></footer>
-          </main>
-        </section>`;
-    }
+    app.innerHTML = `<section class="detail-shell figma-detail-shell">${FigmaGuidePage(guide)}</section>`;
     recordGuideView(guide);
   } catch (error) {
     app.innerHTML = `<section class="detail-shell"><header class="detail-topbar"><a class="back-button" href="#/">← <em>返回首页</em></a><div class="detail-heading"><strong>${escapeHtml(indexGuide.name)}</strong><span>旧版兜底</span></div><span></span></header>${LegacyPosterFallback(indexGuide)}</section>`;

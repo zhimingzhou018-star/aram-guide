@@ -170,25 +170,6 @@
   "augments": {
     "prismatic": [
       {
-        "id": 2031,
-        "rank": 1,
-        "sampleCount": 2427,
-        "pickRate": 0.004038,
-        "winRate": 0.596209,
-        "blueWinRate": 0.601633,
-        "redWinRate": 0.590682,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "空投熊",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/2031.webp"
-      },
-      {
         "id": 1156,
         "rank": 3,
         "sampleCount": 26998,
@@ -223,23 +204,6 @@
         "name": "掷骰狂人",
         "rarity": "prismatic",
         "icon": "assets/resources/augments/2095.webp"
-      },
-      {
-        "id": 1361,
-        "rank": 14,
-        "sampleCount": 1101,
-        "pickRate": 0.001832,
-        "winRate": 0.533152,
-        "blueWinRate": 0.542342,
-        "redWinRate": 0.52381,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2
-        ],
-        "name": "艾卡西亚的陷落",
-        "rarity": "prismatic",
-        "icon": "assets/resources/augments/1361.webp"
       },
       {
         "id": 1045,
@@ -278,26 +242,47 @@
         "name": "回归基本功",
         "rarity": "prismatic",
         "icon": "assets/resources/augments/1004.webp"
-      }
-    ],
-    "gold": [
+      },
       {
-        "id": 1038,
-        "rank": 4,
-        "sampleCount": 5960,
-        "pickRate": 0.009916,
-        "winRate": 0.55,
-        "blueWinRate": 0.567714,
-        "redWinRate": 0.532511,
+        "id": 2098,
+        "rank": 12,
+        "sampleCount": 10102,
+        "pickRate": 0.016807,
+        "winRate": 0.526133,
+        "blueWinRate": 0.535563,
+        "redWinRate": 0.517027,
         "stageAgnostic": false,
         "availableStages": [
           1,
-          2
+          2,
+          3,
+          4
         ],
-        "name": "有始有终",
-        "rarity": "gold",
-        "icon": "assets/resources/augments/1038.webp"
+        "name": "吃过路兵",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/2098.webp"
       },
+      {
+        "id": 1030,
+        "rank": 13,
+        "sampleCount": 96589,
+        "pickRate": 0.160702,
+        "winRate": 0.520494,
+        "blueWinRate": 0.537298,
+        "redWinRate": 0.503945,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "尤里卡",
+        "rarity": "prismatic",
+        "icon": "assets/resources/augments/1030.webp"
+      }
+    ],
+    "gold": [
       {
         "id": 1180,
         "rank": 7,
@@ -354,13 +339,13 @@
         "icon": "assets/resources/augments/2132.webp"
       },
       {
-        "id": 1061,
-        "rank": 25,
-        "sampleCount": 1371,
-        "pickRate": 0.002281,
-        "winRate": 0.522247,
-        "blueWinRate": 0.514727,
-        "redWinRate": 0.530395,
+        "id": 1238,
+        "rank": 18,
+        "sampleCount": 35604,
+        "pickRate": 0.059237,
+        "winRate": 0.513678,
+        "blueWinRate": 0.53177,
+        "redWinRate": 0.495718,
         "stageAgnostic": false,
         "availableStages": [
           1,
@@ -368,26 +353,43 @@
           3,
           4
         ],
-        "name": "回力OK镖",
+        "name": "质变：棱彩阶",
         "rarity": "gold",
-        "icon": "assets/resources/augments/1061.webp"
+        "icon": "assets/resources/augments/1238.webp"
       },
       {
-        "id": 2102,
-        "rank": 21,
-        "sampleCount": 2620,
-        "pickRate": 0.004359,
-        "winRate": 0.520611,
-        "blueWinRate": 0.537926,
-        "redWinRate": 0.503765,
+        "id": 2083,
+        "rank": 22,
+        "sampleCount": 93097,
+        "pickRate": 0.154892,
+        "winRate": 0.509318,
+        "blueWinRate": 0.536304,
+        "redWinRate": 0.482773,
         "stageAgnostic": false,
         "availableStages": [
           1,
           2
         ],
-        "name": "高压锅",
+        "name": "牙仙子",
         "rarity": "gold",
-        "icon": "assets/resources/augments/2102.webp"
+        "icon": "assets/resources/augments/2083.webp"
+      },
+      {
+        "id": 1152,
+        "rank": 30,
+        "sampleCount": 7997,
+        "pickRate": 0.013305,
+        "winRate": 0.507065,
+        "blueWinRate": 0.528633,
+        "redWinRate": 0.486234,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2
+        ],
+        "name": "钢化你心",
+        "rarity": "gold",
+        "icon": "assets/resources/augments/1152.webp"
       }
     ],
     "silver": [
@@ -430,25 +432,6 @@
         "icon": "assets/resources/augments/1333.webp"
       },
       {
-        "id": 1181,
-        "rank": 23,
-        "sampleCount": 3992,
-        "pickRate": 0.006642,
-        "winRate": 0.517034,
-        "blueWinRate": 0.537474,
-        "redWinRate": 0.497554,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "重量级打击手",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1181.webp"
-      },
-      {
         "id": 1073,
         "rank": 15,
         "sampleCount": 128380,
@@ -468,25 +451,6 @@
         "icon": "assets/resources/augments/1073.webp"
       },
       {
-        "id": 1308,
-        "rank": 29,
-        "sampleCount": 4147,
-        "pickRate": 0.0069,
-        "winRate": 0.510248,
-        "blueWinRate": 0.528775,
-        "redWinRate": 0.492431,
-        "stageAgnostic": false,
-        "availableStages": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "name": "火狐",
-        "rarity": "silver",
-        "icon": "assets/resources/augments/1308.webp"
-      },
-      {
         "id": 1060,
         "rank": 27,
         "sampleCount": 6435,
@@ -504,6 +468,43 @@
         "name": "海洋龙魂",
         "rarity": "silver",
         "icon": "assets/resources/augments/1060.webp"
+      },
+      {
+        "id": 1318,
+        "rank": 24,
+        "sampleCount": 65407,
+        "pickRate": 0.108822,
+        "winRate": 0.50782,
+        "blueWinRate": 0.525518,
+        "redWinRate": 0.49025,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3
+        ],
+        "name": "升级：中娅",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1318.webp"
+      },
+      {
+        "id": 1138,
+        "rank": 39,
+        "sampleCount": 8248,
+        "pickRate": 0.013723,
+        "winRate": 0.496605,
+        "blueWinRate": 0.511845,
+        "redWinRate": 0.480954,
+        "stageAgnostic": false,
+        "availableStages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "name": "渴血",
+        "rarity": "silver",
+        "icon": "assets/resources/augments/1138.webp"
       }
     ],
     "combinations": [

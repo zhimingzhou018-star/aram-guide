@@ -33,12 +33,28 @@ class AllGuidesTests(unittest.TestCase):
                 references += [row["icon"] for row in group]
             for rarity in ("prismatic", "gold", "silver"):
                 references += [row["icon"] for row in guide["augments"][rarity]]
+            references += [
+                f"assets/resources/augments/{augment_id}.webp"
+                for combination in guide["augments"]["combinations"]
+                for augment_id in combination["ids"]
+            ]
             missing += [(slug, reference) for reference in references if not (ROOT / reference).exists()]
         self.assertEqual(missing, [])
 
     def test_all_editorial_gameplay_is_locked(self):
         unlocked = [slug for slug, guide in self.guides.items() if not guide["gameplay"].get("locked")]
         self.assertEqual(unlocked, [])
+
+    def test_all_single_augments_meet_one_percent_pick_rate(self):
+        invalid = []
+        for slug, guide in self.guides.items():
+            for rarity in ("prismatic", "gold", "silver"):
+                invalid += [
+                    (slug, rarity, row["id"], row.get("pickRate"))
+                    for row in guide["augments"][rarity]
+                    if float(row.get("pickRate") or 0) < 0.01
+                ]
+        self.assertEqual(invalid, [])
 
     def test_required_search_aliases_are_present(self):
         self.assertIn("石头", self.guides["malphite"]["hero"]["aliases"])

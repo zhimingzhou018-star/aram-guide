@@ -92,6 +92,11 @@ class ResourceCatalog:
                 copy_webp(source, self.output_root / icon)
         return enriched
 
+    def ensure_augment(self, augment_id: Any, name: str) -> None:
+        key = str(int(augment_id))
+        if key not in self.augments:
+            self.augment({"id": int(augment_id), "name": name}, "combination")
+
     def summoner_spell(self, row: dict[str, Any]) -> dict[str, Any]:
         spell_id = int(row["id"])
         icon = f"assets/resources/summoner-spells/{spell_id}.webp"
@@ -141,6 +146,9 @@ def transform_guide(
     augment_rows: dict[str, list[dict[str, Any]]] = {}
     for rarity in ("prismatic", "gold", "silver"):
         augment_rows[rarity] = [resources.augment(row, rarity) for row in reviewed["augments"][rarity]]
+    for combination in reviewed["augmentCombinations"]:
+        for augment_id, name in zip(combination.get("augmentIds", []), combination.get("names", [])):
+            resources.ensure_augment(augment_id, name)
 
     guide = {
         "schemaVersion": 2,

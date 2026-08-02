@@ -53,6 +53,25 @@ class BuildModularDataTests(unittest.TestCase):
             self.assertNotIn("augments", hero)
             self.assertNotIn("gameplay", hero)
 
+    def test_combination_only_augments_are_added_to_resource_catalog(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output_root = Path(directory)
+            build_site_data(
+                PROJECT_ROOT,
+                output_root,
+                selected_slugs={"lux"},
+                copy_assets=False,
+            )
+            guide = json.loads((output_root / "data" / "heroes" / "lux.json").read_text(encoding="utf-8"))
+            catalog = json.loads((output_root / "data" / "resources" / "augments.json").read_text(encoding="utf-8"))
+            combination_ids = {
+                str(augment_id)
+                for combination in guide["augments"]["combinations"]
+                for augment_id in combination["ids"]
+            }
+
+            self.assertTrue(combination_ids.issubset(catalog))
+
 
 if __name__ == "__main__":
     unittest.main()

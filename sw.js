@@ -1,14 +1,14 @@
-const CACHE_PREFIX = "aram-guide-v8";
+const CACHE_PREFIX = "aram-guide-v9";
 const CORE_CACHE = `${CACHE_PREFIX}-core`;
 const DATA_CACHE = `${CACHE_PREFIX}-data`;
 const RESOURCE_CACHE = `${CACHE_PREFIX}-resources`;
 
 const CORE_ASSETS = [
   "./index.html",
-  "./styles.css?rev=8",
-  "./analytics-config.js?rev=8",
-  "./analytics.js?rev=8",
-  "./app.js?rev=8",
+  "./styles.css?rev=9",
+  "./analytics-config.js?rev=9",
+  "./analytics.js?rev=9",
+  "./app.js?rev=9",
 ];
 
 const CORE_URLS = new Set(CORE_ASSETS.map((path) => new URL(path, self.registration.scope).href));
