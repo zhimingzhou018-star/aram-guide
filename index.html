@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#090d0d" />
     <meta name="description" content="海斗英雄模块化攻略，支持英雄名称、称号和外号搜索。" />
     <title>海斗一图流</title>
-    <link rel="preload" href="./data/index.json?rev=21" as="fetch" crossorigin />
+    <link rel="preload" href="./data/index.json?rev=22" as="fetch" crossorigin />
     <!-- Core CSS is embedded so restrictive mobile browsers do not need a style subrequest. -->
     <!-- compat-core-style:start -->
 <style data-compat-core="styles">
@@ -1684,8 +1684,8 @@ ul {
 window.ARAM_ANALYTICS_CONFIG = Object.freeze({
   enabled: true,
   posthogKey: "phc_qqkKdsSGPi3Qyy7yQugoMieBXLSKZCe2yntwfHuN9pKk",
-  posthogHost: "https://us.i.posthog.com",
-  posthogAssetsHost: "https://us-assets.i.posthog.com",
+  posthogHost: "https://data.zhishitft.cn/ingest",
+  posthogAssetsHost: "https://data.zhishitft.cn",
 });
 (() => {
   const config = window.ARAM_ANALYTICS_CONFIG || {};
@@ -1712,11 +1712,11 @@ window.ARAM_ANALYTICS_CONFIG = Object.freeze({
   const script = document.createElement("script");
   script.async = true;
   script.crossOrigin = "anonymous";
-  script.src = `${config.posthogAssetsHost || "https://us-assets.i.posthog.com"}/static/array.js`;
+  script.src = `${config.posthogAssetsHost || "https://data.zhishitft.cn"}/static/array.js`;
   script.onload = () => {
     if (!window.posthog?.init) return;
     client = window.posthog.init(config.posthogKey, {
-      api_host: config.posthogHost || "https://us.i.posthog.com",
+      api_host: config.posthogHost || "https://data.zhishitft.cn/ingest",
       autocapture: false,
       capture_pageview: false,
       capture_pageleave: false,
@@ -1818,7 +1818,7 @@ async function fetchJson(path) {
 }
 
 function loadIndex() {
-  return fetch("./data/index.json?rev=21").then((response) => {
+  return fetch("./data/index.json?rev=22").then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -1826,7 +1826,7 @@ function loadIndex() {
 
 async function loadGuide(slug) {
   if (state.guideCache.has(slug)) return state.guideCache.get(slug);
-  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=21`).then((response) => {
+  const guide = await fetch(`./data/heroes/${encodeURIComponent(slug)}.json?rev=22`).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   });
@@ -1958,7 +1958,7 @@ function prefetchGuide(slug) {
   link.rel = "prefetch";
   link.as = "fetch";
   link.crossOrigin = "anonymous";
-  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=21`;
+  link.href = `./data/heroes/${encodeURIComponent(slug)}.json?rev=22`;
   document.head.appendChild(link);
 }
 

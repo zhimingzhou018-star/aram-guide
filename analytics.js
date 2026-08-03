@@ -23,11 +23,11 @@
   const script = document.createElement("script");
   script.async = true;
   script.crossOrigin = "anonymous";
-  script.src = `${config.posthogAssetsHost || "https://us-assets.i.posthog.com"}/static/array.js`;
+  script.src = `${config.posthogAssetsHost || "https://data.zhishitft.cn"}/static/array.js`;
   script.onload = () => {
     if (!window.posthog?.init) return;
     client = window.posthog.init(config.posthogKey, {
-      api_host: config.posthogHost || "https://us.i.posthog.com",
+      api_host: config.posthogHost || "https://data.zhishitft.cn/ingest",
       autocapture: false,
       capture_pageview: false,
       capture_pageleave: false,

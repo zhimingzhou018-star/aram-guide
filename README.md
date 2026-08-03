@@ -5,12 +5,12 @@
 本地预览：
 
 ```powershell
-python -m http.server 8879 --bind 127.0.0.1 --directory web/onepager-site
+python -m http.server 8879 --bind 127.0.0.1 --directory data/site_publish/aram-guide
 ```
 
 ## 漏斗统计
 
-统计入口在 `analytics-config.js`。创建 PostHog 项目后，把 Project API Key 填入 `posthogKey`，并将 `enabled` 改为 `true`。Key 为空或 `enabled` 为 `false` 时不会下载 PostHog SDK，也不会发送任何统计请求。
+统计入口在 `analytics-config.js`。生产环境通过 `https://data.zhishitft.cn` 加载 PostHog SDK，并通过 `https://data.zhishitft.cn/ingest` 中转上报；浏览器不直接连接海外 PostHog。Key 为空或 `enabled` 为 `false` 时不会下载 SDK，也不会发送任何统计请求。
 
 已记录的业务事件：
 
@@ -26,4 +26,4 @@ python -m http.server 8879 --bind 127.0.0.1 --directory web/onepager-site
 
 `sw.js` 会持久缓存用户实际加载过的英雄头像和攻略图。发布新一轮攻略时，同时提升 HTML 中的 `rev`、`app.js` 的数据版本和 `sw.js` 的 `CACHE_NAME`，浏览器便会清理旧版缓存。
 
-正式发布路径：`https://zhimingzhou018-star.github.io/aram-guide/`。
+正式发布路径：`https://haidou.zhishitft.cn/`。GitHub Pages `https://zhimingzhou018-star.github.io/aram-guide/` 仅作备用。
