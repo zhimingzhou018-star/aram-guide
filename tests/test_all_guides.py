@@ -107,6 +107,10 @@ class AllGuidesTests(unittest.TestCase):
         self.assertIn("jie", self.guides["zed"]["hero"]["aliases"])
         self.assertIn("腰子", self.guides["shen"]["hero"]["aliases"])
         self.assertIn("yaozi", self.guides["shen"]["hero"]["aliases"])
+        self.assertIn("老头", self.guides["zilean"]["hero"]["aliases"])
+        self.assertIn("时光老人", self.guides["zilean"]["hero"]["aliases"])
+        self.assertIn("laotou", self.guides["zilean"]["hero"]["aliases"])
+        self.assertIn("shiguanglaoren", self.guides["zilean"]["hero"]["aliases"])
 
     def test_high_frequency_no_result_searches_have_alias_mappings(self):
         expected = {
