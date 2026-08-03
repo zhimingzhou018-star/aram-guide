@@ -102,6 +102,11 @@ class AllGuidesTests(unittest.TestCase):
         self.assertIn("飞机", self.guides["corki"]["hero"]["aliases"])
         self.assertIn("人马", self.guides["hecarim"]["hero"]["aliases"])
         self.assertIn("火男", self.guides["brand"]["hero"]["aliases"])
+        self.assertIn("huonan", self.guides["brand"]["hero"]["aliases"])
+        self.assertIn("bulande", self.guides["brand"]["hero"]["aliases"])
+        self.assertIn("jie", self.guides["zed"]["hero"]["aliases"])
+        self.assertIn("腰子", self.guides["shen"]["hero"]["aliases"])
+        self.assertIn("yaozi", self.guides["shen"]["hero"]["aliases"])
 
     def test_high_frequency_no_result_searches_have_alias_mappings(self):
         expected = {
