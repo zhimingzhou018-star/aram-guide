@@ -5,8 +5,24 @@
 本地预览：
 
 ```powershell
-python -m http.server 8879 --bind 127.0.0.1 --directory data/site_publish/aram-guide
+python tools/preview_site.py
 ```
+
+该命令会先校验内嵌资源并运行完整测试，再打开 `http://127.0.0.1:8879/`。只校验、不启动服务时使用 `python tools/preview_site.py --check-only`。
+
+## Git 验收与发布
+
+所有网站修改都在功能分支完成。本地预览验收后，先把功能分支合并到 `main`，为验收提交创建版本标签，并把分支与标签推送 GitHub，再从干净的 `main` 执行腾讯云发布。正式部署必须显式传入用户验收的提交 SHA 和版本标签；脚本会拒绝功能分支、未提交改动、未推送提交或标签、SHA 不一致的发布。
+
+```powershell
+git tag -a release-YYYYMMDD-NN -m "Production release YYYY-MM-DD"
+git push origin main release-YYYYMMDD-NN
+python ../../../scripts/deploy_onepager_cos.py --config <腾讯云私有配置路径> --site-dir . --bucket-base haidou-guide-hk --region ap-hongkong --approved-commit <验收提交SHA> --release-tag release-YYYYMMDD-NN
+```
+
+`--dry-run` 只读校验不受 Git 发布门禁影响，也不会上传腾讯云。
+
+需要回滚时，从旧标签恢复网站文件并在 `main` 创建一个新的回滚提交和版本标签，再按同一门禁发布；不改写 Git 历史。
 
 ## 漏斗统计
 
